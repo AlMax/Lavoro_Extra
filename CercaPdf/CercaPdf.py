@@ -40,11 +40,14 @@ except Exception as erroreLettura:
     sys.exit();
 
 print("Adesso inizio ad eseguire le elaborazioni, di seguito eventuali errori.\n")
+
 for indice,valore in excelReader[colonnaExcel].iteritems():
 
 #In questo loop analizziamo ogni singolo elemento della colonna dell'excel; l'oggetto excelReader è una Serie
     try:
-        pdf_name = excelReader[colonnaExcel][indice] + ".pdf"
+        pdf_name = excelReader[colonnaExcel][indice]
+        if(pdf_name[-4:] != ".pdf"):
+            pdf_name += ".pdf"
 
         #Codice per trovare e ricopiare il pdf da cercare in uno nuovo da salvare nella cartella
         pdfFileObj = open(pdf_name, 'rb')
