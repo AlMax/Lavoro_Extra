@@ -7,10 +7,12 @@ from pandas import ExcelFile
 import tkinter as tk
 from tkinter import simpledialog
 import sys
+from datetime import date
 
+today = date.today()
 successi = "I seguenti file sono stati trovati con successo:\n"
 errori = "I seguenti file non sono stati trovati:\n"
-directorySalvataggio = "Pdf_Trovati"
+directorySalvataggio = "Pdf_Trovati " + today.strftime("(%d-%m-%Y)")
 colonnaExcel = 'cercare'
 
 ROOT = tk.Tk()
