@@ -34,7 +34,11 @@ try:
         # Ottengo il testo della singola pagina
         pageObj = pdfReader.getPage(i)
         pageTxt = pageObj.extractText()
-        txtExtract = shlex.split(pageTxt)
+        
+        try:
+            txtExtract = shlex.split(pageTxt)
+        except Exception:
+            txtExtract += "'"
 
         # Estrapolo il codice fiscale in base alla sua composizione
         for parola in txtExtract:
