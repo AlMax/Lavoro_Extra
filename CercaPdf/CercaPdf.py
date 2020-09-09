@@ -11,7 +11,9 @@ from datetime import date
 
 today = date.today()
 successi = "I seguenti file sono stati trovati con successo:\n"
+indice_successi = 0;
 errori = "I seguenti file non sono stati trovati:\n"
+indice_errori = 0;
 directorySalvataggio = "Pdf_Trovati " + today.strftime("(%d-%m-%Y)")
 colonnaExcel = 'cercare'
 
@@ -60,10 +62,16 @@ for indice,valore in excelReader[colonnaExcel].iteritems():
         with open(directorySalvataggio + "/" + pdf_name, "wb") as pdfTrovato:
             pdfFinder.write(pdfTrovato)
 
-        successi += pdf_name + "\n"
+        indice_successi += 1
+        successi += str(indice_successi) + ") " + pdf_name + "\n"
     except Exception as erroreBloccante:
-        errori += pdf_name + "\n"
+        indice_errori += 1
+        errori += str(indice_errori) + ") " + pdf_name + "\n"
         print(erroreBloccante)
         #erroreBloccante contiene il log dell'errore
+
+fileLog = open("Log.txt", "a")
+fileLog.write(successi + "\n" + errori)
+fileLog.close()
 
 Mbox("Cerca PDF tramite Excel By ALMAX (GitHub)","I FILE SONO STATI COPIATI NELLA CARTELLA: " + directorySalvataggio + "\n\n" + successi + "\n" + errori, 1)
