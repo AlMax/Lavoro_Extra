@@ -9,6 +9,7 @@ from tkinter import simpledialog
 import sys
 from datetime import date
 
+fileLog = open("LogErrori.txt", "a")
 today = date.today()
 successi = "I seguenti file sono stati trovati con successo:\n"
 indice_successi = 0;
@@ -67,11 +68,10 @@ for indice,valore in excelReader[colonnaExcel].iteritems():
     except Exception as erroreBloccante:
         indice_errori += 1
         errori += str(indice_errori) + ") " + pdf_name + "\n"
+        fileLog.write(str(indice_errori) + ") " + pdf_name + "\n")
         print(erroreBloccante)
         #erroreBloccante contiene il log dell'errore
 
-fileLog = open("Log.txt", "a")
-fileLog.write(successi + "\n" + errori)
 fileLog.close()
 
 Mbox("Cerca PDF tramite Excel By ALMAX (GitHub)","I FILE SONO STATI COPIATI NELLA CARTELLA: " + directorySalvataggio + "\n\n" + successi + "\n" + errori, 1)
