@@ -34,9 +34,9 @@ try:
         # Ottengo il testo della singola pagina
         pageObj = pdfReader.getPage(i)
         pageTxt = pageObj.extractText()
-        
+
         try:
-            txtExtract = shlex.split(pageTxt)
+            txtExtract = shlex.split(pageTxt, posix=False)
         except Exception:
             txtExtract += "'"
 
