@@ -1,0 +1,240 @@
+Scorrere in basso per avere i log piu' recenti.
+I Log vengono registrati ogni volta che viene lanciato il programma.
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:16:28
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-1.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-3.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-2.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:32:17
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-1.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:37:57
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
+Errore Generico: list index out of range
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:43:13
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
+Errore Generico: list index out of range
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:46:45
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
+Errore Generico: list index out of range
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:47:00
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
+Errore Generico: list index out of range
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:19:09
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: can only concatenate str (not "int") to str
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:19:25
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: can only concatenate str (not "int") to str
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:20:05
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:21:23
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:22:23
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:29:40
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:31:19
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: can only concatenate list (not "str") to list
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:31:26
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: can only concatenate list (not "str") to list
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:31:54
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:32:17
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:54:13
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: name 'Directory_Divisi' is not defined
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:54:34
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: name 'directory_Divisi' is not defined
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:54:53
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: list index out of range
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:55:45
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:55:56
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:56:09
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:57:40
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: 'PdfFileWriter' object has no attribute 'close'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:07
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: 'PdfFileWriter' object has no attribute 'close'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:22
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:32
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:59
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:59:22
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:59:53
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:00:01
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:00:23
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:04:14
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:04:21
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
+
+I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:00:53
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
