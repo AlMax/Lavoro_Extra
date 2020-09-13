@@ -1,79 +1,354 @@
 Scorrere in basso per avere i log piu' recenti.
 I Log vengono registrati ogni volta che viene lanciato il programma.
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:16:28
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.30.15
 	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
-		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
-		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
-		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-1.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-3.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
-		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-2.pdf --> NON era presente nell'Excel
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-0.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-3.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:32:17
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.31.01
 	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-0.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
-		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
-		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
-		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-1.pdf --> NON era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-3.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:37:57
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.32.12
+Cartella Cedolini_Divisi_13-09-2020_19.32.12 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.32.12 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-0.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-3.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'esito_creazione_cartelle' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.33.15
+Cartella Cedolini_Divisi_13-09-2020_19.33.15 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.33.15 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-0.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-3.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.35.41
+Cartella Cedolini_Divisi_13-09-2020_19.35.41 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.35.41 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-0.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-3.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.37.37
+Cartella Cedolini_Divisi_13-09-2020_19.37.37 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.37.37 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z-0.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P-2.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N-3.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.39.06
+Cartella Cedolini_Divisi_13-09-2020_19.39.06 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.39.06 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
 		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
 		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
-Errore Generico: list index out of range
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:43:13
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.41.15
+Cartella Cedolini_Divisi_13-09-2020_19.41.15 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.41.15 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
 		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
 		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
-Errore Generico: list index out of range
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluseErrore Generico: name 'MRNNTN76E11H264Z' is not defined
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:46:45
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.41.26
+Cartella Cedolini_Divisi_13-09-2020_19.41.26 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.41.26 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
 		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
 		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
-Errore Generico: list index out of range
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluseErrore Generico: write() argument must be str, not int
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 20:47:00
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.41.44
+Cartella Cedolini_Divisi_13-09-2020_19.41.44 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.41.44 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
 		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
 		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-2.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-1.pdf --> Era presente nell'Excel
-Errore Generico: list index out of range
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse0
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:19:09
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.42.06
+Cartella Cedolini_Divisi_13-09-2020_19.42.06 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.42.06 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluseErrore Generico: 'int' object is not subscriptable
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 19.42.36
+Cartella Cedolini_Divisi_13-09-2020_19.42.36 creata.
+Cartella Cedolini_Trovati_13-09-2020_19.42.36 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse1
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.03.40
+Cartella Cedolini_Divisi_13-09-2020_20.03.40 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.03.40 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.11.00
+Cartella Cedolini_Divisi_13-09-2020_20.11.00 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.11.00 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.12.53
+Cartella Cedolini_Divisi_13-09-2020_20.12.53 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.12.53 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.14.02
+Cartella Cedolini_Divisi_13-09-2020_20.14.02 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.14.02 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.15.30
+Cartella Cedolini_Divisi_13-09-2020_20.15.30 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.15.30 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.16.04
+Cartella Cedolini_Divisi_13-09-2020_20.16.04 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.16.04 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.18.01
+Cartella Cedolini_Divisi_13-09-2020_20.18.01 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.18.01 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.18.35
+Cartella Cedolini_Divisi_13-09-2020_20.18.35 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.18.35 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.19.17
+Cartella Cedolini_Divisi_13-09-2020_20.19.17 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.19.17 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Operazioni concluse
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.35.11
+Cartella Cedolini_Divisi_13-09-2020_20.35.11 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.35.11 creata.
+	Inizializzazione esrapolazione pagine
+Errore Generico: append() takes exactly one argument (2 given)
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.35.22
+Cartella Cedolini_Divisi_13-09-2020_20.35.22 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.35.22 creata.
+	Inizializzazione esrapolazione pagine
+Errore Generico: append() takes exactly one argument (2 given)
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.37.01
+Cartella Cedolini_Divisi_13-09-2020_20.37.01 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.37.01 creata.
+	Inizializzazione esrapolazione pagine
+Errore Generico: list assignment index out of range
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.37.16
+Cartella Cedolini_Divisi_13-09-2020_20.37.16 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.37.16 creata.
+	Inizializzazione esrapolazione pagine
+Errore Generico: list assignment index out of range
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.37.38
+Cartella Cedolini_Divisi_13-09-2020_20.37.38 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.37.38 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.40.14
+Cartella Cedolini_Divisi_13-09-2020_20.40.14 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.40.14 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'codiciFiscalePresente' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.40.34
+Cartella Cedolini_Divisi_13-09-2020_20.40.34 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.40.34 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Errore Generico: can only concatenate str (not "int") to str
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:19:25
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.40.55
+Cartella Cedolini_Divisi_13-09-2020_20.40.55 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.40.55 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: can only concatenate str (not "int") to str
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:20:05
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.41.28
+Cartella Cedolini_Divisi_13-09-2020_20.41.28 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.41.28 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
@@ -84,7 +359,87 @@ I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:20:05
 		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:21:23
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.41.56
+Cartella Cedolini_Divisi_13-09-2020_20.41.56 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.41.56 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.42.41
+Cartella Cedolini_Divisi_13-09-2020_20.42.41 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.42.41 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.43.07
+Cartella Cedolini_Divisi_13-09-2020_20.43.07 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.43.07 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.44.31
+Cartella Cedolini_Divisi_13-09-2020_20.44.31 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.44.31 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.44.58
+Cartella Cedolini_Divisi_13-09-2020_20.44.58 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.44.58 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.46.04
+Cartella Cedolini_Divisi_13-09-2020_20.46.04 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.46.04 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.47.05
+Cartella Cedolini_Divisi_13-09-2020_20.47.05 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.47.05 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
@@ -95,7 +450,9 @@ I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:21:23
 		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:22:23
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.48.22
+Cartella Cedolini_Divisi_13-09-2020_20.48.22 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.48.22 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
 		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
@@ -106,135 +463,76 @@ I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:22:23
 		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:29:40
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.49.47
+Cartella Cedolini_Divisi_13-09-2020_20.49.47 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.49.47 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
 		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
 		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
-		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:31:19
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.50.15
+Cartella Cedolini_Divisi_13-09-2020_20.50.15 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.50.15 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: can only concatenate list (not "str") to list
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:31:26
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: can only concatenate list (not "str") to list
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:31:54
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
 		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
 		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
-		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:32:17
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.56.23
+Cartella Cedolini_Divisi_13-09-2020_20.56.23 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.56.23 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
 		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
 		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
-		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
-		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+	Inizializzazione unione cedolini dello stesso DipendenteErrore Generico: write() takes exactly one argument (3 given)
+
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.57.37
+Cartella Cedolini_Divisi_13-09-2020_20.57.37 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.57.37 creata.
+	Inizializzazione esrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+	Inizializzazione unione cedolini dello stesso Dipendente		Ho unito il PDF: MRNNTN76E11H264Z con il PDF: MRNNTN76E11H264Z-1
+		Ho unito il PDF: MRNNTN76E11H264Z con il PDF: MRNNTN76E11H264Z-4
+		Ho unito il PDF: LKHTWN90R18Z222P con il PDF: LKHTWN90R18Z222P-5
+		Ho unito il PDF: RCHBLG91L07Z330N con il PDF: RCHBLG91L07Z330N-6
 Operazioni concluse
 
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:54:13
+I seguenti Log fanno riferimento al giorno 13-09-2020 alle ore 20.57.52
+Cartella Cedolini_Divisi_13-09-2020_20.57.52 creata.
+Cartella Cedolini_Trovati_13-09-2020_20.57.52 creata.
 	Inizializzazione esrapolazione pagine
 		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: name 'Directory_Divisi' is not defined
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:54:34
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: name 'directory_Divisi' is not defined
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:54:53
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: list index out of range
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:55:45
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:55:56
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:56:09
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:57:40
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: 'PdfFileWriter' object has no attribute 'close'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:07
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: 'PdfFileWriter' object has no attribute 'close'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:22
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:32
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:58:59
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:59:22
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 22:59:53
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'Cedolini_Divisi 12-09-2020/MRNNTN76E11H264Z.pdf'
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:00:01
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:00:23
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:04:14
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:04:21
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
-
-I seguenti Log fanno riferimento al giorno 12-09-2020 alle ore 23:00:53
-	Inizializzazione esrapolazione pagine
-		Alla pagina 1 ho trovato il codice fiscale MRNNTN76E11H264Z.pdf --> Era presente nell'Excel
-Errore Generico: Unable to find 'endstream' marker after stream at byte 0x2009.
+		Alla pagina 2 ho trovato il codice fiscale MRNNTN76E11H264Z-1.pdf --> Era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale LKHTWN90R18Z222P.pdf --> Era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale RCHBLG91L07Z330N.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale MRNNTN76E11H264Z-4.pdf --> Era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale LKHTWN90R18Z222P-5.pdf --> Era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale RCHBLG91L07Z330N-6.pdf --> NON era presente nell'Excel
+	Inizializzazione unione cedolini dello stesso Dipendente
+		Ho unito il PDF: MRNNTN76E11H264Z con il PDF: MRNNTN76E11H264Z-1
+		Ho unito il PDF: MRNNTN76E11H264Z con il PDF: MRNNTN76E11H264Z-4
+		Ho unito il PDF: LKHTWN90R18Z222P con il PDF: LKHTWN90R18Z222P-5
+		Ho unito il PDF: RCHBLG91L07Z330N con il PDF: RCHBLG91L07Z330N-6
+Operazioni concluse

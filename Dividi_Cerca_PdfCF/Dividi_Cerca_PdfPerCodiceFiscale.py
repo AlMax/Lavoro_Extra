@@ -1,4 +1,3 @@
-import ctypes
 import PyPDF2
 import shlex
 import os
@@ -9,16 +8,14 @@ import sys
 import pandas as pd
 from tkinter import simpledialog
 import tkinter as tk
-
-def Mbox(title, text, style):
-    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+import funzioni as f
 
 try:
 
     nomeProgramma = "Dividi e Cerca PDF tramite Excel By ALMAX (GitHub)"
 
     today = date.today().strftime("%d-%m-%Y")
-    now = datetime.datetime.now().strftime("%H:%M:%S")
+    now = datetime.datetime.now().strftime("%H.%M.%S")
 
     fileLog = open("Log.txt", "a")
     if os.stat("Log.txt").st_size == 0:
@@ -29,9 +26,11 @@ try:
     pdf_da_trovare = []
     divisioniPagine = ""
     codiciFiscaliUtilizzati = []
+    indici_codiciFiscaliUTilizzati = []
 
-    directoryDivisi = "Cedolini_Divisi " + today
-    directoryCercati = "Cedolini_Trovati " + today
+    cartelleSalvataggio = []
+    cartelleSalvataggio.append("Cedolini_Divisi_" + today + "_" + now)
+    cartelleSalvataggio.append("Cedolini_Trovati_" + today + "_" + now)
 
     pbar = ProgressBar()
     ROOT = tk.Tk()
@@ -46,7 +45,7 @@ try:
         pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
         numPagine = pdfReader.numPages
     except Exception as errorePdf:
-        Mbox(nomeProgramma,"Ci sono errori durante la lettura del PDF: " + nomePDF + ".pdf\nIl programma verrà interrotto.Si ricorda di inerire il nome correttamente.", 1)
+        f.Mbox(nomeProgramma,"Ci sono errori durante la lettura del PDF: " + nomePDF + ".pdf\nIl programma verrà interrotto.Si ricorda di inerire il nome correttamente.", 1)
         fileLog.write("Errore PDF: " + errorePdf + "\n")
         sys.exit()
 
@@ -56,17 +55,11 @@ try:
         nomeExcel = "CF"
         excelReader = pd.read_excel('%s.xlsx' %nomeExcel)
     except Exception as erroreExcel:
-        Mbox(nomeProgramma,"Ci sono errori durante la lettura dell'excel: " + nomeExcel + ".xlsx\nIl programma cercherà comunque di dividere il singolo PDF.", 1)
+        f.Mbox(nomeProgramma,"Ci sono errori durante la lettura dell'excel: " + nomeExcel + ".xlsx\nIl programma cercherà comunque di dividere il singolo PDF.", 1)
         fileLog.write("Errore Excel: " + erroreExcel + "\n")
 
     #Creazione Cartelle
-    try:
-        os.mkdir(directoryDivisi)
-        os.mkdir(directoryCercati)
-        erroreDirectory = "Tutto è andato a Buon fine.\n\n"
-    except OSError:
-        erroreDirectory =  "Errore nel creare la cartella, probabilmente esiste già.\nSi raccomanda di far partire un programma in una cartella vuota.\nIl programma cercherà comunque di generare i PDF ma potrebbero esserci delle anomalie e mancare dei PDF.\n\n"
-
+    fileLog.write(f.creaCartelle(cartelleSalvataggio))
 
     #In questo loop analizziamo ogni singolo elemento della colonna dell'excel; l'oggetto excelReader è una Serie
     try:
@@ -101,66 +94,52 @@ try:
         unito = False
         # Estrapolo il codice fiscale in base alla sua composizione
         for parola in txtExtract:
-            if len(parola) == 16:
-                if ( (not parola[0:6].isnumeric()) and (parola[6:8].isnumeric()) and (not parola[8].isnumeric()) and (parola[9:11].isnumeric()) and (not parola[15].isnumeric()) ):
-                    codiceFiscale = parola
-                    codiceFiscaleStampa = codiceFiscale + ".pdf"
+            if f.isCodiceFiscale(parola):
+                codiceFiscale = parola
+                codiceFiscaleStampa = codiceFiscale + ".pdf"
 
                 if (codiceFiscale in codiciFiscaliUtilizzati):
-                    #print(codiciFiscaliUtilizzati)
-                    #unisciPdf = PyPDF2.PdfFileWriter()
-                    #unisciPdf.addPage(pdfReader.getPage(codiciFiscaliUtilizzati.index(codiceFiscale)+1))
-                    #codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscale)] = "UNITO A " + codiceFiscale
-                    #print(codiciFiscaliUtilizzati)
-                    #print(codiceFiscale + "\n\n")
-                    #codiceFiscaleStampa = codiceFiscale + "-" + str(i) + ".pdf"
+                    codiceFiscaleStampa = codiceFiscale + "-" + str(i) + ".pdf"
                     #print(str(codiciFiscaliUtilizzati.index(codiceFiscale)) + "   "+str(i+1)) #Questo print permette di dirti dove il CF è già comparso.
-                    oggettoPDF = open(directoryDivisi + "/" + codiceFiscale + ".pdf", 'rb')
-                    lettorePDF = PyPDF2.PdfFileReader(oggettoPDF)
-                    cercatorePDF = PyPDF2.PdfFileWriter()
-                    paginePDF = pdfReader.numPages
-                    for j in range(paginePDF):
-                        cercatorePDF.addPage(lettorePDF.getPage(0))
-                    cercatorePDF.addPage(pdfReader.getPage(i))
 
-                    with open(directoryDivisi + "/" + codiceFiscale + ".pdf", "wb") as pdfUnito:
-                        cercatorePDF.write(pdfUnito)
-                    unito = True;
-                    
+        codiciFiscaliUtilizzati.append(codiceFiscale)
+        indici_codiciFiscaliUTilizzati.append(i)
 
-        if not unito:
-            # Divido la singola pagina dal PDF
-            divisorePDF = PyPDF2.PdfFileWriter()
-            divisorePDF.addPage(pdfReader.getPage(i))
+        #Metto ogni file diviso nell'apposita cartella
+        f.PDF_estraiPagine(pdfReader, i, cartelleSalvataggio[0], codiceFiscaleStampa)
+        fileLog.write("\t\tAlla pagina " + (str(i+1)) + " ho trovato il codice fiscale " + codiceFiscaleStampa)
 
-            #Metto ogni file diviso nell'apposita cartella
-            with open(directoryDivisi + "/" + codiceFiscaleStampa, "wb") as pdfDiviso:
-                divisorePDF.write(pdfDiviso)
-                fileLog.write("\t\tAlla pagina " + (str(i+1)) + " ho trovato il codice fiscale " + codiceFiscaleStampa)
-                codiciFiscaliUtilizzati.append(codiceFiscale)
-
-            #Copio i file da cercare tramite Excel in una cartella apposita
-            codiceFiscale += ".pdf"
-            if codiceFiscale in pdf_da_trovare:
-                with open(directoryCercati + "/" + codiceFiscaleStampa, "wb") as pdfDiviso:
-                    divisorePDF.write(pdfDiviso)
-                    fileLog.write(" --> Era presente nell'Excel\n")
-            else:
-                fileLog.write(" --> NON era presente nell'Excel\n")
-
-            #Stringa riepilogativa delle divisioni fatte
-            divisioniPagine += "Codice Fiscale della pagina " + str(i+1) + " --> " + codiceFiscaleStampa + "\n"
+        #Copio i file da cercare tramite Excel in una cartella apposita
+        codiceFiscale += ".pdf"
+        if codiceFiscale in pdf_da_trovare:
+            f.PDF_estraiPagine(pdfReader, i, cartelleSalvataggio[1], codiceFiscaleStampa)
+            fileLog.write(" --> Era presente nell'Excel\n")
+        else:
+            fileLog.write(" --> NON era presente nell'Excel\n")
+        #Stringa riepilogativa delle divisioni fatte
+        divisioniPagine += "Codice Fiscale della pagina " + str(i+1) + " --> " + codiceFiscaleStampa + "\n"
 
     # Mostro una Form con le divisioni delle pagine fatte
-    numPagineOut = erroreDirectory + "Numero di pagine divise: " + str(numPagine) + "\n"
+    numPagineOut = "Numero di pagine divise: " + str(numPagine) + "\n"
     divisioniPagine += "\n\nOperazione conclusa.\nGrazie mille e Buon lavoro."
-    Mbox(nomeProgramma, numPagineOut + divisioniPagine, 1)
+    f.Mbox(nomeProgramma, numPagineOut + divisioniPagine, 1)
+
+    fileLog.write("\tInizializzazione unione cedolini dello stesso Dipendente\n")
+    index_codiciFiscaliUtilizzati = 0
+    for codiceFiscalePresente in codiciFiscaliUtilizzati:
+        if codiciFiscaliUtilizzati.count(codiceFiscalePresente) > 1 and codiceFiscalePresente != "NULL":
+            codiciFiscaliUtilizzati[index_codiciFiscaliUtilizzati] = "NULL"
+            index_codiciFiscaliUtilizzati += 1
+            f.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[0])
+            fileLog.write("\t\tHo unito il PDF: " + codiceFiscalePresente + " con il PDF: " + codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]) + "\n")
+        #print(codiciFiscaliUtilizzati)
 
     fileLog.write("Operazioni concluse")
     # Chiudo l'oggetto file
     pdfFileObj.close()
+
     fileLog.close()
 except Exception as erroreBloccante:
     messaggioErroreBloccante = "Il programma non riesce a partire a causa di un errore.\n\nIn caso non funzioni ancora, contattarmi alla mail ali.haider.maqsood@maw.it\n\nL'errore è:\n" + str(erroreBloccante)
     fileLog.write("Errore Generico: " + str(erroreBloccante))
-    Mbox(nomeProgramma, messaggioErroreBloccante, 1)
+    f.Mbox(nomeProgramma, messaggioErroreBloccante, 1)
