@@ -98,10 +98,11 @@ try:
                 codiceFiscale = f.isCodiceFiscale(parola)[1]
                 print("\n\t" + codiceFiscale + "\n\n")
                 codiceFiscaleStampa = codiceFiscale + ".pdf"
-                break;
+                
                 if (codiceFiscale in codiciFiscaliUtilizzati):
                     codiceFiscaleStampa = codiceFiscale + "-" + str(i) + ".pdf"
                     #print(str(codiciFiscaliUtilizzati.index(codiceFiscale)) + "   "+str(i+1)) #Questo print permette di dirti dove il CF è già comparso.
+                break;
 
         codiciFiscaliUtilizzati.append(codiceFiscale)
         indici_codiciFiscaliUTilizzati.append(i)
@@ -132,6 +133,7 @@ try:
         if codiciFiscaliUtilizzati.count(codiceFiscalePresente) > 1 and codiceFiscalePresente != "NULL":
             codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] = "NULL"
             index_codiciFiscaliUtilizzati += 1
+            print(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]))
             f.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[0])
             fileLog.write("\t\tHo unito il PDF: " + codiceFiscalePresente + " con il PDF: " + codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]) + "\n")
         #print(codiciFiscaliUtilizzati)

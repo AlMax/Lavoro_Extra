@@ -287,3 +287,145 @@ Cartella Cedolini_Trovati_14-09-2020_16.04.20 creata.
 	Inizializzazione unione cedolini dello stesso Dipendente
 	['BGALMR78M53Z129A', 'BLCDNS84L23Z154C', 'BLTMRN83R66D940I', 'BTALNE76E49G856B', 'BZAZRJ97D07Z148M', 'BBDMSM72L11L736K', 'BBSMHR90T17Z236E', 'BBSMHR90T17Z236E', 'BBSNRZ95R20Z236O', 'BBSQMR82C09Z236D', 'BBSSJL99A16Z236C', 'BBSTHR88R10Z236V', 'BBSMRU85S21Z236J', 'BBNMRZ87D53C589Z', 'BBNMNR79L63L400E', 'BBRFPP95L01G273J', 'BDLBLG74R03Z336A', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDKHMD82M15Z309J', 'BDALHK96R15Z229O', 'BDLMHT99H20Z334T', 'BDSBLF72T25Z330F', 'BDLBHM99C24Z318F', 'BDLFRQ98R23Z236A', 'BDLZRT84S46Z148F', 'BDLHBR86A01Z225Y', 'BDRRHM93E09Z249K', 'BDYVBN78C46Z100G', 'BNNLNE76B68E507U', 'BNALSE82T54B157J', 'BNALRA74S46B157E', 'BDABRR96H21Z236U', 'BSADVD95H21D612A', 'BSADVD95H21D612A', 'BRDCST74E28Z129A', 'BSSSSD74P18Z240M']
 Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 14-09-2020 alle ore 16.41.12
+Cartella Cedolini_Divisi_14-09-2020_16.41.12 creata.
+Cartella Cedolini_Trovati_14-09-2020_16.41.12 creata.
+	Inizializzazione estrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale BGALMR78M53Z129A.pdf --> NON era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale BLCDNS84L23Z154C.pdf --> NON era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale BLTMRN83R66D940I.pdf --> NON era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale BTALNE76E49G856B.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale BZAZRJ97D07Z148M.pdf --> NON era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale BBDMSM72L11L736K.pdf --> NON era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale BBSMHR90T17Z236E.pdf --> NON era presente nell'Excel
+		Alla pagina 8 ho trovato il codice fiscale BBSMHR90T17Z236E.pdf --> NON era presente nell'Excel
+		Alla pagina 9 ho trovato il codice fiscale BBSNRZ95R20Z236O.pdf --> NON era presente nell'Excel
+		Alla pagina 10 ho trovato il codice fiscale BBSQMR82C09Z236D.pdf --> NON era presente nell'Excel
+		Alla pagina 11 ho trovato il codice fiscale BBSSJL99A16Z236C.pdf --> NON era presente nell'Excel
+		Alla pagina 12 ho trovato il codice fiscale BBSTHR88R10Z236V.pdf --> NON era presente nell'Excel
+		Alla pagina 13 ho trovato il codice fiscale BBSMRU85S21Z236J.pdf --> NON era presente nell'Excel
+		Alla pagina 14 ho trovato il codice fiscale BBNMRZ87D53C589Z.pdf --> NON era presente nell'Excel
+		Alla pagina 15 ho trovato il codice fiscale BBNMNR79L63L400E.pdf --> NON era presente nell'Excel
+		Alla pagina 16 ho trovato il codice fiscale BBRFPP95L01G273J.pdf --> NON era presente nell'Excel
+		Alla pagina 17 ho trovato il codice fiscale BDLBLG74R03Z336A.pdf --> NON era presente nell'Excel
+		Alla pagina 18 ho trovato il codice fiscale BDLBSM93H46Z336M.pdf --> NON era presente nell'Excel
+		Alla pagina 19 ho trovato il codice fiscale BDLBSM93H46Z336M.pdf --> NON era presente nell'Excel
+		Alla pagina 20 ho trovato il codice fiscale BDLBSM93H46Z336M.pdf --> NON era presente nell'Excel
+		Alla pagina 21 ho trovato il codice fiscale BDKHMD82M15Z309J.pdf --> NON era presente nell'Excel
+		Alla pagina 22 ho trovato il codice fiscale BDALHK96R15Z229O.pdf --> NON era presente nell'Excel
+		Alla pagina 23 ho trovato il codice fiscale BDLMHT99H20Z334T.pdf --> NON era presente nell'Excel
+		Alla pagina 24 ho trovato il codice fiscale BDSBLF72T25Z330F.pdf --> NON era presente nell'Excel
+		Alla pagina 25 ho trovato il codice fiscale BDLBHM99C24Z318F.pdf --> NON era presente nell'Excel
+		Alla pagina 26 ho trovato il codice fiscale BDLFRQ98R23Z236A.pdf --> NON era presente nell'Excel
+		Alla pagina 27 ho trovato il codice fiscale BDLZRT84S46Z148F.pdf --> NON era presente nell'Excel
+		Alla pagina 28 ho trovato il codice fiscale BDLHBR86A01Z225Y.pdf --> NON era presente nell'Excel
+		Alla pagina 29 ho trovato il codice fiscale BDRRHM93E09Z249K.pdf --> NON era presente nell'Excel
+		Alla pagina 30 ho trovato il codice fiscale BDYVBN78C46Z100G.pdf --> NON era presente nell'Excel
+		Alla pagina 31 ho trovato il codice fiscale BNNLNE76B68E507U.pdf --> NON era presente nell'Excel
+		Alla pagina 32 ho trovato il codice fiscale BNALSE82T54B157J.pdf --> NON era presente nell'Excel
+		Alla pagina 33 ho trovato il codice fiscale BNALRA74S46B157E.pdf --> NON era presente nell'Excel
+		Alla pagina 34 ho trovato il codice fiscale BDABRR96H21Z236U.pdf --> NON era presente nell'Excel
+		Alla pagina 35 ho trovato il codice fiscale BSADVD95H21D612A.pdf --> NON era presente nell'Excel
+		Alla pagina 36 ho trovato il codice fiscale BSADVD95H21D612A.pdf --> NON era presente nell'Excel
+		Alla pagina 37 ho trovato il codice fiscale BRDCST74E28Z129A.pdf --> NON era presente nell'Excel
+		Alla pagina 38 ho trovato il codice fiscale BSSSSD74P18Z240M.pdf --> NON era presente nell'Excel
+	Inizializzazione unione cedolini dello stesso Dipendente
+	['BGALMR78M53Z129A', 'BLCDNS84L23Z154C', 'BLTMRN83R66D940I', 'BTALNE76E49G856B', 'BZAZRJ97D07Z148M', 'BBDMSM72L11L736K', 'BBSMHR90T17Z236E', 'BBSMHR90T17Z236E', 'BBSNRZ95R20Z236O', 'BBSQMR82C09Z236D', 'BBSSJL99A16Z236C', 'BBSTHR88R10Z236V', 'BBSMRU85S21Z236J', 'BBNMRZ87D53C589Z', 'BBNMNR79L63L400E', 'BBRFPP95L01G273J', 'BDLBLG74R03Z336A', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDKHMD82M15Z309J', 'BDALHK96R15Z229O', 'BDLMHT99H20Z334T', 'BDSBLF72T25Z330F', 'BDLBHM99C24Z318F', 'BDLFRQ98R23Z236A', 'BDLZRT84S46Z148F', 'BDLHBR86A01Z225Y', 'BDRRHM93E09Z249K', 'BDYVBN78C46Z100G', 'BNNLNE76B68E507U', 'BNALSE82T54B157J', 'BNALRA74S46B157E', 'BDABRR96H21Z236U', 'BSADVD95H21D612A', 'BSADVD95H21D612A', 'BRDCST74E28Z129A', 'BSSSSD74P18Z240M']
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 14-09-2020 alle ore 16.48.06
+Cartella Cedolini_Divisi_14-09-2020_16.48.06 creata.
+Cartella Cedolini_Trovati_14-09-2020_16.48.06 creata.
+	Inizializzazione estrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale BGALMR78M53Z129A.pdf --> NON era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale BLCDNS84L23Z154C.pdf --> NON era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale BLTMRN83R66D940I.pdf --> NON era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale BTALNE76E49G856B.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale BZAZRJ97D07Z148M.pdf --> NON era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale BBDMSM72L11L736K.pdf --> NON era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale BBSMHR90T17Z236E.pdf --> NON era presente nell'Excel
+		Alla pagina 8 ho trovato il codice fiscale BBSMHR90T17Z236E.pdf --> NON era presente nell'Excel
+		Alla pagina 9 ho trovato il codice fiscale BBSNRZ95R20Z236O.pdf --> NON era presente nell'Excel
+		Alla pagina 10 ho trovato il codice fiscale BBSQMR82C09Z236D.pdf --> NON era presente nell'Excel
+		Alla pagina 11 ho trovato il codice fiscale BBSSJL99A16Z236C.pdf --> NON era presente nell'Excel
+		Alla pagina 12 ho trovato il codice fiscale BBSTHR88R10Z236V.pdf --> NON era presente nell'Excel
+		Alla pagina 13 ho trovato il codice fiscale BBSMRU85S21Z236J.pdf --> NON era presente nell'Excel
+		Alla pagina 14 ho trovato il codice fiscale BBNMRZ87D53C589Z.pdf --> NON era presente nell'Excel
+		Alla pagina 15 ho trovato il codice fiscale BBNMNR79L63L400E.pdf --> NON era presente nell'Excel
+		Alla pagina 16 ho trovato il codice fiscale BBRFPP95L01G273J.pdf --> NON era presente nell'Excel
+		Alla pagina 17 ho trovato il codice fiscale BDLBLG74R03Z336A.pdf --> NON era presente nell'Excel
+		Alla pagina 18 ho trovato il codice fiscale BDLBSM93H46Z336M.pdf --> NON era presente nell'Excel
+		Alla pagina 19 ho trovato il codice fiscale BDLBSM93H46Z336M.pdf --> NON era presente nell'Excel
+		Alla pagina 20 ho trovato il codice fiscale BDLBSM93H46Z336M.pdf --> NON era presente nell'Excel
+		Alla pagina 21 ho trovato il codice fiscale BDKHMD82M15Z309J.pdf --> NON era presente nell'Excel
+		Alla pagina 22 ho trovato il codice fiscale BDALHK96R15Z229O.pdf --> NON era presente nell'Excel
+		Alla pagina 23 ho trovato il codice fiscale BDLMHT99H20Z334T.pdf --> NON era presente nell'Excel
+		Alla pagina 24 ho trovato il codice fiscale BDSBLF72T25Z330F.pdf --> NON era presente nell'Excel
+		Alla pagina 25 ho trovato il codice fiscale BDLBHM99C24Z318F.pdf --> NON era presente nell'Excel
+		Alla pagina 26 ho trovato il codice fiscale BDLFRQ98R23Z236A.pdf --> NON era presente nell'Excel
+		Alla pagina 27 ho trovato il codice fiscale BDLZRT84S46Z148F.pdf --> NON era presente nell'Excel
+		Alla pagina 28 ho trovato il codice fiscale BDLHBR86A01Z225Y.pdf --> NON era presente nell'Excel
+		Alla pagina 29 ho trovato il codice fiscale BDRRHM93E09Z249K.pdf --> NON era presente nell'Excel
+		Alla pagina 30 ho trovato il codice fiscale BDYVBN78C46Z100G.pdf --> NON era presente nell'Excel
+		Alla pagina 31 ho trovato il codice fiscale BNNLNE76B68E507U.pdf --> NON era presente nell'Excel
+		Alla pagina 32 ho trovato il codice fiscale BNALSE82T54B157J.pdf --> NON era presente nell'Excel
+		Alla pagina 33 ho trovato il codice fiscale BNALRA74S46B157E.pdf --> NON era presente nell'Excel
+		Alla pagina 34 ho trovato il codice fiscale BDABRR96H21Z236U.pdf --> NON era presente nell'Excel
+		Alla pagina 35 ho trovato il codice fiscale BSADVD95H21D612A.pdf --> NON era presente nell'Excel
+		Alla pagina 36 ho trovato il codice fiscale BSADVD95H21D612A.pdf --> NON era presente nell'Excel
+		Alla pagina 37 ho trovato il codice fiscale BRDCST74E28Z129A.pdf --> NON era presente nell'Excel
+		Alla pagina 38 ho trovato il codice fiscale BSSSSD74P18Z240M.pdf --> NON era presente nell'Excel
+	Inizializzazione unione cedolini dello stesso Dipendente
+	['BGALMR78M53Z129A', 'BLCDNS84L23Z154C', 'BLTMRN83R66D940I', 'BTALNE76E49G856B', 'BZAZRJ97D07Z148M', 'BBDMSM72L11L736K', 'BBSMHR90T17Z236E', 'BBSMHR90T17Z236E', 'BBSNRZ95R20Z236O', 'BBSQMR82C09Z236D', 'BBSSJL99A16Z236C', 'BBSTHR88R10Z236V', 'BBSMRU85S21Z236J', 'BBNMRZ87D53C589Z', 'BBNMNR79L63L400E', 'BBRFPP95L01G273J', 'BDLBLG74R03Z336A', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDKHMD82M15Z309J', 'BDALHK96R15Z229O', 'BDLMHT99H20Z334T', 'BDSBLF72T25Z330F', 'BDLBHM99C24Z318F', 'BDLFRQ98R23Z236A', 'BDLZRT84S46Z148F', 'BDLHBR86A01Z225Y', 'BDRRHM93E09Z249K', 'BDYVBN78C46Z100G', 'BNNLNE76B68E507U', 'BNALSE82T54B157J', 'BNALRA74S46B157E', 'BDABRR96H21Z236U', 'BSADVD95H21D612A', 'BSADVD95H21D612A', 'BRDCST74E28Z129A', 'BSSSSD74P18Z240M']
+Errore Generico: name 'f' is not defined
+
+I seguenti Log fanno riferimento al giorno 14-09-2020 alle ore 16.49.25
+Cartella Cedolini_Divisi_14-09-2020_16.49.25 creata.
+Cartella Cedolini_Trovati_14-09-2020_16.49.25 creata.
+	Inizializzazione estrapolazione pagine
+		Alla pagina 1 ho trovato il codice fiscale BGALMR78M53Z129A.pdf --> NON era presente nell'Excel
+		Alla pagina 2 ho trovato il codice fiscale BLCDNS84L23Z154C.pdf --> NON era presente nell'Excel
+		Alla pagina 3 ho trovato il codice fiscale BLTMRN83R66D940I.pdf --> NON era presente nell'Excel
+		Alla pagina 4 ho trovato il codice fiscale BTALNE76E49G856B.pdf --> NON era presente nell'Excel
+		Alla pagina 5 ho trovato il codice fiscale BZAZRJ97D07Z148M.pdf --> NON era presente nell'Excel
+		Alla pagina 6 ho trovato il codice fiscale BBDMSM72L11L736K.pdf --> NON era presente nell'Excel
+		Alla pagina 7 ho trovato il codice fiscale BBSMHR90T17Z236E.pdf --> NON era presente nell'Excel
+		Alla pagina 8 ho trovato il codice fiscale BBSMHR90T17Z236E-7.pdf --> NON era presente nell'Excel
+		Alla pagina 9 ho trovato il codice fiscale BBSNRZ95R20Z236O.pdf --> NON era presente nell'Excel
+		Alla pagina 10 ho trovato il codice fiscale BBSQMR82C09Z236D.pdf --> NON era presente nell'Excel
+		Alla pagina 11 ho trovato il codice fiscale BBSSJL99A16Z236C.pdf --> NON era presente nell'Excel
+		Alla pagina 12 ho trovato il codice fiscale BBSTHR88R10Z236V.pdf --> NON era presente nell'Excel
+		Alla pagina 13 ho trovato il codice fiscale BBSMRU85S21Z236J.pdf --> NON era presente nell'Excel
+		Alla pagina 14 ho trovato il codice fiscale BBNMRZ87D53C589Z.pdf --> NON era presente nell'Excel
+		Alla pagina 15 ho trovato il codice fiscale BBNMNR79L63L400E.pdf --> NON era presente nell'Excel
+		Alla pagina 16 ho trovato il codice fiscale BBRFPP95L01G273J.pdf --> NON era presente nell'Excel
+		Alla pagina 17 ho trovato il codice fiscale BDLBLG74R03Z336A.pdf --> NON era presente nell'Excel
+		Alla pagina 18 ho trovato il codice fiscale BDLBSM93H46Z336M.pdf --> NON era presente nell'Excel
+		Alla pagina 19 ho trovato il codice fiscale BDLBSM93H46Z336M-18.pdf --> NON era presente nell'Excel
+		Alla pagina 20 ho trovato il codice fiscale BDLBSM93H46Z336M-19.pdf --> NON era presente nell'Excel
+		Alla pagina 21 ho trovato il codice fiscale BDKHMD82M15Z309J.pdf --> NON era presente nell'Excel
+		Alla pagina 22 ho trovato il codice fiscale BDALHK96R15Z229O.pdf --> NON era presente nell'Excel
+		Alla pagina 23 ho trovato il codice fiscale BDLMHT99H20Z334T.pdf --> NON era presente nell'Excel
+		Alla pagina 24 ho trovato il codice fiscale BDSBLF72T25Z330F.pdf --> NON era presente nell'Excel
+		Alla pagina 25 ho trovato il codice fiscale BDLBHM99C24Z318F.pdf --> NON era presente nell'Excel
+		Alla pagina 26 ho trovato il codice fiscale BDLFRQ98R23Z236A.pdf --> NON era presente nell'Excel
+		Alla pagina 27 ho trovato il codice fiscale BDLZRT84S46Z148F.pdf --> NON era presente nell'Excel
+		Alla pagina 28 ho trovato il codice fiscale BDLHBR86A01Z225Y.pdf --> NON era presente nell'Excel
+		Alla pagina 29 ho trovato il codice fiscale BDRRHM93E09Z249K.pdf --> NON era presente nell'Excel
+		Alla pagina 30 ho trovato il codice fiscale BDYVBN78C46Z100G.pdf --> NON era presente nell'Excel
+		Alla pagina 31 ho trovato il codice fiscale BNNLNE76B68E507U.pdf --> NON era presente nell'Excel
+		Alla pagina 32 ho trovato il codice fiscale BNALSE82T54B157J.pdf --> NON era presente nell'Excel
+		Alla pagina 33 ho trovato il codice fiscale BNALRA74S46B157E.pdf --> NON era presente nell'Excel
+		Alla pagina 34 ho trovato il codice fiscale BDABRR96H21Z236U.pdf --> NON era presente nell'Excel
+		Alla pagina 35 ho trovato il codice fiscale BSADVD95H21D612A.pdf --> NON era presente nell'Excel
+		Alla pagina 36 ho trovato il codice fiscale BSADVD95H21D612A-35.pdf --> NON era presente nell'Excel
+		Alla pagina 37 ho trovato il codice fiscale BRDCST74E28Z129A.pdf --> NON era presente nell'Excel
+		Alla pagina 38 ho trovato il codice fiscale BSSSSD74P18Z240M.pdf --> NON era presente nell'Excel
+	Inizializzazione unione cedolini dello stesso Dipendente
+	['BGALMR78M53Z129A', 'BLCDNS84L23Z154C', 'BLTMRN83R66D940I', 'BTALNE76E49G856B', 'BZAZRJ97D07Z148M', 'BBDMSM72L11L736K', 'BBSMHR90T17Z236E', 'BBSMHR90T17Z236E', 'BBSNRZ95R20Z236O', 'BBSQMR82C09Z236D', 'BBSSJL99A16Z236C', 'BBSTHR88R10Z236V', 'BBSMRU85S21Z236J', 'BBNMRZ87D53C589Z', 'BBNMNR79L63L400E', 'BBRFPP95L01G273J', 'BDLBLG74R03Z336A', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDLBSM93H46Z336M', 'BDKHMD82M15Z309J', 'BDALHK96R15Z229O', 'BDLMHT99H20Z334T', 'BDSBLF72T25Z330F', 'BDLBHM99C24Z318F', 'BDLFRQ98R23Z236A', 'BDLZRT84S46Z148F', 'BDLHBR86A01Z225Y', 'BDRRHM93E09Z249K', 'BDYVBN78C46Z100G', 'BNNLNE76B68E507U', 'BNALSE82T54B157J', 'BNALRA74S46B157E', 'BDABRR96H21Z236U', 'BSADVD95H21D612A', 'BSADVD95H21D612A', 'BRDCST74E28Z129A', 'BSSSSD74P18Z240M']
+		Ho unito il PDF: BBSMHR90T17Z236E con il PDF: BBSMHR90T17Z236E-7
+		Ho unito il PDF: BDLBSM93H46Z336M con il PDF: BDLBSM93H46Z336M-18
+		Ho unito il PDF: BDLBSM93H46Z336M con il PDF: BDLBSM93H46Z336M-19
+		Ho unito il PDF: BSADVD95H21D612A con il PDF: BSADVD95H21D612A-35
+Operazioni concluse	['BGALMR78M53Z129A', 'BLCDNS84L23Z154C', 'BLTMRN83R66D940I', 'BTALNE76E49G856B', 'BZAZRJ97D07Z148M', 'BBDMSM72L11L736K', 'NULL', 'BBSMHR90T17Z236E', 'BBSNRZ95R20Z236O', 'BBSQMR82C09Z236D', 'BBSSJL99A16Z236C', 'BBSTHR88R10Z236V', 'BBSMRU85S21Z236J', 'BBNMRZ87D53C589Z', 'BBNMNR79L63L400E', 'BBRFPP95L01G273J', 'BDLBLG74R03Z336A', 'NULL', 'NULL', 'BDLBSM93H46Z336M', 'BDKHMD82M15Z309J', 'BDALHK96R15Z229O', 'BDLMHT99H20Z334T', 'BDSBLF72T25Z330F', 'BDLBHM99C24Z318F', 'BDLFRQ98R23Z236A', 'BDLZRT84S46Z148F', 'BDLHBR86A01Z225Y', 'BDRRHM93E09Z249K', 'BDYVBN78C46Z100G', 'BNNLNE76B68E507U', 'BNALSE82T54B157J', 'BNALRA74S46B157E', 'BDABRR96H21Z236U', 'NULL', 'BSADVD95H21D612A', 'BRDCST74E28Z129A', 'BSSSSD74P18Z240M']
