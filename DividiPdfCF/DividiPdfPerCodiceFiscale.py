@@ -20,6 +20,7 @@ try:
     today = date.today()
     directorySalvataggio = "Cedolini_Divisi " + today.strftime("(%d-%m-%Y)")
     pbar = ProgressBar()
+    codiceFiscaleStampa = ""
 
     try:
         os.mkdir(directorySalvataggio)
@@ -42,7 +43,11 @@ try:
 
         # Estrapolo il codice fiscale in base alla sua composizione
         for parola in txtExtract:
-            if len(parola) == 16:
+
+            if len(parola) == 22:
+                print(parola + "\n")
+                parola = parola[6:22]
+                print(parola + "\n")
                 if ( (not parola[0:6].isnumeric()) and (parola[6:8].isnumeric()) and (not parola[8].isnumeric()) and (parola[9:11].isnumeric()) and (not parola[15].isnumeric()) ):
                     divisioniPagine += "Codice Fiscale della pagina " + str(i+1) + " --> " + parola + "\n"
                     codiceFiscale = parola
@@ -59,7 +64,7 @@ try:
     #    indexCF = txtExtract.index("A95") - 1
     #    codiceFiscale = txtExtract[indexCF]
     #    divisioniPagine += "Codice Fiscale della pagina " + str(i+1) + " --> " + codiceFiscale + "\n"
-
+        break;
         # Divido la singola pagina dal PDF
         divisorePDF = PyPDF2.PdfFileWriter()
         divisorePDF.addPage(pdfReader.getPage(i))

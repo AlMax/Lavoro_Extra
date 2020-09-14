@@ -5,10 +5,25 @@ import os
 def isCodiceFiscale(parola):
     """Data in input una stringa, viene analizzata la composizione della stringa per determinare se è un codice fiscale o meno.
     Ritorna True in caso sia un codice fiscale, False altrimenti. """
+    trovato = False
+    if len(parola) > 16:
+        trovato = isCodiceFiscale(parola[0:16])
+        if trovato:
+            return True,parola[0:16]
+        else:
+            trovato = isCodiceFiscale(parola[-16:])
+            if trovato:
+                return True,parola[-16:]
+            else:
+                return False
+
     if len(parola) == 16:
         if ( (not parola[0:6].isnumeric()) and (parola[6:8].isnumeric()) and (not parola[8].isnumeric()) and (parola[9:11].isnumeric()) and (not parola[15].isnumeric()) ):
             return True
-    return False
+        else:
+            return False
+
+    return trovato
 
 
 def PDF_estraiPagine(pdf_vecchio, indici_pagine, directorySalvataggio, nomeFile):
@@ -31,14 +46,17 @@ def PDF_estraiPagine(pdf_vecchio, indici_pagine, directorySalvataggio, nomeFile)
         file_da_scrivere.write(file_estratto)
 
 def PDF_unisci(nome_pdf1, nome_pdf2, directorySalvataggio):
+    print("unisci Ok0")
     #Lettura PDF
     try:
         #nomePDF = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome del file PDF senza l'estensione.\nEsempio: se il file si chiama 'test.pdf', basterà inserire 'test'")
         pdfFileObj_1 = open(directorySalvataggio + "/" + nome_pdf1+".pdf", 'rb')
         pdfReader_1 = PyPDF2.PdfFileReader(pdfFileObj_1)
+        print("unisci Ok1" + directorySalvataggio + "/" + nome_pdf2+".pdf")
         pdfFileObj_2 = open(directorySalvataggio + "/" + nome_pdf2+".pdf", 'rb')
         pdfReader_2 = PyPDF2.PdfFileReader(pdfFileObj_2)
-
+        print("unisci Ok2")
+        print("unisci Ok3")
         numPagine1 = pdfReader_1.numPages
         numPagine2 = pdfReader_2.numPages
 

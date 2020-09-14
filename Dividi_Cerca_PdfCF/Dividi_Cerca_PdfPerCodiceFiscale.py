@@ -75,7 +75,7 @@ try:
 
 
     # Ciclo per analizzare ogni singola pagina e dividerla
-    fileLog.write("\tInizializzazione esrapolazione pagine\n")
+    fileLog.write("\tInizializzazione estrapolazione pagine\n")
     for i in pbar(range(numPagine)):
         # Ottengo il testo della singola pagina
         pageObj = pdfReader.getPage(i)
@@ -91,13 +91,14 @@ try:
         parola = "NULL"
         codiceFiscale = "NULL"
         codiceFiscaleStampa = "NULL"
-        unito = False
         # Estrapolo il codice fiscale in base alla sua composizione
         for parola in txtExtract:
             if f.isCodiceFiscale(parola):
-                codiceFiscale = parola
+                print("\n\t" + parola)
+                codiceFiscale = f.isCodiceFiscale(parola)[1]
+                print("\n\t" + codiceFiscale + "\n\n")
                 codiceFiscaleStampa = codiceFiscale + ".pdf"
-
+                break;
                 if (codiceFiscale in codiciFiscaliUtilizzati):
                     codiceFiscaleStampa = codiceFiscale + "-" + str(i) + ".pdf"
                     #print(str(codiciFiscaliUtilizzati.index(codiceFiscale)) + "   "+str(i+1)) #Questo print permette di dirti dove il CF è già comparso.
@@ -125,16 +126,18 @@ try:
     f.Mbox(nomeProgramma, numPagineOut + divisioniPagine, 1)
 
     fileLog.write("\tInizializzazione unione cedolini dello stesso Dipendente\n")
+    fileLog.write("\t" + str(codiciFiscaliUtilizzati) + "\n")
     index_codiciFiscaliUtilizzati = 0
     for codiceFiscalePresente in codiciFiscaliUtilizzati:
         if codiciFiscaliUtilizzati.count(codiceFiscalePresente) > 1 and codiceFiscalePresente != "NULL":
-            codiciFiscaliUtilizzati[index_codiciFiscaliUtilizzati] = "NULL"
+            codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] = "NULL"
             index_codiciFiscaliUtilizzati += 1
             f.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[0])
             fileLog.write("\t\tHo unito il PDF: " + codiceFiscalePresente + " con il PDF: " + codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]) + "\n")
         #print(codiciFiscaliUtilizzati)
 
     fileLog.write("Operazioni concluse")
+    fileLog.write("\t" + str(codiciFiscaliUtilizzati) + "\n")
     # Chiudo l'oggetto file
     pdfFileObj.close()
 
