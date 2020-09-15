@@ -46,17 +46,16 @@ def PDF_estraiPagine(pdf_vecchio, indici_pagine, directorySalvataggio, nomeFile)
         file_da_scrivere.write(file_estratto)
 
 def PDF_unisci(nome_pdf1, nome_pdf2, directorySalvataggio):
-    print("unisci Ok0")
+    #print("unisci Ok0")
     #Lettura PDF
     try:
         #nomePDF = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome del file PDF senza l'estensione.\nEsempio: se il file si chiama 'test.pdf', basterà inserire 'test'")
         pdfFileObj_1 = open(directorySalvataggio + "/" + nome_pdf1+".pdf", 'rb')
         pdfReader_1 = PyPDF2.PdfFileReader(pdfFileObj_1)
-        print("unisci Ok1" + directorySalvataggio + "/" + nome_pdf2+".pdf")
+        #print("unisci Ok1" + directorySalvataggio + "/" + nome_pdf2+".pdf")
         pdfFileObj_2 = open(directorySalvataggio + "/" + nome_pdf2+".pdf", 'rb')
         pdfReader_2 = PyPDF2.PdfFileReader(pdfFileObj_2)
-        print("unisci Ok2")
-        print("unisci Ok3")
+        #print("unisci Ok2")
         numPagine1 = pdfReader_1.numPages
         numPagine2 = pdfReader_2.numPages
 
@@ -76,29 +75,33 @@ def PDF_unisci(nome_pdf1, nome_pdf2, directorySalvataggio):
         os.rename(directorySalvataggio + "/pdfUnito.pdf", directorySalvataggio + "/" + nome_pdf1+".pdf")
 
     except Exception as errorePdf:
-        f.Mbox(nomeProgramma,"Ci sono errori durante la lettura del PDF: " + nome_pdf1 + ".pdf\nIl programma verrà interrotto.Si ricorda di inerire il nome correttamente.", 1)
-        fileLog.write("Errore PDF: " + errorePdf + "\n")
-        sys.exit()
+        #print("unisci Ok error")
+        #Mbox(nomeProgramma,"Ci sono errori durante la lettura del PDF: " + nome_pdf1 + ".pdf\nIl programma verrà interrotto.Si ricorda di inerire il nome correttamente.", 1)
+        logOperazioni("\t\t\tErrore PDF: " + str(errorePdf) + "\n")
+        #sys.exit()
 
 def creaCartelle(nomi_cartelle):
     """Dato in input un array di stringe, creerà delle cartelle con le relative stringhe.
     Ritoenrà infine una stringa con gli esiti delle varie creazioni"""
-    esito_creazione = ""
     if isinstance(nomi_cartelle,list):
         for directory in nomi_cartelle:
             try:
                 os.mkdir(directory)
-                esito_creazione += "Cartella " + directory + " creata.\n"
+                logOperazioni("Cartella " + directory + " creata.\n")
             except OSError:
-                esito_creazione +=  "Errore nel creare la cartella " + directory + ", probabilmente esiste già.\n"
+                logOperazioni("\t\t\tErrore nel creare la cartella " + directory + ", probabilmente esiste già.\n")
     else:
         try:
             os.mkdir(nomi_cartelle)
-            esito_creazione += "Cartella " + nomi_cartelle + " creata.\n"
+            logOperazioni("Cartella " + nomi_cartelle + " creata.\n")
         except OSError:
-            esito_creazione +=  "Errore nel creare la cartella " + nomi_cartelle + ", probabilmente esiste già.\n"
-    return esito_creazione
+            logOperazioni("\t\t\tErrore nel creare la cartella " + nomi_cartelle + ", probabilmente esiste già.\n")
 
+def logOperazioni(log):
+    """Scrittura dei log su apposito file"""
+    fileLog = open("Log.txt", "a")
+    fileLog.write(log)
+    fileLog.close()
 
 def Mbox(title, text, style):
     """Messaggi Pop-up"""
