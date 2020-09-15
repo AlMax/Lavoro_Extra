@@ -92,7 +92,8 @@ try:
         codiceFiscaleStampa = "NULL"
         # Estrapolo il codice fiscale in base alla sua composizione
         for parola in txtExtract:
-            if f.isCodiceFiscale(parola):
+            #print(parola + str(f.isCodiceFiscale(parola)[0]))
+            if f.isCodiceFiscale(parola)[0]:
                 #print("\n\t" + parola)
                 codiceFiscale = f.isCodiceFiscale(parola)[1]
                 #print("\n\t" + codiceFiscale + "\n\n")

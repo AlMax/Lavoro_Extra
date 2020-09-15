@@ -1,28 +1,27 @@
 import PyPDF2
 import ctypes
 import os
+from codicefiscale import isvalid
 
 def isCodiceFiscale(parola):
     """Data in input una stringa, viene analizzata la composizione della stringa per determinare se è un codice fiscale o meno.
     Ritorna True in caso sia un codice fiscale, False altrimenti. """
-    trovato = False
+    trovato = False,parola
     if len(parola) > 16:
+        
         trovato = isCodiceFiscale(parola[0:16])
-        if trovato:
+        if trovato[0]:
             return True,parola[0:16]
-        else:
-            trovato = isCodiceFiscale(parola[-16:])
-            if trovato:
-                return True,parola[-16:]
-            else:
-                return False
+
+        trovato = isCodiceFiscale(parola[-16:])
+        if trovato[0]:
+            return True,parola[-16:]
+        return False,parola
 
     if len(parola) == 16:
         if ( (not parola[0:6].isnumeric()) and (parola[6:8].isnumeric()) and (not parola[8].isnumeric()) and (parola[9:11].isnumeric()) and (not parola[15].isnumeric()) ):
-            return True
-        else:
-            return False
-
+            return isvalid(parola),parola
+        return False,parola
     return trovato
 
 
