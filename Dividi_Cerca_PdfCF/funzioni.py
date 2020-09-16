@@ -124,12 +124,26 @@ def leggiExcel(nomeExcel):
     #Lettura Excel
     try:
         excelReader = pd.read_excel('%s.xlsx' %nomeExcel)
-        logOperazioni("Ho letto l'excel: " + nomeExcelF + ".xls\n")
+        logOperazioni("Ho letto l'excel: " + nomeExcel + ".xls\n")
         return excelReader
     except Exception as erroreExcel:
         logOperazioni("\tERRORE EXCEL: " + str(erroreExcel) + "\n")
-        #sys.exit()
 
-def Mbox(title, text, style):
-    """Messaggi Pop-up"""
-    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+def leggiExcel_colonna(excelReader, nome_colonnaExcel, pdf_da_trovare):
+    #In questo loop analizziamo ogni singolo elemento della colonna dell'excel; l'oggetto excelReader è una Serie
+    try:
+        logOperazioni("\tDall'excel, tento di leggere la colonna '" + nome_colonnaExcel + "'\n")
+        for indice,valore in excelReader[nome_colonnaExcel].iteritems():
+            pdf_name = excelReader[nome_colonnaExcel][indice] #itero le singole celle
+
+            if(pdf_name[-4:] != ".pdf"):
+                pdf_name += ".pdf" #Mi assicuro che i nomi del file siano corretti
+
+            pdf_da_trovare.append(pdf_name) #Aggiungo il nome del pdf alla lista dei pdf da trovare
+            logOperazioni("\t\tAlla cella " + str(indice+1) + " ho letto il valore --> " + pdf_name + "\n")
+    except Exception as erroreCellaExcel:
+        logOperazioni("\tERRORE lettura celle Excel: " + str(erroreCellaExcel) + "\n")
+
+#def Mbox(title, text, style):
+#    """Messaggi Pop-up"""
+#    return ctypes.windll.user32.MessageBoxW(0, text, title, style)

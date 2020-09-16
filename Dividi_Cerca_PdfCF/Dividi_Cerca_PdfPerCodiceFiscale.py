@@ -47,23 +47,10 @@ try:
 
     #Lettura Excel
     #nomeExcel = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome del file xlsx senza l'estensione.\nEsempio: se il file si chiama 'test.xlsx', basterà inserire 'test'")
-    excelReader = f.leggiExcel("CF")
+    f.leggiExcel_colonna(f.leggiExcel("CF"), colonnaExcel, pdf_da_trovare)
 
     #Creazione Cartelle
     f.creaCartelle(cartelleSalvataggio)
-
-    #In questo loop analizziamo ogni singolo elemento della colonna dell'excel; l'oggetto excelReader è una Serie
-    try:
-        for indice,valore in excelReader[colonnaExcel].iteritems():
-            pdf_name = excelReader[colonnaExcel][indice] #itero le singole celle
-
-            if(pdf_name[-4:] != ".pdf"):
-                pdf_name += ".pdf" #Mi assicuro che i nomi del file siano corretti
-
-            pdf_da_trovare.append(pdf_name) #Aggiungo il nome del pdf alla lista dei pdf da trovare
-    except Exception as erroreCellaExcel:
-        f.logOperazioni("\tERRORE lettura celle Excel: " + str(erroreCellaExcel) + "\n")
-
 
     # Ciclo per analizzare ogni singola pagina e dividerla
     f.logOperazioni("\tInizializzazione estrapolazione pagine\n")
@@ -116,7 +103,7 @@ try:
     # Mostro una Form con le divisioni delle pagine fatte
     numPagineOut = "Numero di pagine divise: " + str(numPagine) + "\n"
     divisioniPagine += "\n\nOperazione conclusa.\nGrazie mille e Buon lavoro."
-    f.Mbox(nomeProgramma, numPagineOut + divisioniPagine, 1)
+    #f.Mbox(nomeProgramma, numPagineOut + divisioniPagine, 1)
 
     f.logOperazioni("\tInizializzazione unione cedolini dello stesso Dipendente\n")
     print("Procedo con l'unione dei cedolini che fanno riferimento allo stesso dipendente; attendere per favore.")
@@ -139,4 +126,4 @@ try:
 except Exception as erroreBloccante:
     messaggioErroreBloccante = "Il programma non riesce a partire a causa di un errore.\n\nIn caso non funzioni ancora, contattarmi alla mail ali.haider.maqsood@maw.it\n\nL'errore è:\n" + str(erroreBloccante)
     f.logOperazioni("\tERRORE Generico: " + str(erroreBloccante))
-    f.Mbox(nomeProgramma, messaggioErroreBloccante, 1)
+    #f.Mbox(nomeProgramma, messaggioErroreBloccante, 1)
