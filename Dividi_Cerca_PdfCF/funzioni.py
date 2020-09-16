@@ -2,13 +2,15 @@ import PyPDF2
 import ctypes
 import os
 from codicefiscale import isvalid
+import sys
+import pandas as pd
 
 def isCodiceFiscale(parola):
     """Data in input una stringa, viene analizzata la composizione della stringa per determinare se è un codice fiscale o meno.
     Ritorna True in caso sia un codice fiscale, False altrimenti. """
     trovato = False,parola
     if len(parola) > 16:
-        
+
         trovato = isCodiceFiscale(parola[0:16])
         if trovato[0]:
             return True,parola[0:16]
@@ -75,9 +77,7 @@ def PDF_unisci(nome_pdf1, nome_pdf2, directorySalvataggio):
 
     except Exception as errorePdf:
         #print("unisci Ok error")
-        #Mbox(nomeProgramma,"Ci sono errori durante la lettura del PDF: " + nome_pdf1 + ".pdf\nIl programma verrà interrotto.Si ricorda di inerire il nome correttamente.", 1)
         logOperazioni("\t\t\tErrore PDF: " + str(errorePdf) + "\n")
-        #sys.exit()
 
 def creaCartelle(nomi_cartelle):
     """Dato in input un array di stringe, creerà delle cartelle con le relative stringhe.
@@ -87,20 +87,48 @@ def creaCartelle(nomi_cartelle):
             try:
                 os.mkdir(directory)
                 logOperazioni("Cartella " + directory + " creata.\n")
-            except OSError:
-                logOperazioni("\t\t\tErrore nel creare la cartella " + directory + ", probabilmente esiste già.\n")
+            except OSError as erroreCartella:
+                logOperazioni("\tERRORE nel creare la cartella --> " + str(erroreCartella) + "\n")
     else:
         try:
             os.mkdir(nomi_cartelle)
             logOperazioni("Cartella " + nomi_cartelle + " creata.\n")
         except OSError:
-            logOperazioni("\t\t\tErrore nel creare la cartella " + nomi_cartelle + ", probabilmente esiste già.\n")
+            logOperazioni("\tERRORE nel creare la cartella " + nomi_cartelle + ", probabilmente esiste già.\n")
 
 def logOperazioni(log):
     """Scrittura dei log su apposito file"""
     fileLog = open("Log.txt", "a")
     fileLog.write(log)
     fileLog.close()
+
+def leggiPDF(nomePDF):
+    """Esegue le procedure per utilizzare al meglio la libreria PyPDF2
+    Il parametro in input è il nome del pdf senza l'estensione .pdf
+    Ritornerà 3 dati (sottoforma di tupla):
+    PdfFileObj
+    PdfReader
+    Numero delle pagine del PDF letto"""
+    #Lettura PDF
+    try:
+        pdfFileObj = open(nomePDF+".pdf", 'rb')
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        numPagine = pdfReader.numPages
+        logOperazioni("Ho letto il PDF: " + nomePDF + ".pdf --> Ha " + str(numPagine) + " pagine.\n")
+        return pdfFileObj,pdfReader,numPagine
+    except Exception as errorePdf:
+        logOperazioni("\tERRORE PDF: " + str(errorePdf) + "\n")
+        sys.exit()
+
+def leggiExcel(nomeExcel):
+    #Lettura Excel
+    try:
+        excelReader = pd.read_excel('%s.xlsx' %nomeExcel)
+        logOperazioni("Ho letto l'excel: " + nomeExcelF + ".xls\n")
+        return excelReader
+    except Exception as erroreExcel:
+        logOperazioni("\tERRORE EXCEL: " + str(erroreExcel) + "\n")
+        #sys.exit()
 
 def Mbox(title, text, style):
     """Messaggi Pop-up"""
