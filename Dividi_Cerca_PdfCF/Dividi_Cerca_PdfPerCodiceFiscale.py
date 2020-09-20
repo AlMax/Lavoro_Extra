@@ -25,7 +25,7 @@ try:
 
     colonnaExcel = 'cercare'
     pdf_da_trovare = []
-    divisioniPagine = ""
+    #divisioniPagine = ""
     codiciFiscaliUtilizzati = []
     indici_codiciFiscaliUTilizzati = []
 
@@ -98,11 +98,11 @@ try:
         else:
             f.logOperazioni(" --> NON era presente nell'Excel\n")
         #Stringa riepilogativa delle divisioni fatte
-        divisioniPagine += "Codice Fiscale della pagina " + str(i+1) + " --> " + codiceFiscaleStampa + "\n"
+        #divisioniPagine += "Codice Fiscale della pagina " + str(i+1) + " --> " + codiceFiscaleStampa + "\n"
 
     # Mostro una Form con le divisioni delle pagine fatte
-    numPagineOut = "Numero di pagine divise: " + str(numPagine) + "\n"
-    divisioniPagine += "\n\nOperazione conclusa.\nGrazie mille e Buon lavoro."
+    #numPagineOut = "Numero di pagine divise: " + str(numPagine) + "\n"
+    #divisioniPagine += "\n\nOperazione conclusa.\nGrazie mille e Buon lavoro."
     #f.Mbox(nomeProgramma, numPagineOut + divisioniPagine, 1)
 
     f.logOperazioni("\tInizializzazione unione cedolini dello stesso Dipendente\n")
