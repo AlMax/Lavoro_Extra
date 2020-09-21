@@ -23,7 +23,7 @@ try:
         f.logOperazioni("Scorrere in basso per avere i log piu' recenti.\nI Log vengono registrati ogni volta che viene lanciato il programma.")
     f.logOperazioni("\n\nI seguenti Log fanno riferimento al giorno " + today + " alle ore " + now + "\n")
 
-    colonnaExcel = 'cercare'
+    #colonnaExcel = 'cercare'
     pdf_da_trovare = []
     #divisioniPagine = ""
     codiciFiscaliUtilizzati = []
@@ -39,15 +39,16 @@ try:
 
 
     #Lettura PDF
-    #nomePDF = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome del file PDF senza l'estensione.\nEsempio: se il file si chiama 'test.pdf', basterà inserire 'test'")ni("\t\t\tErrore PDF: " + str(errorePdf) + "\n")
-    oggettoPDF = f.leggiPDF("cedolini")
+    nomePDF = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome del file PDF senza l'estensione.\nEsempio: se il file si chiama 'test.pdf', basterà inserire 'test'")
+    oggettoPDF = f.leggiPDF(nomePDF)
     pdfFileObj = oggettoPDF[0]
     lettorePDF = oggettoPDF[1]
     numPagine = oggettoPDF[2]
 
     #Lettura Excel
-    #nomeExcel = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome del file xlsx senza l'estensione.\nEsempio: se il file si chiama 'test.xlsx', basterà inserire 'test'")
-    f.leggiExcel_colonna(f.leggiExcel("CF"), colonnaExcel, pdf_da_trovare)
+    nomeExcel = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome del file xlsx senza l'estensione.\nEsempio: se il file si chiama 'test.xlsx', basterà inserire 'test'")
+    colonnaExcel = simpledialog.askstring(title=nomeProgramma, prompt="Inserire il nome della colonna dell'excel che contiene i Codici Fiscali da trovare.")
+    f.leggiExcel_colonna(f.leggiExcel(nomeExcel), colonnaExcel, pdf_da_trovare)
 
     #Creazione Cartelle
     f.creaCartelle(cartelleSalvataggio)
@@ -117,8 +118,9 @@ try:
             f.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[0])
             f.logOperazioni("\t\tHo unito il PDF: " + codiceFiscalePresente + " con il PDF: " + codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]) + "\n")
         #print(codiciFiscaliUtilizzati)
-    print("Operazioni concluse. Consultare il file Log.txt per i dettagli")
-    f.logOperazioni("Operazioni concluse")
+    print("Operazioni concluse.")
+    f.Mbox(nomeProgramma, "Operazioni concluse. Consultare il file Log.txt per i dettagli", 1)
+    f.logOperazioni("Operazioni concluse.")
     #f.logOperazioni("\t" + str(codiciFiscaliUtilizzati) + "\n")
     # Chiudo l'oggetto file
     pdfFileObj.close()
@@ -126,4 +128,4 @@ try:
 except Exception as erroreBloccante:
     messaggioErroreBloccante = "Il programma non riesce a partire a causa di un errore.\n\nIn caso non funzioni ancora, contattarmi alla mail ali.haider.maqsood@maw.it\n\nL'errore è:\n" + str(erroreBloccante)
     f.logOperazioni("\tERRORE Generico: " + str(erroreBloccante))
-    #f.Mbox(nomeProgramma, messaggioErroreBloccante, 1)
+    f.Mbox(nomeProgramma, messaggioErroreBloccante, 1)

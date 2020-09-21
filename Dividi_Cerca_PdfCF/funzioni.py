@@ -144,6 +144,6 @@ def leggiExcel_colonna(excelReader, nome_colonnaExcel, pdf_da_trovare):
     except Exception as erroreCellaExcel:
         logOperazioni("\tERRORE lettura celle Excel: " + str(erroreCellaExcel) + "\n")
 
-#def Mbox(title, text, style):
-#    """Messaggi Pop-up"""
-#    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+def Mbox(title, text, style):
+    """Messaggi Pop-up"""
+    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
