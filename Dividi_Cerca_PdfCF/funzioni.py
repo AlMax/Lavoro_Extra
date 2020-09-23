@@ -111,20 +111,20 @@ def leggiPDF(nomePDF):
     Numero delle pagine del PDF letto"""
     #Lettura PDF
     try:
-        pdfFileObj = open(nomePDF+".pdf", 'rb')
+        pdfFileObj = open(nomePDF, 'rb')
         pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
         numPagine = pdfReader.numPages
-        logOperazioni("Ho letto il PDF: " + nomePDF + ".pdf --> Ha " + str(numPagine) + " pagine.\n")
+        logOperazioni("Ho letto il PDF: " + nomePDF + " --> Ha " + str(numPagine) + " pagine.\n")
         return pdfFileObj,pdfReader,numPagine
     except Exception as errorePdf:
         logOperazioni("\tERRORE PDF: " + str(errorePdf) + "\n")
-        sys.exit()
+        #sys.exit()
 
 def leggiExcel(nomeExcel):
     #Lettura Excel
     try:
-        excelReader = pd.read_excel('%s.xlsx' %nomeExcel)
-        logOperazioni("Ho letto l'excel: " + nomeExcel + ".xls\n")
+        excelReader = pd.read_excel(nomeExcel)
+        logOperazioni("Ho letto l'excel: " + nomeExcel + "\n")
         return excelReader
     except Exception as erroreExcel:
         logOperazioni("\tERRORE EXCEL: " + str(erroreExcel) + "\n")
@@ -135,10 +135,6 @@ def leggiExcel_colonna(excelReader, nome_colonnaExcel, pdf_da_trovare):
         logOperazioni("\tDall'excel, tento di leggere la colonna '" + nome_colonnaExcel + "'\n")
         for indice,valore in excelReader[nome_colonnaExcel].iteritems():
             pdf_name = excelReader[nome_colonnaExcel][indice] #itero le singole celle
-
-            if(pdf_name[-4:] != ".pdf"):
-                pdf_name += ".pdf" #Mi assicuro che i nomi del file siano corretti
-
             pdf_da_trovare.append(pdf_name) #Aggiungo il nome del pdf alla lista dei pdf da trovare
             logOperazioni("\t\tAlla cella " + str(indice+1) + " ho letto il valore --> " + pdf_name + "\n")
     except Exception as erroreCellaExcel:
