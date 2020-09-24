@@ -557,3 +557,6 @@ Cartella Cedolini_Trovati_23-09-2020_17.40.25 creata.
 		Alla pagina 37 ho trovato il codice fiscale BRDCST74E28Z129A.pdf --> NON era presente nell'Excel
 		Alla pagina 38 ho trovato il codice fiscale BSSSSD74P18Z240M.pdf --> NON era presente nell'Excel
 	Inizializzazione unione cedolini dello stesso Dipendente
+
+
+I seguenti Log fanno riferimento al giorno 24-09-2020 alle ore 09.27.07

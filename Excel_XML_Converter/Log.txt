@@ -1,0 +1,2740 @@
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'annoRiferimento'
+	ERRORE lettura celle Excel: 'annoRiferimento'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'meseRiferimento'
+	ERRORE lettura celle Excel: 'meseRiferimento'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'codiceFiscale'
+	ERRORE lettura celle Excel: 'codiceFiscale'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'cognome'
+	ERRORE lettura celle Excel: 'cognome'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'nome'
+	ERRORE lettura celle Excel: 'nome'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'tipologiaContratto'
+	ERRORE lettura celle Excel: 'tipologiaContratto'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'sgraviAliquotaContributivaPrevidenziale'
+	ERRORE lettura celle Excel: 'sgraviAliquotaContributivaPrevidenziale'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'retribuzioneMensileLorda'
+	ERRORE lettura celle Excel: 'retribuzioneMensileLorda'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'retribuzioneTisRiconosciuta'
+	ERRORE lettura celle Excel: 'retribuzioneTisRiconosciuta'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'contribuzioneTisRiconosciuta'
+	ERRORE lettura celle Excel: 'contribuzioneTisRiconosciuta'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'quotaRateiMensilitaAggiuntive'
+	ERRORE lettura celle Excel: 'quotaRateiMensilitaAggiuntive'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'quotaRateiRolPermessiFerie'
+	ERRORE lettura celle Excel: 'quotaRateiRolPermessiFerie'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'totaleOreTisRiconosciute'
+	ERRORE lettura celle Excel: 'totaleOreTisRiconosciute'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'lavoratoreAlleDipendenze25Marzo'
+	ERRORE lettura celle Excel: 'lavoratoreAlleDipendenze25Marzo'
+
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+		Alla cella 1 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+		Alla cella 2 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+		Alla cella 1 ho letto il valore --> ART COSMETICS SRL 
+		Alla cella 2 ho letto il valore --> CANZIAN SRL COSTRUZIONI MECCANICHE 
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+		Alla cella 1 ho letto il valore --> 20.42.00
+		Alla cella 2 ho letto il valore --> 28.93.00
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+		Alla cella 1 ho letto il valore --> F786
+		Alla cella 2 ho letto il valore --> G337
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+		Alla cella 1 ho letto il valore --> NE
+		Alla cella 2 ho letto il valore --> NE
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'autocertificazioneSettimane'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'note'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.float64") to str
+
+	
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+		Alla cella 1 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+		Alla cella 2 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+		Alla cella 1 ho letto il valore --> ART COSMETICS SRL 
+		Alla cella 2 ho letto il valore --> CANZIAN SRL COSTRUZIONI MECCANICHE 
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+		Alla cella 1 ho letto il valore --> 20.42.00
+		Alla cella 2 ho letto il valore --> 28.93.00
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+		Alla cella 1 ho letto il valore --> F786
+		Alla cella 2 ho letto il valore --> G337
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.int64") to str
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+		Alla cella 1 ho letto il valore --> NE
+		Alla cella 2 ho letto il valore --> NE
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'autocertificazioneSettimane'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'note'
+	ERRORE lettura celle Excel: can only concatenate str (not "numpy.float64") to str
+
+
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+		Alla cella 1 ho letto il valore --> 1
+		Alla cella 2 ho letto il valore --> 2
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+		Alla cella 1 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+		Alla cella 2 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+		Alla cella 1 ho letto il valore --> ART COSMETICS SRL 
+		Alla cella 2 ho letto il valore --> CANZIAN SRL COSTRUZIONI MECCANICHE 
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+		Alla cella 1 ho letto il valore --> 2027370168
+		Alla cella 2 ho letto il valore --> 2229370347
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+		Alla cella 1 ho letto il valore --> 1205425605
+		Alla cella 2 ho letto il valore --> 5604140367
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+		Alla cella 1 ho letto il valore --> 20.42.00
+		Alla cella 2 ho letto il valore --> 28.93.00
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+		Alla cella 1 ho letto il valore --> F786
+		Alla cella 2 ho letto il valore --> G337
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+		Alla cella 1 ho letto il valore --> 1
+		Alla cella 2 ho letto il valore --> 1
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+		Alla cella 1 ho letto il valore --> NE
+		Alla cella 2 ho letto il valore --> NE
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'autocertificazioneSettimane'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'note'
+		Alla cella 1 ho letto il valore --> nan
+		Alla cella 2 ho letto il valore --> nan
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'note'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'note'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+	ERRORE EXCEL: read_excel() got an unexpected keyword argument 'sheet'
+	Dall'excel, tento di leggere la colonna 'note'
+	ERRORE lettura celle Excel: 'NoneType' object is not subscriptable
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+		Alla cella 1 ho letto il valore --> 1
+		Alla cella 2 ho letto il valore --> 2
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+		Alla cella 1 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+		Alla cella 2 ho letto il valore --> MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+		Alla cella 1 ho letto il valore --> ART COSMETICS SRL 
+		Alla cella 2 ho letto il valore --> CANZIAN SRL COSTRUZIONI MECCANICHE 
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+		Alla cella 1 ho letto il valore --> 2027370168
+		Alla cella 2 ho letto il valore --> 2229370347
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+		Alla cella 1 ho letto il valore --> 1205425605
+		Alla cella 2 ho letto il valore --> 5604140367
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+		Alla cella 1 ho letto il valore --> 20.42.00
+		Alla cella 2 ho letto il valore --> 28.93.00
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+		Alla cella 1 ho letto il valore --> F786
+		Alla cella 2 ho letto il valore --> G337
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+		Alla cella 1 ho letto il valore --> 1
+		Alla cella 2 ho letto il valore --> 1
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+		Alla cella 1 ho letto il valore --> NE
+		Alla cella 2 ho letto il valore --> NE
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'autocertificazioneSettimane'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'note'
+		Alla cella 1 ho letto il valore --> nan
+		Alla cella 2 ho letto il valore --> nan
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'identificativoPratica'
+		Alla cella 1 ho letto il valore --> 1
+		Alla cella 2 ho letto il valore --> 1
+		Alla cella 3 ho letto il valore --> 1
+		Alla cella 4 ho letto il valore --> 1
+		Alla cella 5 ho letto il valore --> 1
+		Alla cella 6 ho letto il valore --> 1
+		Alla cella 7 ho letto il valore --> 1
+		Alla cella 8 ho letto il valore --> 1
+		Alla cella 9 ho letto il valore --> 1
+		Alla cella 10 ho letto il valore --> 1
+		Alla cella 11 ho letto il valore --> 1
+		Alla cella 12 ho letto il valore --> 1
+		Alla cella 13 ho letto il valore --> 1
+		Alla cella 14 ho letto il valore --> 1
+		Alla cella 15 ho letto il valore --> 1
+		Alla cella 16 ho letto il valore --> 1
+		Alla cella 17 ho letto il valore --> 1
+		Alla cella 18 ho letto il valore --> 1
+		Alla cella 19 ho letto il valore --> 1
+		Alla cella 20 ho letto il valore --> 1
+		Alla cella 21 ho letto il valore --> 1
+		Alla cella 22 ho letto il valore --> 1
+		Alla cella 23 ho letto il valore --> 1
+		Alla cella 24 ho letto il valore --> 1
+		Alla cella 25 ho letto il valore --> 1
+		Alla cella 26 ho letto il valore --> 1
+		Alla cella 27 ho letto il valore --> 1
+		Alla cella 28 ho letto il valore --> 1
+		Alla cella 29 ho letto il valore --> 1
+		Alla cella 30 ho letto il valore --> 1
+		Alla cella 31 ho letto il valore --> 1
+		Alla cella 32 ho letto il valore --> 1
+		Alla cella 33 ho letto il valore --> 1
+		Alla cella 34 ho letto il valore --> 1
+		Alla cella 35 ho letto il valore --> 1
+		Alla cella 36 ho letto il valore --> 1
+		Alla cella 37 ho letto il valore --> 1
+		Alla cella 38 ho letto il valore --> 1
+		Alla cella 39 ho letto il valore --> 1
+		Alla cella 40 ho letto il valore --> 1
+		Alla cella 41 ho letto il valore --> 1
+		Alla cella 42 ho letto il valore --> 1
+		Alla cella 43 ho letto il valore --> 1
+		Alla cella 44 ho letto il valore --> 1
+		Alla cella 45 ho letto il valore --> 1
+		Alla cella 46 ho letto il valore --> 1
+		Alla cella 47 ho letto il valore --> 1
+		Alla cella 48 ho letto il valore --> 1
+		Alla cella 49 ho letto il valore --> 1
+		Alla cella 50 ho letto il valore --> 1
+		Alla cella 51 ho letto il valore --> 1
+		Alla cella 52 ho letto il valore --> 1
+		Alla cella 53 ho letto il valore --> 1
+		Alla cella 54 ho letto il valore --> 1
+		Alla cella 55 ho letto il valore --> 1
+		Alla cella 56 ho letto il valore --> 1
+		Alla cella 57 ho letto il valore --> 1
+		Alla cella 58 ho letto il valore --> 1
+		Alla cella 59 ho letto il valore --> 1
+		Alla cella 60 ho letto il valore --> 1
+		Alla cella 61 ho letto il valore --> 1
+		Alla cella 62 ho letto il valore --> 1
+		Alla cella 63 ho letto il valore --> 1
+		Alla cella 64 ho letto il valore --> 1
+		Alla cella 65 ho letto il valore --> 1
+		Alla cella 66 ho letto il valore --> 1
+		Alla cella 67 ho letto il valore --> 1
+		Alla cella 68 ho letto il valore --> 1
+		Alla cella 69 ho letto il valore --> 1
+		Alla cella 70 ho letto il valore --> 1
+		Alla cella 71 ho letto il valore --> 1
+		Alla cella 72 ho letto il valore --> 1
+		Alla cella 73 ho letto il valore --> 1
+		Alla cella 74 ho letto il valore --> 1
+		Alla cella 75 ho letto il valore --> 1
+		Alla cella 76 ho letto il valore --> 1
+		Alla cella 77 ho letto il valore --> 1
+		Alla cella 78 ho letto il valore --> 1
+		Alla cella 79 ho letto il valore --> 1
+		Alla cella 80 ho letto il valore --> 1
+		Alla cella 81 ho letto il valore --> 1
+		Alla cella 82 ho letto il valore --> 1
+		Alla cella 83 ho letto il valore --> 1
+		Alla cella 84 ho letto il valore --> 1
+		Alla cella 85 ho letto il valore --> 1
+		Alla cella 86 ho letto il valore --> 1
+		Alla cella 87 ho letto il valore --> 1
+		Alla cella 88 ho letto il valore --> 1
+		Alla cella 89 ho letto il valore --> 1
+		Alla cella 90 ho letto il valore --> 1
+		Alla cella 91 ho letto il valore --> 1
+		Alla cella 92 ho letto il valore --> 1
+		Alla cella 93 ho letto il valore --> 1
+		Alla cella 94 ho letto il valore --> 1
+		Alla cella 95 ho letto il valore --> 1
+		Alla cella 96 ho letto il valore --> 1
+		Alla cella 97 ho letto il valore --> 1
+		Alla cella 98 ho letto il valore --> 1
+		Alla cella 99 ho letto il valore --> 1
+		Alla cella 100 ho letto il valore --> 1
+		Alla cella 101 ho letto il valore --> 1
+		Alla cella 102 ho letto il valore --> 1
+		Alla cella 103 ho letto il valore --> 1
+		Alla cella 104 ho letto il valore --> 1
+		Alla cella 105 ho letto il valore --> 1
+		Alla cella 106 ho letto il valore --> 1
+		Alla cella 107 ho letto il valore --> 1
+		Alla cella 108 ho letto il valore --> 1
+		Alla cella 109 ho letto il valore --> 1
+		Alla cella 110 ho letto il valore --> 1
+		Alla cella 111 ho letto il valore --> 1
+		Alla cella 112 ho letto il valore --> 1
+		Alla cella 113 ho letto il valore --> 1
+		Alla cella 114 ho letto il valore --> 1
+		Alla cella 115 ho letto il valore --> 1
+		Alla cella 116 ho letto il valore --> 1
+		Alla cella 117 ho letto il valore --> 1
+		Alla cella 118 ho letto il valore --> 1
+		Alla cella 119 ho letto il valore --> 1
+		Alla cella 120 ho letto il valore --> 1
+		Alla cella 121 ho letto il valore --> 1
+		Alla cella 122 ho letto il valore --> 1
+		Alla cella 123 ho letto il valore --> 1
+		Alla cella 124 ho letto il valore --> 1
+		Alla cella 125 ho letto il valore --> 1
+		Alla cella 126 ho letto il valore --> 1
+		Alla cella 127 ho letto il valore --> 1
+		Alla cella 128 ho letto il valore --> 1
+		Alla cella 129 ho letto il valore --> 1
+		Alla cella 130 ho letto il valore --> 1
+		Alla cella 131 ho letto il valore --> 1
+		Alla cella 132 ho letto il valore --> 1
+		Alla cella 133 ho letto il valore --> 1
+		Alla cella 134 ho letto il valore --> 1
+		Alla cella 135 ho letto il valore --> 2
+		Alla cella 136 ho letto il valore --> 2
+		Alla cella 137 ho letto il valore --> 2
+		Alla cella 138 ho letto il valore --> 2
+		Alla cella 139 ho letto il valore --> 2
+		Alla cella 140 ho letto il valore --> 2
+		Alla cella 141 ho letto il valore --> 2
+		Alla cella 142 ho letto il valore --> 2
+		Alla cella 143 ho letto il valore --> 2
+		Alla cella 144 ho letto il valore --> 2
+		Alla cella 145 ho letto il valore --> 2
+		Alla cella 146 ho letto il valore --> 2
+		Alla cella 147 ho letto il valore --> 2
+		Alla cella 148 ho letto il valore --> 2
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'denominazioneAPL'
+	ERRORE lettura celle Excel: 'denominazioneAPL'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'ragioneSocialeUtilizzatore'
+	ERRORE lettura celle Excel: 'ragioneSocialeUtilizzatore'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'partitaIvaUtilizzatore'
+	ERRORE lettura celle Excel: 'partitaIvaUtilizzatore'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'matricolaInpsUtilizzatore'
+	ERRORE lettura celle Excel: 'matricolaInpsUtilizzatore'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'codiceAtecoUtilizzatore'
+	ERRORE lettura celle Excel: 'codiceAtecoUtilizzatore'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'sedeUnitaProduttiva'
+	ERRORE lettura celle Excel: 'sedeUnitaProduttiva'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'mensilitaAggiuntive'
+	ERRORE lettura celle Excel: 'mensilitaAggiuntive'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'settoreRiferimento'
+	ERRORE lettura celle Excel: 'settoreRiferimento'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'autocertificazioneSettimane'
+	ERRORE lettura celle Excel: 'autocertificazioneSettimane'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'note'
+	ERRORE lettura celle Excel: 'note'
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'annoRiferimento'
+		Alla cella 1 ho letto il valore --> 2020
+		Alla cella 2 ho letto il valore --> 2020
+		Alla cella 3 ho letto il valore --> 2020
+		Alla cella 4 ho letto il valore --> 2020
+		Alla cella 5 ho letto il valore --> 2020
+		Alla cella 6 ho letto il valore --> 2020
+		Alla cella 7 ho letto il valore --> 2020
+		Alla cella 8 ho letto il valore --> 2020
+		Alla cella 9 ho letto il valore --> 2020
+		Alla cella 10 ho letto il valore --> 2020
+		Alla cella 11 ho letto il valore --> 2020
+		Alla cella 12 ho letto il valore --> 2020
+		Alla cella 13 ho letto il valore --> 2020
+		Alla cella 14 ho letto il valore --> 2020
+		Alla cella 15 ho letto il valore --> 2020
+		Alla cella 16 ho letto il valore --> 2020
+		Alla cella 17 ho letto il valore --> 2020
+		Alla cella 18 ho letto il valore --> 2020
+		Alla cella 19 ho letto il valore --> 2020
+		Alla cella 20 ho letto il valore --> 2020
+		Alla cella 21 ho letto il valore --> 2020
+		Alla cella 22 ho letto il valore --> 2020
+		Alla cella 23 ho letto il valore --> 2020
+		Alla cella 24 ho letto il valore --> 2020
+		Alla cella 25 ho letto il valore --> 2020
+		Alla cella 26 ho letto il valore --> 2020
+		Alla cella 27 ho letto il valore --> 2020
+		Alla cella 28 ho letto il valore --> 2020
+		Alla cella 29 ho letto il valore --> 2020
+		Alla cella 30 ho letto il valore --> 2020
+		Alla cella 31 ho letto il valore --> 2020
+		Alla cella 32 ho letto il valore --> 2020
+		Alla cella 33 ho letto il valore --> 2020
+		Alla cella 34 ho letto il valore --> 2020
+		Alla cella 35 ho letto il valore --> 2020
+		Alla cella 36 ho letto il valore --> 2020
+		Alla cella 37 ho letto il valore --> 2020
+		Alla cella 38 ho letto il valore --> 2020
+		Alla cella 39 ho letto il valore --> 2020
+		Alla cella 40 ho letto il valore --> 2020
+		Alla cella 41 ho letto il valore --> 2020
+		Alla cella 42 ho letto il valore --> 2020
+		Alla cella 43 ho letto il valore --> 2020
+		Alla cella 44 ho letto il valore --> 2020
+		Alla cella 45 ho letto il valore --> 2020
+		Alla cella 46 ho letto il valore --> 2020
+		Alla cella 47 ho letto il valore --> 2020
+		Alla cella 48 ho letto il valore --> 2020
+		Alla cella 49 ho letto il valore --> 2020
+		Alla cella 50 ho letto il valore --> 2020
+		Alla cella 51 ho letto il valore --> 2020
+		Alla cella 52 ho letto il valore --> 2020
+		Alla cella 53 ho letto il valore --> 2020
+		Alla cella 54 ho letto il valore --> 2020
+		Alla cella 55 ho letto il valore --> 2020
+		Alla cella 56 ho letto il valore --> 2020
+		Alla cella 57 ho letto il valore --> 2020
+		Alla cella 58 ho letto il valore --> 2020
+		Alla cella 59 ho letto il valore --> 2020
+		Alla cella 60 ho letto il valore --> 2020
+		Alla cella 61 ho letto il valore --> 2020
+		Alla cella 62 ho letto il valore --> 2020
+		Alla cella 63 ho letto il valore --> 2020
+		Alla cella 64 ho letto il valore --> 2020
+		Alla cella 65 ho letto il valore --> 2020
+		Alla cella 66 ho letto il valore --> 2020
+		Alla cella 67 ho letto il valore --> 2020
+		Alla cella 68 ho letto il valore --> 2020
+		Alla cella 69 ho letto il valore --> 2020
+		Alla cella 70 ho letto il valore --> 2020
+		Alla cella 71 ho letto il valore --> 2020
+		Alla cella 72 ho letto il valore --> 2020
+		Alla cella 73 ho letto il valore --> 2020
+		Alla cella 74 ho letto il valore --> 2020
+		Alla cella 75 ho letto il valore --> 2020
+		Alla cella 76 ho letto il valore --> 2020
+		Alla cella 77 ho letto il valore --> 2020
+		Alla cella 78 ho letto il valore --> 2020
+		Alla cella 79 ho letto il valore --> 2020
+		Alla cella 80 ho letto il valore --> 2020
+		Alla cella 81 ho letto il valore --> 2020
+		Alla cella 82 ho letto il valore --> 2020
+		Alla cella 83 ho letto il valore --> 2020
+		Alla cella 84 ho letto il valore --> 2020
+		Alla cella 85 ho letto il valore --> 2020
+		Alla cella 86 ho letto il valore --> 2020
+		Alla cella 87 ho letto il valore --> 2020
+		Alla cella 88 ho letto il valore --> 2020
+		Alla cella 89 ho letto il valore --> 2020
+		Alla cella 90 ho letto il valore --> 2020
+		Alla cella 91 ho letto il valore --> 2020
+		Alla cella 92 ho letto il valore --> 2020
+		Alla cella 93 ho letto il valore --> 2020
+		Alla cella 94 ho letto il valore --> 2020
+		Alla cella 95 ho letto il valore --> 2020
+		Alla cella 96 ho letto il valore --> 2020
+		Alla cella 97 ho letto il valore --> 2020
+		Alla cella 98 ho letto il valore --> 2020
+		Alla cella 99 ho letto il valore --> 2020
+		Alla cella 100 ho letto il valore --> 2020
+		Alla cella 101 ho letto il valore --> 2020
+		Alla cella 102 ho letto il valore --> 2020
+		Alla cella 103 ho letto il valore --> 2020
+		Alla cella 104 ho letto il valore --> 2020
+		Alla cella 105 ho letto il valore --> 2020
+		Alla cella 106 ho letto il valore --> 2020
+		Alla cella 107 ho letto il valore --> 2020
+		Alla cella 108 ho letto il valore --> 2020
+		Alla cella 109 ho letto il valore --> 2020
+		Alla cella 110 ho letto il valore --> 2020
+		Alla cella 111 ho letto il valore --> 2020
+		Alla cella 112 ho letto il valore --> 2020
+		Alla cella 113 ho letto il valore --> 2020
+		Alla cella 114 ho letto il valore --> 2020
+		Alla cella 115 ho letto il valore --> 2020
+		Alla cella 116 ho letto il valore --> 2020
+		Alla cella 117 ho letto il valore --> 2020
+		Alla cella 118 ho letto il valore --> 2020
+		Alla cella 119 ho letto il valore --> 2020
+		Alla cella 120 ho letto il valore --> 2020
+		Alla cella 121 ho letto il valore --> 2020
+		Alla cella 122 ho letto il valore --> 2020
+		Alla cella 123 ho letto il valore --> 2020
+		Alla cella 124 ho letto il valore --> 2020
+		Alla cella 125 ho letto il valore --> 2020
+		Alla cella 126 ho letto il valore --> 2020
+		Alla cella 127 ho letto il valore --> 2020
+		Alla cella 128 ho letto il valore --> 2020
+		Alla cella 129 ho letto il valore --> 2020
+		Alla cella 130 ho letto il valore --> 2020
+		Alla cella 131 ho letto il valore --> 2020
+		Alla cella 132 ho letto il valore --> 2020
+		Alla cella 133 ho letto il valore --> 2020
+		Alla cella 134 ho letto il valore --> 2020
+		Alla cella 135 ho letto il valore --> 2020
+		Alla cella 136 ho letto il valore --> 2020
+		Alla cella 137 ho letto il valore --> 2020
+		Alla cella 138 ho letto il valore --> 2020
+		Alla cella 139 ho letto il valore --> 2020
+		Alla cella 140 ho letto il valore --> 2020
+		Alla cella 141 ho letto il valore --> 2020
+		Alla cella 142 ho letto il valore --> 2020
+		Alla cella 143 ho letto il valore --> 2020
+		Alla cella 144 ho letto il valore --> 2020
+		Alla cella 145 ho letto il valore --> 2020
+		Alla cella 146 ho letto il valore --> 2020
+		Alla cella 147 ho letto il valore --> 2020
+		Alla cella 148 ho letto il valore --> 2020
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'meseRiferimento'
+		Alla cella 1 ho letto il valore --> 3
+		Alla cella 2 ho letto il valore --> 3
+		Alla cella 3 ho letto il valore --> 3
+		Alla cella 4 ho letto il valore --> 3
+		Alla cella 5 ho letto il valore --> 3
+		Alla cella 6 ho letto il valore --> 3
+		Alla cella 7 ho letto il valore --> 3
+		Alla cella 8 ho letto il valore --> 3
+		Alla cella 9 ho letto il valore --> 3
+		Alla cella 10 ho letto il valore --> 3
+		Alla cella 11 ho letto il valore --> 3
+		Alla cella 12 ho letto il valore --> 3
+		Alla cella 13 ho letto il valore --> 3
+		Alla cella 14 ho letto il valore --> 3
+		Alla cella 15 ho letto il valore --> 3
+		Alla cella 16 ho letto il valore --> 3
+		Alla cella 17 ho letto il valore --> 3
+		Alla cella 18 ho letto il valore --> 3
+		Alla cella 19 ho letto il valore --> 3
+		Alla cella 20 ho letto il valore --> 3
+		Alla cella 21 ho letto il valore --> 3
+		Alla cella 22 ho letto il valore --> 3
+		Alla cella 23 ho letto il valore --> 3
+		Alla cella 24 ho letto il valore --> 3
+		Alla cella 25 ho letto il valore --> 3
+		Alla cella 26 ho letto il valore --> 3
+		Alla cella 27 ho letto il valore --> 3
+		Alla cella 28 ho letto il valore --> 3
+		Alla cella 29 ho letto il valore --> 3
+		Alla cella 30 ho letto il valore --> 3
+		Alla cella 31 ho letto il valore --> 3
+		Alla cella 32 ho letto il valore --> 3
+		Alla cella 33 ho letto il valore --> 3
+		Alla cella 34 ho letto il valore --> 3
+		Alla cella 35 ho letto il valore --> 3
+		Alla cella 36 ho letto il valore --> 3
+		Alla cella 37 ho letto il valore --> 3
+		Alla cella 38 ho letto il valore --> 3
+		Alla cella 39 ho letto il valore --> 3
+		Alla cella 40 ho letto il valore --> 3
+		Alla cella 41 ho letto il valore --> 3
+		Alla cella 42 ho letto il valore --> 3
+		Alla cella 43 ho letto il valore --> 3
+		Alla cella 44 ho letto il valore --> 3
+		Alla cella 45 ho letto il valore --> 3
+		Alla cella 46 ho letto il valore --> 3
+		Alla cella 47 ho letto il valore --> 3
+		Alla cella 48 ho letto il valore --> 3
+		Alla cella 49 ho letto il valore --> 3
+		Alla cella 50 ho letto il valore --> 3
+		Alla cella 51 ho letto il valore --> 3
+		Alla cella 52 ho letto il valore --> 3
+		Alla cella 53 ho letto il valore --> 3
+		Alla cella 54 ho letto il valore --> 3
+		Alla cella 55 ho letto il valore --> 3
+		Alla cella 56 ho letto il valore --> 3
+		Alla cella 57 ho letto il valore --> 3
+		Alla cella 58 ho letto il valore --> 3
+		Alla cella 59 ho letto il valore --> 3
+		Alla cella 60 ho letto il valore --> 3
+		Alla cella 61 ho letto il valore --> 3
+		Alla cella 62 ho letto il valore --> 3
+		Alla cella 63 ho letto il valore --> 3
+		Alla cella 64 ho letto il valore --> 3
+		Alla cella 65 ho letto il valore --> 3
+		Alla cella 66 ho letto il valore --> 3
+		Alla cella 67 ho letto il valore --> 3
+		Alla cella 68 ho letto il valore --> 3
+		Alla cella 69 ho letto il valore --> 3
+		Alla cella 70 ho letto il valore --> 3
+		Alla cella 71 ho letto il valore --> 3
+		Alla cella 72 ho letto il valore --> 4
+		Alla cella 73 ho letto il valore --> 4
+		Alla cella 74 ho letto il valore --> 4
+		Alla cella 75 ho letto il valore --> 4
+		Alla cella 76 ho letto il valore --> 4
+		Alla cella 77 ho letto il valore --> 4
+		Alla cella 78 ho letto il valore --> 4
+		Alla cella 79 ho letto il valore --> 4
+		Alla cella 80 ho letto il valore --> 4
+		Alla cella 81 ho letto il valore --> 4
+		Alla cella 82 ho letto il valore --> 4
+		Alla cella 83 ho letto il valore --> 4
+		Alla cella 84 ho letto il valore --> 4
+		Alla cella 85 ho letto il valore --> 4
+		Alla cella 86 ho letto il valore --> 4
+		Alla cella 87 ho letto il valore --> 4
+		Alla cella 88 ho letto il valore --> 4
+		Alla cella 89 ho letto il valore --> 4
+		Alla cella 90 ho letto il valore --> 4
+		Alla cella 91 ho letto il valore --> 4
+		Alla cella 92 ho letto il valore --> 4
+		Alla cella 93 ho letto il valore --> 4
+		Alla cella 94 ho letto il valore --> 4
+		Alla cella 95 ho letto il valore --> 4
+		Alla cella 96 ho letto il valore --> 4
+		Alla cella 97 ho letto il valore --> 4
+		Alla cella 98 ho letto il valore --> 4
+		Alla cella 99 ho letto il valore --> 4
+		Alla cella 100 ho letto il valore --> 4
+		Alla cella 101 ho letto il valore --> 4
+		Alla cella 102 ho letto il valore --> 4
+		Alla cella 103 ho letto il valore --> 4
+		Alla cella 104 ho letto il valore --> 4
+		Alla cella 105 ho letto il valore --> 4
+		Alla cella 106 ho letto il valore --> 4
+		Alla cella 107 ho letto il valore --> 4
+		Alla cella 108 ho letto il valore --> 4
+		Alla cella 109 ho letto il valore --> 4
+		Alla cella 110 ho letto il valore --> 4
+		Alla cella 111 ho letto il valore --> 4
+		Alla cella 112 ho letto il valore --> 4
+		Alla cella 113 ho letto il valore --> 4
+		Alla cella 114 ho letto il valore --> 4
+		Alla cella 115 ho letto il valore --> 4
+		Alla cella 116 ho letto il valore --> 4
+		Alla cella 117 ho letto il valore --> 4
+		Alla cella 118 ho letto il valore --> 4
+		Alla cella 119 ho letto il valore --> 4
+		Alla cella 120 ho letto il valore --> 4
+		Alla cella 121 ho letto il valore --> 4
+		Alla cella 122 ho letto il valore --> 4
+		Alla cella 123 ho letto il valore --> 4
+		Alla cella 124 ho letto il valore --> 4
+		Alla cella 125 ho letto il valore --> 4
+		Alla cella 126 ho letto il valore --> 4
+		Alla cella 127 ho letto il valore --> 4
+		Alla cella 128 ho letto il valore --> 4
+		Alla cella 129 ho letto il valore --> 4
+		Alla cella 130 ho letto il valore --> 4
+		Alla cella 131 ho letto il valore --> 4
+		Alla cella 132 ho letto il valore --> 4
+		Alla cella 133 ho letto il valore --> 4
+		Alla cella 134 ho letto il valore --> 4
+		Alla cella 135 ho letto il valore --> 3
+		Alla cella 136 ho letto il valore --> 3
+		Alla cella 137 ho letto il valore --> 3
+		Alla cella 138 ho letto il valore --> 3
+		Alla cella 139 ho letto il valore --> 3
+		Alla cella 140 ho letto il valore --> 3
+		Alla cella 141 ho letto il valore --> 3
+		Alla cella 142 ho letto il valore --> 4
+		Alla cella 143 ho letto il valore --> 4
+		Alla cella 144 ho letto il valore --> 4
+		Alla cella 145 ho letto il valore --> 4
+		Alla cella 146 ho letto il valore --> 4
+		Alla cella 147 ho letto il valore --> 4
+		Alla cella 148 ho letto il valore --> 4
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'codiceFiscale'
+		Alla cella 1 ho letto il valore --> SLVNDA81L59E648P
+		Alla cella 2 ho letto il valore --> LBRTTE77P69Z100A
+		Alla cella 3 ho letto il valore --> SVNNNA71B64I233M
+		Alla cella 4 ho letto il valore --> NGRSNO79S44D142T
+		Alla cella 5 ho letto il valore --> BCSVRC88P68Z129S
+		Alla cella 6 ho letto il valore --> HLLRSR86P57Z129U
+		Alla cella 7 ho letto il valore --> KPJLTN89T23Z100X
+		Alla cella 8 ho letto il valore --> NVRMRC79E15D142C
+		Alla cella 9 ho letto il valore --> PRSGRL92H04L400X
+		Alla cella 10 ho letto il valore --> DMNMHL86P12Z325E
+		Alla cella 11 ho letto il valore --> LFWMWB92D41Z336U
+		Alla cella 12 ho letto il valore --> BTNNIO76S49Z129L
+		Alla cella 13 ho letto il valore --> VNLNMR72R53E648A
+		Alla cella 14 ho letto il valore --> NNZJQL79H62Z611V
+		Alla cella 15 ho letto il valore --> PTRLRA74E45G149X
+		Alla cella 16 ho letto il valore --> SVRRRT95R53L400W
+		Alla cella 17 ho letto il valore --> FSSJSC81P64L400V
+		Alla cella 18 ho letto il valore --> MCCMHL93A66L400C
+		Alla cella 19 ho letto il valore --> PRFNLJ79E48Z100N
+		Alla cella 20 ho letto il valore --> TMGSNG93B65Z129U
+		Alla cella 21 ho letto il valore --> GCJSLU85S48Z100J
+		Alla cella 22 ho letto il valore --> CSMDMR93T44Z129W
+		Alla cella 23 ho letto il valore --> BRZCNN86T67Z129D
+		Alla cella 24 ho letto il valore --> GSMGNN94P21L400L
+		Alla cella 25 ho letto il valore --> CCPNDR91D06D142Z
+		Alla cella 26 ho letto il valore --> MRNFLV68C19F119G
+		Alla cella 27 ho letto il valore --> PSTNNA93A63Z139Z
+		Alla cella 28 ho letto il valore --> BLCPDN81E26Z129P
+		Alla cella 29 ho letto il valore --> MDNLCU98A01L400Y
+		Alla cella 30 ho letto il valore --> MNNPML93L48L400L
+		Alla cella 31 ho letto il valore --> PRFGLE92M41Z100O
+		Alla cella 32 ho letto il valore --> MSSMLS71R63L400M
+		Alla cella 33 ho letto il valore --> PLAMTR56S51G233L
+		Alla cella 34 ho letto il valore --> SCRVLR98B63D142O
+		Alla cella 35 ho letto il valore --> PSIFNC82R48F839L
+		Alla cella 36 ho letto il valore --> SPNMLY94D65M102Z
+		Alla cella 37 ho letto il valore --> SPNZNA94D56Z100O
+		Alla cella 38 ho letto il valore --> PTTMRM99S55D150H
+		Alla cella 39 ho letto il valore --> NSPSMN78D57L400J
+		Alla cella 40 ho letto il valore --> NCRMNT93B64F912W
+		Alla cella 41 ho letto il valore --> BNLLRI95S57D142M
+		Alla cella 42 ho letto il valore --> GLVVLR89L48D142P
+		Alla cella 43 ho letto il valore --> TFLLDN77B42Z129F
+		Alla cella 44 ho letto il valore --> CEXRBY90H26L400V
+		Alla cella 45 ho letto il valore --> BTTFNC72E12H509F
+		Alla cella 46 ho letto il valore --> BSSRCR97A19F119R
+		Alla cella 47 ho letto il valore --> VRNFNC79L63F839J
+		Alla cella 48 ho letto il valore --> BRCSLT83E67Z129J
+		Alla cella 49 ho letto il valore --> BGNCRS99T01I577N
+		Alla cella 50 ho letto il valore --> SRRSPH73T18H509E
+		Alla cella 51 ho letto il valore --> MTTLSS01D63B393I
+		Alla cella 52 ho letto il valore --> SSSNMR81L66L400A
+		Alla cella 53 ho letto il valore --> BSOLSN89H14H509F
+		Alla cella 54 ho letto il valore --> BBNMNR79L63L400E
+		Alla cella 55 ho letto il valore --> RVDCRL70B22I628V
+		Alla cella 56 ho letto il valore --> ZLLDGI86R16C800F
+		Alla cella 57 ho letto il valore --> VLSCST71B01G149L
+		Alla cella 58 ho letto il valore --> HDRRBR92P26Z160H
+		Alla cella 59 ho letto il valore --> FRGSRA92P61D142L
+		Alla cella 60 ho letto il valore --> TMSNTC87D65Z129L
+		Alla cella 61 ho letto il valore --> VCVMLR82S57Z129C
+		Alla cella 62 ho letto il valore --> TDLLNE83C42L400J
+		Alla cella 63 ho letto il valore --> MNDLXA81M26D142L
+		Alla cella 64 ho letto il valore --> FRRJNF90P60L400U
+		Alla cella 65 ho letto il valore --> VNZGLI92A60D142D
+		Alla cella 66 ho letto il valore --> SMNHNN91P42Z138J
+		Alla cella 67 ho letto il valore --> HRBRNM00L65Z129Z
+		Alla cella 68 ho letto il valore --> PRHSTL83S68Z140N
+		Alla cella 69 ho letto il valore --> MHINLN84E45Z129P
+		Alla cella 70 ho letto il valore --> VTMLSS90P59Z129E
+		Alla cella 71 ho letto il valore --> SSSLMR65B48B731W
+		Alla cella 72 ho letto il valore --> SLVNDA81L59E648P
+		Alla cella 73 ho letto il valore --> RSCMRA82D43Z129I
+		Alla cella 74 ho letto il valore --> ZGTRKE89D42D142S
+		Alla cella 75 ho letto il valore --> LBRTTE77P69Z100A
+		Alla cella 76 ho letto il valore --> SVNNNA71B64I233M
+		Alla cella 77 ho letto il valore --> NGRSNO79S44D142T
+		Alla cella 78 ho letto il valore --> BCSVRC88P68Z129S
+		Alla cella 79 ho letto il valore --> HLLRSR86P57Z129U
+		Alla cella 80 ho letto il valore --> RCCSRN80S50D142Z
+		Alla cella 81 ho letto il valore --> CHZDBR73E51D142X
+		Alla cella 82 ho letto il valore --> TPSNLN88R61Z129E
+		Alla cella 83 ho letto il valore --> BRZSFN68T48D142A
+		Alla cella 84 ho letto il valore --> LNDKRN85C45Z104F
+		Alla cella 85 ho letto il valore --> KPJLTN89T23Z100X
+		Alla cella 86 ho letto il valore --> DCNPRZ67D58F205X
+		Alla cella 87 ho letto il valore --> BRBGGN89C67Z129Z
+		Alla cella 88 ho letto il valore --> BNZMRA90A25D142B
+		Alla cella 89 ho letto il valore --> PZZDVD88A13L400U
+		Alla cella 90 ho letto il valore --> NVRMRC79E15D142C
+		Alla cella 91 ho letto il valore --> CLMMSM95M02L400K
+		Alla cella 92 ho letto il valore --> PRSGRL92H04L400X
+		Alla cella 93 ho letto il valore --> DMNMHL86P12Z325E
+		Alla cella 94 ho letto il valore --> LFWMWB92D41Z336U
+		Alla cella 95 ho letto il valore --> BTNNIO76S49Z129L
+		Alla cella 96 ho letto il valore --> FRRRRT95D57C523F
+		Alla cella 97 ho letto il valore --> VNLNMR72R53E648A
+		Alla cella 98 ho letto il valore --> TFANLD78T56Z100V
+		Alla cella 99 ho letto il valore --> TRRDGI84S04D142R
+		Alla cella 100 ho letto il valore --> VLLVNT90B44L400K
+		Alla cella 101 ho letto il valore --> NNZJQL79H62Z611V
+		Alla cella 102 ho letto il valore --> PTRLRA74E45G149X
+		Alla cella 103 ho letto il valore --> SVRRRT95R53L400W
+		Alla cella 104 ho letto il valore --> FSSJSC81P64L400V
+		Alla cella 105 ho letto il valore --> MCCMHL93A66L400C
+		Alla cella 106 ho letto il valore --> CRTLCU76P66L400K
+		Alla cella 107 ho letto il valore --> PRFNLJ79E48Z100N
+		Alla cella 108 ho letto il valore --> TMGSNG93B65Z129U
+		Alla cella 109 ho letto il valore --> GCJSLU85S48Z100J
+		Alla cella 110 ho letto il valore --> CSMDMR93T44Z129W
+		Alla cella 111 ho letto il valore --> SHRNTL84M45Z100T
+		Alla cella 112 ho letto il valore --> BRZCNN86T67Z129D
+		Alla cella 113 ho letto il valore --> MLCLRA93T42L400R
+		Alla cella 114 ho letto il valore --> HBBFDY85M12F924J
+		Alla cella 115 ho letto il valore --> GSMGNN94P21L400L
+		Alla cella 116 ho letto il valore --> CCPNDR91D06D142Z
+		Alla cella 117 ho letto il valore --> BRMLRN76C60L400T
+		Alla cella 118 ho letto il valore --> MRNFLV68C19F119G
+		Alla cella 119 ho letto il valore --> PSTNNA93A63Z139Z
+		Alla cella 120 ho letto il valore --> BLCPDN81E26Z129P
+		Alla cella 121 ho letto il valore --> MDNLCU98A01L400Y
+		Alla cella 122 ho letto il valore --> PLAMTR56S51G233L
+		Alla cella 123 ho letto il valore --> SPNMLY94D65M102Z
+		Alla cella 124 ho letto il valore --> BNLLRI95S57D142M
+		Alla cella 125 ho letto il valore --> GLVVLR89L48D142P
+		Alla cella 126 ho letto il valore --> TFLLDN77B42Z129F
+		Alla cella 127 ho letto il valore --> CEXRBY90H26L400V
+		Alla cella 128 ho letto il valore --> BBNMNR79L63L400E
+		Alla cella 129 ho letto il valore --> RVDCRL70B22I628V
+		Alla cella 130 ho letto il valore --> HDRRBR92P26Z160H
+		Alla cella 131 ho letto il valore --> FRGSRA92P61D142L
+		Alla cella 132 ho letto il valore --> VCVMLR82S57Z129C
+		Alla cella 133 ho letto il valore --> TDLLNE83C42L400J
+		Alla cella 134 ho letto il valore --> VNZGLI92A60D142D
+		Alla cella 135 ho letto il valore --> MRNCST89S24B034X
+		Alla cella 136 ho letto il valore --> CMRMNL94R12F839Z
+		Alla cella 137 ho letto il valore --> RSNNTN95D22C424S
+		Alla cella 138 ho letto il valore --> DRELRD98B08G337G
+		Alla cella 139 ho letto il valore --> LNGRCC67R08F923K
+		Alla cella 140 ho letto il valore --> DCSDNC92E25M289J
+		Alla cella 141 ho letto il valore --> LDRNSA94S27G337Z
+		Alla cella 142 ho letto il valore --> MRNCST89S24B034X
+		Alla cella 143 ho letto il valore --> CMRMNL94R12F839Z
+		Alla cella 144 ho letto il valore --> RSNNTN95D22C424S
+		Alla cella 145 ho letto il valore --> DRELRD98B08G337G
+		Alla cella 146 ho letto il valore --> LNGRCC67R08F923K
+		Alla cella 147 ho letto il valore --> DCSDNC92E25M289J
+		Alla cella 148 ho letto il valore --> LDRNSA94S27G337Z
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'cognome'
+		Alla cella 1 ho letto il valore --> SILVANO
+		Alla cella 2 ho letto il valore --> ALBRAHIMI
+		Alla cella 3 ho letto il valore --> SAVINELLI
+		Alla cella 4 ho letto il valore --> NEGRI
+		Alla cella 5 ho letto il valore --> BUCSA
+		Alla cella 6 ho letto il valore --> HOLLOCOV
+		Alla cella 7 ho letto il valore --> KAPAJ
+		Alla cella 8 ho letto il valore --> NAVARRA
+		Alla cella 9 ho letto il valore --> PARSANI
+		Alla cella 10 ho letto il valore --> DOMINIC
+		Alla cella 11 ho letto il valore --> EL FAWAL
+		Alla cella 12 ho letto il valore --> BUTNARIUC
+		Alla cella 13 ho letto il valore --> VANELLI TAGLIACANE
+		Alla cella 14 ho letto il valore --> NUNEZ
+		Alla cella 15 ho letto il valore --> PATERNIERI
+		Alla cella 16 ho letto il valore --> SEVERGNINI
+		Alla cella 17 ho letto il valore --> FOSSATI
+		Alla cella 18 ho letto il valore --> MACCHI
+		Alla cella 19 ho letto il valore --> PRIFTI 
+		Alla cella 20 ho letto il valore --> TOMOIAGA
+		Alla cella 21 ho letto il valore --> GOCAJ
+		Alla cella 22 ho letto il valore --> CISMARU
+		Alla cella 23 ho letto il valore --> BORZOS
+		Alla cella 24 ho letto il valore --> GUSMINI 
+		Alla cella 25 ho letto il valore --> CACOPARDO
+		Alla cella 26 ho letto il valore --> MARINONI
+		Alla cella 27 ho letto il valore --> PISTONO
+		Alla cella 28 ho letto il valore --> BLEOCA
+		Alla cella 29 ho letto il valore --> MADINI
+		Alla cella 30 ho letto il valore --> MANENTI
+		Alla cella 31 ho letto il valore --> PRIFTI
+		Alla cella 32 ho letto il valore --> MUSSI
+		Alla cella 33 ho letto il valore --> PALA
+		Alla cella 34 ho letto il valore --> SCURA
+		Alla cella 35 ho letto il valore --> PISA
+		Alla cella 36 ho letto il valore --> SAPONARO
+		Alla cella 37 ho letto il valore --> SPANESHI
+		Alla cella 38 ho letto il valore --> PETTINATO
+		Alla cella 39 ho letto il valore --> NESPOLI
+		Alla cella 40 ho letto il valore --> NOCERA
+		Alla cella 41 ho letto il valore --> BENELLI
+		Alla cella 42 ho letto il valore --> GIULIVI
+		Alla cella 43 ho letto il valore --> TOFALEANU
+		Alla cella 44 ho letto il valore --> CE'
+		Alla cella 45 ho letto il valore --> BOTTAGISI
+		Alla cella 46 ho letto il valore --> BASSANO
+		Alla cella 47 ho letto il valore --> IAVARONE
+		Alla cella 48 ho letto il valore --> BRACAU
+		Alla cella 49 ho letto il valore --> BAGNATO 
+		Alla cella 50 ho letto il valore --> SARRITZU
+		Alla cella 51 ho letto il valore --> MATTI
+		Alla cella 52 ho letto il valore --> SASSI
+		Alla cella 53 ho letto il valore --> BOSIO
+		Alla cella 54 ho letto il valore --> ABBONDIO
+		Alla cella 55 ho letto il valore --> ROVEDA
+		Alla cella 56 ho letto il valore --> ZILIOLI
+		Alla cella 57 ho letto il valore --> VALSECCHI
+		Alla cella 58 ho letto il valore --> HADERGJONAJ
+		Alla cella 59 ho letto il valore --> FRIGENI
+		Alla cella 60 ho letto il valore --> TIMIS
+		Alla cella 61 ho letto il valore --> VICOVANU
+		Alla cella 62 ho letto il valore --> TEDOLDI
+		Alla cella 63 ho letto il valore --> MANDOTTI
+		Alla cella 64 ho letto il valore --> FERRI
+		Alla cella 65 ho letto il valore --> VANAZZI
+		Alla cella 66 ho letto il valore --> SEMEN
+		Alla cella 67 ho letto il valore --> HOROBET
+		Alla cella 68 ho letto il valore --> PROHNITCHI
+		Alla cella 69 ho letto il valore --> MIHAI
+		Alla cella 70 ho letto il valore --> VATAMANIUC
+		Alla cella 71 ho letto il valore --> SASSI
+		Alla cella 72 ho letto il valore --> SILVANO
+		Alla cella 73 ho letto il valore --> ROSCA
+		Alla cella 74 ho letto il valore --> ZIGATTI
+		Alla cella 75 ho letto il valore --> ALBRAHIMI
+		Alla cella 76 ho letto il valore --> SAVINELLI
+		Alla cella 77 ho letto il valore --> NEGRI
+		Alla cella 78 ho letto il valore --> BUCSA
+		Alla cella 79 ho letto il valore --> HOLLOCOV
+		Alla cella 80 ho letto il valore --> RICCI
+		Alla cella 81 ho letto il valore --> CHIZZOLI
+		Alla cella 82 ho letto il valore --> TEPUS
+		Alla cella 83 ho letto il valore --> BRAZZOLI
+		Alla cella 84 ho letto il valore --> ALANDZHIYSKA
+		Alla cella 85 ho letto il valore --> KAPAJ
+		Alla cella 86 ho letto il valore --> DICANIO
+		Alla cella 87 ho letto il valore --> BARBUS
+		Alla cella 88 ho letto il valore --> BONIZZI
+		Alla cella 89 ho letto il valore --> POZZI
+		Alla cella 90 ho letto il valore --> NAVARRA
+		Alla cella 91 ho letto il valore --> COLOMBI
+		Alla cella 92 ho letto il valore --> PARSANI
+		Alla cella 93 ho letto il valore --> DOMINIC
+		Alla cella 94 ho letto il valore --> EL FAWAL
+		Alla cella 95 ho letto il valore --> BUTNARIUC
+		Alla cella 96 ho letto il valore --> FERRARINI
+		Alla cella 97 ho letto il valore --> VANELLI TAGLIACANE
+		Alla cella 98 ho letto il valore --> TAFA
+		Alla cella 99 ho letto il valore --> TORRESANI
+		Alla cella 100 ho letto il valore --> VILLA
+		Alla cella 101 ho letto il valore --> NUNEZ
+		Alla cella 102 ho letto il valore --> PATERNIERI
+		Alla cella 103 ho letto il valore --> SEVERGNINI
+		Alla cella 104 ho letto il valore --> FOSSATI
+		Alla cella 105 ho letto il valore --> MACCHI
+		Alla cella 106 ho letto il valore --> CERUTI
+		Alla cella 107 ho letto il valore --> PRIFTI 
+		Alla cella 108 ho letto il valore --> TOMOIAGA
+		Alla cella 109 ho letto il valore --> GOCAJ
+		Alla cella 110 ho letto il valore --> CISMARU
+		Alla cella 111 ho letto il valore --> SHERA
+		Alla cella 112 ho letto il valore --> BORZOS
+		Alla cella 113 ho letto il valore --> MELECA
+		Alla cella 114 ho letto il valore --> HABIBI
+		Alla cella 115 ho letto il valore --> GUSMINI 
+		Alla cella 116 ho letto il valore --> CACOPARDO
+		Alla cella 117 ho letto il valore --> BRAMBILLA
+		Alla cella 118 ho letto il valore --> MARINONI
+		Alla cella 119 ho letto il valore --> PISTONO
+		Alla cella 120 ho letto il valore --> BLEOCA
+		Alla cella 121 ho letto il valore --> MADINI
+		Alla cella 122 ho letto il valore --> PALA
+		Alla cella 123 ho letto il valore --> SAPONARO
+		Alla cella 124 ho letto il valore --> BENELLI
+		Alla cella 125 ho letto il valore --> GIULIVI
+		Alla cella 126 ho letto il valore --> TOFALEANU
+		Alla cella 127 ho letto il valore --> CE'
+		Alla cella 128 ho letto il valore --> ABBONDIO
+		Alla cella 129 ho letto il valore --> ROVEDA
+		Alla cella 130 ho letto il valore --> HADERGJONAJ
+		Alla cella 131 ho letto il valore --> FRIGENI
+		Alla cella 132 ho letto il valore --> VICOVANU
+		Alla cella 133 ho letto il valore --> TEDOLDI
+		Alla cella 134 ho letto il valore --> VANAZZI
+		Alla cella 135 ho letto il valore --> MURONI
+		Alla cella 136 ho letto il valore --> CAMERA
+		Alla cella 137 ho letto il valore --> ROSANO
+		Alla cella 138 ho letto il valore --> DERIU
+		Alla cella 139 ho letto il valore --> LONIGRO
+		Alla cella 140 ho letto il valore --> DI COSTANZO
+		Alla cella 141 ho letto il valore --> EL IDRISSI
+		Alla cella 142 ho letto il valore --> MURONI
+		Alla cella 143 ho letto il valore --> CAMERA
+		Alla cella 144 ho letto il valore --> ROSANO
+		Alla cella 145 ho letto il valore --> DERIU
+		Alla cella 146 ho letto il valore --> LONIGRO
+		Alla cella 147 ho letto il valore --> DI COSTANZO
+		Alla cella 148 ho letto il valore --> EL IDRISSI
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'nome'
+		Alla cella 1 ho letto il valore --> NADIA
+		Alla cella 2 ho letto il valore --> TEUTA
+		Alla cella 3 ho letto il valore --> ANNA
+		Alla cella 4 ho letto il valore --> SONIA
+		Alla cella 5 ho letto il valore --> VIORICA
+		Alla cella 6 ho letto il valore --> AURELIA  SORINA
+		Alla cella 7 ho letto il valore --> ELTON
+		Alla cella 8 ho letto il valore --> MARCO
+		Alla cella 9 ho letto il valore --> GABRIELE
+		Alla cella 10 ho letto il valore --> MICHAEL
+		Alla cella 11 ho letto il valore --> MARWA ABBAS 
+		Alla cella 12 ho letto il valore --> IOANA
+		Alla cella 13 ho letto il valore --> NADIA MARIA
+		Alla cella 14 ho letto il valore --> JACQUELINE PAOLA
+		Alla cella 15 ho letto il valore --> LARA
+		Alla cella 16 ho letto il valore --> ROBERTA
+		Alla cella 17 ho letto il valore --> JESSICA FRANCESCA
+		Alla cella 18 ho letto il valore --> MICHELA
+		Alla cella 19 ho letto il valore --> ENKELEJDA
+		Alla cella 20 ho letto il valore --> SIMONA GAROFITA
+		Alla cella 21 ho letto il valore --> SUELA
+		Alla cella 22 ho letto il valore --> DIANA MARIA
+		Alla cella 23 ho letto il valore --> CRINA IOANA
+		Alla cella 24 ho letto il valore --> GIOVANNI PUMIPHOL
+		Alla cella 25 ho letto il valore --> ANDREA
+		Alla cella 26 ho letto il valore --> FLAVIO
+		Alla cella 27 ho letto il valore --> ANNA
+		Alla cella 28 ho letto il valore --> PAUL DANIEL
+		Alla cella 29 ho letto il valore --> LUCA
+		Alla cella 30 ho letto il valore --> PAMELA
+		Alla cella 31 ho letto il valore --> EGLA
+		Alla cella 32 ho letto il valore --> MARIALUISA
+		Alla cella 33 ho letto il valore --> MARIA TERESA
+		Alla cella 34 ho letto il valore --> VALERIA
+		Alla cella 35 ho letto il valore --> FRANCESCA
+		Alla cella 36 ho letto il valore --> EMILY
+		Alla cella 37 ho letto il valore --> ZANA
+		Alla cella 38 ho letto il valore --> MIRIAM
+		Alla cella 39 ho letto il valore --> SIMONA
+		Alla cella 40 ho letto il valore --> MARIA ANTONIETTA
+		Alla cella 41 ho letto il valore --> ILARIA
+		Alla cella 42 ho letto il valore --> VALERIA
+		Alla cella 43 ho letto il valore --> LOREDANA ROXANA
+		Alla cella 44 ho letto il valore --> ROBY
+		Alla cella 45 ho letto il valore --> FRANCESCO LUIGI
+		Alla cella 46 ho letto il valore --> RICCARDO
+		Alla cella 47 ho letto il valore --> FRANCESCA
+		Alla cella 48 ho letto il valore --> STELUTA
+		Alla cella 49 ho letto il valore --> CHRISTIAN
+		Alla cella 50 ho letto il valore --> STEPHANO DINO
+		Alla cella 51 ho letto il valore --> ALESSIA
+		Alla cella 52 ho letto il valore --> ANNAMARIA
+		Alla cella 53 ho letto il valore --> ALESSANDRO 
+		Alla cella 54 ho letto il valore --> MELANIA ARMIDA
+		Alla cella 55 ho letto il valore --> CARLO
+		Alla cella 56 ho letto il valore --> DIEGO
+		Alla cella 57 ho letto il valore --> CRISTIANO
+		Alla cella 58 ho letto il valore --> ARBER
+		Alla cella 59 ho letto il valore --> SARA
+		Alla cella 60 ho letto il valore --> NASTACA
+		Alla cella 61 ho letto il valore --> MIHAELA RAMONA
+		Alla cella 62 ho letto il valore --> ELENA
+		Alla cella 63 ho letto il valore --> ALEX
+		Alla cella 64 ho letto il valore --> JENNIFER
+		Alla cella 65 ho letto il valore --> GIULIA
+		Alla cella 66 ho letto il valore --> HANNA
+		Alla cella 67 ho letto il valore --> ROXANA MIRABELA
+		Alla cella 68 ho letto il valore --> SVETLANA
+		Alla cella 69 ho letto il valore --> ANCA LENUTA
+		Alla cella 70 ho letto il valore --> LARISA SIMONA
+		Alla cella 71 ho letto il valore --> LUCIA MARIA
+		Alla cella 72 ho letto il valore --> NADIA
+		Alla cella 73 ho letto il valore --> MARIA
+		Alla cella 74 ho letto il valore --> ERIKA
+		Alla cella 75 ho letto il valore --> TEUTA
+		Alla cella 76 ho letto il valore --> ANNA
+		Alla cella 77 ho letto il valore --> SONIA
+		Alla cella 78 ho letto il valore --> VIORICA
+		Alla cella 79 ho letto il valore --> AURELIA  SORINA
+		Alla cella 80 ho letto il valore --> SABRINA
+		Alla cella 81 ho letto il valore --> DEBORA
+		Alla cella 82 ho letto il valore --> IONELA ALINA
+		Alla cella 83 ho letto il valore --> STEFANIA
+		Alla cella 84 ho letto il valore --> KATERINA TODOROVA
+		Alla cella 85 ho letto il valore --> ELTON
+		Alla cella 86 ho letto il valore --> PATRIZIA
+		Alla cella 87 ho letto il valore --> GEORGIANA
+		Alla cella 88 ho letto il valore --> MAURO
+		Alla cella 89 ho letto il valore --> DAVIDE
+		Alla cella 90 ho letto il valore --> MARCO
+		Alla cella 91 ho letto il valore --> MASSIMO
+		Alla cella 92 ho letto il valore --> GABRIELE
+		Alla cella 93 ho letto il valore --> MICHAEL
+		Alla cella 94 ho letto il valore --> MARWA ABBAS 
+		Alla cella 95 ho letto il valore --> IOANA
+		Alla cella 96 ho letto il valore --> ROBERTA
+		Alla cella 97 ho letto il valore --> NADIA MARIA
+		Alla cella 98 ho letto il valore --> ENKELEDA
+		Alla cella 99 ho letto il valore --> DIEGO
+		Alla cella 100 ho letto il valore --> VALENTINA
+		Alla cella 101 ho letto il valore --> JACQUELINE PAOLA
+		Alla cella 102 ho letto il valore --> LARA
+		Alla cella 103 ho letto il valore --> ROBERTA
+		Alla cella 104 ho letto il valore --> JESSICA FRANCESCA
+		Alla cella 105 ho letto il valore --> MICHELA
+		Alla cella 106 ho letto il valore --> LUCIA
+		Alla cella 107 ho letto il valore --> ENKELEJDA
+		Alla cella 108 ho letto il valore --> SIMONA GAROFITA
+		Alla cella 109 ho letto il valore --> SUELA
+		Alla cella 110 ho letto il valore --> DIANA MARIA
+		Alla cella 111 ho letto il valore --> ENTELA
+		Alla cella 112 ho letto il valore --> CRINA IOANA
+		Alla cella 113 ho letto il valore --> LAURA
+		Alla cella 114 ho letto il valore --> FREDY GABRIELE
+		Alla cella 115 ho letto il valore --> GIOVANNI PUMIPHOL
+		Alla cella 116 ho letto il valore --> ANDREA
+		Alla cella 117 ho letto il valore --> LORENA
+		Alla cella 118 ho letto il valore --> FLAVIO
+		Alla cella 119 ho letto il valore --> ANNA
+		Alla cella 120 ho letto il valore --> PAUL DANIEL
+		Alla cella 121 ho letto il valore --> LUCA
+		Alla cella 122 ho letto il valore --> MARIA TERESA
+		Alla cella 123 ho letto il valore --> EMILY
+		Alla cella 124 ho letto il valore --> ILARIA
+		Alla cella 125 ho letto il valore --> VALERIA
+		Alla cella 126 ho letto il valore --> LOREDANA ROXANA
+		Alla cella 127 ho letto il valore --> ROBY
+		Alla cella 128 ho letto il valore --> MELANIA ARMIDA
+		Alla cella 129 ho letto il valore --> CARLO
+		Alla cella 130 ho letto il valore --> ARBER
+		Alla cella 131 ho letto il valore --> SARA
+		Alla cella 132 ho letto il valore --> MIHAELA RAMONA
+		Alla cella 133 ho letto il valore --> ELENA
+		Alla cella 134 ho letto il valore --> GIULIA
+		Alla cella 135 ho letto il valore --> CRISTIAN
+		Alla cella 136 ho letto il valore --> EMMANUELE
+		Alla cella 137 ho letto il valore --> ANTONIO
+		Alla cella 138 ho letto il valore --> LEONARDO
+		Alla cella 139 ho letto il valore --> ROCCO
+		Alla cella 140 ho letto il valore --> DOMENICO
+		Alla cella 141 ho letto il valore --> ANAS
+		Alla cella 142 ho letto il valore --> CRISTIAN
+		Alla cella 143 ho letto il valore --> EMMANUELE
+		Alla cella 144 ho letto il valore --> ANTONIO
+		Alla cella 145 ho letto il valore --> LEONARDO
+		Alla cella 146 ho letto il valore --> ROCCO
+		Alla cella 147 ho letto il valore --> DOMENICO
+		Alla cella 148 ho letto il valore --> ANAS
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'tipologiaContratto'
+		Alla cella 1 ho letto il valore --> TI
+		Alla cella 2 ho letto il valore --> TI
+		Alla cella 3 ho letto il valore --> TI
+		Alla cella 4 ho letto il valore --> TI
+		Alla cella 5 ho letto il valore --> TI
+		Alla cella 6 ho letto il valore --> TI
+		Alla cella 7 ho letto il valore --> TI
+		Alla cella 8 ho letto il valore --> TI
+		Alla cella 9 ho letto il valore --> TI
+		Alla cella 10 ho letto il valore --> TI
+		Alla cella 11 ho letto il valore --> TI
+		Alla cella 12 ho letto il valore --> TI
+		Alla cella 13 ho letto il valore --> TI
+		Alla cella 14 ho letto il valore --> TI
+		Alla cella 15 ho letto il valore --> TD
+		Alla cella 16 ho letto il valore --> TD
+		Alla cella 17 ho letto il valore --> TI
+		Alla cella 18 ho letto il valore --> TI
+		Alla cella 19 ho letto il valore --> TI
+		Alla cella 20 ho letto il valore --> TI
+		Alla cella 21 ho letto il valore --> TI
+		Alla cella 22 ho letto il valore --> TI
+		Alla cella 23 ho letto il valore --> TI
+		Alla cella 24 ho letto il valore --> TI
+		Alla cella 25 ho letto il valore --> TI
+		Alla cella 26 ho letto il valore --> TI
+		Alla cella 27 ho letto il valore --> TI
+		Alla cella 28 ho letto il valore --> TI
+		Alla cella 29 ho letto il valore --> TD
+		Alla cella 30 ho letto il valore --> TD
+		Alla cella 31 ho letto il valore --> TD
+		Alla cella 32 ho letto il valore --> TD
+		Alla cella 33 ho letto il valore --> TD
+		Alla cella 34 ho letto il valore --> TD
+		Alla cella 35 ho letto il valore --> TD
+		Alla cella 36 ho letto il valore --> TD
+		Alla cella 37 ho letto il valore --> TD
+		Alla cella 38 ho letto il valore --> TD
+		Alla cella 39 ho letto il valore --> TD
+		Alla cella 40 ho letto il valore --> TD
+		Alla cella 41 ho letto il valore --> TI
+		Alla cella 42 ho letto il valore --> TI
+		Alla cella 43 ho letto il valore --> TI
+		Alla cella 44 ho letto il valore --> TI
+		Alla cella 45 ho letto il valore --> TD
+		Alla cella 46 ho letto il valore --> TD
+		Alla cella 47 ho letto il valore --> TD
+		Alla cella 48 ho letto il valore --> TD
+		Alla cella 49 ho letto il valore --> TD
+		Alla cella 50 ho letto il valore --> TD
+		Alla cella 51 ho letto il valore --> TD
+		Alla cella 52 ho letto il valore --> TD
+		Alla cella 53 ho letto il valore --> TD
+		Alla cella 54 ho letto il valore --> TI
+		Alla cella 55 ho letto il valore --> TI
+		Alla cella 56 ho letto il valore --> TD
+		Alla cella 57 ho letto il valore --> TD
+		Alla cella 58 ho letto il valore --> TI
+		Alla cella 59 ho letto il valore --> TD
+		Alla cella 60 ho letto il valore --> TD
+		Alla cella 61 ho letto il valore --> TD
+		Alla cella 62 ho letto il valore --> TI
+		Alla cella 63 ho letto il valore --> TD
+		Alla cella 64 ho letto il valore --> TD
+		Alla cella 65 ho letto il valore --> TD
+		Alla cella 66 ho letto il valore --> TD
+		Alla cella 67 ho letto il valore --> TD
+		Alla cella 68 ho letto il valore --> TD
+		Alla cella 69 ho letto il valore --> TD
+		Alla cella 70 ho letto il valore --> TD
+		Alla cella 71 ho letto il valore --> TD
+		Alla cella 72 ho letto il valore --> TI
+		Alla cella 73 ho letto il valore --> TI
+		Alla cella 74 ho letto il valore --> TI
+		Alla cella 75 ho letto il valore --> TI
+		Alla cella 76 ho letto il valore --> TI
+		Alla cella 77 ho letto il valore --> TI
+		Alla cella 78 ho letto il valore --> TI
+		Alla cella 79 ho letto il valore --> TI
+		Alla cella 80 ho letto il valore --> TI
+		Alla cella 81 ho letto il valore --> TI
+		Alla cella 82 ho letto il valore --> TI
+		Alla cella 83 ho letto il valore --> TI
+		Alla cella 84 ho letto il valore --> TI
+		Alla cella 85 ho letto il valore --> TI
+		Alla cella 86 ho letto il valore --> TI
+		Alla cella 87 ho letto il valore --> TI
+		Alla cella 88 ho letto il valore --> TI
+		Alla cella 89 ho letto il valore --> TI
+		Alla cella 90 ho letto il valore --> TI
+		Alla cella 91 ho letto il valore --> TI
+		Alla cella 92 ho letto il valore --> TI
+		Alla cella 93 ho letto il valore --> TI
+		Alla cella 94 ho letto il valore --> TI
+		Alla cella 95 ho letto il valore --> TI
+		Alla cella 96 ho letto il valore --> TI
+		Alla cella 97 ho letto il valore --> TI
+		Alla cella 98 ho letto il valore --> TI
+		Alla cella 99 ho letto il valore --> TI
+		Alla cella 100 ho letto il valore --> TI
+		Alla cella 101 ho letto il valore --> TI
+		Alla cella 102 ho letto il valore --> TD
+		Alla cella 103 ho letto il valore --> TD
+		Alla cella 104 ho letto il valore --> TI
+		Alla cella 105 ho letto il valore --> TI
+		Alla cella 106 ho letto il valore --> TI
+		Alla cella 107 ho letto il valore --> TI
+		Alla cella 108 ho letto il valore --> TI
+		Alla cella 109 ho letto il valore --> TI
+		Alla cella 110 ho letto il valore --> TI
+		Alla cella 111 ho letto il valore --> TI
+		Alla cella 112 ho letto il valore --> TI
+		Alla cella 113 ho letto il valore --> TD
+		Alla cella 114 ho letto il valore --> TD
+		Alla cella 115 ho letto il valore --> TI
+		Alla cella 116 ho letto il valore --> TI
+		Alla cella 117 ho letto il valore --> TI
+		Alla cella 118 ho letto il valore --> TI
+		Alla cella 119 ho letto il valore --> TI
+		Alla cella 120 ho letto il valore --> TI
+		Alla cella 121 ho letto il valore --> TD
+		Alla cella 122 ho letto il valore --> TD
+		Alla cella 123 ho letto il valore --> TD
+		Alla cella 124 ho letto il valore --> TI
+		Alla cella 125 ho letto il valore --> TI
+		Alla cella 126 ho letto il valore --> TI
+		Alla cella 127 ho letto il valore --> TI
+		Alla cella 128 ho letto il valore --> TI
+		Alla cella 129 ho letto il valore --> TI
+		Alla cella 130 ho letto il valore --> TI
+		Alla cella 131 ho letto il valore --> TD
+		Alla cella 132 ho letto il valore --> TD
+		Alla cella 133 ho letto il valore --> TI
+		Alla cella 134 ho letto il valore --> TD
+		Alla cella 135 ho letto il valore --> TI
+		Alla cella 136 ho letto il valore --> TI
+		Alla cella 137 ho letto il valore --> TI
+		Alla cella 138 ho letto il valore --> TI
+		Alla cella 139 ho letto il valore --> TI
+		Alla cella 140 ho letto il valore --> TI
+		Alla cella 141 ho letto il valore --> TD
+		Alla cella 142 ho letto il valore --> TI
+		Alla cella 143 ho letto il valore --> TI
+		Alla cella 144 ho letto il valore --> TI
+		Alla cella 145 ho letto il valore --> TI
+		Alla cella 146 ho letto il valore --> TI
+		Alla cella 147 ho letto il valore --> TI
+		Alla cella 148 ho letto il valore --> TD
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'sgraviAliquotaContributivaPrevidenziale'
+		Alla cella 1 ho letto il valore --> N
+		Alla cella 2 ho letto il valore --> N
+		Alla cella 3 ho letto il valore --> N
+		Alla cella 4 ho letto il valore --> N
+		Alla cella 5 ho letto il valore --> N
+		Alla cella 6 ho letto il valore --> N
+		Alla cella 7 ho letto il valore --> N
+		Alla cella 8 ho letto il valore --> N
+		Alla cella 9 ho letto il valore --> N
+		Alla cella 10 ho letto il valore --> N
+		Alla cella 11 ho letto il valore --> N
+		Alla cella 12 ho letto il valore --> N
+		Alla cella 13 ho letto il valore --> N
+		Alla cella 14 ho letto il valore --> N
+		Alla cella 15 ho letto il valore --> N
+		Alla cella 16 ho letto il valore --> N
+		Alla cella 17 ho letto il valore --> N
+		Alla cella 18 ho letto il valore --> N
+		Alla cella 19 ho letto il valore --> N
+		Alla cella 20 ho letto il valore --> N
+		Alla cella 21 ho letto il valore --> N
+		Alla cella 22 ho letto il valore --> N
+		Alla cella 23 ho letto il valore --> N
+		Alla cella 24 ho letto il valore --> N
+		Alla cella 25 ho letto il valore --> N
+		Alla cella 26 ho letto il valore --> N
+		Alla cella 27 ho letto il valore --> N
+		Alla cella 28 ho letto il valore --> N
+		Alla cella 29 ho letto il valore --> N
+		Alla cella 30 ho letto il valore --> N
+		Alla cella 31 ho letto il valore --> N
+		Alla cella 32 ho letto il valore --> N
+		Alla cella 33 ho letto il valore --> N
+		Alla cella 34 ho letto il valore --> N
+		Alla cella 35 ho letto il valore --> N
+		Alla cella 36 ho letto il valore --> N
+		Alla cella 37 ho letto il valore --> N
+		Alla cella 38 ho letto il valore --> N
+		Alla cella 39 ho letto il valore --> N
+		Alla cella 40 ho letto il valore --> N
+		Alla cella 41 ho letto il valore --> N
+		Alla cella 42 ho letto il valore --> N
+		Alla cella 43 ho letto il valore --> N
+		Alla cella 44 ho letto il valore --> N
+		Alla cella 45 ho letto il valore --> N
+		Alla cella 46 ho letto il valore --> N
+		Alla cella 47 ho letto il valore --> N
+		Alla cella 48 ho letto il valore --> N
+		Alla cella 49 ho letto il valore --> N
+		Alla cella 50 ho letto il valore --> N
+		Alla cella 51 ho letto il valore --> N
+		Alla cella 52 ho letto il valore --> N
+		Alla cella 53 ho letto il valore --> N
+		Alla cella 54 ho letto il valore --> N
+		Alla cella 55 ho letto il valore --> N
+		Alla cella 56 ho letto il valore --> N
+		Alla cella 57 ho letto il valore --> N
+		Alla cella 58 ho letto il valore --> N
+		Alla cella 59 ho letto il valore --> N
+		Alla cella 60 ho letto il valore --> N
+		Alla cella 61 ho letto il valore --> N
+		Alla cella 62 ho letto il valore --> N
+		Alla cella 63 ho letto il valore --> N
+		Alla cella 64 ho letto il valore --> N
+		Alla cella 65 ho letto il valore --> N
+		Alla cella 66 ho letto il valore --> N
+		Alla cella 67 ho letto il valore --> N
+		Alla cella 68 ho letto il valore --> N
+		Alla cella 69 ho letto il valore --> N
+		Alla cella 70 ho letto il valore --> N
+		Alla cella 71 ho letto il valore --> N
+		Alla cella 72 ho letto il valore --> N
+		Alla cella 73 ho letto il valore --> N
+		Alla cella 74 ho letto il valore --> N
+		Alla cella 75 ho letto il valore --> N
+		Alla cella 76 ho letto il valore --> N
+		Alla cella 77 ho letto il valore --> N
+		Alla cella 78 ho letto il valore --> N
+		Alla cella 79 ho letto il valore --> N
+		Alla cella 80 ho letto il valore --> N
+		Alla cella 81 ho letto il valore --> N
+		Alla cella 82 ho letto il valore --> N
+		Alla cella 83 ho letto il valore --> N
+		Alla cella 84 ho letto il valore --> N
+		Alla cella 85 ho letto il valore --> N
+		Alla cella 86 ho letto il valore --> N
+		Alla cella 87 ho letto il valore --> N
+		Alla cella 88 ho letto il valore --> N
+		Alla cella 89 ho letto il valore --> N
+		Alla cella 90 ho letto il valore --> N
+		Alla cella 91 ho letto il valore --> N
+		Alla cella 92 ho letto il valore --> N
+		Alla cella 93 ho letto il valore --> N
+		Alla cella 94 ho letto il valore --> N
+		Alla cella 95 ho letto il valore --> N
+		Alla cella 96 ho letto il valore --> N
+		Alla cella 97 ho letto il valore --> N
+		Alla cella 98 ho letto il valore --> N
+		Alla cella 99 ho letto il valore --> N
+		Alla cella 100 ho letto il valore --> N
+		Alla cella 101 ho letto il valore --> N
+		Alla cella 102 ho letto il valore --> N
+		Alla cella 103 ho letto il valore --> N
+		Alla cella 104 ho letto il valore --> N
+		Alla cella 105 ho letto il valore --> N
+		Alla cella 106 ho letto il valore --> N
+		Alla cella 107 ho letto il valore --> N
+		Alla cella 108 ho letto il valore --> N
+		Alla cella 109 ho letto il valore --> N
+		Alla cella 110 ho letto il valore --> N
+		Alla cella 111 ho letto il valore --> N
+		Alla cella 112 ho letto il valore --> N
+		Alla cella 113 ho letto il valore --> N
+		Alla cella 114 ho letto il valore --> N
+		Alla cella 115 ho letto il valore --> N
+		Alla cella 116 ho letto il valore --> N
+		Alla cella 117 ho letto il valore --> N
+		Alla cella 118 ho letto il valore --> N
+		Alla cella 119 ho letto il valore --> N
+		Alla cella 120 ho letto il valore --> N
+		Alla cella 121 ho letto il valore --> N
+		Alla cella 122 ho letto il valore --> N
+		Alla cella 123 ho letto il valore --> N
+		Alla cella 124 ho letto il valore --> N
+		Alla cella 125 ho letto il valore --> N
+		Alla cella 126 ho letto il valore --> N
+		Alla cella 127 ho letto il valore --> N
+		Alla cella 128 ho letto il valore --> N
+		Alla cella 129 ho letto il valore --> N
+		Alla cella 130 ho letto il valore --> N
+		Alla cella 131 ho letto il valore --> N
+		Alla cella 132 ho letto il valore --> N
+		Alla cella 133 ho letto il valore --> N
+		Alla cella 134 ho letto il valore --> N
+		Alla cella 135 ho letto il valore --> N
+		Alla cella 136 ho letto il valore --> N
+		Alla cella 137 ho letto il valore --> N
+		Alla cella 138 ho letto il valore --> N
+		Alla cella 139 ho letto il valore --> N
+		Alla cella 140 ho letto il valore --> N
+		Alla cella 141 ho letto il valore --> N
+		Alla cella 142 ho letto il valore --> N
+		Alla cella 143 ho letto il valore --> N
+		Alla cella 144 ho letto il valore --> N
+		Alla cella 145 ho letto il valore --> N
+		Alla cella 146 ho letto il valore --> N
+		Alla cella 147 ho letto il valore --> N
+		Alla cella 148 ho letto il valore --> N
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'retribuzioneMensileLorda'
+		Alla cella 1 ho letto il valore --> 1894,54
+		Alla cella 2 ho letto il valore --> 1786,30
+		Alla cella 3 ho letto il valore --> 1894,54
+		Alla cella 4 ho letto il valore --> 2084,43
+		Alla cella 5 ho letto il valore --> 1786,30
+		Alla cella 6 ho letto il valore --> 1985,51
+		Alla cella 7 ho letto il valore --> 1786,30
+		Alla cella 8 ho letto il valore --> 1833,07
+		Alla cella 9 ho letto il valore --> 1786,30
+		Alla cella 10 ho letto il valore --> 1786,30
+		Alla cella 11 ho letto il valore --> 1786,30
+		Alla cella 12 ho letto il valore --> 1786,30
+		Alla cella 13 ho letto il valore --> 1894,54
+		Alla cella 14 ho letto il valore --> 1833,07
+		Alla cella 15 ho letto il valore --> 1786,30
+		Alla cella 16 ho letto il valore --> 1833,07
+		Alla cella 17 ho letto il valore --> 1786,30
+		Alla cella 18 ho letto il valore --> 1985,51
+		Alla cella 19 ho letto il valore --> 1786,30
+		Alla cella 20 ho letto il valore --> 1786,30
+		Alla cella 21 ho letto il valore --> 1786,30
+		Alla cella 22 ho letto il valore --> 1786,30
+		Alla cella 23 ho letto il valore --> 1786,30
+		Alla cella 24 ho letto il valore --> 1786,30
+		Alla cella 25 ho letto il valore --> 1985,51
+		Alla cella 26 ho letto il valore --> 1833,07
+		Alla cella 27 ho letto il valore --> 1786,30
+		Alla cella 28 ho letto il valore --> 1833,07
+		Alla cella 29 ho letto il valore --> 1786,30
+		Alla cella 30 ho letto il valore --> 1707,82
+		Alla cella 31 ho letto il valore --> 1786,30
+		Alla cella 32 ho letto il valore --> 1786,30
+		Alla cella 33 ho letto il valore --> 1786,30
+		Alla cella 34 ho letto il valore --> 1707,82
+		Alla cella 35 ho letto il valore --> 1707,82
+		Alla cella 36 ho letto il valore --> 1786,30
+		Alla cella 37 ho letto il valore --> 1707,82
+		Alla cella 38 ho letto il valore --> 1707,82
+		Alla cella 39 ho letto il valore --> 1786,30
+		Alla cella 40 ho letto il valore --> 1707,82
+		Alla cella 41 ho letto il valore --> 1786,30
+		Alla cella 42 ho letto il valore --> 1786,30
+		Alla cella 43 ho letto il valore --> 1786,30
+		Alla cella 44 ho letto il valore --> 1786,30
+		Alla cella 45 ho letto il valore --> 1786,30
+		Alla cella 46 ho letto il valore --> 1786,30
+		Alla cella 47 ho letto il valore --> 1786,30
+		Alla cella 48 ho letto il valore --> 1707,82
+		Alla cella 49 ho letto il valore --> 1786,30
+		Alla cella 50 ho letto il valore --> 1786,30
+		Alla cella 51 ho letto il valore --> 1707,82
+		Alla cella 52 ho letto il valore --> 1786,30
+		Alla cella 53 ho letto il valore --> 1786,30
+		Alla cella 54 ho letto il valore --> 1833,07
+		Alla cella 55 ho letto il valore --> 1786,30
+		Alla cella 56 ho letto il valore --> 1786,30
+		Alla cella 57 ho letto il valore --> 1786,30
+		Alla cella 58 ho letto il valore --> 1786,30
+		Alla cella 59 ho letto il valore --> 1786,30
+		Alla cella 60 ho letto il valore --> 1707,82
+		Alla cella 61 ho letto il valore --> 1833,07
+		Alla cella 62 ho letto il valore --> 1786,30
+		Alla cella 63 ho letto il valore --> 1833,07
+		Alla cella 64 ho letto il valore --> 1707,82
+		Alla cella 65 ho letto il valore --> 1833,07
+		Alla cella 66 ho letto il valore --> 1707,82
+		Alla cella 67 ho letto il valore --> 1707,82
+		Alla cella 68 ho letto il valore --> 1707,82
+		Alla cella 69 ho letto il valore --> 1707,82
+		Alla cella 70 ho letto il valore --> 1707,82
+		Alla cella 71 ho letto il valore --> 1786,30
+		Alla cella 72 ho letto il valore --> 1894,54
+		Alla cella 73 ho letto il valore --> 1833,07
+		Alla cella 74 ho letto il valore --> 1786,30
+		Alla cella 75 ho letto il valore --> 1786,30
+		Alla cella 76 ho letto il valore --> 1894,54
+		Alla cella 77 ho letto il valore --> 2084,43
+		Alla cella 78 ho letto il valore --> 1786,30
+		Alla cella 79 ho letto il valore --> 1985,51
+		Alla cella 80 ho letto il valore --> 1985,51
+		Alla cella 81 ho letto il valore --> 1894,54
+		Alla cella 82 ho letto il valore --> 1786,30
+		Alla cella 83 ho letto il valore --> 2084,43
+		Alla cella 84 ho letto il valore --> 1894,54
+		Alla cella 85 ho letto il valore --> 1786,30
+		Alla cella 86 ho letto il valore --> 2084,43
+		Alla cella 87 ho letto il valore --> 1786,30
+		Alla cella 88 ho letto il valore --> 1894,54
+		Alla cella 89 ho letto il valore --> 1894,54
+		Alla cella 90 ho letto il valore --> 1833,07
+		Alla cella 91 ho letto il valore --> 1894,54
+		Alla cella 92 ho letto il valore --> 1786,30
+		Alla cella 93 ho letto il valore --> 1786,30
+		Alla cella 94 ho letto il valore --> 1786,30
+		Alla cella 95 ho letto il valore --> 1786,30
+		Alla cella 96 ho letto il valore --> 1786,30
+		Alla cella 97 ho letto il valore --> 1894,54
+		Alla cella 98 ho letto il valore --> 1786,30
+		Alla cella 99 ho letto il valore --> 1894,54
+		Alla cella 100 ho letto il valore --> 1786,30
+		Alla cella 101 ho letto il valore --> 1833,07
+		Alla cella 102 ho letto il valore --> 1786,30
+		Alla cella 103 ho letto il valore --> 1833,07
+		Alla cella 104 ho letto il valore --> 1786,30
+		Alla cella 105 ho letto il valore --> 1985,51
+		Alla cella 106 ho letto il valore --> 1786,30
+		Alla cella 107 ho letto il valore --> 1786,30
+		Alla cella 108 ho letto il valore --> 1786,30
+		Alla cella 109 ho letto il valore --> 1786,30
+		Alla cella 110 ho letto il valore --> 1786,30
+		Alla cella 111 ho letto il valore --> 1786,30
+		Alla cella 112 ho letto il valore --> 1786,30
+		Alla cella 113 ho letto il valore --> 1985,51
+		Alla cella 114 ho letto il valore --> 1833,07
+		Alla cella 115 ho letto il valore --> 1786,30
+		Alla cella 116 ho letto il valore --> 1985,51
+		Alla cella 117 ho letto il valore --> 1786,30
+		Alla cella 118 ho letto il valore --> 1833,07
+		Alla cella 119 ho letto il valore --> 1786,30
+		Alla cella 120 ho letto il valore --> 1833,07
+		Alla cella 121 ho letto il valore --> 1786,30
+		Alla cella 122 ho letto il valore --> 1786,30
+		Alla cella 123 ho letto il valore --> 1786,30
+		Alla cella 124 ho letto il valore --> 1786,30
+		Alla cella 125 ho letto il valore --> 1786,30
+		Alla cella 126 ho letto il valore --> 1786,30
+		Alla cella 127 ho letto il valore --> 1786,30
+		Alla cella 128 ho letto il valore --> 1833,07
+		Alla cella 129 ho letto il valore --> 1786,30
+		Alla cella 130 ho letto il valore --> 1786,30
+		Alla cella 131 ho letto il valore --> 1786,30
+		Alla cella 132 ho letto il valore --> 1833,07
+		Alla cella 133 ho letto il valore --> 1786,30
+		Alla cella 134 ho letto il valore --> 1833,07
+		Alla cella 135 ho letto il valore --> 1636.63
+		Alla cella 136 ho letto il valore --> 1916.65
+		Alla cella 137 ho letto il valore --> 2059.34
+		Alla cella 138 ho letto il valore --> 1571.84
+		Alla cella 139 ho letto il valore --> 1874.91
+		Alla cella 140 ho letto il valore --> 1549.91
+		Alla cella 141 ho letto il valore --> 1466.59
+		Alla cella 142 ho letto il valore --> 1636.63
+		Alla cella 143 ho letto il valore --> 1916.65
+		Alla cella 144 ho letto il valore --> 2059.34
+		Alla cella 145 ho letto il valore --> 1571.84
+		Alla cella 146 ho letto il valore --> 1874.91
+		Alla cella 147 ho letto il valore --> 1549.91
+		Alla cella 148 ho letto il valore --> 1466.59
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'retribuzioneTisRiconosciuta'
+		Alla cella 1 ho letto il valore --> 42.72
+		Alla cella 2 ho letto il valore --> 299.04
+		Alla cella 3 ho letto il valore --> 42.72
+		Alla cella 4 ho letto il valore --> 299.04
+		Alla cella 5 ho letto il valore --> 299.04
+		Alla cella 6 ho letto il valore --> 192.24
+		Alla cella 7 ho letto il valore --> 192.24
+		Alla cella 8 ho letto il valore --> 256.32
+		Alla cella 9 ho letto il valore --> 85.44
+		Alla cella 10 ho letto il valore --> 299.04
+		Alla cella 11 ho letto il valore --> 85.44
+		Alla cella 12 ho letto il valore --> 213.6
+		Alla cella 13 ho letto il valore --> 42.72
+		Alla cella 14 ho letto il valore --> 192.24
+		Alla cella 15 ho letto il valore --> 128.16
+		Alla cella 16 ho letto il valore --> 234.96
+		Alla cella 17 ho letto il valore --> 85.44
+		Alla cella 18 ho letto il valore --> 106.8
+		Alla cella 19 ho letto il valore --> 256.32
+		Alla cella 20 ho letto il valore --> 299.04
+		Alla cella 21 ho letto il valore --> 256.32
+		Alla cella 22 ho letto il valore --> 256.32
+		Alla cella 23 ho letto il valore --> 256.32
+		Alla cella 24 ho letto il valore --> 256.32
+		Alla cella 25 ho letto il valore --> 85.44
+		Alla cella 26 ho letto il valore --> 299.04
+		Alla cella 27 ho letto il valore --> 299.04
+		Alla cella 28 ho letto il valore --> 299.04
+		Alla cella 29 ho letto il valore --> 299.04
+		Alla cella 30 ho letto il valore --> 42.72
+		Alla cella 31 ho letto il valore --> 42.72
+		Alla cella 32 ho letto il valore --> 42.72
+		Alla cella 33 ho letto il valore --> 299.04
+		Alla cella 34 ho letto il valore --> 42.72
+		Alla cella 35 ho letto il valore --> 85.44
+		Alla cella 36 ho letto il valore --> 299.04
+		Alla cella 37 ho letto il valore --> 42.72
+		Alla cella 38 ho letto il valore --> 85.44
+		Alla cella 39 ho letto il valore --> 213.6
+		Alla cella 40 ho letto il valore --> 128.16
+		Alla cella 41 ho letto il valore --> 299.04
+		Alla cella 42 ho letto il valore --> 299.04
+		Alla cella 43 ho letto il valore --> 299.04
+		Alla cella 44 ho letto il valore --> 299.04
+		Alla cella 45 ho letto il valore --> 42.72
+		Alla cella 46 ho letto il valore --> 213.6
+		Alla cella 47 ho letto il valore --> 42.72
+		Alla cella 48 ho letto il valore --> 85.44
+		Alla cella 49 ho letto il valore --> 42.72
+		Alla cella 50 ho letto il valore --> 42.72
+		Alla cella 51 ho letto il valore --> 128.16
+		Alla cella 52 ho letto il valore --> 42.72
+		Alla cella 53 ho letto il valore --> 42.72
+		Alla cella 54 ho letto il valore --> 299.04
+		Alla cella 55 ho letto il valore --> 299.04
+		Alla cella 56 ho letto il valore --> 85.44
+		Alla cella 57 ho letto il valore --> 42.72
+		Alla cella 58 ho letto il valore --> 299.04
+		Alla cella 59 ho letto il valore --> 299.04
+		Alla cella 60 ho letto il valore --> 128.16
+		Alla cella 61 ho letto il valore --> 256.32
+		Alla cella 62 ho letto il valore --> 299.04
+		Alla cella 63 ho letto il valore --> 213.6
+		Alla cella 64 ho letto il valore --> 213.6
+		Alla cella 65 ho letto il valore --> 299.04
+		Alla cella 66 ho letto il valore --> 213.6
+		Alla cella 67 ho letto il valore --> 213.6
+		Alla cella 68 ho letto il valore --> 213.6
+		Alla cella 69 ho letto il valore --> 213.6
+		Alla cella 70 ho letto il valore --> 213.6
+		Alla cella 71 ho letto il valore --> 213.6
+		Alla cella 72 ho letto il valore --> 341.76
+		Alla cella 73 ho letto il valore --> 256.32
+		Alla cella 74 ho letto il valore --> 469.92
+		Alla cella 75 ho letto il valore --> 42.72
+		Alla cella 76 ho letto il valore --> 341.76
+		Alla cella 77 ho letto il valore --> 384.48
+		Alla cella 78 ho letto il valore --> 341.76
+		Alla cella 79 ho letto il valore --> 341.76
+		Alla cella 80 ho letto il valore --> 213.6
+		Alla cella 81 ho letto il valore --> 170.88
+		Alla cella 82 ho letto il valore --> 299.04
+		Alla cella 83 ho letto il valore --> 341.76
+		Alla cella 84 ho letto il valore --> 299.04
+		Alla cella 85 ho letto il valore --> 341.76
+		Alla cella 86 ho letto il valore --> 341.76
+		Alla cella 87 ho letto il valore --> 42.72
+		Alla cella 88 ho letto il valore --> 299.04
+		Alla cella 89 ho letto il valore --> 42.72
+		Alla cella 90 ho letto il valore --> 341.76
+		Alla cella 91 ho letto il valore --> 42.72
+		Alla cella 92 ho letto il valore --> 341.76
+		Alla cella 93 ho letto il valore --> 341.76
+		Alla cella 94 ho letto il valore --> 341.76
+		Alla cella 95 ho letto il valore --> 341.76
+		Alla cella 96 ho letto il valore --> 85.44
+		Alla cella 97 ho letto il valore --> 341.76
+		Alla cella 98 ho letto il valore --> 256.32
+		Alla cella 99 ho letto il valore --> 299.04
+		Alla cella 100 ho letto il valore --> 213.6
+		Alla cella 101 ho letto il valore --> 469.92
+		Alla cella 102 ho letto il valore --> 341.76
+		Alla cella 103 ho letto il valore --> 341.76
+		Alla cella 104 ho letto il valore --> 341.76
+		Alla cella 105 ho letto il valore --> 341.76
+		Alla cella 106 ho letto il valore --> 213.6
+		Alla cella 107 ho letto il valore --> 341.76
+		Alla cella 108 ho letto il valore --> 341.76
+		Alla cella 109 ho letto il valore --> 341.76
+		Alla cella 110 ho letto il valore --> 341.76
+		Alla cella 111 ho letto il valore --> 213.6
+		Alla cella 112 ho letto il valore --> 341.76
+		Alla cella 113 ho letto il valore --> 106.8
+		Alla cella 114 ho letto il valore --> 85.44
+		Alla cella 115 ho letto il valore --> 341.76
+		Alla cella 116 ho letto il valore --> 341.76
+		Alla cella 117 ho letto il valore --> 256.32
+		Alla cella 118 ho letto il valore --> 341.76
+		Alla cella 119 ho letto il valore --> 512.64
+		Alla cella 120 ho letto il valore --> 341.76
+		Alla cella 121 ho letto il valore --> 341.76
+		Alla cella 122 ho letto il valore --> 341.76
+		Alla cella 123 ho letto il valore --> 341.76
+		Alla cella 124 ho letto il valore --> 341.76
+		Alla cella 125 ho letto il valore --> 341.76
+		Alla cella 126 ho letto il valore --> 341.76
+		Alla cella 127 ho letto il valore --> 341.76
+		Alla cella 128 ho letto il valore --> 341.76
+		Alla cella 129 ho letto il valore --> 341.76
+		Alla cella 130 ho letto il valore --> 341.76
+		Alla cella 131 ho letto il valore --> 341.76
+		Alla cella 132 ho letto il valore --> 128.16
+		Alla cella 133 ho letto il valore --> 341.76
+		Alla cella 134 ho letto il valore --> 128.16
+		Alla cella 135 ho letto il valore --> 299.04
+		Alla cella 136 ho letto il valore --> 299.04
+		Alla cella 137 ho letto il valore --> 256.32
+		Alla cella 138 ho letto il valore --> 299.04
+		Alla cella 139 ho letto il valore --> 299.04
+		Alla cella 140 ho letto il valore --> 299.04
+		Alla cella 141 ho letto il valore --> 299.04
+		Alla cella 142 ho letto il valore --> 256.32
+		Alla cella 143 ho letto il valore --> 128.16
+		Alla cella 144 ho letto il valore --> 128.16
+		Alla cella 145 ho letto il valore --> 128.16
+		Alla cella 146 ho letto il valore --> 128.16
+		Alla cella 147 ho letto il valore --> 128.16
+		Alla cella 148 ho letto il valore --> 939.84
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'contribuzioneTisRiconosciuta'
+		Alla cella 1 ho letto il valore --> 28.09
+		Alla cella 2 ho letto il valore --> 185.41000000000003
+		Alla cella 3 ho letto il valore --> 28.09
+		Alla cella 4 ho letto il valore --> 216.31
+		Alla cella 5 ho letto il valore --> 185.41000000000003
+		Alla cella 6 ho letto il valore --> 132.45
+		Alla cella 7 ho letto il valore --> 119.19
+		Alla cella 8 ho letto il valore --> 163.07999999999998
+		Alla cella 9 ho letto il valore --> 52.96
+		Alla cella 10 ho letto il valore --> 185.41000000000003
+		Alla cella 11 ho letto il valore --> 52.96
+		Alla cella 12 ho letto il valore --> 132.42000000000002
+		Alla cella 13 ho letto il valore --> 28.09
+		Alla cella 14 ho letto il valore --> 122.32
+		Alla cella 15 ho letto il valore --> 83.35000000000001
+		Alla cella 16 ho letto il valore --> 156.78
+		Alla cella 17 ho letto il valore --> 52.96
+		Alla cella 18 ho letto il valore --> 73.58999999999999
+		Alla cella 19 ho letto il valore --> 158.92
+		Alla cella 20 ho letto il valore --> 185.41000000000003
+		Alla cella 21 ho letto il valore --> 158.92
+		Alla cella 22 ho letto il valore --> 158.92
+		Alla cella 23 ho letto il valore --> 158.92
+		Alla cella 24 ho letto il valore --> 158.92
+		Alla cella 25 ho letto il valore --> 58.879999999999995
+		Alla cella 26 ho letto il valore --> 190.24
+		Alla cella 27 ho letto il valore --> 185.41000000000003
+		Alla cella 28 ho letto il valore --> 190.24
+		Alla cella 29 ho letto il valore --> 194.46
+		Alla cella 30 ho letto il valore --> 26.549999999999997
+		Alla cella 31 ho letto il valore --> 27.76
+		Alla cella 32 ho letto il valore --> 27.76
+		Alla cella 33 ho letto il valore --> 194.46
+		Alla cella 34 ho letto il valore --> 26.549999999999997
+		Alla cella 35 ho letto il valore --> 53.12
+		Alla cella 36 ho letto il valore --> 194.46
+		Alla cella 37 ho letto il valore --> 26.549999999999997
+		Alla cella 38 ho letto il valore --> 53.12
+		Alla cella 39 ho letto il valore --> 138.89000000000001
+		Alla cella 40 ho letto il valore --> 79.67
+		Alla cella 41 ho letto il valore --> 185.41000000000003
+		Alla cella 42 ho letto il valore --> 185.41000000000003
+		Alla cella 43 ho letto il valore --> 185.41000000000003
+		Alla cella 44 ho letto il valore --> 185.41000000000003
+		Alla cella 45 ho letto il valore --> 27.76
+		Alla cella 46 ho letto il valore --> 138.89000000000001
+		Alla cella 47 ho letto il valore --> 27.76
+		Alla cella 48 ho letto il valore --> 53.12
+		Alla cella 49 ho letto il valore --> 27.76
+		Alla cella 50 ho letto il valore --> 27.76
+		Alla cella 51 ho letto il valore --> 79.67
+		Alla cella 52 ho letto il valore --> 27.76
+		Alla cella 53 ho letto il valore --> 27.76
+		Alla cella 54 ho letto il valore --> 190.24
+		Alla cella 55 ho letto il valore --> 185.41000000000003
+		Alla cella 56 ho letto il valore --> 55.550000000000004
+		Alla cella 57 ho letto il valore --> 27.76
+		Alla cella 58 ho letto il valore --> 185.41000000000003
+		Alla cella 59 ho letto il valore --> 194.46
+		Alla cella 60 ho letto il valore --> 79.67
+		Alla cella 61 ho letto il valore --> 171.02999999999997
+		Alla cella 62 ho letto il valore --> 185.41000000000003
+		Alla cella 63 ho letto il valore --> 142.51999999999998
+		Alla cella 64 ho letto il valore --> 132.79
+		Alla cella 65 ho letto il valore --> 199.53
+		Alla cella 66 ho letto il valore --> 132.79
+		Alla cella 67 ho letto il valore --> 132.79
+		Alla cella 68 ho letto il valore --> 132.79
+		Alla cella 69 ho letto il valore --> 132.79
+		Alla cella 70 ho letto il valore --> 132.79
+		Alla cella 71 ho letto il valore --> 138.89000000000001
+		Alla cella 72 ho letto il valore --> 224.73
+		Alla cella 73 ho letto il valore --> 163.08
+		Alla cella 74 ho letto il valore --> 291.35
+		Alla cella 75 ho letto il valore --> 26.47
+		Alla cella 76 ho letto il valore --> 224.73
+		Alla cella 77 ho letto il valore --> 278.11
+		Alla cella 78 ho letto il valore --> 211.89999999999998
+		Alla cella 79 ho letto il valore --> 235.49
+		Alla cella 80 ho letto il valore --> 147.16
+		Alla cella 81 ho letto il valore --> 112.35
+		Alla cella 82 ho letto il valore --> 185.41000000000003
+		Alla cella 83 ho letto il valore --> 247.23000000000002
+		Alla cella 84 ho letto il valore --> 196.64000000000001
+		Alla cella 85 ho letto il valore --> 211.89999999999998
+		Alla cella 86 ho letto il valore --> 247.23000000000002
+		Alla cella 87 ho letto il valore --> 26.47
+		Alla cella 88 ho letto il valore --> 196.64000000000001
+		Alla cella 89 ho letto il valore --> 28.09
+		Alla cella 90 ho letto il valore --> 217.43
+		Alla cella 91 ho letto il valore --> 28.09
+		Alla cella 92 ho letto il valore --> 211.89999999999998
+		Alla cella 93 ho letto il valore --> 211.89999999999998
+		Alla cella 94 ho letto il valore --> 211.89999999999998
+		Alla cella 95 ho letto il valore --> 211.89999999999998
+		Alla cella 96 ho letto il valore --> 52.96
+		Alla cella 97 ho letto il valore --> 224.73
+		Alla cella 98 ho letto il valore --> 158.91999999999996
+		Alla cella 99 ho letto il valore --> 196.64000000000001
+		Alla cella 100 ho letto il valore --> 132.42
+		Alla cella 101 ho letto il valore --> 298.96999999999997
+		Alla cella 102 ho letto il valore --> 222.24999999999997
+		Alla cella 103 ho letto il valore --> 228.04000000000002
+		Alla cella 104 ho letto il valore --> 211.89999999999998
+		Alla cella 105 ho letto il valore --> 235.49
+		Alla cella 106 ho letto il valore --> 132.42
+		Alla cella 107 ho letto il valore --> 211.89999999999998
+		Alla cella 108 ho letto il valore --> 211.89999999999998
+		Alla cella 109 ho letto il valore --> 211.89999999999998
+		Alla cella 110 ho letto il valore --> 211.89999999999998
+		Alla cella 111 ho letto il valore --> 132.42
+		Alla cella 112 ho letto il valore --> 211.89999999999998
+		Alla cella 113 ho letto il valore --> 77.18999999999998
+		Alla cella 114 ho letto il valore --> 57.010000000000005
+		Alla cella 115 ho letto il valore --> 211.89999999999998
+		Alla cella 116 ho letto il valore --> 235.49
+		Alla cella 117 ho letto il valore --> 158.91999999999996
+		Alla cella 118 ho letto il valore --> 217.43
+		Alla cella 119 ho letto il valore --> 317.83
+		Alla cella 120 ho letto il valore --> 217.43
+		Alla cella 121 ho letto il valore --> 222.24999999999997
+		Alla cella 122 ho letto il valore --> 222.24999999999997
+		Alla cella 123 ho letto il valore --> 222.24999999999997
+		Alla cella 124 ho letto il valore --> 211.89999999999998
+		Alla cella 125 ho letto il valore --> 211.89999999999998
+		Alla cella 126 ho letto il valore --> 211.89999999999998
+		Alla cella 127 ho letto il valore --> 211.89999999999998
+		Alla cella 128 ho letto il valore --> 217.43
+		Alla cella 129 ho letto il valore --> 211.89999999999998
+		Alla cella 130 ho letto il valore --> 211.89999999999998
+		Alla cella 131 ho letto il valore --> 222.24999999999997
+		Alla cella 132 ho letto il valore --> 85.52
+		Alla cella 133 ho letto il valore --> 211.89999999999998
+		Alla cella 134 ho letto il valore --> 85.52
+		Alla cella 135 ho letto il valore --> 165.62
+		Alla cella 136 ho letto il valore --> 193.95000000000002
+		Alla cella 137 ho letto il valore --> 178.60999999999999
+		Alla cella 138 ho letto il valore --> 159.06
+		Alla cella 139 ho letto il valore --> 189.71
+		Alla cella 140 ho letto il valore --> 156.85
+		Alla cella 141 ho letto il valore --> 155.64000000000001
+		Alla cella 142 ho letto il valore --> 141.94999999999996
+		Alla cella 143 ho letto il valore --> 83.13
+		Alla cella 144 ho letto il valore --> 89.29999999999998
+		Alla cella 145 ho letto il valore --> 68.16000000000001
+		Alla cella 146 ho letto il valore --> 81.28999999999999
+		Alla cella 147 ho letto il valore --> 67.21999999999998
+		Alla cella 148 ho letto il valore --> 488.04
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'quotaRateiMensilitaAggiuntive'
+		Alla cella 1 ho letto il valore --> 6.8
+		Alla cella 2 ho letto il valore --> 44.9
+		Alla cella 3 ho letto il valore --> 6.8
+		Alla cella 4 ho letto il valore --> 52.39
+		Alla cella 5 ho letto il valore --> 44.9
+		Alla cella 6 ho letto il valore --> 32.08
+		Alla cella 7 ho letto il valore --> 28.86
+		Alla cella 8 ho letto il valore --> 39.49
+		Alla cella 9 ho letto il valore --> 12.83
+		Alla cella 10 ho letto il valore --> 44.9
+		Alla cella 11 ho letto il valore --> 12.83
+		Alla cella 12 ho letto il valore --> 32.07
+		Alla cella 13 ho letto il valore --> 6.8
+		Alla cella 14 ho letto il valore --> 29.62
+		Alla cella 15 ho letto il valore --> 19.24
+		Alla cella 16 ho letto il valore --> 36.2
+		Alla cella 17 ho letto il valore --> 12.83
+		Alla cella 18 ho letto il valore --> 17.82
+		Alla cella 19 ho letto il valore --> 38.48
+		Alla cella 20 ho letto il valore --> 44.9
+		Alla cella 21 ho letto il valore --> 38.48
+		Alla cella 22 ho letto il valore --> 38.48
+		Alla cella 23 ho letto il valore --> 38.48
+		Alla cella 24 ho letto il valore --> 38.48
+		Alla cella 25 ho letto il valore --> 14.26
+		Alla cella 26 ho letto il valore --> 46.07
+		Alla cella 27 ho letto il valore --> 44.9
+		Alla cella 28 ho letto il valore --> 46.07
+		Alla cella 29 ho letto il valore --> 44.9
+		Alla cella 30 ho letto il valore --> 6.13
+		Alla cella 31 ho letto il valore --> 6.41
+		Alla cella 32 ho letto il valore --> 6.41
+		Alla cella 33 ho letto il valore --> 44.9
+		Alla cella 34 ho letto il valore --> 6.13
+		Alla cella 35 ho letto il valore --> 12.26
+		Alla cella 36 ho letto il valore --> 44.9
+		Alla cella 37 ho letto il valore --> 6.13
+		Alla cella 38 ho letto il valore --> 12.26
+		Alla cella 39 ho letto il valore --> 32.07
+		Alla cella 40 ho letto il valore --> 18.4
+		Alla cella 41 ho letto il valore --> 44.9
+		Alla cella 42 ho letto il valore --> 44.9
+		Alla cella 43 ho letto il valore --> 44.9
+		Alla cella 44 ho letto il valore --> 44.9
+		Alla cella 45 ho letto il valore --> 6.41
+		Alla cella 46 ho letto il valore --> 32.07
+		Alla cella 47 ho letto il valore --> 6.41
+		Alla cella 48 ho letto il valore --> 12.26
+		Alla cella 49 ho letto il valore --> 6.41
+		Alla cella 50 ho letto il valore --> 6.41
+		Alla cella 51 ho letto il valore --> 18.4
+		Alla cella 52 ho letto il valore --> 6.41
+		Alla cella 53 ho letto il valore --> 6.41
+		Alla cella 54 ho letto il valore --> 46.07
+		Alla cella 55 ho letto il valore --> 44.9
+		Alla cella 56 ho letto il valore --> 12.83
+		Alla cella 57 ho letto il valore --> 6.41
+		Alla cella 58 ho letto il valore --> 44.9
+		Alla cella 59 ho letto il valore --> 44.9
+		Alla cella 60 ho letto il valore --> 18.4
+		Alla cella 61 ho letto il valore --> 39.49
+		Alla cella 62 ho letto il valore --> 44.9
+		Alla cella 63 ho letto il valore --> 32.91
+		Alla cella 64 ho letto il valore --> 30.66
+		Alla cella 65 ho letto il valore --> 46.07
+		Alla cella 66 ho letto il valore --> 30.66
+		Alla cella 67 ho letto il valore --> 30.66
+		Alla cella 68 ho letto il valore --> 30.66
+		Alla cella 69 ho letto il valore --> 30.66
+		Alla cella 70 ho letto il valore --> 30.66
+		Alla cella 71 ho letto il valore --> 32.07
+		Alla cella 72 ho letto il valore --> 54.42
+		Alla cella 73 ho letto il valore --> 39.49
+		Alla cella 74 ho letto il valore --> 70.55
+		Alla cella 75 ho letto il valore --> 6.41
+		Alla cella 76 ho letto il valore --> 54.42
+		Alla cella 77 ho letto il valore --> 67.36
+		Alla cella 78 ho letto il valore --> 51.31
+		Alla cella 79 ho letto il valore --> 57.03
+		Alla cella 80 ho letto il valore --> 35.65
+		Alla cella 81 ho letto il valore --> 27.21
+		Alla cella 82 ho letto il valore --> 44.9
+		Alla cella 83 ho letto il valore --> 59.88
+		Alla cella 84 ho letto il valore --> 47.62
+		Alla cella 85 ho letto il valore --> 51.31
+		Alla cella 86 ho letto il valore --> 59.88
+		Alla cella 87 ho letto il valore --> 6.41
+		Alla cella 88 ho letto il valore --> 47.62
+		Alla cella 89 ho letto il valore --> 6.8
+		Alla cella 90 ho letto il valore --> 52.65
+		Alla cella 91 ho letto il valore --> 6.8
+		Alla cella 92 ho letto il valore --> 51.31
+		Alla cella 93 ho letto il valore --> 51.31
+		Alla cella 94 ho letto il valore --> 51.31
+		Alla cella 95 ho letto il valore --> 51.31
+		Alla cella 96 ho letto il valore --> 12.83
+		Alla cella 97 ho letto il valore --> 54.42
+		Alla cella 98 ho letto il valore --> 38.48
+		Alla cella 99 ho letto il valore --> 47.62
+		Alla cella 100 ho letto il valore --> 32.07
+		Alla cella 101 ho letto il valore --> 72.4
+		Alla cella 102 ho letto il valore --> 51.31
+		Alla cella 103 ho letto il valore --> 52.65
+		Alla cella 104 ho letto il valore --> 51.31
+		Alla cella 105 ho letto il valore --> 57.03
+		Alla cella 106 ho letto il valore --> 32.07
+		Alla cella 107 ho letto il valore --> 51.31
+		Alla cella 108 ho letto il valore --> 51.31
+		Alla cella 109 ho letto il valore --> 51.31
+		Alla cella 110 ho letto il valore --> 51.31
+		Alla cella 111 ho letto il valore --> 32.07
+		Alla cella 112 ho letto il valore --> 51.31
+		Alla cella 113 ho letto il valore --> 17.82
+		Alla cella 114 ho letto il valore --> 13.16
+		Alla cella 115 ho letto il valore --> 51.31
+		Alla cella 116 ho letto il valore --> 57.03
+		Alla cella 117 ho letto il valore --> 38.48
+		Alla cella 118 ho letto il valore --> 52.65
+		Alla cella 119 ho letto il valore --> 76.96
+		Alla cella 120 ho letto il valore --> 52.65
+		Alla cella 121 ho letto il valore --> 51.31
+		Alla cella 122 ho letto il valore --> 51.31
+		Alla cella 123 ho letto il valore --> 51.31
+		Alla cella 124 ho letto il valore --> 51.31
+		Alla cella 125 ho letto il valore --> 51.31
+		Alla cella 126 ho letto il valore --> 51.31
+		Alla cella 127 ho letto il valore --> 51.31
+		Alla cella 128 ho letto il valore --> 52.65
+		Alla cella 129 ho letto il valore --> 51.31
+		Alla cella 130 ho letto il valore --> 51.31
+		Alla cella 131 ho letto il valore --> 51.31
+		Alla cella 132 ho letto il valore --> 19.74
+		Alla cella 133 ho letto il valore --> 51.31
+		Alla cella 134 ho letto il valore --> 19.74
+		Alla cella 135 ho letto il valore --> 40.58
+		Alla cella 136 ho letto il valore --> 47.52
+		Alla cella 137 ho letto il valore --> 43.77
+		Alla cella 138 ho letto il valore --> 38.97
+		Alla cella 139 ho letto il valore --> 46.49
+		Alla cella 140 ho letto il valore --> 38.43
+		Alla cella 141 ho letto il valore --> 36.36
+		Alla cella 142 ho letto il valore --> 34.78
+		Alla cella 143 ho letto il valore --> 20.37
+		Alla cella 144 ho letto il valore --> 21.88
+		Alla cella 145 ho letto il valore --> 16.7
+		Alla cella 146 ho letto il valore --> 19.92
+		Alla cella 147 ho letto il valore --> 16.47
+		Alla cella 148 ho letto il valore --> 112.55
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'quotaRateiRolPermessiFerie'
+		Alla cella 1 ho letto il valore --> 10.26
+		Alla cella 2 ho letto il valore --> 67.82
+		Alla cella 3 ho letto il valore --> 10.26
+		Alla cella 4 ho letto il valore --> 79.03
+		Alla cella 5 ho letto il valore --> 67.82
+		Alla cella 6 ho letto il valore --> 48.39
+		Alla cella 7 ho letto il valore --> 43.6
+		Alla cella 8 ho letto il valore --> 59.63999999999999
+		Alla cella 9 ho letto il valore --> 19.37
+		Alla cella 10 ho letto il valore --> 67.82
+		Alla cella 11 ho letto il valore --> 19.37
+		Alla cella 12 ho letto il valore --> 48.44
+		Alla cella 13 ho letto il valore --> 10.26
+		Alla cella 14 ho letto il valore --> 44.72
+		Alla cella 15 ho letto il valore --> 29.07
+		Alla cella 16 ho letto il valore --> 54.67
+		Alla cella 17 ho letto il valore --> 19.37
+		Alla cella 18 ho letto il valore --> 26.880000000000003
+		Alla cella 19 ho letto il valore --> 58.13
+		Alla cella 20 ho letto il valore --> 67.82
+		Alla cella 21 ho letto il valore --> 58.13
+		Alla cella 22 ho letto il valore --> 58.13
+		Alla cella 23 ho letto il valore --> 58.13
+		Alla cella 24 ho letto il valore --> 58.13
+		Alla cella 25 ho letto il valore --> 21.5
+		Alla cella 26 ho letto il valore --> 69.57
+		Alla cella 27 ho letto il valore --> 67.82
+		Alla cella 28 ho letto il valore --> 69.57
+		Alla cella 29 ho letto il valore --> 67.82
+		Alla cella 30 ho letto il valore --> 9.26
+		Alla cella 31 ho letto il valore --> 9.7
+		Alla cella 32 ho letto il valore --> 9.7
+		Alla cella 33 ho letto il valore --> 67.82
+		Alla cella 34 ho letto il valore --> 9.26
+		Alla cella 35 ho letto il valore --> 18.52
+		Alla cella 36 ho letto il valore --> 67.82
+		Alla cella 37 ho letto il valore --> 9.26
+		Alla cella 38 ho letto il valore --> 18.52
+		Alla cella 39 ho letto il valore --> 48.44
+		Alla cella 40 ho letto il valore --> 27.790000000000003
+		Alla cella 41 ho letto il valore --> 67.82
+		Alla cella 42 ho letto il valore --> 67.82
+		Alla cella 43 ho letto il valore --> 67.82
+		Alla cella 44 ho letto il valore --> 67.82
+		Alla cella 45 ho letto il valore --> 9.7
+		Alla cella 46 ho letto il valore --> 48.44
+		Alla cella 47 ho letto il valore --> 9.7
+		Alla cella 48 ho letto il valore --> 18.52
+		Alla cella 49 ho letto il valore --> 9.7
+		Alla cella 50 ho letto il valore --> 9.7
+		Alla cella 51 ho letto il valore --> 27.790000000000003
+		Alla cella 52 ho letto il valore --> 9.7
+		Alla cella 53 ho letto il valore --> 9.7
+		Alla cella 54 ho letto il valore --> 69.57
+		Alla cella 55 ho letto il valore --> 67.82
+		Alla cella 56 ho letto il valore --> 19.37
+		Alla cella 57 ho letto il valore --> 9.7
+		Alla cella 58 ho letto il valore --> 67.82
+		Alla cella 59 ho letto il valore --> 67.82
+		Alla cella 60 ho letto il valore --> 27.790000000000003
+		Alla cella 61 ho letto il valore --> 59.63999999999999
+		Alla cella 62 ho letto il valore --> 67.82
+		Alla cella 63 ho letto il valore --> 49.690000000000005
+		Alla cella 64 ho letto il valore --> 46.31
+		Alla cella 65 ho letto il valore --> 69.57
+		Alla cella 66 ho letto il valore --> 46.31
+		Alla cella 67 ho letto il valore --> 46.31
+		Alla cella 68 ho letto il valore --> 46.31
+		Alla cella 69 ho letto il valore --> 46.31
+		Alla cella 70 ho letto il valore --> 46.31
+		Alla cella 71 ho letto il valore --> 48.44
+		Alla cella 72 ho letto il valore --> 82.17
+		Alla cella 73 ho letto il valore --> 59.63999999999999
+		Alla cella 74 ho letto il valore --> 106.57
+		Alla cella 75 ho letto il valore --> 9.7
+		Alla cella 76 ho letto il valore --> 82.17
+		Alla cella 77 ho letto il valore --> 101.61999999999999
+		Alla cella 78 ho letto il valore --> 77.5
+		Alla cella 79 ho letto il valore --> 86.02000000000001
+		Alla cella 80 ho letto il valore --> 53.76
+		Alla cella 81 ho letto il valore --> 41.089999999999996
+		Alla cella 82 ho letto il valore --> 67.82
+		Alla cella 83 ho letto il valore --> 90.34
+		Alla cella 84 ho letto il valore --> 71.9
+		Alla cella 85 ho letto il valore --> 77.5
+		Alla cella 86 ho letto il valore --> 90.34
+		Alla cella 87 ho letto il valore --> 9.7
+		Alla cella 88 ho letto il valore --> 71.9
+		Alla cella 89 ho letto il valore --> 10.26
+		Alla cella 90 ho letto il valore --> 79.51
+		Alla cella 91 ho letto il valore --> 10.26
+		Alla cella 92 ho letto il valore --> 77.5
+		Alla cella 93 ho letto il valore --> 77.5
+		Alla cella 94 ho letto il valore --> 77.5
+		Alla cella 95 ho letto il valore --> 77.5
+		Alla cella 96 ho letto il valore --> 19.37
+		Alla cella 97 ho letto il valore --> 82.17
+		Alla cella 98 ho letto il valore --> 58.13
+		Alla cella 99 ho letto il valore --> 71.9
+		Alla cella 100 ho letto il valore --> 48.44
+		Alla cella 101 ho letto il valore --> 109.34
+		Alla cella 102 ho letto il valore --> 77.5
+		Alla cella 103 ho letto il valore --> 79.51
+		Alla cella 104 ho letto il valore --> 77.5
+		Alla cella 105 ho letto il valore --> 86.02000000000001
+		Alla cella 106 ho letto il valore --> 48.44
+		Alla cella 107 ho letto il valore --> 77.5
+		Alla cella 108 ho letto il valore --> 77.5
+		Alla cella 109 ho letto il valore --> 77.5
+		Alla cella 110 ho letto il valore --> 77.5
+		Alla cella 111 ho letto il valore --> 48.44
+		Alla cella 112 ho letto il valore --> 77.5
+		Alla cella 113 ho letto il valore --> 26.880000000000003
+		Alla cella 114 ho letto il valore --> 19.88
+		Alla cella 115 ho letto il valore --> 77.5
+		Alla cella 116 ho letto il valore --> 86.02000000000001
+		Alla cella 117 ho letto il valore --> 58.13
+		Alla cella 118 ho letto il valore --> 79.51
+		Alla cella 119 ho letto il valore --> 116.26
+		Alla cella 120 ho letto il valore --> 79.51
+		Alla cella 121 ho letto il valore --> 77.5
+		Alla cella 122 ho letto il valore --> 77.5
+		Alla cella 123 ho letto il valore --> 77.5
+		Alla cella 124 ho letto il valore --> 77.5
+		Alla cella 125 ho letto il valore --> 77.5
+		Alla cella 126 ho letto il valore --> 77.5
+		Alla cella 127 ho letto il valore --> 77.5
+		Alla cella 128 ho letto il valore --> 79.51
+		Alla cella 129 ho letto il valore --> 77.5
+		Alla cella 130 ho letto il valore --> 77.5
+		Alla cella 131 ho letto il valore --> 77.5
+		Alla cella 132 ho letto il valore --> 29.819999999999997
+		Alla cella 133 ho letto il valore --> 77.5
+		Alla cella 134 ho letto il valore --> 29.819999999999997
+		Alla cella 135 ho letto il valore --> 48.77
+		Alla cella 136 ho letto il valore --> 57.120000000000005
+		Alla cella 137 ho letto il valore --> 52.599999999999994
+		Alla cella 138 ho letto il valore --> 46.839999999999996
+		Alla cella 139 ho letto il valore --> 55.87
+		Alla cella 140 ho letto il valore --> 46.19
+		Alla cella 141 ho letto il valore --> 43.71
+		Alla cella 142 ho letto il valore --> 41.800000000000004
+		Alla cella 143 ho letto il valore --> 24.48
+		Alla cella 144 ho letto il valore --> 26.299999999999997
+		Alla cella 145 ho letto il valore --> 20.07
+		Alla cella 146 ho letto il valore --> 23.95
+		Alla cella 147 ho letto il valore --> 19.8
+		Alla cella 148 ho letto il valore --> 135.28
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'totaleOreTisRiconosciute'
+		Alla cella 1 ho letto il valore --> 8
+		Alla cella 2 ho letto il valore --> 56
+		Alla cella 3 ho letto il valore --> 8
+		Alla cella 4 ho letto il valore --> 56
+		Alla cella 5 ho letto il valore --> 56
+		Alla cella 6 ho letto il valore --> 36
+		Alla cella 7 ho letto il valore --> 36
+		Alla cella 8 ho letto il valore --> 48
+		Alla cella 9 ho letto il valore --> 16
+		Alla cella 10 ho letto il valore --> 56
+		Alla cella 11 ho letto il valore --> 16
+		Alla cella 12 ho letto il valore --> 40
+		Alla cella 13 ho letto il valore --> 8
+		Alla cella 14 ho letto il valore --> 36
+		Alla cella 15 ho letto il valore --> 24
+		Alla cella 16 ho letto il valore --> 44
+		Alla cella 17 ho letto il valore --> 16
+		Alla cella 18 ho letto il valore --> 20
+		Alla cella 19 ho letto il valore --> 48
+		Alla cella 20 ho letto il valore --> 56
+		Alla cella 21 ho letto il valore --> 48
+		Alla cella 22 ho letto il valore --> 48
+		Alla cella 23 ho letto il valore --> 48
+		Alla cella 24 ho letto il valore --> 48
+		Alla cella 25 ho letto il valore --> 16
+		Alla cella 26 ho letto il valore --> 56
+		Alla cella 27 ho letto il valore --> 56
+		Alla cella 28 ho letto il valore --> 56
+		Alla cella 29 ho letto il valore --> 56
+		Alla cella 30 ho letto il valore --> 8
+		Alla cella 31 ho letto il valore --> 8
+		Alla cella 32 ho letto il valore --> 8
+		Alla cella 33 ho letto il valore --> 56
+		Alla cella 34 ho letto il valore --> 8
+		Alla cella 35 ho letto il valore --> 16
+		Alla cella 36 ho letto il valore --> 56
+		Alla cella 37 ho letto il valore --> 8
+		Alla cella 38 ho letto il valore --> 16
+		Alla cella 39 ho letto il valore --> 40
+		Alla cella 40 ho letto il valore --> 24
+		Alla cella 41 ho letto il valore --> 56
+		Alla cella 42 ho letto il valore --> 56
+		Alla cella 43 ho letto il valore --> 56
+		Alla cella 44 ho letto il valore --> 56
+		Alla cella 45 ho letto il valore --> 8
+		Alla cella 46 ho letto il valore --> 40
+		Alla cella 47 ho letto il valore --> 8
+		Alla cella 48 ho letto il valore --> 16
+		Alla cella 49 ho letto il valore --> 8
+		Alla cella 50 ho letto il valore --> 8
+		Alla cella 51 ho letto il valore --> 24
+		Alla cella 52 ho letto il valore --> 8
+		Alla cella 53 ho letto il valore --> 8
+		Alla cella 54 ho letto il valore --> 56
+		Alla cella 55 ho letto il valore --> 56
+		Alla cella 56 ho letto il valore --> 16
+		Alla cella 57 ho letto il valore --> 8
+		Alla cella 58 ho letto il valore --> 56
+		Alla cella 59 ho letto il valore --> 56
+		Alla cella 60 ho letto il valore --> 24
+		Alla cella 61 ho letto il valore --> 48
+		Alla cella 62 ho letto il valore --> 56
+		Alla cella 63 ho letto il valore --> 40
+		Alla cella 64 ho letto il valore --> 40
+		Alla cella 65 ho letto il valore --> 56
+		Alla cella 66 ho letto il valore --> 40
+		Alla cella 67 ho letto il valore --> 40
+		Alla cella 68 ho letto il valore --> 40
+		Alla cella 69 ho letto il valore --> 40
+		Alla cella 70 ho letto il valore --> 40
+		Alla cella 71 ho letto il valore --> 40
+		Alla cella 72 ho letto il valore --> 64
+		Alla cella 73 ho letto il valore --> 48
+		Alla cella 74 ho letto il valore --> 88
+		Alla cella 75 ho letto il valore --> 8
+		Alla cella 76 ho letto il valore --> 64
+		Alla cella 77 ho letto il valore --> 72
+		Alla cella 78 ho letto il valore --> 64
+		Alla cella 79 ho letto il valore --> 64
+		Alla cella 80 ho letto il valore --> 40
+		Alla cella 81 ho letto il valore --> 32
+		Alla cella 82 ho letto il valore --> 56
+		Alla cella 83 ho letto il valore --> 64
+		Alla cella 84 ho letto il valore --> 56
+		Alla cella 85 ho letto il valore --> 64
+		Alla cella 86 ho letto il valore --> 64
+		Alla cella 87 ho letto il valore --> 8
+		Alla cella 88 ho letto il valore --> 56
+		Alla cella 89 ho letto il valore --> 8
+		Alla cella 90 ho letto il valore --> 64
+		Alla cella 91 ho letto il valore --> 8
+		Alla cella 92 ho letto il valore --> 64
+		Alla cella 93 ho letto il valore --> 64
+		Alla cella 94 ho letto il valore --> 64
+		Alla cella 95 ho letto il valore --> 64
+		Alla cella 96 ho letto il valore --> 16
+		Alla cella 97 ho letto il valore --> 64
+		Alla cella 98 ho letto il valore --> 48
+		Alla cella 99 ho letto il valore --> 56
+		Alla cella 100 ho letto il valore --> 40
+		Alla cella 101 ho letto il valore --> 88
+		Alla cella 102 ho letto il valore --> 64
+		Alla cella 103 ho letto il valore --> 64
+		Alla cella 104 ho letto il valore --> 64
+		Alla cella 105 ho letto il valore --> 64
+		Alla cella 106 ho letto il valore --> 40
+		Alla cella 107 ho letto il valore --> 64
+		Alla cella 108 ho letto il valore --> 64
+		Alla cella 109 ho letto il valore --> 64
+		Alla cella 110 ho letto il valore --> 64
+		Alla cella 111 ho letto il valore --> 40
+		Alla cella 112 ho letto il valore --> 64
+		Alla cella 113 ho letto il valore --> 20
+		Alla cella 114 ho letto il valore --> 16
+		Alla cella 115 ho letto il valore --> 64
+		Alla cella 116 ho letto il valore --> 64
+		Alla cella 117 ho letto il valore --> 48
+		Alla cella 118 ho letto il valore --> 64
+		Alla cella 119 ho letto il valore --> 96
+		Alla cella 120 ho letto il valore --> 64
+		Alla cella 121 ho letto il valore --> 64
+		Alla cella 122 ho letto il valore --> 64
+		Alla cella 123 ho letto il valore --> 64
+		Alla cella 124 ho letto il valore --> 64
+		Alla cella 125 ho letto il valore --> 64
+		Alla cella 126 ho letto il valore --> 64
+		Alla cella 127 ho letto il valore --> 64
+		Alla cella 128 ho letto il valore --> 64
+		Alla cella 129 ho letto il valore --> 64
+		Alla cella 130 ho letto il valore --> 64
+		Alla cella 131 ho letto il valore --> 64
+		Alla cella 132 ho letto il valore --> 24
+		Alla cella 133 ho letto il valore --> 64
+		Alla cella 134 ho letto il valore --> 24
+		Alla cella 135 ho letto il valore --> 56
+		Alla cella 136 ho letto il valore --> 56
+		Alla cella 137 ho letto il valore --> 48
+		Alla cella 138 ho letto il valore --> 56
+		Alla cella 139 ho letto il valore --> 56
+		Alla cella 140 ho letto il valore --> 56
+		Alla cella 141 ho letto il valore --> 56
+		Alla cella 142 ho letto il valore --> 48
+		Alla cella 143 ho letto il valore --> 24
+		Alla cella 144 ho letto il valore --> 24
+		Alla cella 145 ho letto il valore --> 24
+		Alla cella 146 ho letto il valore --> 24
+		Alla cella 147 ho letto il valore --> 24
+		Alla cella 148 ho letto il valore --> 176
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'lavoratoreAlleDipendenze25Marzo'
+		Alla cella 1 ho letto il valore --> S
+		Alla cella 2 ho letto il valore --> S
+		Alla cella 3 ho letto il valore --> S
+		Alla cella 4 ho letto il valore --> S
+		Alla cella 5 ho letto il valore --> S
+		Alla cella 6 ho letto il valore --> S
+		Alla cella 7 ho letto il valore --> S
+		Alla cella 8 ho letto il valore --> S
+		Alla cella 9 ho letto il valore --> S
+		Alla cella 10 ho letto il valore --> S
+		Alla cella 11 ho letto il valore --> S
+		Alla cella 12 ho letto il valore --> S
+		Alla cella 13 ho letto il valore --> S
+		Alla cella 14 ho letto il valore --> S
+		Alla cella 15 ho letto il valore --> S
+		Alla cella 16 ho letto il valore --> S
+		Alla cella 17 ho letto il valore --> S
+		Alla cella 18 ho letto il valore --> S
+		Alla cella 19 ho letto il valore --> S
+		Alla cella 20 ho letto il valore --> S
+		Alla cella 21 ho letto il valore --> S
+		Alla cella 22 ho letto il valore --> S
+		Alla cella 23 ho letto il valore --> S
+		Alla cella 24 ho letto il valore --> S
+		Alla cella 25 ho letto il valore --> S
+		Alla cella 26 ho letto il valore --> S
+		Alla cella 27 ho letto il valore --> S
+		Alla cella 28 ho letto il valore --> S
+		Alla cella 29 ho letto il valore --> S
+		Alla cella 30 ho letto il valore --> S
+		Alla cella 31 ho letto il valore --> S
+		Alla cella 32 ho letto il valore --> S
+		Alla cella 33 ho letto il valore --> S
+		Alla cella 34 ho letto il valore --> S
+		Alla cella 35 ho letto il valore --> S
+		Alla cella 36 ho letto il valore --> S
+		Alla cella 37 ho letto il valore --> S
+		Alla cella 38 ho letto il valore --> S
+		Alla cella 39 ho letto il valore --> S
+		Alla cella 40 ho letto il valore --> S
+		Alla cella 41 ho letto il valore --> S
+		Alla cella 42 ho letto il valore --> S
+		Alla cella 43 ho letto il valore --> S
+		Alla cella 44 ho letto il valore --> S
+		Alla cella 45 ho letto il valore --> S
+		Alla cella 46 ho letto il valore --> S
+		Alla cella 47 ho letto il valore --> S
+		Alla cella 48 ho letto il valore --> S
+		Alla cella 49 ho letto il valore --> S
+		Alla cella 50 ho letto il valore --> S
+		Alla cella 51 ho letto il valore --> S
+		Alla cella 52 ho letto il valore --> S
+		Alla cella 53 ho letto il valore --> S
+		Alla cella 54 ho letto il valore --> S
+		Alla cella 55 ho letto il valore --> S
+		Alla cella 56 ho letto il valore --> S
+		Alla cella 57 ho letto il valore --> S
+		Alla cella 58 ho letto il valore --> S
+		Alla cella 59 ho letto il valore --> S
+		Alla cella 60 ho letto il valore --> S
+		Alla cella 61 ho letto il valore --> S
+		Alla cella 62 ho letto il valore --> S
+		Alla cella 63 ho letto il valore --> S
+		Alla cella 64 ho letto il valore --> S
+		Alla cella 65 ho letto il valore --> S
+		Alla cella 66 ho letto il valore --> S
+		Alla cella 67 ho letto il valore --> S
+		Alla cella 68 ho letto il valore --> S
+		Alla cella 69 ho letto il valore --> S
+		Alla cella 70 ho letto il valore --> S
+		Alla cella 71 ho letto il valore --> S
+		Alla cella 72 ho letto il valore --> S
+		Alla cella 73 ho letto il valore --> S
+		Alla cella 74 ho letto il valore --> S
+		Alla cella 75 ho letto il valore --> S
+		Alla cella 76 ho letto il valore --> S
+		Alla cella 77 ho letto il valore --> S
+		Alla cella 78 ho letto il valore --> S
+		Alla cella 79 ho letto il valore --> S
+		Alla cella 80 ho letto il valore --> S
+		Alla cella 81 ho letto il valore --> S
+		Alla cella 82 ho letto il valore --> S
+		Alla cella 83 ho letto il valore --> S
+		Alla cella 84 ho letto il valore --> S
+		Alla cella 85 ho letto il valore --> S
+		Alla cella 86 ho letto il valore --> S
+		Alla cella 87 ho letto il valore --> S
+		Alla cella 88 ho letto il valore --> S
+		Alla cella 89 ho letto il valore --> S
+		Alla cella 90 ho letto il valore --> S
+		Alla cella 91 ho letto il valore --> S
+		Alla cella 92 ho letto il valore --> S
+		Alla cella 93 ho letto il valore --> S
+		Alla cella 94 ho letto il valore --> S
+		Alla cella 95 ho letto il valore --> S
+		Alla cella 96 ho letto il valore --> S
+		Alla cella 97 ho letto il valore --> S
+		Alla cella 98 ho letto il valore --> S
+		Alla cella 99 ho letto il valore --> S
+		Alla cella 100 ho letto il valore --> S
+		Alla cella 101 ho letto il valore --> S
+		Alla cella 102 ho letto il valore --> S
+		Alla cella 103 ho letto il valore --> S
+		Alla cella 104 ho letto il valore --> S
+		Alla cella 105 ho letto il valore --> S
+		Alla cella 106 ho letto il valore --> S
+		Alla cella 107 ho letto il valore --> S
+		Alla cella 108 ho letto il valore --> S
+		Alla cella 109 ho letto il valore --> S
+		Alla cella 110 ho letto il valore --> S
+		Alla cella 111 ho letto il valore --> S
+		Alla cella 112 ho letto il valore --> S
+		Alla cella 113 ho letto il valore --> S
+		Alla cella 114 ho letto il valore --> S
+		Alla cella 115 ho letto il valore --> S
+		Alla cella 116 ho letto il valore --> S
+		Alla cella 117 ho letto il valore --> S
+		Alla cella 118 ho letto il valore --> S
+		Alla cella 119 ho letto il valore --> S
+		Alla cella 120 ho letto il valore --> S
+		Alla cella 121 ho letto il valore --> S
+		Alla cella 122 ho letto il valore --> S
+		Alla cella 123 ho letto il valore --> S
+		Alla cella 124 ho letto il valore --> S
+		Alla cella 125 ho letto il valore --> S
+		Alla cella 126 ho letto il valore --> S
+		Alla cella 127 ho letto il valore --> S
+		Alla cella 128 ho letto il valore --> S
+		Alla cella 129 ho letto il valore --> S
+		Alla cella 130 ho letto il valore --> S
+		Alla cella 131 ho letto il valore --> S
+		Alla cella 132 ho letto il valore --> S
+		Alla cella 133 ho letto il valore --> S
+		Alla cella 134 ho letto il valore --> S
+		Alla cella 135 ho letto il valore --> S
+		Alla cella 136 ho letto il valore --> S
+		Alla cella 137 ho letto il valore --> S
+		Alla cella 138 ho letto il valore --> S
+		Alla cella 139 ho letto il valore --> S
+		Alla cella 140 ho letto il valore --> S
+		Alla cella 141 ho letto il valore --> S
+		Alla cella 142 ho letto il valore --> S
+		Alla cella 143 ho letto il valore --> S
+		Alla cella 144 ho letto il valore --> S
+		Alla cella 145 ho letto il valore --> S
+		Alla cella 146 ho letto il valore --> S
+		Alla cella 147 ho letto il valore --> S
+		Alla cella 148 ho letto il valore --> S
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx
+	Dall'excel, tento di leggere la colonna 'annoRiferimento'
+		Alla cella 1 ho letto il valore --> 2020
+		Alla cella 2 ho letto il valore --> 2020
+		Alla cella 3 ho letto il valore --> 2020
+		Alla cella 4 ho letto il valore --> 2020
+		Alla cella 5 ho letto il valore --> 2020
+		Alla cella 6 ho letto il valore --> 2020
+		Alla cella 7 ho letto il valore --> 2020
+		Alla cella 8 ho letto il valore --> 2020
+		Alla cella 9 ho letto il valore --> 2020
+		Alla cella 10 ho letto il valore --> 2020
+		Alla cella 11 ho letto il valore --> 2020
+		Alla cella 12 ho letto il valore --> 2020
+		Alla cella 13 ho letto il valore --> 2020
+		Alla cella 14 ho letto il valore --> 2020
+		Alla cella 15 ho letto il valore --> 2020
+		Alla cella 16 ho letto il valore --> 2020
+		Alla cella 17 ho letto il valore --> 2020
+		Alla cella 18 ho letto il valore --> 2020
+		Alla cella 19 ho letto il valore --> 2020
+		Alla cella 20 ho letto il valore --> 2020
+		Alla cella 21 ho letto il valore --> 2020
+		Alla cella 22 ho letto il valore --> 2020
+		Alla cella 23 ho letto il valore --> 2020
+		Alla cella 24 ho letto il valore --> 2020
+		Alla cella 25 ho letto il valore --> 2020
+		Alla cella 26 ho letto il valore --> 2020
+		Alla cella 27 ho letto il valore --> 2020
+		Alla cella 28 ho letto il valore --> 2020
+		Alla cella 29 ho letto il valore --> 2020
+		Alla cella 30 ho letto il valore --> 2020
+		Alla cella 31 ho letto il valore --> 2020
+		Alla cella 32 ho letto il valore --> 2020
+		Alla cella 33 ho letto il valore --> 2020
+		Alla cella 34 ho letto il valore --> 2020
+		Alla cella 35 ho letto il valore --> 2020
+		Alla cella 36 ho letto il valore --> 2020
+		Alla cella 37 ho letto il valore --> 2020
+		Alla cella 38 ho letto il valore --> 2020
+		Alla cella 39 ho letto il valore --> 2020
+		Alla cella 40 ho letto il valore --> 2020
+		Alla cella 41 ho letto il valore --> 2020
+		Alla cella 42 ho letto il valore --> 2020
+		Alla cella 43 ho letto il valore --> 2020
+		Alla cella 44 ho letto il valore --> 2020
+		Alla cella 45 ho letto il valore --> 2020
+		Alla cella 46 ho letto il valore --> 2020
+		Alla cella 47 ho letto il valore --> 2020
+		Alla cella 48 ho letto il valore --> 2020
+		Alla cella 49 ho letto il valore --> 2020
+		Alla cella 50 ho letto il valore --> 2020
+		Alla cella 51 ho letto il valore --> 2020
+		Alla cella 52 ho letto il valore --> 2020
+		Alla cella 53 ho letto il valore --> 2020
+		Alla cella 54 ho letto il valore --> 2020
+		Alla cella 55 ho letto il valore --> 2020
+		Alla cella 56 ho letto il valore --> 2020
+		Alla cella 57 ho letto il valore --> 2020
+		Alla cella 58 ho letto il valore --> 2020
+		Alla cella 59 ho letto il valore --> 2020
+		Alla cella 60 ho letto il valore --> 2020
+		Alla cella 61 ho letto il valore --> 2020
+		Alla cella 62 ho letto il valore --> 2020
+		Alla cella 63 ho letto il valore --> 2020
+		Alla cella 64 ho letto il valore --> 2020
+		Alla cella 65 ho letto il valore --> 2020
+		Alla cella 66 ho letto il valore --> 2020
+		Alla cella 67 ho letto il valore --> 2020
+		Alla cella 68 ho letto il valore --> 2020
+		Alla cella 69 ho letto il valore --> 2020
+		Alla cella 70 ho letto il valore --> 2020
+		Alla cella 71 ho letto il valore --> 2020
+		Alla cella 72 ho letto il valore --> 2020
+		Alla cella 73 ho letto il valore --> 2020
+		Alla cella 74 ho letto il valore --> 2020
+		Alla cella 75 ho letto il valore --> 2020
+		Alla cella 76 ho letto il valore --> 2020
+		Alla cella 77 ho letto il valore --> 2020
+		Alla cella 78 ho letto il valore --> 2020
+		Alla cella 79 ho letto il valore --> 2020
+		Alla cella 80 ho letto il valore --> 2020
+		Alla cella 81 ho letto il valore --> 2020
+		Alla cella 82 ho letto il valore --> 2020
+		Alla cella 83 ho letto il valore --> 2020
+		Alla cella 84 ho letto il valore --> 2020
+		Alla cella 85 ho letto il valore --> 2020
+		Alla cella 86 ho letto il valore --> 2020
+		Alla cella 87 ho letto il valore --> 2020
+		Alla cella 88 ho letto il valore --> 2020
+		Alla cella 89 ho letto il valore --> 2020
+		Alla cella 90 ho letto il valore --> 2020
+		Alla cella 91 ho letto il valore --> 2020
+		Alla cella 92 ho letto il valore --> 2020
+		Alla cella 93 ho letto il valore --> 2020
+		Alla cella 94 ho letto il valore --> 2020
+		Alla cella 95 ho letto il valore --> 2020
+		Alla cella 96 ho letto il valore --> 2020
+		Alla cella 97 ho letto il valore --> 2020
+		Alla cella 98 ho letto il valore --> 2020
+		Alla cella 99 ho letto il valore --> 2020
+		Alla cella 100 ho letto il valore --> 2020
+		Alla cella 101 ho letto il valore --> 2020
+		Alla cella 102 ho letto il valore --> 2020
+		Alla cella 103 ho letto il valore --> 2020
+		Alla cella 104 ho letto il valore --> 2020
+		Alla cella 105 ho letto il valore --> 2020
+		Alla cella 106 ho letto il valore --> 2020
+		Alla cella 107 ho letto il valore --> 2020
+		Alla cella 108 ho letto il valore --> 2020
+		Alla cella 109 ho letto il valore --> 2020
+		Alla cella 110 ho letto il valore --> 2020
+		Alla cella 111 ho letto il valore --> 2020
+		Alla cella 112 ho letto il valore --> 2020
+		Alla cella 113 ho letto il valore --> 2020
+		Alla cella 114 ho letto il valore --> 2020
+		Alla cella 115 ho letto il valore --> 2020
+		Alla cella 116 ho letto il valore --> 2020
+		Alla cella 117 ho letto il valore --> 2020
+		Alla cella 118 ho letto il valore --> 2020
+		Alla cella 119 ho letto il valore --> 2020
+		Alla cella 120 ho letto il valore --> 2020
+		Alla cella 121 ho letto il valore --> 2020
+		Alla cella 122 ho letto il valore --> 2020
+		Alla cella 123 ho letto il valore --> 2020
+		Alla cella 124 ho letto il valore --> 2020
+		Alla cella 125 ho letto il valore --> 2020
+		Alla cella 126 ho letto il valore --> 2020
+		Alla cella 127 ho letto il valore --> 2020
+		Alla cella 128 ho letto il valore --> 2020
+		Alla cella 129 ho letto il valore --> 2020
+		Alla cella 130 ho letto il valore --> 2020
+		Alla cella 131 ho letto il valore --> 2020
+		Alla cella 132 ho letto il valore --> 2020
+		Alla cella 133 ho letto il valore --> 2020
+		Alla cella 134 ho letto il valore --> 2020
+		Alla cella 135 ho letto il valore --> 2020
+		Alla cella 136 ho letto il valore --> 2020
+		Alla cella 137 ho letto il valore --> 2020
+		Alla cella 138 ho letto il valore --> 2020
+		Alla cella 139 ho letto il valore --> 2020
+		Alla cella 140 ho letto il valore --> 2020
+		Alla cella 141 ho letto il valore --> 2020
+		Alla cella 142 ho letto il valore --> 2020
+		Alla cella 143 ho letto il valore --> 2020
+		Alla cella 144 ho letto il valore --> 2020
+		Alla cella 145 ho letto il valore --> 2020
+		Alla cella 146 ho letto il valore --> 2020
+		Alla cella 147 ho letto il valore --> 2020
+		Alla cella 148 ho letto il valore --> 2020
+Ho letto l'excel: FORMAT RENDICONTAZIONE.xlsx

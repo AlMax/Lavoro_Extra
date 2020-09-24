@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tis>
+	<istanza>
+		<identificativoPratica>test prodcut</identificativoPratica>
+		<denominazioneAPL>test prodcut</denominazioneAPL>
+		<ragioneSocialeUtilizzatore>test prodcut</ragioneSocialeUtilizzatore>
+		<partitaIvaUtilizzatore>test prodcut</partitaIvaUtilizzatore>
+		<matricolaInpsUtilizzatore>test prodcut</matricolaInpsUtilizzatore>
+		<codiceAtecoUtilizzatore>test prodcut</codiceAtecoUtilizzatore>
+		<sedeUnitaProduttiva>test prodcut</sedeUnitaProduttiva>
+		<mensilitaAggiuntive>test prodcut</mensilitaAggiuntive>
+		<settoreRiferimento>test prodcut</settoreRiferimento>
+		<autocertificazioneSettimane>test prodcut</autocertificazioneSettimane>
+		<note>test prodcut</note>
+		<lavoratori>
+			<lavoratore>
+				<annoRiferimento>test prodcut</annoRiferimento>
+				<meseRiferimento>test prodcut</meseRiferimento>
+				<codiceFiscale>test prodcut</codiceFiscale>
+				<cognome>test prodcut</cognome>
+				<nome>test prodcut</nome>
+				<tipologiaContratto>test prodcut</tipologiaContratto>
+				<sgraviAliquotaContributivaPrevidenziale>test prodcut</sgraviAliquotaContributivaPrevidenziale>
+				<retribuzioneMensileLorda>test prodcut</retribuzioneMensileLorda>
+				<retribuzioneTisRiconosciuta>test prodcut</retribuzioneTisRiconosciuta>
+				<contribuzioneTisRiconosciuta>test prodcut</contribuzioneTisRiconosciuta>
+				<quotaRateiMensilitaAggiuntive>test prodcut</quotaRateiMensilitaAggiuntive>
+				<quotaRateiRolPermessiFerie>test prodcut</quotaRateiRolPermessiFerie>
+				<totaleOreTisRiconosciute>test prodcut</totaleOreTisRiconosciute>
+				<lavoratoreAlleDipendenze25Marzo>test prodcut</lavoratoreAlleDipendenze25Marzo>
+			</lavoratore>
+		</lavoratori>
+	</istanza>
+</tis>
