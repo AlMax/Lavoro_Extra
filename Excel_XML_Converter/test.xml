@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<?xml version="1.0" ?>
 <tis>
 	<istanza>
 		<identificativoPratica>1</identificativoPratica>
@@ -21,7 +21,7 @@
 				<nome>NADIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
@@ -37,7 +37,7 @@
 				<nome>TEUTA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -53,7 +53,7 @@
 				<nome>ANNA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
@@ -69,7 +69,7 @@
 				<nome>SONIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>2084.43</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>216.31</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>52.39</quotaRateiMensilitaAggiuntive>
@@ -85,7 +85,7 @@
 				<nome>VIORICA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -101,7 +101,7 @@
 				<nome>AURELIA  SORINA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>192.24</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.45</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.08</quotaRateiMensilitaAggiuntive>
@@ -117,7 +117,7 @@
 				<nome>ELTON</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>192.24</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>119.19</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>28.86</quotaRateiMensilitaAggiuntive>
@@ -133,7 +133,7 @@
 				<nome>MARCO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>163.08</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>39.49</quotaRateiMensilitaAggiuntive>
@@ -149,7 +149,7 @@
 				<nome>GABRIELE</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
@@ -165,7 +165,7 @@
 				<nome>MICHAEL</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -181,7 +181,7 @@
 				<nome>MARWA ABBAS </nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
@@ -197,7 +197,7 @@
 				<nome>IOANA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
@@ -213,7 +213,7 @@
 				<nome>NADIA MARIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
@@ -229,7 +229,7 @@
 				<nome>JACQUELINE PAOLA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>192.24</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>122.32</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>29.62</quotaRateiMensilitaAggiuntive>
@@ -245,7 +245,7 @@
 				<nome>LARA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>83.35</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>19.24</quotaRateiMensilitaAggiuntive>
@@ -261,7 +261,7 @@
 				<nome>ROBERTA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>234.96</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>156.78</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>36.2</quotaRateiMensilitaAggiuntive>
@@ -277,7 +277,7 @@
 				<nome>JESSICA FRANCESCA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
@@ -293,7 +293,7 @@
 				<nome>MICHELA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>106.8</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>73.59</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>17.82</quotaRateiMensilitaAggiuntive>
@@ -309,7 +309,7 @@
 				<nome>ENKELEJDA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
@@ -325,7 +325,7 @@
 				<nome>SIMONA GAROFITA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -341,7 +341,7 @@
 				<nome>SUELA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
@@ -357,7 +357,7 @@
 				<nome>DIANA MARIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
@@ -373,7 +373,7 @@
 				<nome>CRINA IOANA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
@@ -389,7 +389,7 @@
 				<nome>GIOVANNI PUMIPHOL</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
@@ -405,7 +405,7 @@
 				<nome>ANDREA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>58.88</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>14.26</quotaRateiMensilitaAggiuntive>
@@ -421,7 +421,7 @@
 				<nome>FLAVIO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>190.24</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
@@ -437,7 +437,7 @@
 				<nome>ANNA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -453,7 +453,7 @@
 				<nome>PAUL DANIEL</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>190.24</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
@@ -469,7 +469,7 @@
 				<nome>LUCA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -485,7 +485,7 @@
 				<nome>PAMELA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>26.55</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.13</quotaRateiMensilitaAggiuntive>
@@ -501,7 +501,7 @@
 				<nome>EGLA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -517,7 +517,7 @@
 				<nome>MARIALUISA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -533,7 +533,7 @@
 				<nome>MARIA TERESA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -549,7 +549,7 @@
 				<nome>VALERIA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>26.55</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.13</quotaRateiMensilitaAggiuntive>
@@ -565,7 +565,7 @@
 				<nome>FRANCESCA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>53.12</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.26</quotaRateiMensilitaAggiuntive>
@@ -581,7 +581,7 @@
 				<nome>EMILY</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -597,7 +597,7 @@
 				<nome>ZANA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>26.55</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.13</quotaRateiMensilitaAggiuntive>
@@ -613,7 +613,7 @@
 				<nome>MIRIAM</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>53.12</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.26</quotaRateiMensilitaAggiuntive>
@@ -629,7 +629,7 @@
 				<nome>SIMONA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>138.89</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
@@ -645,7 +645,7 @@
 				<nome>MARIA ANTONIETTA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>79.67</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>18.4</quotaRateiMensilitaAggiuntive>
@@ -661,7 +661,7 @@
 				<nome>ILARIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -677,7 +677,7 @@
 				<nome>VALERIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -693,7 +693,7 @@
 				<nome>LOREDANA ROXANA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -709,7 +709,7 @@
 				<nome>ROBY</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -725,7 +725,7 @@
 				<nome>FRANCESCO LUIGI</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -741,7 +741,7 @@
 				<nome>RICCARDO</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>138.89</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
@@ -757,7 +757,7 @@
 				<nome>FRANCESCA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -773,7 +773,7 @@
 				<nome>STELUTA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>53.12</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.26</quotaRateiMensilitaAggiuntive>
@@ -789,7 +789,7 @@
 				<nome>CHRISTIAN</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -805,7 +805,7 @@
 				<nome>STEPHANO DINO</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -821,7 +821,7 @@
 				<nome>ALESSIA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>79.67</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>18.4</quotaRateiMensilitaAggiuntive>
@@ -837,7 +837,7 @@
 				<nome>ANNAMARIA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -853,7 +853,7 @@
 				<nome>ALESSANDRO </nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -869,7 +869,7 @@
 				<nome>MELANIA ARMIDA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>190.24</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
@@ -885,7 +885,7 @@
 				<nome>CARLO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -901,7 +901,7 @@
 				<nome>DIEGO</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>55.55</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
@@ -917,7 +917,7 @@
 				<nome>CRISTIANO</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -933,7 +933,7 @@
 				<nome>ARBER</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -949,7 +949,7 @@
 				<nome>SARA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -965,7 +965,7 @@
 				<nome>NASTACA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>79.67</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>18.4</quotaRateiMensilitaAggiuntive>
@@ -981,7 +981,7 @@
 				<nome>MIHAELA RAMONA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>171.03</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>39.49</quotaRateiMensilitaAggiuntive>
@@ -997,7 +997,7 @@
 				<nome>ELENA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -1013,7 +1013,7 @@
 				<nome>ALEX</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>142.52</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.91</quotaRateiMensilitaAggiuntive>
@@ -1029,7 +1029,7 @@
 				<nome>JENNIFER</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
@@ -1045,7 +1045,7 @@
 				<nome>GIULIA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>199.53</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
@@ -1061,7 +1061,7 @@
 				<nome>HANNA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
@@ -1077,7 +1077,7 @@
 				<nome>ROXANA MIRABELA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
@@ -1093,7 +1093,7 @@
 				<nome>SVETLANA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
@@ -1109,7 +1109,7 @@
 				<nome>ANCA LENUTA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
@@ -1125,7 +1125,7 @@
 				<nome>LARISA SIMONA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1707.82</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
@@ -1141,7 +1141,7 @@
 				<nome>LUCIA MARIA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>138.89</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
@@ -1157,7 +1157,7 @@
 				<nome>NADIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>224.73</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>54.42</quotaRateiMensilitaAggiuntive>
@@ -1173,7 +1173,7 @@
 				<nome>MARIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>163.08</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>39.49</quotaRateiMensilitaAggiuntive>
@@ -1189,7 +1189,7 @@
 				<nome>ERIKA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>469.92</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>291.35</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>70.55</quotaRateiMensilitaAggiuntive>
@@ -1205,7 +1205,7 @@
 				<nome>TEUTA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>26.47</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -1221,7 +1221,7 @@
 				<nome>ANNA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>224.73</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>54.42</quotaRateiMensilitaAggiuntive>
@@ -1237,7 +1237,7 @@
 				<nome>SONIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>2084.43</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>384.48</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>278.11</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>67.36</quotaRateiMensilitaAggiuntive>
@@ -1253,7 +1253,7 @@
 				<nome>VIORICA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1269,7 +1269,7 @@
 				<nome>AURELIA  SORINA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>235.49</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>57.03</quotaRateiMensilitaAggiuntive>
@@ -1285,7 +1285,7 @@
 				<nome>SABRINA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>147.16</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>35.65</quotaRateiMensilitaAggiuntive>
@@ -1301,7 +1301,7 @@
 				<nome>DEBORA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>170.88</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>112.35</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>27.21</quotaRateiMensilitaAggiuntive>
@@ -1317,7 +1317,7 @@
 				<nome>IONELA ALINA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
@@ -1333,7 +1333,7 @@
 				<nome>STEFANIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>2084.43</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>247.23</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>59.88</quotaRateiMensilitaAggiuntive>
@@ -1349,7 +1349,7 @@
 				<nome>KATERINA TODOROVA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>196.64</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>47.62</quotaRateiMensilitaAggiuntive>
@@ -1365,7 +1365,7 @@
 				<nome>ELTON</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1381,7 +1381,7 @@
 				<nome>PATRIZIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>2084.43</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>247.23</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>59.88</quotaRateiMensilitaAggiuntive>
@@ -1397,7 +1397,7 @@
 				<nome>GEORGIANA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>26.47</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
@@ -1413,7 +1413,7 @@
 				<nome>MAURO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>196.64</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>47.62</quotaRateiMensilitaAggiuntive>
@@ -1429,7 +1429,7 @@
 				<nome>DAVIDE</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
@@ -1445,7 +1445,7 @@
 				<nome>MARCO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
@@ -1461,7 +1461,7 @@
 				<nome>MASSIMO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
@@ -1477,7 +1477,7 @@
 				<nome>GABRIELE</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1493,7 +1493,7 @@
 				<nome>MICHAEL</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1509,7 +1509,7 @@
 				<nome>MARWA ABBAS </nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1525,7 +1525,7 @@
 				<nome>IOANA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1541,7 +1541,7 @@
 				<nome>ROBERTA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
@@ -1557,7 +1557,7 @@
 				<nome>NADIA MARIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>224.73</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>54.42</quotaRateiMensilitaAggiuntive>
@@ -1573,7 +1573,7 @@
 				<nome>ENKELEDA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
@@ -1589,7 +1589,7 @@
 				<nome>DIEGO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1894.54</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>196.64</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>47.62</quotaRateiMensilitaAggiuntive>
@@ -1605,7 +1605,7 @@
 				<nome>VALENTINA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
@@ -1621,7 +1621,7 @@
 				<nome>JACQUELINE PAOLA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>469.92</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>298.97</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>72.4</quotaRateiMensilitaAggiuntive>
@@ -1637,7 +1637,7 @@
 				<nome>LARA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1653,7 +1653,7 @@
 				<nome>ROBERTA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>228.04</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
@@ -1669,7 +1669,7 @@
 				<nome>JESSICA FRANCESCA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1685,7 +1685,7 @@
 				<nome>MICHELA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>235.49</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>57.03</quotaRateiMensilitaAggiuntive>
@@ -1701,7 +1701,7 @@
 				<nome>LUCIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
@@ -1717,7 +1717,7 @@
 				<nome>ENKELEJDA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1733,7 +1733,7 @@
 				<nome>SIMONA GAROFITA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1749,7 +1749,7 @@
 				<nome>SUELA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1765,7 +1765,7 @@
 				<nome>DIANA MARIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1781,7 +1781,7 @@
 				<nome>ENTELA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
@@ -1797,7 +1797,7 @@
 				<nome>CRINA IOANA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1813,7 +1813,7 @@
 				<nome>LAURA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>106.8</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>77.19</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>17.82</quotaRateiMensilitaAggiuntive>
@@ -1829,7 +1829,7 @@
 				<nome>FREDY GABRIELE</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>57.01</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>13.16</quotaRateiMensilitaAggiuntive>
@@ -1845,7 +1845,7 @@
 				<nome>GIOVANNI PUMIPHOL</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1861,7 +1861,7 @@
 				<nome>ANDREA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1985.51</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>235.49</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>57.03</quotaRateiMensilitaAggiuntive>
@@ -1877,7 +1877,7 @@
 				<nome>LORENA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
@@ -1893,7 +1893,7 @@
 				<nome>FLAVIO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
@@ -1909,7 +1909,7 @@
 				<nome>ANNA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>512.64</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>317.83</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>76.96</quotaRateiMensilitaAggiuntive>
@@ -1925,7 +1925,7 @@
 				<nome>PAUL DANIEL</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
@@ -1941,7 +1941,7 @@
 				<nome>LUCA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1957,7 +1957,7 @@
 				<nome>MARIA TERESA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1973,7 +1973,7 @@
 				<nome>EMILY</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -1989,7 +1989,7 @@
 				<nome>ILARIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2005,7 +2005,7 @@
 				<nome>VALERIA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2021,7 +2021,7 @@
 				<nome>LOREDANA ROXANA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2037,7 +2037,7 @@
 				<nome>ROBY</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2053,7 +2053,7 @@
 				<nome>MELANIA ARMIDA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
@@ -2069,7 +2069,7 @@
 				<nome>CARLO</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2085,7 +2085,7 @@
 				<nome>ARBER</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2101,7 +2101,7 @@
 				<nome>SARA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2117,7 +2117,7 @@
 				<nome>MIHAELA RAMONA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>85.52</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>19.74</quotaRateiMensilitaAggiuntive>
@@ -2133,7 +2133,7 @@
 				<nome>ELENA</nome>
 				<tipologiaContratto>TI</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1786.3</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
@@ -2149,236 +2149,12 @@
 				<nome>GIULIA</nome>
 				<tipologiaContratto>TD</tipologiaContratto>
 				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
+				<retribuzioneMensileLorda>1833.07</retribuzioneMensileLorda>
 				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
 				<contribuzioneTisRiconosciuta>85.52</contribuzioneTisRiconosciuta>
 				<quotaRateiMensilitaAggiuntive>19.74</quotaRateiMensilitaAggiuntive>
 				<quotaRateiRolPermessiFerie>29.82</quotaRateiRolPermessiFerie>
 				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MRNCST89S24B034X</codiceFiscale>
-				<cognome>MURONI</cognome>
-				<nome>CRISTIAN</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1636.63</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>165.62</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>40.58</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.77</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>CMRMNL94R12F839Z</codiceFiscale>
-				<cognome>CAMERA</cognome>
-				<nome>EMMANUELE</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1916.65</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>193.95</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>47.52</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>57.12</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>RSNNTN95D22C424S</codiceFiscale>
-				<cognome>ROSANO</cognome>
-				<nome>ANTONIO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2059.34</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>178.61</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>43.77</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>52.6</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>DRELRD98B08G337G</codiceFiscale>
-				<cognome>DERIU</cognome>
-				<nome>LEONARDO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1571.84</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>159.06</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.97</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.84</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>LNGRCC67R08F923K</codiceFiscale>
-				<cognome>LONIGRO</cognome>
-				<nome>ROCCO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1874.91</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>189.71</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>46.49</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>55.87</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>DCSDNC92E25M289J</codiceFiscale>
-				<cognome>DI COSTANZO</cognome>
-				<nome>DOMENICO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1549.91</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>156.85</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.43</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.19</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>LDRNSA94S27G337Z</codiceFiscale>
-				<cognome>EL IDRISSI</cognome>
-				<nome>ANAS</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1466.59</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>155.64</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>36.36</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>43.71</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>MRNCST89S24B034X</codiceFiscale>
-				<cognome>MURONI</cognome>
-				<nome>CRISTIAN</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1636.63</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>141.95</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>34.78</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>41.8</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>CMRMNL94R12F839Z</codiceFiscale>
-				<cognome>CAMERA</cognome>
-				<nome>EMMANUELE</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1916.65</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>83.13</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>20.37</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>24.48</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>RSNNTN95D22C424S</codiceFiscale>
-				<cognome>ROSANO</cognome>
-				<nome>ANTONIO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2059.34</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>89.3</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>21.88</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>26.3</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>DRELRD98B08G337G</codiceFiscale>
-				<cognome>DERIU</cognome>
-				<nome>LEONARDO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1571.84</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>68.16</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>16.7</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>20.07</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>LNGRCC67R08F923K</codiceFiscale>
-				<cognome>LONIGRO</cognome>
-				<nome>ROCCO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1874.91</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>81.29</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>19.92</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>23.95</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>DCSDNC92E25M289J</codiceFiscale>
-				<cognome>DI COSTANZO</cognome>
-				<nome>DOMENICO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1549.91</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>67.22</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>16.47</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>19.8</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>LDRNSA94S27G337Z</codiceFiscale>
-				<cognome>EL IDRISSI</cognome>
-				<nome>ANAS</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1466.59</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>939.84</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>488.04</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>112.55</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>135.28</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>176</totaleOreTisRiconosciute>
 				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
 			</lavoratore>
 		</lavoratori>
@@ -2396,2150 +2172,6 @@
 		<autocertificazioneSettimane>S</autocertificazioneSettimane>
 		<note>nan</note>
 		<lavoratori>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SLVNDA81L59E648P</codiceFiscale>
-				<cognome>SILVANO</cognome>
-				<nome>NADIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>10.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>LBRTTE77P69Z100A</codiceFiscale>
-				<cognome>ALBRAHIMI</cognome>
-				<nome>TEUTA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SVNNNA71B64I233M</codiceFiscale>
-				<cognome>SAVINELLI</cognome>
-				<nome>ANNA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>10.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>NGRSNO79S44D142T</codiceFiscale>
-				<cognome>NEGRI</cognome>
-				<nome>SONIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>216.31</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>52.39</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>79.03</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BCSVRC88P68Z129S</codiceFiscale>
-				<cognome>BUCSA</cognome>
-				<nome>VIORICA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>HLLRSR86P57Z129U</codiceFiscale>
-				<cognome>HOLLOCOV</cognome>
-				<nome>AURELIA  SORINA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>192.24</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.45</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.08</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.39</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>36</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>KPJLTN89T23Z100X</codiceFiscale>
-				<cognome>KAPAJ</cognome>
-				<nome>ELTON</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>192.24</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>119.19</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>28.86</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>43.6</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>36</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>NVRMRC79E15D142C</codiceFiscale>
-				<cognome>NAVARRA</cognome>
-				<nome>MARCO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>163.08</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>39.49</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>59.64</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PRSGRL92H04L400X</codiceFiscale>
-				<cognome>PARSANI</cognome>
-				<nome>GABRIELE</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>19.37</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>DMNMHL86P12Z325E</codiceFiscale>
-				<cognome>DOMINIC</cognome>
-				<nome>MICHAEL</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>LFWMWB92D41Z336U</codiceFiscale>
-				<cognome>EL FAWAL</cognome>
-				<nome>MARWA ABBAS </nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>19.37</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BTNNIO76S49Z129L</codiceFiscale>
-				<cognome>BUTNARIUC</cognome>
-				<nome>IOANA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.44</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>VNLNMR72R53E648A</codiceFiscale>
-				<cognome>VANELLI TAGLIACANE</cognome>
-				<nome>NADIA MARIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>10.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>NNZJQL79H62Z611V</codiceFiscale>
-				<cognome>NUNEZ</cognome>
-				<nome>JACQUELINE PAOLA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>192.24</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>122.32</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>29.62</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>44.72</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>36</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PTRLRA74E45G149X</codiceFiscale>
-				<cognome>PATERNIERI</cognome>
-				<nome>LARA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>83.35</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>19.24</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>29.07</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SVRRRT95R53L400W</codiceFiscale>
-				<cognome>SEVERGNINI</cognome>
-				<nome>ROBERTA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>234.96</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>156.78</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>36.2</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>54.67</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>44</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>FSSJSC81P64L400V</codiceFiscale>
-				<cognome>FOSSATI</cognome>
-				<nome>JESSICA FRANCESCA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>19.37</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MCCMHL93A66L400C</codiceFiscale>
-				<cognome>MACCHI</cognome>
-				<nome>MICHELA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>106.8</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>73.59</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>17.82</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>26.88</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>20</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PRFNLJ79E48Z100N</codiceFiscale>
-				<cognome>PRIFTI </cognome>
-				<nome>ENKELEJDA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>58.13</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>TMGSNG93B65Z129U</codiceFiscale>
-				<cognome>TOMOIAGA</cognome>
-				<nome>SIMONA GAROFITA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>GCJSLU85S48Z100J</codiceFiscale>
-				<cognome>GOCAJ</cognome>
-				<nome>SUELA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>58.13</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>CSMDMR93T44Z129W</codiceFiscale>
-				<cognome>CISMARU</cognome>
-				<nome>DIANA MARIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>58.13</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BRZCNN86T67Z129D</codiceFiscale>
-				<cognome>BORZOS</cognome>
-				<nome>CRINA IOANA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>58.13</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>GSMGNN94P21L400L</codiceFiscale>
-				<cognome>GUSMINI </cognome>
-				<nome>GIOVANNI PUMIPHOL</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>58.13</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>CCPNDR91D06D142Z</codiceFiscale>
-				<cognome>CACOPARDO</cognome>
-				<nome>ANDREA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>58.88</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>14.26</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>21.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MRNFLV68C19F119G</codiceFiscale>
-				<cognome>MARINONI</cognome>
-				<nome>FLAVIO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>190.24</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>69.57</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PSTNNA93A63Z139Z</codiceFiscale>
-				<cognome>PISTONO</cognome>
-				<nome>ANNA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BLCPDN81E26Z129P</codiceFiscale>
-				<cognome>BLEOCA</cognome>
-				<nome>PAUL DANIEL</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>190.24</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>69.57</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MDNLCU98A01L400Y</codiceFiscale>
-				<cognome>MADINI</cognome>
-				<nome>LUCA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MNNPML93L48L400L</codiceFiscale>
-				<cognome>MANENTI</cognome>
-				<nome>PAMELA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>26.55</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.13</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PRFGLE92M41Z100O</codiceFiscale>
-				<cognome>PRIFTI</cognome>
-				<nome>EGLA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MSSMLS71R63L400M</codiceFiscale>
-				<cognome>MUSSI</cognome>
-				<nome>MARIALUISA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PLAMTR56S51G233L</codiceFiscale>
-				<cognome>PALA</cognome>
-				<nome>MARIA TERESA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SCRVLR98B63D142O</codiceFiscale>
-				<cognome>SCURA</cognome>
-				<nome>VALERIA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>26.55</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.13</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PSIFNC82R48F839L</codiceFiscale>
-				<cognome>PISA</cognome>
-				<nome>FRANCESCA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>53.12</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.26</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>18.52</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SPNMLY94D65M102Z</codiceFiscale>
-				<cognome>SAPONARO</cognome>
-				<nome>EMILY</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SPNZNA94D56Z100O</codiceFiscale>
-				<cognome>SPANESHI</cognome>
-				<nome>ZANA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>26.55</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.13</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PTTMRM99S55D150H</codiceFiscale>
-				<cognome>PETTINATO</cognome>
-				<nome>MIRIAM</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>53.12</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.26</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>18.52</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>NSPSMN78D57L400J</codiceFiscale>
-				<cognome>NESPOLI</cognome>
-				<nome>SIMONA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>138.89</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.44</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>NCRMNT93B64F912W</codiceFiscale>
-				<cognome>NOCERA</cognome>
-				<nome>MARIA ANTONIETTA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>79.67</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>18.4</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>27.79</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BNLLRI95S57D142M</codiceFiscale>
-				<cognome>BENELLI</cognome>
-				<nome>ILARIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>GLVVLR89L48D142P</codiceFiscale>
-				<cognome>GIULIVI</cognome>
-				<nome>VALERIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>TFLLDN77B42Z129F</codiceFiscale>
-				<cognome>TOFALEANU</cognome>
-				<nome>LOREDANA ROXANA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>CEXRBY90H26L400V</codiceFiscale>
-				<cognome>CE'</cognome>
-				<nome>ROBY</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BTTFNC72E12H509F</codiceFiscale>
-				<cognome>BOTTAGISI</cognome>
-				<nome>FRANCESCO LUIGI</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BSSRCR97A19F119R</codiceFiscale>
-				<cognome>BASSANO</cognome>
-				<nome>RICCARDO</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>138.89</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.44</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>VRNFNC79L63F839J</codiceFiscale>
-				<cognome>IAVARONE</cognome>
-				<nome>FRANCESCA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BRCSLT83E67Z129J</codiceFiscale>
-				<cognome>BRACAU</cognome>
-				<nome>STELUTA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>53.12</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.26</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>18.52</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BGNCRS99T01I577N</codiceFiscale>
-				<cognome>BAGNATO </cognome>
-				<nome>CHRISTIAN</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SRRSPH73T18H509E</codiceFiscale>
-				<cognome>SARRITZU</cognome>
-				<nome>STEPHANO DINO</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MTTLSS01D63B393I</codiceFiscale>
-				<cognome>MATTI</cognome>
-				<nome>ALESSIA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>79.67</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>18.4</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>27.79</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SSSNMR81L66L400A</codiceFiscale>
-				<cognome>SASSI</cognome>
-				<nome>ANNAMARIA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BSOLSN89H14H509F</codiceFiscale>
-				<cognome>BOSIO</cognome>
-				<nome>ALESSANDRO </nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>BBNMNR79L63L400E</codiceFiscale>
-				<cognome>ABBONDIO</cognome>
-				<nome>MELANIA ARMIDA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>190.24</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>69.57</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>RVDCRL70B22I628V</codiceFiscale>
-				<cognome>ROVEDA</cognome>
-				<nome>CARLO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>ZLLDGI86R16C800F</codiceFiscale>
-				<cognome>ZILIOLI</cognome>
-				<nome>DIEGO</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>55.55</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>19.37</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>VLSCST71B01G149L</codiceFiscale>
-				<cognome>VALSECCHI</cognome>
-				<nome>CRISTIANO</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>27.76</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>HDRRBR92P26Z160H</codiceFiscale>
-				<cognome>HADERGJONAJ</cognome>
-				<nome>ARBER</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>FRGSRA92P61D142L</codiceFiscale>
-				<cognome>FRIGENI</cognome>
-				<nome>SARA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>194.46</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>TMSNTC87D65Z129L</codiceFiscale>
-				<cognome>TIMIS</cognome>
-				<nome>NASTACA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>79.67</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>18.4</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>27.79</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>VCVMLR82S57Z129C</codiceFiscale>
-				<cognome>VICOVANU</cognome>
-				<nome>MIHAELA RAMONA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>171.03</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>39.49</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>59.64</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>TDLLNE83C42L400J</codiceFiscale>
-				<cognome>TEDOLDI</cognome>
-				<nome>ELENA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MNDLXA81M26D142L</codiceFiscale>
-				<cognome>MANDOTTI</cognome>
-				<nome>ALEX</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>142.52</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.91</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>49.69</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>FRRJNF90P60L400U</codiceFiscale>
-				<cognome>FERRI</cognome>
-				<nome>JENNIFER</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.31</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>VNZGLI92A60D142D</codiceFiscale>
-				<cognome>VANAZZI</cognome>
-				<nome>GIULIA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>199.53</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>46.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>69.57</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SMNHNN91P42Z138J</codiceFiscale>
-				<cognome>SEMEN</cognome>
-				<nome>HANNA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.31</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>HRBRNM00L65Z129Z</codiceFiscale>
-				<cognome>HOROBET</cognome>
-				<nome>ROXANA MIRABELA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.31</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>PRHSTL83S68Z140N</codiceFiscale>
-				<cognome>PROHNITCHI</cognome>
-				<nome>SVETLANA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.31</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>MHINLN84E45Z129P</codiceFiscale>
-				<cognome>MIHAI</cognome>
-				<nome>ANCA LENUTA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.31</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>VTMLSS90P59Z129E</codiceFiscale>
-				<cognome>VATAMANIUC</cognome>
-				<nome>LARISA SIMONA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1707,82</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.79</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>30.66</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>46.31</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>3</meseRiferimento>
-				<codiceFiscale>SSSLMR65B48B731W</codiceFiscale>
-				<cognome>SASSI</cognome>
-				<nome>LUCIA MARIA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>138.89</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.44</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>SLVNDA81L59E648P</codiceFiscale>
-				<cognome>SILVANO</cognome>
-				<nome>NADIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>224.73</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>54.42</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>82.17</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>RSCMRA82D43Z129I</codiceFiscale>
-				<cognome>ROSCA</cognome>
-				<nome>MARIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>163.08</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>39.49</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>59.64</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>ZGTRKE89D42D142S</codiceFiscale>
-				<cognome>ZIGATTI</cognome>
-				<nome>ERIKA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>469.92</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>291.35</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>70.55</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>106.57</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>88</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>LBRTTE77P69Z100A</codiceFiscale>
-				<cognome>ALBRAHIMI</cognome>
-				<nome>TEUTA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>26.47</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>SVNNNA71B64I233M</codiceFiscale>
-				<cognome>SAVINELLI</cognome>
-				<nome>ANNA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>224.73</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>54.42</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>82.17</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>NGRSNO79S44D142T</codiceFiscale>
-				<cognome>NEGRI</cognome>
-				<nome>SONIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>384.48</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>278.11</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>67.36</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>101.62</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>72</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BCSVRC88P68Z129S</codiceFiscale>
-				<cognome>BUCSA</cognome>
-				<nome>VIORICA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>HLLRSR86P57Z129U</codiceFiscale>
-				<cognome>HOLLOCOV</cognome>
-				<nome>AURELIA  SORINA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>235.49</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>57.03</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>86.02</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>RCCSRN80S50D142Z</codiceFiscale>
-				<cognome>RICCI</cognome>
-				<nome>SABRINA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>147.16</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>35.65</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>53.76</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>CHZDBR73E51D142X</codiceFiscale>
-				<cognome>CHIZZOLI</cognome>
-				<nome>DEBORA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>170.88</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>112.35</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>27.21</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>41.09</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>32</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>TPSNLN88R61Z129E</codiceFiscale>
-				<cognome>TEPUS</cognome>
-				<nome>IONELA ALINA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>185.41</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>44.9</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>67.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BRZSFN68T48D142A</codiceFiscale>
-				<cognome>BRAZZOLI</cognome>
-				<nome>STEFANIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>247.23</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>59.88</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>90.34</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>LNDKRN85C45Z104F</codiceFiscale>
-				<cognome>ALANDZHIYSKA</cognome>
-				<nome>KATERINA TODOROVA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>196.64</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>47.62</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>71.9</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>KPJLTN89T23Z100X</codiceFiscale>
-				<cognome>KAPAJ</cognome>
-				<nome>ELTON</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>DCNPRZ67D58F205X</codiceFiscale>
-				<cognome>DICANIO</cognome>
-				<nome>PATRIZIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>2084,43</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>247.23</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>59.88</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>90.34</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BRBGGN89C67Z129Z</codiceFiscale>
-				<cognome>BARBUS</cognome>
-				<nome>GEORGIANA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>26.47</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.41</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>9.7</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BNZMRA90A25D142B</codiceFiscale>
-				<cognome>BONIZZI</cognome>
-				<nome>MAURO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>196.64</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>47.62</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>71.9</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>PZZDVD88A13L400U</codiceFiscale>
-				<cognome>POZZI</cognome>
-				<nome>DAVIDE</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>10.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>NVRMRC79E15D142C</codiceFiscale>
-				<cognome>NAVARRA</cognome>
-				<nome>MARCO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>79.51</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>CLMMSM95M02L400K</codiceFiscale>
-				<cognome>COLOMBI</cognome>
-				<nome>MASSIMO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>42.72</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>28.09</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>6.8</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>10.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>8</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>PRSGRL92H04L400X</codiceFiscale>
-				<cognome>PARSANI</cognome>
-				<nome>GABRIELE</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>DMNMHL86P12Z325E</codiceFiscale>
-				<cognome>DOMINIC</cognome>
-				<nome>MICHAEL</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>LFWMWB92D41Z336U</codiceFiscale>
-				<cognome>EL FAWAL</cognome>
-				<nome>MARWA ABBAS </nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BTNNIO76S49Z129L</codiceFiscale>
-				<cognome>BUTNARIUC</cognome>
-				<nome>IOANA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>FRRRRT95D57C523F</codiceFiscale>
-				<cognome>FERRARINI</cognome>
-				<nome>ROBERTA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>52.96</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>12.83</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>19.37</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>VNLNMR72R53E648A</codiceFiscale>
-				<cognome>VANELLI TAGLIACANE</cognome>
-				<nome>NADIA MARIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>224.73</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>54.42</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>82.17</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>TFANLD78T56Z100V</codiceFiscale>
-				<cognome>TAFA</cognome>
-				<nome>ENKELEDA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>58.13</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>TRRDGI84S04D142R</codiceFiscale>
-				<cognome>TORRESANI</cognome>
-				<nome>DIEGO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1894,54</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>299.04</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>196.64</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>47.62</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>71.9</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>56</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>VLLVNT90B44L400K</codiceFiscale>
-				<cognome>VILLA</cognome>
-				<nome>VALENTINA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.44</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>NNZJQL79H62Z611V</codiceFiscale>
-				<cognome>NUNEZ</cognome>
-				<nome>JACQUELINE PAOLA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>469.92</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>298.97</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>72.4</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>109.34</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>88</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>PTRLRA74E45G149X</codiceFiscale>
-				<cognome>PATERNIERI</cognome>
-				<nome>LARA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>SVRRRT95R53L400W</codiceFiscale>
-				<cognome>SEVERGNINI</cognome>
-				<nome>ROBERTA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>228.04</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>79.51</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>FSSJSC81P64L400V</codiceFiscale>
-				<cognome>FOSSATI</cognome>
-				<nome>JESSICA FRANCESCA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>MCCMHL93A66L400C</codiceFiscale>
-				<cognome>MACCHI</cognome>
-				<nome>MICHELA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>235.49</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>57.03</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>86.02</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>CRTLCU76P66L400K</codiceFiscale>
-				<cognome>CERUTI</cognome>
-				<nome>LUCIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.44</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>PRFNLJ79E48Z100N</codiceFiscale>
-				<cognome>PRIFTI </cognome>
-				<nome>ENKELEJDA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>TMGSNG93B65Z129U</codiceFiscale>
-				<cognome>TOMOIAGA</cognome>
-				<nome>SIMONA GAROFITA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>GCJSLU85S48Z100J</codiceFiscale>
-				<cognome>GOCAJ</cognome>
-				<nome>SUELA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>CSMDMR93T44Z129W</codiceFiscale>
-				<cognome>CISMARU</cognome>
-				<nome>DIANA MARIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>SHRNTL84M45Z100T</codiceFiscale>
-				<cognome>SHERA</cognome>
-				<nome>ENTELA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>213.6</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>132.42</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>32.07</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>48.44</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>40</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BRZCNN86T67Z129D</codiceFiscale>
-				<cognome>BORZOS</cognome>
-				<nome>CRINA IOANA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>MLCLRA93T42L400R</codiceFiscale>
-				<cognome>MELECA</cognome>
-				<nome>LAURA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>106.8</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>77.19</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>17.82</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>26.88</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>20</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>HBBFDY85M12F924J</codiceFiscale>
-				<cognome>HABIBI</cognome>
-				<nome>FREDY GABRIELE</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>85.44</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>57.01</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>13.16</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>19.88</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>16</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>GSMGNN94P21L400L</codiceFiscale>
-				<cognome>GUSMINI </cognome>
-				<nome>GIOVANNI PUMIPHOL</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>CCPNDR91D06D142Z</codiceFiscale>
-				<cognome>CACOPARDO</cognome>
-				<nome>ANDREA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1985,51</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>235.49</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>57.03</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>86.02</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BRMLRN76C60L400T</codiceFiscale>
-				<cognome>BRAMBILLA</cognome>
-				<nome>LORENA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>256.32</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>158.92</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>38.48</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>58.13</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>48</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>MRNFLV68C19F119G</codiceFiscale>
-				<cognome>MARINONI</cognome>
-				<nome>FLAVIO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>79.51</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>PSTNNA93A63Z139Z</codiceFiscale>
-				<cognome>PISTONO</cognome>
-				<nome>ANNA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>512.64</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>317.83</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>76.96</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>116.26</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>96</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BLCPDN81E26Z129P</codiceFiscale>
-				<cognome>BLEOCA</cognome>
-				<nome>PAUL DANIEL</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>79.51</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>MDNLCU98A01L400Y</codiceFiscale>
-				<cognome>MADINI</cognome>
-				<nome>LUCA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>PLAMTR56S51G233L</codiceFiscale>
-				<cognome>PALA</cognome>
-				<nome>MARIA TERESA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>SPNMLY94D65M102Z</codiceFiscale>
-				<cognome>SAPONARO</cognome>
-				<nome>EMILY</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BNLLRI95S57D142M</codiceFiscale>
-				<cognome>BENELLI</cognome>
-				<nome>ILARIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>GLVVLR89L48D142P</codiceFiscale>
-				<cognome>GIULIVI</cognome>
-				<nome>VALERIA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>TFLLDN77B42Z129F</codiceFiscale>
-				<cognome>TOFALEANU</cognome>
-				<nome>LOREDANA ROXANA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>CEXRBY90H26L400V</codiceFiscale>
-				<cognome>CE'</cognome>
-				<nome>ROBY</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>BBNMNR79L63L400E</codiceFiscale>
-				<cognome>ABBONDIO</cognome>
-				<nome>MELANIA ARMIDA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>217.43</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>52.65</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>79.51</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>RVDCRL70B22I628V</codiceFiscale>
-				<cognome>ROVEDA</cognome>
-				<nome>CARLO</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>HDRRBR92P26Z160H</codiceFiscale>
-				<cognome>HADERGJONAJ</cognome>
-				<nome>ARBER</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>FRGSRA92P61D142L</codiceFiscale>
-				<cognome>FRIGENI</cognome>
-				<nome>SARA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>222.25</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>VCVMLR82S57Z129C</codiceFiscale>
-				<cognome>VICOVANU</cognome>
-				<nome>MIHAELA RAMONA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>85.52</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>19.74</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>29.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>TDLLNE83C42L400J</codiceFiscale>
-				<cognome>TEDOLDI</cognome>
-				<nome>ELENA</nome>
-				<tipologiaContratto>TI</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1786,30</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>341.76</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>211.9</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>51.31</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>77.5</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>64</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
-			<lavoratore>
-				<annoRiferimento>2020</annoRiferimento>
-				<meseRiferimento>4</meseRiferimento>
-				<codiceFiscale>VNZGLI92A60D142D</codiceFiscale>
-				<cognome>VANAZZI</cognome>
-				<nome>GIULIA</nome>
-				<tipologiaContratto>TD</tipologiaContratto>
-				<sgraviAliquotaContributivaPrevidenziale>N</sgraviAliquotaContributivaPrevidenziale>
-				<retribuzioneMensileLorda>1833,07</retribuzioneMensileLorda>
-				<retribuzioneTisRiconosciuta>128.16</retribuzioneTisRiconosciuta>
-				<contribuzioneTisRiconosciuta>85.52</contribuzioneTisRiconosciuta>
-				<quotaRateiMensilitaAggiuntive>19.74</quotaRateiMensilitaAggiuntive>
-				<quotaRateiRolPermessiFerie>29.82</quotaRateiRolPermessiFerie>
-				<totaleOreTisRiconosciute>24</totaleOreTisRiconosciute>
-				<lavoratoreAlleDipendenze25Marzo>S</lavoratoreAlleDipendenze25Marzo>
-			</lavoratore>
 			<lavoratore>
 				<annoRiferimento>2020</annoRiferimento>
 				<meseRiferimento>3</meseRiferimento>
