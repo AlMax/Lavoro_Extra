@@ -4,6 +4,7 @@ import os
 from codicefiscale import isvalid
 import sys
 import pandas as pd
+import xlsxwriter
 
 def isCodiceFiscale(parola):
     """Data in input una stringa, viene analizzata la composizione della stringa per determinare se è un codice fiscale o meno.
@@ -143,3 +144,27 @@ def leggiExcel_colonna(excelReader, nome_colonnaExcel, pdf_da_trovare):
 def Mbox(title, text, style):
     """Messaggi Pop-up"""
     return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+
+def logExcel(colonna1, colonna2, colonna3):
+    workbook = xlsxwriter.Workbook('Log.xlsx')
+    worksheet = workbook.add_worksheet()
+
+    row = 0
+
+    for cella1 in colonna1:
+        worksheet.write(row, 0, cella1)
+        row += 1
+
+    row = 0
+
+    for cella2 in colonna2:
+        worksheet.write(row, 1, cella2)
+        row += 1
+
+    row = 0
+
+    for cella3 in colonna3:
+        worksheet.write(row, 2, cella3)
+        row += 1
+
+    workbook.close()

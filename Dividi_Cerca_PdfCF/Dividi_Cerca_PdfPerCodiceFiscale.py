@@ -27,6 +27,12 @@ try:
     pdf_da_trovare = []
     codiciFiscaliUtilizzati = []
     indici_codiciFiscaliUTilizzati = []
+    logPagina = []
+    logPagina.append("Pagina del PDF")
+    logCF = []
+    logCF.append("Codice Fiscale")
+    logFound = []
+    logFound.append("Trovato")
 
     cartelleSalvataggio = []
     cartelleSalvataggio.append("Cedolini_Divisi_" + today + "_" + now)
@@ -89,15 +95,16 @@ try:
 
         #Metto ogni file diviso nell'apposita cartella
         functions.PDF_estraiPagine(lettorePDF, i, cartelleSalvataggio[0], codiceFiscaleStampa)
-        functions.logOperazioni("\t\tAlla pagina " + (str(i+1)) + " ho trovato il codice fiscale " + codiceFiscaleStampa)
+        logPagina.append("Pagina " + (str(i+1)))
+        logCF.append(codiceFiscale)
 
         #Copio i file da cercare tramite Excel in una cartella apposita
-        codiceFiscale += ".pdf"
+        #codiceFiscale += ".pdf"
         if codiceFiscale in pdf_da_trovare:
             functions.PDF_estraiPagine(lettorePDF, i, cartelleSalvataggio[1], codiceFiscaleStampa)
-            functions.logOperazioni(" --> Era presente nell'Excel\n")
+            logFound.append("Era presente nell'Excel")
         else:
-            functions.logOperazioni(" --> NON era presente nell'Excel\n")
+            logFound.append("NON era presente nell'Excel")
 
     functions.logOperazioni("\tInizializzazione unione cedolini dello stesso Dipendente\n")
     print("Procedo con l'unione dei cedolini che fanno riferimento allo stesso dipendente; attendere per favore.")
@@ -118,6 +125,7 @@ try:
     #functions.logOperazioni("\t" + str(codiciFiscaliUtilizzati) + "\n")
     # Chiudo l'oggetto file
     pdfFileObj.close()
+    functions.logExcel(logPagina, logCF, logFound)
 
 except Exception as erroreBloccante:
     messaggioErroreBloccante = "Il programma non riesce a partire a causa di un errore.\n\nIn caso non funzioni ancora, contattarmi alla mail ali.haider.maqsood@maw.it\n\nL'errore è:\n" + str(erroreBloccante)

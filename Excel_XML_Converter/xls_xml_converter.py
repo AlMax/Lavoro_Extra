@@ -105,7 +105,7 @@ try:
         for lavoratore in range(len(tutti_lavoratori[2])):
 
             progressBar["value"] = indice_dato_lavoratore
-            time.sleep(0.05)
+            time.sleep(0.01)
             progressBar.update()
 
             functions.logOperazioni("Estrapolato " + str(indice_dato_lavoratore+1) + " lavoratore su " + str(len(tutti_lavoratori[2])) + " lavoratori.\n")
