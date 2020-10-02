@@ -10,6 +10,7 @@ from tkinter import simpledialog
 import tkinter as tk
 import funzioni as functions
 import frames as frame
+import time
 
 try:
 
@@ -128,7 +129,8 @@ try:
             
             if codiceFiscalePresente in pdf_trovati:
                 functions.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[1])
-            functions.logOperazioni("\t\tHo unito il PDF: " + codiceFiscalePresente + " con il PDF: " + codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]) + "\n")
+                functions.logOperazioni("\t\tHo unito il PDF: " + codiceFiscalePresente + " con il PDF: " + codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]) + "\n")
+        
         #print(codiciFiscaliUtilizzati)
     #print("Operazioni concluse.")
     functions.Mbox(nomeProgramma, "Operazioni concluse. Consultare il file Log.txt e Log.xlsx per i dettagli", 1)

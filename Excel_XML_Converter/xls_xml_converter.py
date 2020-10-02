@@ -45,17 +45,20 @@ try:
 
     nomi_file = frameReturn[0]
     nomeExcel = [nome for nome in nomi_file if ".xls" in nome][0]
+    nomeXsd = [nome for nome in nomi_file if ".xsd" in nome][0]
+    nomeXml = "Payload.xml"
 
-    progressBar = frameReturn[1]
+    progressBarLav = frameReturn[1]
+    progressBarCli = frameReturn[2]
 
 
-    functions.leggiExcel_colonna(functions.leggiExcel(nomeExcel, nomi_file[2]), "identificativoPratica", identificativi_lavoratori)
+    functions.leggiExcel_colonna(functions.leggiExcel(nomeExcel, nomi_file[3]), "identificativoPratica", identificativi_lavoratori)
 
 
     indice = 0
     for dato_lavoratori in dati_tutti_lavoratori:
         colonnaExcel = dato_lavoratori
-        functions.leggiExcel_colonna(functions.leggiExcel(nomeExcel, nomi_file[2]), colonnaExcel, array)
+        functions.leggiExcel_colonna(functions.leggiExcel(nomeExcel, nomi_file[3]), colonnaExcel, array)
         if indice == 0:
             tutti_lavoratori[0] = array.copy()
         else:
@@ -64,12 +67,12 @@ try:
         array.clear()
         indice += 1
 
-    progressBar['maximum'] = len(tutti_lavoratori[2])
+    progressBarLav['maximum'] = len(tutti_lavoratori[2])
 
     indice = 0
     for attributo in attributi_istanza:
         colonnaExcel = attributo
-        functions.leggiExcel_colonna(functions.leggiExcel(nomeExcel, nomi_file[1]), colonnaExcel, array)
+        functions.leggiExcel_colonna(functions.leggiExcel(nomeExcel, nomi_file[2]), colonnaExcel, array)
         if indice == 0:
             tutti_clienti[0] = array.copy()
         else:
@@ -78,6 +81,8 @@ try:
         array.clear()
         indice += 1
 
+    progressBarCli['maximum'] = len(tutti_clienti[0])
+
     indice_dato_cliente = 0
     for cliente in range(len(tutti_clienti[0])):
         indice_array_cliente = 0
@@ -85,28 +90,31 @@ try:
         functions.logOperazioni("Inizio estrapolazione del cliente " + str(tutti_clienti[indice_array_cliente]) + "\n")
         padre = documento.createElement('istanza')
         xml.appendChild(padre)
-
+        functions.logOperazioni("\nok")
         for attributo in attributi_istanza:
             figlio = documento.createElement(attributo)
             dato_cliente = tutti_clienti[indice_array_cliente]
+            functions.logOperazioni("\nok")
             if dato_cliente[indice_dato_cliente] == 'nan':
+                functions.logOperazioni("\nok")
                 figlio.appendChild(documento.createTextNode(""))
             else:
+                functions.logOperazioni("\nok")
                 figlio.appendChild(documento.createTextNode(dato_cliente[indice_dato_cliente]))
             padre.appendChild(figlio)
             indice_array_cliente += 1
 
-
+        functions.logOperazioni("\nok")
         figlio = documento.createElement('lavoratori')
         padre.appendChild(figlio)
 
         indice_dato_lavoratore = 0
 
         for lavoratore in range(len(tutti_lavoratori[2])):
-
-            progressBar["value"] = indice_dato_lavoratore
+            functions.logOperazioni("\nok")
+            progressBarLav["value"] = indice_dato_lavoratore
             time.sleep(0.01)
-            progressBar.update()
+            progressBarLav.update()
 
             functions.logOperazioni("Estrapolato " + str(indice_dato_lavoratore+1) + " lavoratore su " + str(len(tutti_lavoratori[2])) + " lavoratori.\n")
             identificativoPratica = tutti_clienti[0]
@@ -126,23 +134,27 @@ try:
                 indice_array_lavoratore += 1
             indice_dato_lavoratore += 1
 
-        functions.logOperazioni("Concludo estrpolazione del cliente " + str(indice_dato_cliente+1) + "\n")
+        #functions.logOperazioni("Concludo estrpolazione del cliente " + str(tutti_clienti[indice_array_cliente]) + "\n")
 
         indice_dato_cliente += 1
+
+        progressBarCli["value"] = indice_dato_cliente
+        #time.sleep(0.01)
+        progressBarCli.update()
 
 
 
     xml_str = documento.toprettyxml(indent="\t")
 
 
-    save_path_file = "test.xml"
+    save_path_file = nomeXml
 
     with open(save_path_file, "w") as f:
         f.write(xml_str)
 
 
-    filename_xml = "test.xml"
-    filename_xsd = "validation.xsd"
+    filename_xml = nomeXml
+    filename_xsd = nomeXsd
 
     # open and read schema file
     with open(filename_xsd, 'r') as schema_file:
@@ -158,57 +170,55 @@ try:
 
     try:
         doc = etree.parse(StringIO(xml_to_check))
-        print('XML well formed, syntax ok.')
+        functions.logOperazioni('XML well formed, syntax ok.')
 
     # check for file IO error
     except IOError:
-        print('Invalid File')
+        functions.logOperazioni('Invalid File')
 
     # check for XML syntax errors
     except etree.XMLSyntaxError as err:
-        print('XML Syntax Error, see error_syntax.log')
+        functions.logOperazioni('XML Syntax Error, see error_syntax.log')
         with open('error_syntax.log', 'w') as error_log_file:
             error_log_file.write(str(err.error_log))
         quit()
 
     except Exception as errore:
-        print(errore)
+        functions.logOperazioni(errore)
         quit()
 
 
     # validate against schema
     try:
         xmlschema.assertValid(doc)
-        print('XML valid, schema validation ok.')
+        functions.logOperazioni('XML valid, schema validation ok.')
 
     except etree.DocumentInvalid as err:
-        print('Schema validation error, see error_schema.log')
+        functions.logOperazioni('Schema validation error, see error_schema.log')
         with open('error_schema.log', 'w') as error_log_file:
             error_log_file.write(str(err.error_log))
         quit()
 
     except:
-        print('Unknown error, exiting.')
+        functions.logOperazioni('Unknown error, exiting.')
         quit()
 
 
 
-
-
-    xml_file = etree.parse("test.xml")
-    xml_validator = etree.XMLSchema(file="validation.xsd")
+    xml_file = etree.parse(nomeXml)
+    xml_validator = etree.XMLSchema(file=nomeXsd)
 
     is_valid = xml_validator.validate(xml_file)
 
-    print("L'XML rispetta la struttura definita nell' XSD? " + str(is_valid))
+    functions.logOperazioni("L'XML rispetta la struttura definita nell' XSD? " + str(is_valid))
 
 
-    tree = etree.parse("test.xml")
+    tree = etree.parse(nomeXml)
     string = etree.tostring(tree.getroot(), pretty_print = False, xml_declaration = True, standalone = True, encoding = "UTF-8")
-    with open("test.xml", "wb") as f:
+    with open(nomeXml, "wb") as f:
         f.write(string)
 
-
+    functions.Mbox(nomeProgramma, "Operazioni concluse. Consultare il fondo del file Log.txt per i dettagli", 1)
 
 except Exception as erroreGenerale:
-    print(str(erroreGenerale))
+    functions.Mbox(nomeProgramma, str(erroreGenerale), 1)

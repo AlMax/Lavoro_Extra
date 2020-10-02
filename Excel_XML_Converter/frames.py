@@ -28,7 +28,7 @@ def RichiediFile(nome_programma):
     def conferma(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura):
         valori_lettura.append(field_txt_istanze.get())
         valori_lettura.append(field_txt_lavoratori.get())
-        if len(valori_lettura) != 3:
+        if len(valori_lettura) != 4:
             ripristina(all_buttons, all_texts, valori_lettura)
             return
         for button in bottoni_da_disabilitare:
@@ -41,14 +41,14 @@ def RichiediFile(nome_programma):
         texts = []
         valori_lettura = []
 
-        #txt_pdf = "Selezione il file PDF"
-        txt_xls = "Selezione il file EXCEL"
-        txt_label = "Selezionare l'Excel da leggere\n\n\nInserire il nome del foglio con i dati delle Istanze\n\n\nInserire il nome del foglio con i dati dei Lavoratori\n\n\nBarra del progresso.\nOgni completamento significa il completamento \ndi un'istanza Cliente con relativi Lavoratori."
-        texts.extend([txt_xls, txt_label])
+        txt_xls = "Seleziona il file EXCEL"
+        txt_label = "Selezionare l'Excel da leggere\n\n\nInserire il nome del foglio con i dati delle Istanze\n\n\nInserire il nome del foglio con i dati dei Lavoratori\n\n\nSelezionare il file XSD per la convalida dell'XML\n\n\n\nBarre del progresso delle elaborazioni.\nLa Barra superiore indica il Cliente,\nla Barra inferiore indica i Lavoratori per quel Cliente"
+        txt_xsd = "Seleziona il file XSD"
+        texts.extend([txt_xls, txt_xsd])
 
         root = Tk()
         root.title(nome_programma)
-        root.geometry('450x270')
+        root.geometry('450x315')
         root.resizable(0, 0)
 
         valore = StringVar()
@@ -56,29 +56,31 @@ def RichiediFile(nome_programma):
 
         label = Label(root, text= txt_label).pack(side= LEFT,anchor = NW, pady = 12, padx = 15)
 
-        #btn_pdf = Button(root, text = txt_pdf, command = lambda:caricaFile(btn_pdf, [(txt_pdf, "*.pdf")], valori_lettura))
         btn_xls = Button(root, text = txt_xls, command = lambda:caricaFile(btn_xls, [(txt_xls, "*.xls"), (txt_xls, "*.xlsx")], valori_lettura))
         field_txt_istanze = Entry(root, textvariable=valore, width = 30)
         valore.set("DATI ISTANZE")
         field_txt_lavoratori = Entry(root, textvariable=valore1, width = 30)
         valore1.set("DATI LAVORATORI")
-        buttons.extend([btn_xls])
-        progressBar = ttk.Progressbar(root, orient="horizontal", length=286,mode="determinate")
-
+        btn_xsd = Button(root, text = txt_xsd, command = lambda:caricaFile(btn_xsd, [(txt_xsd, "*.xsd")], valori_lettura))
+        buttons.extend([btn_xls, btn_xsd])
+        progressBarCli = ttk.Progressbar(root, orient="horizontal", length=286,mode="determinate")
+        progressBarLav = ttk.Progressbar(root, orient="horizontal", length=286,mode="determinate")
+        
         btn_modifica = Button(root, text ='RIPRISTINA', command = lambda:ripristina(buttons, texts, valori_lettura))
         btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([field_txt_istanze, field_txt_lavoratori, btn_modifica, btn_conferma],buttons, texts, valori_lettura))
 
-        #btn_pdf.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
         btn_xls.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
-        field_txt_istanze.pack(anchor = NW, pady = 10, padx = 10)
-        field_txt_lavoratori .pack(anchor = NW, pady = 10, padx = 10)
-        progressBar.pack(anchor = NW, pady = 34, padx = 10)
+        field_txt_istanze.pack(anchor = NW, pady = 13, padx = 10)
+        field_txt_lavoratori.pack(anchor = NW, pady = 10, padx = 10)
+        btn_xsd.pack(side = TOP, anchor = NW, pady = 11, padx = 10)
+        progressBarCli.pack(anchor = NW, pady = 19, padx = 10)
+        progressBarLav.pack(anchor = NW, pady = 2, padx = 10)
 
-        btn_modifica.place(relx=0.3, rely=0.85, anchor=CENTER)
-        btn_conferma.place(relx=0.7, rely=0.85, anchor=CENTER)
+        btn_modifica.place(relx=0.3, rely=0.93, anchor=CENTER)
+        btn_conferma.place(relx=0.7, rely=0.93, anchor=CENTER)
 
 
         root.mainloop()
-        return valori_lettura, progressBar
+        return valori_lettura, progressBarLav, progressBarCli
     except Exception as erroreFrame:
         functions.logOperazioni(str(erroreFrame))

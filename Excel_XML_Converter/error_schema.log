@@ -1,2 +1,0 @@
-<string>:2410:0:ERROR:SCHEMASV:SCHEMAV_CVC_PATTERN_VALID: Element 'settoreRiferimento': [facet 'pattern'] The value 'AM' is not accepted by the pattern 'ED|NE'.
-<string>:2410:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element 'settoreRiferimento': 'AM' is not a valid value of the local atomic type.

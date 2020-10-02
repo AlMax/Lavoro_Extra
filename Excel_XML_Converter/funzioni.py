@@ -28,3 +28,7 @@ def logOperazioni(log):
     fileLog = open("Log.txt", "a")
     fileLog.write(log)
     fileLog.close()
+
+def Mbox(title, text, style):
+    """Messaggi Pop-up"""
+    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
