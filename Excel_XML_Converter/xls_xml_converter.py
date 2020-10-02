@@ -14,7 +14,7 @@ from tkinter import ttk
 import time
 
 
-try: 
+try:
     today = date.today().strftime("%d-%m-%Y")
     now = datetime.datetime.now().strftime("%H.%M.%S")
 
@@ -85,7 +85,7 @@ try:
         functions.logOperazioni("Inizio estrapolazione del cliente " + str(tutti_clienti[indice_array_cliente]) + "\n")
         padre = documento.createElement('istanza')
         xml.appendChild(padre)
-    
+
         for attributo in attributi_istanza:
             figlio = documento.createElement(attributo)
             dato_cliente = tutti_clienti[indice_array_cliente]
@@ -95,13 +95,13 @@ try:
                 figlio.appendChild(documento.createTextNode(dato_cliente[indice_dato_cliente]))
             padre.appendChild(figlio)
             indice_array_cliente += 1
-        
+
 
         figlio = documento.createElement('lavoratori')
         padre.appendChild(figlio)
 
         indice_dato_lavoratore = 0
-        
+
         for lavoratore in range(len(tutti_lavoratori[2])):
 
             progressBar["value"] = indice_dato_lavoratore
@@ -116,18 +116,18 @@ try:
 
             indice_array_lavoratore = 0
             for dati_lavoratore in dati_tutti_lavoratori:
-                
+
                 if identificativi_lavoratori[lavoratore] == identificativoPratica[indice_dato_cliente]:
                     pro_nipote = documento.createElement(dati_lavoratore)
                     dato_lavoratore = tutti_lavoratori[indice_array_lavoratore]
                     pro_nipote.appendChild(documento.createTextNode(dato_lavoratore[indice_dato_lavoratore]))
                     nipote.appendChild(pro_nipote)
-                
+
                 indice_array_lavoratore += 1
             indice_dato_lavoratore += 1
-        
+
         functions.logOperazioni("Concludo estrpolazione del cliente " + str(indice_dato_cliente+1) + "\n")
-    
+
         indice_dato_cliente += 1
 
 
@@ -208,7 +208,7 @@ try:
     with open("test.xml", "wb") as f:
         f.write(string)
 
-    
-   
+
+
 except Exception as erroreGenerale:
-    print(str(erroreGenerale)) 
+    print(str(erroreGenerale))

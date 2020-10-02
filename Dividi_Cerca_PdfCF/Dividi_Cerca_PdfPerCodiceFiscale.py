@@ -25,6 +25,7 @@ try:
     functions.logOperazioni("\n\nI seguenti Log fanno riferimento al giorno " + today + " alle ore " + now + "\n")
 
     pdf_da_trovare = []
+    pdf_trovati = []
     codiciFiscaliUtilizzati = []
     indici_codiciFiscaliUTilizzati = []
     logPagina = []
@@ -38,13 +39,13 @@ try:
     cartelleSalvataggio.append("Cedolini_Divisi_" + today + "_" + now)
     cartelleSalvataggio.append("Cedolini_Trovati_" + today + "_" + now)
 
-    pbar = ProgressBar()
-    ROOT = tk.Tk()
-    ROOT.withdraw()
+    frameReturn = frame.RichiediFile(nomeProgramma)
 
-    nomi_file = frame.RichiediFile(nomeProgramma)
+    nomi_file = frameReturn[0]
     nomePDF = [nome for nome in nomi_file if ".pdf" in nome][0]
     nomeExcel = [nome for nome in nomi_file if ".xls" in nome][0]
+
+    progressBar = frameReturn[1]
 
     #Lettura PDF
     oggettoPDF = functions.leggiPDF(nomePDF)
@@ -60,8 +61,9 @@ try:
     functions.creaCartelle(cartelleSalvataggio)
 
     # Ciclo per analizzare ogni singola pagina e dividerla
-    functions.logOperazioni("\tInizializzazione estrapolazione pagine\n")
-    for i in pbar(range(numPagine)):
+    functions.logOperazioni("Inizializzazione estrapolazione pagine, i log di tali operazioni si trovano nel file Log.xlsx\n")
+    progressBar['maximum'] = numPagine
+    for i in range(numPagine):
         # Ottengo il testo della singola pagina
         pageObj = lettorePDF.getPage(i)
         pageTxt = pageObj.extractText()
@@ -102,12 +104,19 @@ try:
         #codiceFiscale += ".pdf"
         if codiceFiscale in pdf_da_trovare:
             functions.PDF_estraiPagine(lettorePDF, i, cartelleSalvataggio[1], codiceFiscaleStampa)
+            pdf_trovati.append(codiceFiscale)
             logFound.append("Era presente nell'Excel")
         else:
             logFound.append("NON era presente nell'Excel")
+        
+        progressBar["value"] = i
+        progressBar.update()
 
-    functions.logOperazioni("\tInizializzazione unione cedolini dello stesso Dipendente\n")
-    print("Procedo con l'unione dei cedolini che fanno riferimento allo stesso dipendente; attendere per favore.")
+    progressBar["value"] = numPagine
+    progressBar.update()
+
+    functions.logOperazioni("\tInizializzazione unione cedolini dello stesso Dipendente nella cartella dei TROVATI\n")
+    #print("Procedo con l'unione dei cedolini che fanno riferimento allo stesso dipendente; attendere per favore.")
     #functions.logOperazioni("\t" + str(codiciFiscaliUtilizzati) + "\n")
     index_codiciFiscaliUtilizzati = 0
     for codiceFiscalePresente in codiciFiscaliUtilizzati:
@@ -115,12 +124,14 @@ try:
             codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] = "NULL"
             index_codiciFiscaliUtilizzati += 1
             #print(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]))
-            functions.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[0])
-            #functions.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[1])
+            #functions.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[0])
+            
+            if codiceFiscalePresente in pdf_trovati:
+                functions.PDF_unisci(codiceFiscalePresente,codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]), cartelleSalvataggio[1])
             functions.logOperazioni("\t\tHo unito il PDF: " + codiceFiscalePresente + " con il PDF: " + codiciFiscaliUtilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)] + "-" + str(indici_codiciFiscaliUTilizzati[codiciFiscaliUtilizzati.index(codiceFiscalePresente)]) + "\n")
         #print(codiciFiscaliUtilizzati)
-    print("Operazioni concluse.")
-    functions.Mbox(nomeProgramma, "Operazioni concluse. Consultare il file Log.txt per i dettagli", 1)
+    #print("Operazioni concluse.")
+    functions.Mbox(nomeProgramma, "Operazioni concluse. Consultare il file Log.txt e Log.xlsx per i dettagli", 1)
     functions.logOperazioni("Operazioni concluse.")
     #functions.logOperazioni("\t" + str(codiciFiscaliUtilizzati) + "\n")
     # Chiudo l'oggetto file

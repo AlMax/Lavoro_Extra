@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter.ttk import *
+from tkinter import ttk
 import sys
 import os
 from tkinter.filedialog import askopenfilename
@@ -39,12 +40,12 @@ def RichiediFile(nome_programma):
 
         txt_pdf = "Selezione il file PDF"
         txt_xls = "Selezione il file EXCEL"
-        txt_label = "Selezionare il PDF da leggere\n\n\nSelezionare l'Excel da leggere\n\n\nInserire il nome della cella dell'Excel"
+        txt_label = "Selezionare il PDF da leggere\n\n\nSelezionare l'Excel da leggere\n\n\nInserire il nome della cella dell'Excel\n\n\nBarra del Progresso"
         texts.extend([txt_pdf, txt_xls, txt_label])
 
         root = Tk()
         root.title(nome_programma)
-        root.geometry('380x180')
+        root.geometry('380x215')
         root.resizable(0, 0)
 
         valore = StringVar()
@@ -54,7 +55,9 @@ def RichiediFile(nome_programma):
         btn_pdf = Button(root, text = txt_pdf, command = lambda:caricaFile(btn_pdf, [(txt_pdf, "*.pdf")], valori_lettura))
         btn_xls = Button(root, text = txt_xls, command = lambda:caricaFile(btn_xls, [(txt_xls, "*.xls"), (txt_xls, "*.xlsx")], valori_lettura))
         field_txt = Entry(root, textvariable=valore, width = 15)
+        valore.set("cercare")
         buttons.extend([btn_pdf, btn_xls])
+        progressBar = ttk.Progressbar(root, orient="horizontal", length=120,mode="determinate")
 
         btn_modifica = Button(root, text ='RIPRISTINA', command = lambda:ripristina(buttons, texts, valori_lettura))
         btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([field_txt, btn_modifica, btn_conferma],buttons, texts, valori_lettura))
@@ -62,11 +65,13 @@ def RichiediFile(nome_programma):
         btn_pdf.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
         btn_xls.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
         field_txt.pack(anchor = NW, pady = 10, padx = 10)
-        btn_modifica.place(relx=0.3, rely=0.83, anchor=CENTER)
-        btn_conferma.place(relx=0.7, rely=0.83, anchor=CENTER)
+        progressBar.pack(anchor = NW, pady = 10, padx = 10)
+
+        btn_modifica.place(relx=0.3, rely=0.90, anchor=CENTER)
+        btn_conferma.place(relx=0.7, rely=0.90, anchor=CENTER)
     
 
         root.mainloop()
-        return valori_lettura
+        return valori_lettura, progressBar
     except Exception as erroreFrame:
         return (str(erroreFrame))

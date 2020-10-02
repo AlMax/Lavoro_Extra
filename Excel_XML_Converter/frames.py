@@ -64,7 +64,7 @@ def RichiediFile(nome_programma):
         valore1.set("DATI LAVORATORI")
         buttons.extend([btn_xls])
         progressBar = ttk.Progressbar(root, orient="horizontal", length=286,mode="determinate")
-                
+
         btn_modifica = Button(root, text ='RIPRISTINA', command = lambda:ripristina(buttons, texts, valori_lettura))
         btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([field_txt_istanze, field_txt_lavoratori, btn_modifica, btn_conferma],buttons, texts, valori_lettura))
 
@@ -76,7 +76,7 @@ def RichiediFile(nome_programma):
 
         btn_modifica.place(relx=0.3, rely=0.85, anchor=CENTER)
         btn_conferma.place(relx=0.7, rely=0.85, anchor=CENTER)
-    
+
 
         root.mainloop()
         return valori_lettura, progressBar
