@@ -13,16 +13,19 @@ from tkinter import *
 from tkinter import ttk
 import time
 
+nomeProgramma = "Convertitore XML By ALMAX (GitHub)"
+txt_conclusivo = ""
 
 try:
+    
     today = date.today().strftime("%d-%m-%Y")
     now = datetime.datetime.now().strftime("%H.%M.%S")
 
     functions.logOperazioni("")
 
-    if os.stat("Log.txt").st_size == 0:
+    if os.stat("Log_errori.txt").st_size == 0:
         functions.logOperazioni("Scorrere in basso per avere i log piu' recenti.\nI Log vengono registrati ogni volta che viene lanciato il programma.")
-    functions.logOperazioni("\n\nI seguenti Log fanno riferimento al giorno " + today + " alle ore " + now + "\n")
+    functions.logOperazioni("\n\n\nI seguenti Log fanno riferimento al giorno " + today + " alle ore " + now + "\n")
 
     documento = minidom.Document()
     xml = documento.createElement('tis')
@@ -40,20 +43,26 @@ try:
     lista = []
     identificativi_lavoratori = []
 
-    nomeProgramma = "Convertitore XML By ALMAX (GitHub)"
     frameReturn = frame.RichiediFile(nomeProgramma)
 
-    nomi_file = frameReturn[0]
-    nomeExcel = [nome for nome in nomi_file if ".xls" in nome][0]
-    nomeXsd = [nome for nome in nomi_file if ".xsd" in nome][0]
-    nomeXml = "Payload.xml"
+    #functions.Mbox(nomeProgramma, "Programma partito;\nConfermare per iniziare le prime elaborazioni ed attenddere il prossimo pop-up", 1)
 
-    progressBarLav = frameReturn[1]
-    progressBarCli = frameReturn[2]
+    try:
+        nomi_file = frameReturn[0]
+        nomeExcel = [nome for nome in nomi_file if ".xls" in nome][0]
+        nomeXsd = [nome for nome in nomi_file if ".xsd" in nome][0]
+        nomeXml = "Payload.xml"
 
+        progressBarLav = frameReturn[1]
+        progressBarCli = frameReturn[2]
+        progressBarSys = frameReturn[3]
+    except Exception as ErroreFrame:
+        txt_conclusivo += "\nErrore nella conferma del file XLS o XSD"
+
+    progressBarSys['maximum'] = len(dati_tutti_lavoratori+attributi_istanza)
+    indice_prorgress_sys = 0
 
     functions.leggiExcel_colonna(functions.leggiExcel(nomeExcel, nomi_file[3]), "identificativoPratica", identificativi_lavoratori)
-
 
     indice = 0
     for dato_lavoratori in dati_tutti_lavoratori:
@@ -66,6 +75,14 @@ try:
             tutti_lavoratori.append(lista)
         array.clear()
         indice += 1
+
+        progressBarSys["value"] = indice_prorgress_sys
+        indice_prorgress_sys += 1
+        progressBarSys.update()
+
+    progressBarSys["value"] = indice_prorgress_sys
+    indice_prorgress_sys += 1
+    progressBarSys.update()
 
     progressBarLav['maximum'] = len(tutti_lavoratori[2])
 
@@ -81,42 +98,48 @@ try:
         array.clear()
         indice += 1
 
+        progressBarSys["value"] = indice_prorgress_sys
+        indice_prorgress_sys += 1
+        progressBarSys.update()
+
+    progressBarSys["value"] = indice_prorgress_sys
+    indice_prorgress_sys += 1
+    progressBarSys.update()
+
     progressBarCli['maximum'] = len(tutti_clienti[0])
 
+    #functions.Mbox(nomeProgramma, "Prime elaborazioni fatte;\nora verrà avviata la procedura di generazione dell'XML.\nConfermare", 1)
+
+    functions.logOperazioni("Rilevo " + str(len(tutti_lavoratori[2])) + " lavoratori\n")
     indice_dato_cliente = 0
     for cliente in range(len(tutti_clienti[0])):
         indice_array_cliente = 0
 
-        functions.logOperazioni("Inizio estrapolazione del cliente " + str(tutti_clienti[indice_array_cliente]) + "\n")
+        clienti = tutti_clienti[2]
+        functions.logOperazioni("\nInizio estrapolazione del cliente " + str(clienti[indice_dato_cliente]) + "\n")
+
         padre = documento.createElement('istanza')
         xml.appendChild(padre)
-        functions.logOperazioni("\nok")
+        
         for attributo in attributi_istanza:
             figlio = documento.createElement(attributo)
             dato_cliente = tutti_clienti[indice_array_cliente]
-            functions.logOperazioni("\nok")
+           
             if dato_cliente[indice_dato_cliente] == 'nan':
-                functions.logOperazioni("\nok")
                 figlio.appendChild(documento.createTextNode(""))
             else:
-                functions.logOperazioni("\nok")
                 figlio.appendChild(documento.createTextNode(dato_cliente[indice_dato_cliente]))
             padre.appendChild(figlio)
             indice_array_cliente += 1
 
-        functions.logOperazioni("\nok")
         figlio = documento.createElement('lavoratori')
         padre.appendChild(figlio)
 
         indice_dato_lavoratore = 0
 
         for lavoratore in range(len(tutti_lavoratori[2])):
-            functions.logOperazioni("\nok")
-            progressBarLav["value"] = indice_dato_lavoratore
-            time.sleep(0.01)
-            progressBarLav.update()
+            lavoratori = tutti_lavoratori[2]
 
-            functions.logOperazioni("Estrapolato " + str(indice_dato_lavoratore+1) + " lavoratore su " + str(len(tutti_lavoratori[2])) + " lavoratori.\n")
             identificativoPratica = tutti_clienti[0]
             if identificativi_lavoratori[lavoratore] == identificativoPratica[indice_dato_cliente]:
                 nipote = documento.createElement('lavoratore')
@@ -132,9 +155,14 @@ try:
                     nipote.appendChild(pro_nipote)
 
                 indice_array_lavoratore += 1
+                
+            #functions.logOperazioni("\tEstrapolato il lavoratore " + str(indice_dato_lavoratore+1) + "-->" + str(lavoratori[indice_dato_lavoratore]) + " su " + str(len(tutti_lavoratori[2])) + " lavoratori totali.\n")
             indice_dato_lavoratore += 1
+            progressBarLav["value"] = indice_dato_lavoratore
+            time.sleep(0.01)
+            progressBarLav.update()
 
-        #functions.logOperazioni("Concludo estrpolazione del cliente " + str(tutti_clienti[indice_array_cliente]) + "\n")
+        functions.logOperazioni("Concludo estrpolazione del cliente " + str(clienti[indice_dato_cliente]) + "\n")
 
         indice_dato_cliente += 1
 
@@ -170,38 +198,32 @@ try:
 
     try:
         doc = etree.parse(StringIO(xml_to_check))
-        functions.logOperazioni('XML well formed, syntax ok.')
+        txt_conclusivo += "XML well formed, syntax ok\n"
 
     # check for file IO error
     except IOError:
-        functions.logOperazioni('Invalid File')
+        txt_conclusivo += "Invalid File\n"
 
     # check for XML syntax errors
     except etree.XMLSyntaxError as err:
-        functions.logOperazioni('XML Syntax Error, see error_syntax.log')
-        with open('error_syntax.log', 'w') as error_log_file:
-            error_log_file.write(str(err.error_log))
-        quit()
+        txt_conclusivo += "XML Syntax Error\n"
+        functions.logOperazioni("\n" + str(err.error_log))
 
     except Exception as errore:
-        functions.logOperazioni(errore)
-        quit()
+        functions.logOperazioni("\n" + str(errore))
 
 
     # validate against schema
     try:
         xmlschema.assertValid(doc)
-        functions.logOperazioni('XML valid, schema validation ok.')
+        txt_conclusivo += "XML valid, schema validation ok\n"
 
     except etree.DocumentInvalid as err:
-        functions.logOperazioni('Schema validation error, see error_schema.log')
-        with open('error_schema.log', 'w') as error_log_file:
-            error_log_file.write(str(err.error_log))
-        quit()
+        txt_conclusivo += "Schema validation error\n"
+        functions.logOperazioni("\n" + str(err.error_log))
 
     except:
-        functions.logOperazioni('Unknown error, exiting.')
-        quit()
+        txt_conclusivo += "Unknown error, exiting\n"
 
 
 
@@ -210,7 +232,7 @@ try:
 
     is_valid = xml_validator.validate(xml_file)
 
-    functions.logOperazioni("L'XML rispetta la struttura definita nell' XSD? " + str(is_valid))
+    txt_conclusivo += "L'XML rispetta la struttura definita nell' XSD? " + str(is_valid)
 
 
     tree = etree.parse(nomeXml)
@@ -218,7 +240,7 @@ try:
     with open(nomeXml, "wb") as f:
         f.write(string)
 
-    functions.Mbox(nomeProgramma, "Operazioni concluse. Consultare il fondo del file Log.txt per i dettagli", 1)
+    functions.Mbox(nomeProgramma, txt_conclusivo + "\nOperazioni concluse.\nConsultare il fondo del file Log_Errori.txt per i dettagli", 1)
 
 except Exception as erroreGenerale:
-    functions.Mbox(nomeProgramma, str(erroreGenerale), 1)
+    functions.Mbox(nomeProgramma, "Errore Generale, contattarmi alla mail ali.haider.maqsood@maw.it\n\nErrori:\n" + str(erroreGenerale) + txt_conclusivo, 1)
