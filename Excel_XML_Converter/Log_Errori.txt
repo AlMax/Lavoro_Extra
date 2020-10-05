@@ -1,0 +1,5 @@
+Scorrere in basso per avere i log piu' recenti.
+I Log vengono registrati ogni volta che viene lanciato il programma.
+
+
+I seguenti Log fanno riferimento al giorno 05-10-2020 alle ore 11.12.20
