@@ -1,0 +1,12 @@
+Scorrere in basso per avere i log piu' recenti.
+I Log vengono registrati ogni volta che viene lanciato il programma.
+
+
+I seguenti Log fanno riferimento al giorno 07-10-2020 alle ore 19.27.48
+Rilevo 318 lavoratori
+
+Inizio estrapolazione del cliente ART COSMETICS SRL 
+Concludo estrpolazione del cliente ART COSMETICS SRL 
+
+Inizio estrapolazione del cliente NEW.COS. SRL 
+Concludo estrpolazione del cliente NEW.COS. SRL 
