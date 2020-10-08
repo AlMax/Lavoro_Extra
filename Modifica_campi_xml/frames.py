@@ -16,11 +16,7 @@ def RichiediFile(nome_programma):
             return valori_lettura
         button['text'] = "Errore! Riprovare"
 
-    def ripristina():
-        root.destroy()
-        RichiediFile(nome_programma)
-
-    def conferma(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura, campi_extra, campi_extra2, campi_extra3):
+    def conferma(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura, campi_extra, campi_extra2, campi_extra3, testo_field):
         for campo in campi_extra:
             valori_lettura.append(campo.get())
             campo['state'] = "disabled"
@@ -32,6 +28,9 @@ def RichiediFile(nome_programma):
         for campo3 in campi_extra3:
             valori_lettura.append(campo3.get())
             campo3['state'] = "disabled"
+
+        for testo in testo_field:
+            valori_lettura.append(testo.get())
             
         for button in bottoni_da_disabilitare:
             button['state'] = "disabled"
@@ -41,7 +40,7 @@ def RichiediFile(nome_programma):
 
         root.quit()
 
-    def aggiungiCampo(root, campi_extra, campi_extra2,campi_extra3, label, frame):
+    def aggiungiCampo(root, campi_extra, campi_extra2,campi_extra3, label, frame, testo_field):
         if len(campi_extra) >= 10:
             print("Ve ne servono davvero così tanti?")
         else:
@@ -55,6 +54,10 @@ def RichiediFile(nome_programma):
             campi_extra3.append(Combobox(root, values = ["arigatou", "bon", "urco"],state='readonly'))
             campi_extra3[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
             label.config(text = label['text'] + "\n\n\nciaoyeyhs5tesy5" + str(len(campi_extra)))
+            
+            testo_field.append(StringVar())
+            field_txt = Entry(root, textvariable=testo_field[-1], width = 15)
+            field_txt.pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
 
     try:
         buttons = []
@@ -64,8 +67,8 @@ def RichiediFile(nome_programma):
         campi_extra = []
         campi_extra2 = []
         campi_extra3 = []
-        valori = []
         frame = []
+        testo_field = []
         
         
         txt_pdf = "Selezione il file PDF"
@@ -90,9 +93,9 @@ def RichiediFile(nome_programma):
         progressBar = ttk.Progressbar(root, orient="horizontal", length=120,mode="determinate")
 
         
-        btn_ripristina = Button(root, text ='RIPRISTINA', command = lambda:ripristina())
-        btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([btn_ripristina, btn_conferma, btn_aggiungi], buttons, texts, valori_lettura, campi_extra, campi_extra2, campi_extra3))
-        btn_aggiungi = Button(root, text ='AGGIUNGI', command = lambda:aggiungiCampo(root, campi_extra, campi_extra2, campi_extra3, label, frame))
+        btn_exit = Button(root, text ='ESCI', command = lambda:sys.exit(0))
+        btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([btn_exit, btn_conferma, btn_aggiungi], buttons, texts, valori_lettura, campi_extra, campi_extra2, campi_extra3, testo_field))
+        btn_aggiungi = Button(root, text ='AGGIUNGI', command = lambda:aggiungiCampo(root, campi_extra, campi_extra2, campi_extra3, label, frame, testo_field))
 
         label.pack(side= LEFT,anchor = NW, pady = 12, padx = 15)
         
@@ -100,7 +103,7 @@ def RichiediFile(nome_programma):
         btn_xls.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
         progressBar.pack(anchor = NW, pady = 10, padx = 10)
 
-        btn_ripristina.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
+        btn_exit.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
         btn_conferma.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
         btn_aggiungi.pack(anchor = NW, pady = 10, padx = 10)
     
@@ -112,4 +115,4 @@ def RichiediFile(nome_programma):
         return (str(erroreFrame))
 
 
-RichiediFile("Programmino per Laura")
+#RichiediFile("Programmino per Laura")

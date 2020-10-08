@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <tis>
 	<istanza>
 		<identificativoPratica>1</identificativoPratica>
-		<denominazioneAPL name="peppino">MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.</denominazioneAPL>
+		<denominazioneAPL name="newitem" name2="newitem2">new text</denominazioneAPL>
 		<ragioneSocialeUtilizzatore>ART COSMETICS SRL </ragioneSocialeUtilizzatore>
 		<partitaIvaUtilizzatore>2027370168</partitaIvaUtilizzatore>
 		<matricolaInpsUtilizzatore>1205425605</matricolaInpsUtilizzatore>
@@ -11,7 +10,7 @@
 		<mensilitaAggiuntive>1</mensilitaAggiuntive>
 		<settoreRiferimento>NE</settoreRiferimento>
 		<autocertificazioneSettimane>S</autocertificazioneSettimane>
-		<note/>
+		<note />
 		<lavoratori>
 			<lavoratore>
 				<annoRiferimento>2020</annoRiferimento>
@@ -2161,7 +2160,7 @@
 	</istanza>
 	<istanza>
 		<identificativoPratica>3</identificativoPratica>
-		<denominazioneAPL>MAW MEN AT WORK AGENZIA PER IL LAVORO S.P.A.</denominazioneAPL>
+		<denominazioneAPL name="newitem" name2="newitem2">new text</denominazioneAPL>
 		<ragioneSocialeUtilizzatore>NEW.COS. SRL </ragioneSocialeUtilizzatore>
 		<partitaIvaUtilizzatore>4187160165</partitaIvaUtilizzatore>
 		<matricolaInpsUtilizzatore>1213439553</matricolaInpsUtilizzatore>
@@ -2170,7 +2169,7 @@
 		<mensilitaAggiuntive>1</mensilitaAggiuntive>
 		<settoreRiferimento>NE</settoreRiferimento>
 		<autocertificazioneSettimane>S</autocertificazioneSettimane>
-		<note/>
+		<note />
 		<lavoratori>
 			<lavoratore>
 				<annoRiferimento>2020</annoRiferimento>
