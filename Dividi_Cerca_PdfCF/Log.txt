@@ -1,0 +1,30 @@
+Scorrere in basso per avere i log piu' recenti.
+I Log vengono registrati ogni volta che viene lanciato il programma.
+
+I seguenti Log fanno riferimento al giorno 06-10-2020 alle ore 21.55.18
+Ho letto il PDF: /Users/almax/Desktop/Varie/GitHub/MAW/Dividi_Cerca_PdfCF/cedolini.pdf --> Ha 38 pagine.
+Ho letto l'excel: /Users/almax/Desktop/Varie/GitHub/MAW/Dividi_Cerca_PdfCF/cf.xlsx
+	Dall'excel, tento di leggere la colonna 'cercare'
+		Alla cella 1 ho letto il valore --> BBSMHR90T17Z236E
+		Alla cella 2 ho letto il valore --> BBSNRZ95R20Z236O
+		Alla cella 3 ho letto il valore --> BBSQMR82C09Z236D
+		Alla cella 4 ho letto il valore --> BBSSJL99A16Z236C
+		Alla cella 5 ho letto il valore --> BBSTHR88R10Z236V
+		Alla cella 6 ho letto il valore --> BBSMRU85S21Z236J
+		Alla cella 7 ho letto il valore --> BBNMRZ87D53C589Z
+		Alla cella 8 ho letto il valore --> BBNMNR79L63L400E
+		Alla cella 9 ho letto il valore --> BBRFPP95L01G273J
+		Alla cella 10 ho letto il valore --> BDLBLG74R03Z336A
+		Alla cella 11 ho letto il valore --> BDLBSM93H46Z336M
+		Alla cella 12 ho letto il valore --> BSADVD95H21D612A
+		Alla cella 13 ho letto il valore --> BRDCST74E28Z129A
+		Alla cella 14 ho letto il valore --> BSSSSD74P18Z240M
+Cartella Cedolini_Divisi_06-10-2020_21.55.18 creata.
+Cartella Cedolini_Trovati_06-10-2020_21.55.18 creata.
+Inizializzazione estrapolazione pagine, i log di tali operazioni si trovano nel file Log.xlsx
+	Inizializzazione unione cedolini dello stesso Dipendente nella cartella dei TROVATI
+		Ho unito il PDF: BBSMHR90T17Z236E con il PDF: BBSMHR90T17Z236E-7
+		Ho unito il PDF: BDLBSM93H46Z336M con il PDF: BDLBSM93H46Z336M-18
+		Ho unito il PDF: BDLBSM93H46Z336M con il PDF: BDLBSM93H46Z336M-19
+		Ho unito il PDF: BSADVD95H21D612A con il PDF: BSADVD95H21D612A-35
+	ERRORE Generico: module 'ctypes' has no attribute 'windll'
