@@ -8,7 +8,7 @@ from xml.dom import minidom
 
 import xml.etree.ElementTree as ET
 
-archive = zipfile.ZipFile('/Users/almax/Desktop/Varie/GitHub/MAW/Excel_XML_Converter/Payload.zip', 'r')
+archive = zipfile.ZipFile('/Users/almax/Desktop/Varie/GitHub/MAW/Modifica_campi_xml/Payload.zip', 'r')
 imgfile = archive.open('Payload.xml')
 
 #https://stackabuse.com/reading-and-writing-xml-files-in-python/
@@ -16,17 +16,34 @@ imgfile = archive.open('Payload.xml')
 tree = ET.parse(imgfile)
 root = tree.getroot()
 
-# changing a field text
-for elem in root.iter('denominazioneAPL'):
-    elem.text = 'new text'
+livelli = []
 
-# modifying an attribute
-for elem in root.iter('denominazioneAPL'):
-    print(elem.get('name'))
-    elem.set('name', 'newitem')
+def perf_func(elem, func, level=0):
+    func(elem,level)
+    for child in list(elem):
+        perf_func(child, func, level+1)
 
-# adding an attribute
-for elem in root.iter('denominazioneAPL'):
-    elem.set('name2', 'newitem2')
+def print_level(elem,level):
+    print('-'*level+elem.tag)
+    try:
+        livelli[level].append(elem.tag)
+    except:
+        livelli.append([])
+        livelli[level].append(elem.tag)
 
-tree.write('/Users/almax/Desktop/Varie/GitHub/MAW/Excel_XML_Converter/newitems.xml')
+
+perf_func(root, print_level)
+print(livelli)
+print(len(livelli))
+
+
+print("\n\n\t\tnext")
+
+
+tree.find('istanza/lavoratori/lavoratore/nome').text = "ciao"
+a = tree.findall('istanza/lavoratori/lavoratore/cognome')
+
+for b in a:
+    b.text = "prova"
+
+tree.write("test.xml")
