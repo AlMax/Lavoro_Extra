@@ -115,4 +115,4 @@ def RichiediFile(nome_programma):
         return (str(erroreFrame))
 
 
-#RichiediFile("Programmino per Laura")
+RichiediFile("Programmino per Laura")
