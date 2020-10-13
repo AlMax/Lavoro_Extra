@@ -52,27 +52,29 @@ def estraiStrutturaTag(root, namespace, field):
     except:
         print(traceback.format_exc())
 
+    return field
 
-ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
-tree = ET.parse("uni.xml")
-root = tree.getroot()
-namespace = "{http://servizi.lavoro.gov.it/unisomm}"
 
-for uni in root.iter("{http://servizi.lavoro.gov.it/unisomm}UniSomm"):
-    uni.set("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
-    uni.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+#ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
+#tree = ET.parse("uni.xml")
+#root = tree.getroot()
+#namespace = "{http://servizi.lavoro.gov.it/unisomm}"
 
-AgenziaSomministrazione = ["AgenziaSomministrazione"]
-Lavoratore = ["Lavoratore"]
-DittaUtilizzatrice = ["DittaUtilizzatrice"]
-TipoComunicazione = ["TipoComunicazione"]
+#for uni in root.iter("{http://servizi.lavoro.gov.it/unisomm}UniSomm"):
+#    uni.set("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
+#    uni.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+
+#AgenziaSomministrazione = ["AgenziaSomministrazione"]
+#Lavoratore = ["Lavoratore"]
+#DittaUtilizzatrice = ["DittaUtilizzatrice"]
+#TipoComunicazione = ["TipoComunicazione"]
 
 #print(isinstance(agenzia[0], list))
 
-findAgenziaSomministrazione(root, namespace, "comune")
-estraiStrutturaTag(root, namespace, Lavoratore)
-print(Lavoratore)
+#findAgenziaSomministrazione(root, namespace, "comune")
+
+#print(estraiStrutturaTag(root, namespace, Lavoratore))
 
 
-tree.write("newitems.xml",encoding="utf-8", xml_declaration=True)
+#tree.write("newitems.xml",encoding="utf-8", xml_declaration=True)
 
