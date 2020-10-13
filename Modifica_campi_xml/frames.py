@@ -40,6 +40,11 @@ def RichiediFile(nome_programma):
 
         root.quit()
 
+    def campo_valorizzato(campo, campo2, valori):
+        print("Selected!" + str(campo.get()))
+        valori.append("okkkkkkk")
+        campo2.configure(values = valori)
+
     def aggiungiCampo(root, campi_extra, campi_extra2,campi_extra3, label, frame, testo_field):
         if len(campi_extra) >= 10:
             print("Ve ne servono davvero così tanti?")
@@ -47,12 +52,20 @@ def RichiediFile(nome_programma):
             top = Frame(root)
             top.pack(side=TOP)
             frame.append(top)
-            campi_extra.append(Combobox(root, values = ["ciao", "buongiorno", "arrivederci"],state='readonly'))
+
+            campi_extra.append(ttk.Combobox(root, values = ["ciao", "buongiorno", "arrivederci"],state='readonly'))
             campi_extra[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
+            campi_extra[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra[-1], campi_extra2[-1], valori))
+            valori = ["arigatou", "bon", "urco"]
             campi_extra2.append(Combobox(root, values = ["ci vediamo", "buonasera", "addio"],state='readonly'))
             campi_extra2[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
-            campi_extra3.append(Combobox(root, values = ["arigatou", "bon", "urco"],state='readonly'))
+            campi_extra2[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra[-1], campi_extra2[-1], valori))
+            
+            
+            campi_extra3.append(Combobox(root, values = valori,state='readonly'))
             campi_extra3[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
+            campi_extra3[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra3[-1], campi_extra2[-1], valori))
+
             label.config(text = label['text'] + "\n\n\nciaoyeyhs5tesy5" + str(len(campi_extra)))
             
             testo_field.append(StringVar())
