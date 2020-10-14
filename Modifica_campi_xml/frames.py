@@ -32,10 +32,10 @@ def RichiediFile(nome_programma):
             return valori_lettura
         button['text'] = "Errore! Riprovare"
 
-    def conferma(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura, campi_extra, campi_extra2, campi_extra3, testo_field):
-        for campo in campi_extra:
-            valori_lettura.append(campo.get())
-            campo['state'] = "disabled"
+    def conferma(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura, campi_extra1, campi_extra2, campi_extra3, testo_field):
+        for campo1 in campi_extra1:
+            valori_lettura.append(campo1.get())
+            campo1['state'] = "disabled"
 
         for campo2 in campi_extra2:
             valori_lettura.append(campo2.get())
@@ -44,6 +44,10 @@ def RichiediFile(nome_programma):
         for campo3 in campi_extra3:
             valori_lettura.append(campo3.get())
             campo3['state'] = "disabled"
+
+        for campo4 in campi_extra3:
+            valori_lettura.append(campo4.get())
+            campo4['state'] = "disabled"
 
         for testo in testo_field:
             valori_lettura.append(testo.get())
@@ -56,12 +60,13 @@ def RichiediFile(nome_programma):
 
         root.quit()
 
-    def campo_valorizzato(campo1, campo2, campo3, campo4):
+    def campo_valorizzato(campo1, campo2, campo3, campo4, field_txt):
         valori2 = []
         valori3 =[]
         valori4 = []
         padre = []
         figlio_precedente = ""
+        nipote_precedente = ""
 
         if campo1.get() == "AgenziaSomministrazione":
             padre = AgenziaSomministrazione.copy()
@@ -80,27 +85,58 @@ def RichiediFile(nome_programma):
                 for figlio in padre[1]:
                     if not isinstance(figlio, list):
                         valori2.append(figlio)
+                        campo2['state'] = "readonly"
                     else:
                         for nipote in figlio:
                             if not isinstance(nipote, list) and campo2:
                                 try:
                                     if figlio_precedente == campo2.get():
                                         valori3.append(nipote)
+                                        campo3['state'] = "readonly"
                                 except:
                                     print("ok")
+                            else:
+                                if campo3:
+                                    try:
+                                        if nipote_precedente == campo3.get():
+                                            for pro_nipote in nipote:
+                                                valori4.append(pro_nipote)
+                                                campo4['state'] = "readonly"
+                                    except:
+                                        print("ok2")
+                            nipote_precedente = nipote
                     figlio_precedente = figlio
         except:
+            field_txt['state'] = "enabled"
             print("Non ha altro")
 
         if campo2:
             campo2.configure(values = valori2)
+
+            if campo3:
+                stato = str(campo3['state'])
+                if stato == "disabled":
+                    field_txt['state'] = "enabled"
+            campo1['state'] = "disabled"
+
         if campo3:
             campo3.configure(values = valori3)
+
+            if campo4:
+                stato = str(campo4['state'])
+                if  stato == "disabled":
+                    field_txt['state'] = "enabled"
+            campo2['state'] = "disabled"
+            
         if campo4:
             campo4.configure(values = valori4)
+            campo3['state'] = "disabled"
+            
 
-    def compileTxt(field):
+    def compileTxt(field, campo):
         field['state'] = "enabled"
+        campo['state'] = "disabled"
+
 
     def aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field):
         if len(campi_extra1) >= 10:
@@ -112,19 +148,22 @@ def RichiediFile(nome_programma):
 
             campi_extra1.append(ttk.Combobox(root, values = ["AgenziaSomministrazione", "Lavoratore", "DittaUtilizzatrice", "TipoComunicazione"],state='readonly'))
             campi_extra1[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
-            campi_extra1[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra1[-1], campi_extra2[-1], [], []))
+            campi_extra1[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra1[-1], campi_extra2[-1], [], [], field_txt))
 
             campi_extra2.append(Combobox(root, values = [],state='readonly'))
             campi_extra2[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
-            campi_extra2[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra1[-1], campi_extra2[-1], campi_extra3[-1], []))
-            
+            campi_extra2[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra1[-1], campi_extra2[-1], campi_extra3[-1], [], field_txt))
+            campi_extra2[-1]['state'] = "disabled"
+
             campi_extra3.append(Combobox(root, values = [],state='readonly'))
             campi_extra3[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
-            campi_extra3[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra1[-1], campi_extra2[-1], campi_extra3[-1], campi_extra4[-1]))
+            campi_extra3[-1].bind("<<ComboboxSelected>>", lambda _ : campo_valorizzato(campi_extra1[-1], campi_extra2[-1], campi_extra3[-1], campi_extra4[-1], field_txt))
+            campi_extra3[-1]['state'] = "disabled"
 
             campi_extra4.append(Combobox(root, values = [],state='readonly'))
             campi_extra4[-1].pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
-            campi_extra4[-1].bind("<<ComboboxSelected>>", lambda _ : compileTxt(field_txt))
+            campi_extra4[-1].bind("<<ComboboxSelected>>", lambda _ : compileTxt(field_txt, campi_extra4[-1]))
+            campi_extra4[-1]['state'] = "disabled"
 
             label.config(text = label['text'] + "\n\n\nciaoyeyhs5tesy5" + str(len(campi_extra1)))
             
