@@ -45,7 +45,7 @@ def RichiediFile(nome_programma):
             valori_lettura.append(campo3.get())
             campo3['state'] = "disabled"
 
-        for campo4 in campi_extra3:
+        for campo4 in campi_extra4:
             valori_lettura.append(campo4.get())
             campo4['state'] = "disabled"
 
@@ -108,6 +108,7 @@ def RichiediFile(nome_programma):
                     figlio_precedente = figlio
         except:
             field_txt['state'] = "enabled"
+            btn_aggiungi['state'] = "enabled"
             print("Non ha altro")
 
         if campo2:
@@ -117,6 +118,7 @@ def RichiediFile(nome_programma):
                 stato = str(campo3['state'])
                 if stato == "disabled":
                     field_txt['state'] = "enabled"
+                    btn_aggiungi['state'] = "enabled"
             campo1['state'] = "disabled"
 
         if campo3:
@@ -126,6 +128,7 @@ def RichiediFile(nome_programma):
                 stato = str(campo4['state'])
                 if  stato == "disabled":
                     field_txt['state'] = "enabled"
+                    btn_aggiungi['state'] = "enabled"
             campo2['state'] = "disabled"
             
         if campo4:
@@ -136,11 +139,13 @@ def RichiediFile(nome_programma):
     def compileTxt(field, campo):
         field['state'] = "enabled"
         campo['state'] = "disabled"
+        btn_aggiungi['state'] = "enabled"
 
 
     def aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field):
-        if len(campi_extra1) >= 10:
-            print("Ve ne servono davvero così tanti?")
+        if len(campi_extra1) >= 5:
+            btn_aggiungi['state'] = "disabled"
+            btn_aggiungi.configure(text = "TROPPI CAMPI!")
         else:
             top = Frame(root)
             top.pack(side=TOP)
@@ -165,12 +170,14 @@ def RichiediFile(nome_programma):
             campi_extra4[-1].bind("<<ComboboxSelected>>", lambda _ : compileTxt(field_txt, campi_extra4[-1]))
             campi_extra4[-1]['state'] = "disabled"
 
-            label.config(text = label['text'] + "\n\n\nciaoyeyhs5tesy5" + str(len(campi_extra1)))
+            label.config(text = label['text'] + "\n\n\nCampo " + str(len(campi_extra1)))
             
             testo_field.append(StringVar())
             field_txt = Entry(root, textvariable=testo_field[-1], width = 15)
             field_txt.pack(anchor = NW, pady = 12, padx = 10, in_=top, side = LEFT)
             field_txt['state'] = "disabled"
+
+            btn_aggiungi['state'] = "disabled"
 
     try:
         buttons = []
@@ -185,10 +192,9 @@ def RichiediFile(nome_programma):
         testo_field = []
         
         
-        txt_pdf = "Selezione il file PDF"
-        txt_xls = "Selezione il file EXCEL"
-        txt_label = "Selezionare il PDF da leggere\n\n\nSelezionare l'Excel da leggere\n\n\nBarra del Progresso\n\n\nAggiungi"
-        texts.extend([txt_pdf, txt_xls, txt_label])
+        txt_zip = "Seleziona il file ZIP"
+        txt_label = "Selezionare lo ZIP\n\n\nBarra del Progresso\n\n\nCrea un nuovo campo"
+        texts.extend([txt_zip, txt_label])
 
         root = Tk()
         root.title(nome_programma)
@@ -197,36 +203,34 @@ def RichiediFile(nome_programma):
         label = Label(root, text=txt_label)
         bot = Frame(root)
         bot.pack(side=BOTTOM)
-        
 
 
-        btn_pdf = Button(root, text = txt_pdf, command = lambda:caricaFile(btn_pdf, [(txt_pdf, "*.pdf")], nomi_file))
-        btn_xls = Button(root, text = txt_xls, command = lambda:caricaFile(btn_xls, [(txt_xls, "*.xls"), (txt_xls, "*.xlsx")], nomi_file))
+        btn_zip = Button(root, text = txt_zip, command = lambda:caricaFile(btn_zip, [(txt_zip, "*.zip")], nomi_file))
 
-        buttons.extend([btn_pdf, btn_xls])
-        progressBar = ttk.Progressbar(root, orient="horizontal", length=120,mode="determinate")
+        buttons.extend([btn_zip])
+        progressBar = ttk.Progressbar(root, orient="horizontal", length=200,mode="determinate") #760
 
         
         btn_exit = Button(root, text ='ESCI', command = lambda:sys.exit(0))
         btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([btn_exit, btn_conferma, btn_aggiungi], buttons, texts, valori_lettura, campi_extra1, campi_extra2, campi_extra3, testo_field))
-        btn_aggiungi = Button(root, text ='AGGIUNGI', command = lambda:aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field))
+        btn_aggiungi = Button(root, text ='AGGIUNGI SELEZIONE TAG', command = lambda:aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field))
 
         label.pack(side= LEFT,anchor = NW, pady = 12, padx = 15)
         
-        btn_pdf.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
-        btn_xls.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
+        btn_zip.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
         progressBar.pack(anchor = NW, pady = 10, padx = 10)
 
         btn_exit.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
         btn_conferma.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
         btn_aggiungi.pack(anchor = NW, pady = 10, padx = 10)
     
+        #aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field)
         root.mainloop()
-        print(nomi_file, valori_lettura, progressBar)
-        return nomi_file, valori_lettura, progressBar
+        print(nomi_file, len(campi_extra1), valori_lettura, progressBar)
+        return nomi_file, len(campi_extra1), valori_lettura, progressBar
     except Exception as erroreFrame:
         print(str(erroreFrame))
         return (str(erroreFrame))
 
 
-RichiediFile("Programmino per Laura")
+#RichiediFile("Programmino per Laura")

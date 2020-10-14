@@ -1,19 +1,29 @@
 import xml.etree.ElementTree as ET
 import traceback
+import frames as frame
 
-def findAgenziaSomministrazione(root, namespace, field):
-    for figli in root.findall(namespace + "AgenziaSomministrazione"):
-        for nipoti in figli.findall(namespace + "DatoreAnagraficaCompleta"):
-            try:
-                elemento = nipoti.find(namespace + field)
-                elemento.text = "new text"
-            except:
-                try:
-                    for pro_nipoti in nipoti.findall(namespace + "nascita"):
-                        pro_nipoti = pro_nipoti.find(namespace + field)
-                        pro_nipoti.text = "new text"
-                except:
-                    print("Non c'è nulla sotto nascita")
+def modificaCampo(root, namespace, coordinate, nrElementi):
+    for coordinataElemento in range(nrElementi):
+        i = coordinataElemento
+        for figli in root.findall(namespace + coordinate[i]):
+            i += nrElementi
+            if coordinate[i] == "":
+                for nipoti in figli.findall(namespace + coordinate[i]):
+                    try:
+                        i += nrElementi
+                        elemento = nipoti.find(namespace + coordinate[i])
+                        elemento.text = "new text"
+                    except:
+                        try:
+                            i += nrElementi
+                            for pro_nipoti in nipoti.findall(namespace + coordinate[i]):
+                                i += nrElementi
+                                pro_nipoti = pro_nipoti.find(namespace + coordinate[i])
+                                pro_nipoti.text = "new text"
+                        except:
+                            print("Non c'è nulla sotto nascita")
+            else:
+                
     
 def estraiStrutturaTag(root, namespace, field):
     indice_nipoti = 0
@@ -55,26 +65,24 @@ def estraiStrutturaTag(root, namespace, field):
     return field
 
 
-#ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
-#tree = ET.parse("uni.xml")
-#root = tree.getroot()
-#namespace = "{http://servizi.lavoro.gov.it/unisomm}"
+ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
+tree = ET.parse("uni.xml")
+root = tree.getroot()
+namespace = "{http://servizi.lavoro.gov.it/unisomm}"
 
-#for uni in root.iter("{http://servizi.lavoro.gov.it/unisomm}UniSomm"):
-#    uni.set("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
-#    uni.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+for uni in root.iter("{http://servizi.lavoro.gov.it/unisomm}UniSomm"):
+    uni.set("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
+    uni.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
 
-#AgenziaSomministrazione = ["AgenziaSomministrazione"]
-#Lavoratore = ["Lavoratore"]
-#DittaUtilizzatrice = ["DittaUtilizzatrice"]
-#TipoComunicazione = ["TipoComunicazione"]
+AgenziaSomministrazione = ["AgenziaSomministrazione"]
+Lavoratore = ["Lavoratore"]
+DittaUtilizzatrice = ["DittaUtilizzatrice"]
+TipoComunicazione = ["TipoComunicazione"]
 
-#print(isinstance(agenzia[0], list))
+modificaCampo(root, namespace, ['AgenziaSomministrazione', 'DatoreAnagraficaCompleta', 'cognome', '', ''], 1)
 
-#findAgenziaSomministrazione(root, namespace, "comune")
-
-#print(estraiStrutturaTag(root, namespace, Lavoratore))
+tree.write("newitems.xml",encoding="utf-8", xml_declaration=True)
 
 
-#tree.write("newitems.xml",encoding="utf-8", xml_declaration=True)
 
+#https://stackabuse.com/reading-and-writing-xml-files-in-python/
