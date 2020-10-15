@@ -4,17 +4,13 @@ from tkinter import ttk
 import sys
 import os
 from tkinter.filedialog import askopenfilename
-import xml_personalized_structure as strutturaXML
+import xml_structure as strutturaXML
 import xml.etree.ElementTree as ET
 
 ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
 tree = ET.parse("uni.xml")
 rootXML = tree.getroot()
 namespace = "{http://servizi.lavoro.gov.it/unisomm}"
-
-for uni in rootXML.iter("{http://servizi.lavoro.gov.it/unisomm}UniSomm"):
-    uni.set("xmlns:xsd", "http://www.w3.org/2001/XMLSchema")
-    uni.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
 
 AgenziaSomministrazione = ["AgenziaSomministrazione"]
 Lavoratore = ["Lavoratore"]
