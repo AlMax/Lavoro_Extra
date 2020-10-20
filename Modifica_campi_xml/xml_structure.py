@@ -1,12 +1,12 @@
 import traceback
 
-def modificaCampo(root, namespace, coordinate):
+def modificaCampo(root, namespace, coordinate, nuovo_testo):
     coordinata = ""
     for tag in coordinate:
         if not tag == "":
             coordinata += namespace + tag + "/"
     coordinata = coordinata[:-1]
-    root.find(coordinata).text = "ciao"
+    root.find(coordinata).text = nuovo_testo
                 
     
 def estraiStrutturaTag(root, namespace, field):

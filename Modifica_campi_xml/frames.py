@@ -7,22 +7,12 @@ from tkinter.filedialog import askopenfilename
 import xml_structure as strutturaXML
 import xml.etree.ElementTree as ET
 
-ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
-tree = ET.parse("uni.xml")
-rootXML = tree.getroot()
-namespace = "{http://servizi.lavoro.gov.it/unisomm}"
-
-AgenziaSomministrazione = ["AgenziaSomministrazione"]
-Lavoratore = ["Lavoratore"]
-DittaUtilizzatrice = ["DittaUtilizzatrice"]
-TipoComunicazione = ["TipoComunicazione"]
-
 def RichiediFile(nome_programma):
 
-    def caricaFile(button, fileType, valori_lettura):
+    def caricaFile(button, fileType):
         file = askopenfilename(filetypes = fileType)
         if file != "":
-            valori_lettura.append(file)
+            nome_file.append(file)
             button['text'] = os.path.basename(file)
             button['state'] = "disabled"
             return valori_lettura
@@ -63,6 +53,16 @@ def RichiediFile(nome_programma):
         padre = []
         figlio_precedente = ""
         nipote_precedente = ""
+        
+        ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
+        tree = ET.parse("uni.xml")
+        rootXML = tree.getroot()
+        namespace = "{http://servizi.lavoro.gov.it/unisomm}"
+
+        AgenziaSomministrazione = ["AgenziaSomministrazione"]
+        Lavoratore = ["Lavoratore"]
+        DittaUtilizzatrice = ["DittaUtilizzatrice"]
+        TipoComunicazione = ["TipoComunicazione"]
 
         if campo1.get() == "AgenziaSomministrazione":
             padre = AgenziaSomministrazione.copy()
@@ -179,7 +179,7 @@ def RichiediFile(nome_programma):
         buttons = []
         texts = []
         valori_lettura = []
-        nomi_file = []
+        nome_file = []
         campi_extra1 = []
         campi_extra2 = []
         campi_extra3 = []
@@ -201,7 +201,7 @@ def RichiediFile(nome_programma):
         bot.pack(side=BOTTOM)
 
 
-        btn_zip = Button(root, text = txt_zip, command = lambda:caricaFile(btn_zip, [(txt_zip, "*.zip")], nomi_file))
+        btn_zip = Button(root, text = txt_zip, command = lambda:caricaFile(btn_zip, [(txt_zip, '*.zip')]))
 
         buttons.extend([btn_zip])
         progressBar = ttk.Progressbar(root, orient="horizontal", length=200,mode="determinate") #760
@@ -222,11 +222,10 @@ def RichiediFile(nome_programma):
     
         #aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field)
         root.mainloop()
-        print(nomi_file, len(campi_extra1), valori_lettura, progressBar)
-        return nomi_file, len(campi_extra1), valori_lettura, progressBar
+        print(nome_file[0], len(campi_extra1), valori_lettura, progressBar)
+        return nome_file[0], len(campi_extra1), valori_lettura, progressBar
     except Exception as erroreFrame:
-        print(str(erroreFrame))
+        #print(str(erroreFrame))
         return (str(erroreFrame))
 
-
-#RichiediFile("Programmino per Laura")
+#RichiediFile("Programmino TEST")
