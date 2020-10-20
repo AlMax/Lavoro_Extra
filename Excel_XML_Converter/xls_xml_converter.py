@@ -159,7 +159,7 @@ try:
             #functions.logOperazioni("\tEstrapolato il lavoratore " + str(indice_dato_lavoratore+1) + "-->" + str(lavoratori[indice_dato_lavoratore]) + " su " + str(len(tutti_lavoratori[2])) + " lavoratori totali.\n")
             indice_dato_lavoratore += 1
             progressBarLav["value"] = indice_dato_lavoratore
-            time.sleep(0.01)
+            #time.sleep(0.01)
             progressBarLav.update()
 
         functions.logOperazioni("Concludo estrpolazione del cliente " + str(clienti[indice_dato_cliente]) + "\n")
