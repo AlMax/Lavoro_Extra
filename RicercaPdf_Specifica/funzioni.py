@@ -9,15 +9,15 @@ def creaCartelle(nomi_cartelle):
         for directory in nomi_cartelle:
             try:
                 os.mkdir(directory)
-                logOperazioni("Cartella " + directory + " creata.\n")
+                logOperazioni("\nCartella " + directory + " creata.")
             except OSError as erroreCartella:
-                logOperazioni("\tERRORE nel creare la cartella --> " + str(erroreCartella) + "\n")
+                logOperazioni("\n\tERRORE nel creare la cartella --> " + str(erroreCartella))
     else:
         try:
             os.mkdir(nomi_cartelle)
-            logOperazioni("Cartella " + nomi_cartelle + " creata.\n")
+            logOperazioni("\nCartella " + nomi_cartelle + " creata.")
         except OSError:
-            logOperazioni("\tERRORE nel creare la cartella " + nomi_cartelle + ", probabilmente esiste già.\n")
+            logOperazioni("\n\tERRORE nel creare la cartella " + nomi_cartelle + ", probabilmente esiste già.")
 
 def logOperazioni(log):
     """Scrittura dei log su apposito file"""
@@ -26,6 +26,6 @@ def logOperazioni(log):
     fileLog.close()
 
 
-def Mbox(title, text, style):
+def Mbox(title, text):
     """Messaggi Pop-up"""
-    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+    return ctypes.windll.user32.MessageBoxW(0, text, title, 1)
