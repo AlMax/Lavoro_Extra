@@ -60,4 +60,5 @@ try:
 except:
     function.logOperazioni("\nCi sono state delle anomalie durante le varie elaborazioni.\nErrore: " + traceback.format_exc())
 
-function.Mbox(nomeProgramma, "Elaborazioni concluse, consultare il file Log.txt per i dettagli.")
+#function.Mbox(nomeProgramma, "Elaborazioni concluse, consultare il file Log.txt per i dettagli.")
+print("Finito")

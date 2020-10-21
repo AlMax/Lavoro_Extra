@@ -1,0 +1,103 @@
+Scorrere in basso per avere i log piu' recenti.
+I Log vengono registrati ogni volta che viene lanciato il programma.
+
+
+I seguenti Log fanno riferimento al giorno 21-10-2020 alle ore 20.30.14
+
+Tento di spostare il file BBSMRU85S21Z236J.pdf
+Errore nello spostamento del file BBSMRU85S21Z236J.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBSQMR82C09Z236D.pdf
+Errore nello spostamento del file BBSQMR82C09Z236D.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BDLBLG74R03Z336A.pdf
+Errore nello spostamento del file BDLBLG74R03Z336A.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBSSJL99A16Z236C.pdf
+Errore nello spostamento del file BBSSJL99A16Z236C.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BSADVD95H21D612A.pdf
+Errore nello spostamento del file BSADVD95H21D612A.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBSTHR88R10Z236V.pdf
+Errore nello spostamento del file BBSTHR88R10Z236V.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BSSSSD74P18Z240M.pdf
+Errore nello spostamento del file BSSSSD74P18Z240M.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBSNRZ95R20Z236O.pdf
+Errore nello spostamento del file BBSNRZ95R20Z236O.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BDLBSM93H46Z336M.pdf
+Errore nello spostamento del file BDLBSM93H46Z336M.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BRDCST74E28Z129A.pdf
+Errore nello spostamento del file BRDCST74E28Z129A.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBSMHR90T17Z236E.pdf
+Errore nello spostamento del file BBSMHR90T17Z236E.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBNMNR79L63L400E_01,qsss;ds.pdf
+Errore nello spostamento del file BBNMNR79L63L400E_01,qsss;ds.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBRFPP95L01G273J.pdf
+Errore nello spostamento del file BBRFPP95L01G273J.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
+
+Tento di spostare il file BBNMRZ87D53C589Z.pdf
+Errore nello spostamento del file BBNMRZ87D53C589Z.pdf
+Errore: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/RicercaPdf_Specifica/ricercaPdf_specifica.py", line 45, in <module>
+    if i > posizioni[1] and i < posizioni[2]:
+IndexError: list index out of range
