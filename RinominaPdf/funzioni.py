@@ -21,15 +21,17 @@ def leggiExcel(nomeExcel, foglio):
     except:
         logOperazioni("\n\tERRORE lettura Excel: " + traceback.format_exc)
 
-def leggiExcel_colonna(excelReader, nome_colonnaExcel, elementi_colonna):
+def leggiExcel_colonna(excelReader, nome_colonnaExcel):
     #In questo loop analizziamo ogni singolo elemento della colonna dell'excel; l'oggetto excelReader è una Serie
+    elementi_colonna = []
     try:
         #logOperazioni("\tDall'excel, tento di leggere la colonna '" + nome_colonnaExcel + "'\n")
         for indice,valore in excelReader[nome_colonnaExcel].iteritems():
             contenuto_cella = str(excelReader[nome_colonnaExcel][indice]) #itero le singole celle
             elementi_colonna.append(contenuto_cella) #Aggiungo il nome del pdf alla lista dei pdf da trovare
-            #logOperazioni("\t\tAlla cella " + str(indice+1) + " ho letto il valore --> " + contenuto_cella + "\n")
+            #logOperazioni("\t\tAlla cella " + str(indice+1) + " ho letto il valore --> " + contenuto_cella + "\n") 
         logOperazioni("\nColonna " + nome_colonnaExcel + " letta con successo!")
+        return elementi_colonna
     except:
         logOperazioni("\n\tERRORE nella lettura della colonna Excel: " + traceback.format_exc)
 
