@@ -38,7 +38,7 @@ def RichiediFile(nome_programma):
             ripristina(all_buttons, all_texts, valori_lettura)
             functions.Mbox(nome_programma, "Attenzione! Compilare i 4 campi per poter continuare")
             return
-        ripristina(all_buttons, all_texts, valori_lettura)
+        ripristina(all_buttons, all_texts, [])
         for button in bottoni_da_disabilitare:
             button['state'] = "disabled"
         root.quit()
@@ -73,7 +73,7 @@ def RichiediFile(nome_programma):
         progressBarSys = ttk.Progressbar(root, orient="horizontal", length=286,mode="determinate")
         
         btn_modifica = Button(root, text ='RIPRISTINA', command = lambda:ripristina(buttons, texts, valori_lettura))
-        btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([field_txt_old, field_txt_new, btn_modifica, btn_conferma],buttons, texts, valori_lettura))
+        btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([field_txt_old, field_txt_new, btn_modifica, btn_conferma, btn_xls, btn_dir],buttons, texts, valori_lettura))
 
         btn_xls.pack(side = TOP, anchor = NW, pady = 10, padx = 10)
         field_txt_old.pack(anchor = NW, pady = 13, padx = 10)
@@ -88,6 +88,6 @@ def RichiediFile(nome_programma):
         root.mainloop()
         return valori_lettura, progressBarSys
     except:
-        functions.logOperazioni("\nErrore nel Frame: " + traceback.format_exc)
+        functions.logOperazioni("\nErrore nel Frame: " + traceback.format_exc())
 
 #print(RichiediFile("Test"))

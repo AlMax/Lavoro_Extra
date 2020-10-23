@@ -2,6 +2,7 @@ import funzioni as functions
 import frames as frame
 import os
 import traceback
+import time
 
 try:
     nomeProgramma = "Rinominatore PDF By ALMAX (GitHub)"
@@ -40,7 +41,7 @@ try:
         indice_prorgress += 1
         progress["value"] = indice_prorgress
         progress.update()
-
+        time.sleep(5)
 except:
     functions.logOperazioni("\nERRORE GENERALE: " + traceback.format_exc())
 

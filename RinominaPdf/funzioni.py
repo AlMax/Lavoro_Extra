@@ -19,7 +19,7 @@ def leggiExcel(nomeExcel, foglio):
         logOperazioni("\nHo letto l'excel: " + nomeExcel)
         return excelReader
     except:
-        logOperazioni("\n\tERRORE lettura Excel: " + traceback.format_exc)
+        logOperazioni("\n\tERRORE lettura Excel: " + traceback.format_exc())
 
 def leggiExcel_colonna(excelReader, nome_colonnaExcel):
     #In questo loop analizziamo ogni singolo elemento della colonna dell'excel; l'oggetto excelReader è una Serie
@@ -33,7 +33,7 @@ def leggiExcel_colonna(excelReader, nome_colonnaExcel):
         logOperazioni("\nColonna " + nome_colonnaExcel + " letta con successo!")
         return elementi_colonna
     except:
-        logOperazioni("\n\tERRORE nella lettura della colonna Excel: " + traceback.format_exc)
+        logOperazioni("\n\tERRORE nella lettura della colonna Excel: " + traceback.format_exc())
 
 def logOperazioni(log):
     """Scrittura dei log su apposito file"""
