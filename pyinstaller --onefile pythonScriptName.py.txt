@@ -1,0 +1,6 @@
+git init
+git remote add origin "link che finisce con respoitory.init"
+git add --all
+git commit -m "commento"
+git push -u origin master
+git pull
