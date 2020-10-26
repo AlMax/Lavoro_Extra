@@ -41,7 +41,7 @@ try:
         indice_prorgress += 1
         progress["value"] = indice_prorgress
         progress.update()
-        time.sleep(5)
+        #time.sleep(5)
 except:
     functions.logOperazioni("\nERRORE GENERALE: " + traceback.format_exc())
 

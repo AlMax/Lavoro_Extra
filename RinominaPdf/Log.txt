@@ -2,67 +2,7 @@ Scorrere in basso per avere i log piu' recenti.
 I Log vengono registrati ogni volta che viene lanciato il programma.
 
 
-I seguenti Log fanno riferimento al giorno 23-10-2020 alle ore 12.49.54
-
-Ho letto l'excel: C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/rinomina.xlsx
-Colonna old letta con successo!
-Colonna new letta con successo!
-
-Cerco di rinominare il file old1.pdf con nuovo1.pdf
-Rinominazione avvenuta con successo!
-
-Cerco di rinominare il file old2.pdf con nuovo2.pdf
-Rinominazione avvenuta con successo!
-
-
-
-I seguenti Log fanno riferimento al giorno 23-10-2020 alle ore 12.51.05
-
-Ho letto l'excel: C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/rinomina.xlsx
-Colonna attuale letta con successo!
-Colonna nuovo letta con successo!
-
-Cerco di rinominare il file nuovo1.pdf con nuovo1111.pdf
-Rinominazione avvenuta con successo!
-
-Cerco di rinominare il file nuovo2.pdf con nuovo2222.pdf
-Rinominazione avvenuta con successo!
-
-
-
-I seguenti Log fanno riferimento al giorno 23-10-2020 alle ore 12.52.05
-
-ERRORE GENERALE: Traceback (most recent call last):
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\funzioni.py", line 18, in leggiExcel
-    excelReader = pd.read_excel(nomeExcel)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\util\_decorators.py", line 296, in wrapper
-    return func(*args, **kwargs)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\excel\_base.py", line 304, in read_excel
-    io = ExcelFile(io, engine=engine)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\excel\_base.py", line 867, in __init__
-    self._reader = self._engines[engine](self._io)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\excel\_xlrd.py", line 22, in __init__
-    super().__init__(filepath_or_buffer)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\excel\_base.py", line 353, in __init__
-    self.book = self.load_workbook(filepath_or_buffer)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\io\excel\_xlrd.py", line 37, in load_workbook
-    return open_workbook(filepath_or_buffer)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
-    with open(filename, "rb") as f:
-PermissionError: [Errno 13] Permission denied: 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\RinominarePdfDaInput.py", line 20, in <module>
-    fileExcel = functions.leggiExcel(nomeExcel, False)
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\funzioni.py", line 22, in leggiExcel
-    logOperazioni("\n\tERRORE lettura Excel: " + traceback.format_exc)
-TypeError: can only concatenate str (not "function") to str
-
-
-
-I seguenti Log fanno riferimento al giorno 23-10-2020 alle ore 12.53.55
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 12.05.45
 
 Ho letto l'excel: C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/rinomina.xlsx
 Colonna attuale letta con successo!
@@ -71,95 +11,9 @@ Colonna nuovo letta con successo!
 Cerco di rinominare il file nuovo1.pdf con nuovo1111.pdf
 Errore nel rinominare il file nuovo1.pdf che dovrebbe essere nella directory C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/
 Errore: Traceback (most recent call last):
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\RinominarePdfDaInput.py", line 35, in <module>
+  File "RinominarePdfDaInput.py", line 36, in <module>
     os.rename(directory + fileAttuale + tipoFile, directory + valori_new[indice_new] + tipoFile)
 FileNotFoundError: [WinError 2] Impossibile trovare il file specificato: 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/nuovo1.pdf' -> 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/nuovo1111.pdf'
 
 Cerco di rinominare il file nuovo2.pdf con nuovo2222.pdf
 Rinominazione avvenuta con successo!
-
-
-
-I seguenti Log fanno riferimento al giorno 23-10-2020 alle ore 12.54.41
-
-Ho letto l'excel: C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/rinomina.xlsx
-	ERRORE nella lettura della colonna Excel: Traceback (most recent call last):
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexes\base.py", line 2889, in get_loc
-    return self._engine.get_loc(casted_key)
-  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
-  File "pandas\_libs\index.pyx", line 97, in pandas._libs.index.IndexEngine.get_loc
-  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
-  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
-KeyError: 'old'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\funzioni.py", line 29, in leggiExcel_colonna
-    for indice,valore in excelReader[nome_colonnaExcel].iteritems():
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2902, in __getitem__
-    indexer = self.columns.get_loc(key)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexes\base.py", line 2891, in get_loc
-    raise KeyError(key) from err
-KeyError: 'old'
-
-	ERRORE nella lettura della colonna Excel: Traceback (most recent call last):
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexes\base.py", line 2889, in get_loc
-    return self._engine.get_loc(casted_key)
-  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
-  File "pandas\_libs\index.pyx", line 97, in pandas._libs.index.IndexEngine.get_loc
-  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
-  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
-KeyError: 'new'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\funzioni.py", line 29, in leggiExcel_colonna
-    for indice,valore in excelReader[nome_colonnaExcel].iteritems():
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\frame.py", line 2902, in __getitem__
-    indexer = self.columns.get_loc(key)
-  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\core\indexes\base.py", line 2891, in get_loc
-    raise KeyError(key) from err
-KeyError: 'new'
-
-ERRORE GENERALE: Traceback (most recent call last):
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\RinominarePdfDaInput.py", line 24, in <module>
-    progress['maximum'] = len(valori_old)
-TypeError: object of type 'NoneType' has no len()
-
-
-
-I seguenti Log fanno riferimento al giorno 23-10-2020 alle ore 12.57.26
-
-Ho letto l'excel: C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/rinomina.xlsx
-Colonna attuale letta con successo!
-Colonna nuovo letta con successo!
-
-Cerco di rinominare il file nuovo1.pdf con nuovo1111.pdf
-Rinominazione avvenuta con successo!
-
-Cerco di rinominare il file nuovo2.pdf con nuovo2222.pdf
-Errore nel rinominare il file nuovo2.pdf che dovrebbe essere nella directory C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/
-Errore: Traceback (most recent call last):
-  File "RinominarePdfDaInput.py", line 35, in <module>
-    os.rename(directory + fileAttuale + tipoFile, directory + valori_new[indice_new] + tipoFile)
-FileNotFoundError: [WinError 2] Impossibile trovare il file specificato: 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/nuovo2.pdf' -> 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/nuovo2222.pdf'
-
-
-
-I seguenti Log fanno riferimento al giorno 23-10-2020 alle ore 13.00.05
-
-Ho letto l'excel: C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/rinomina.xlsx
-Colonna attuale letta con successo!
-Colonna nuovo letta con successo!
-
-Cerco di rinominare il file nuovo1.pdf con nuovo1111.pdf
-Rinominazione avvenuta con successo!
-
-Cerco di rinominare il file nuovo2.pdf con nuovo2222.pdf
-Errore nel rinominare il file nuovo2.pdf che dovrebbe essere nella directory C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/
-Errore: Traceback (most recent call last):
-  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\RinominaPdf\RinominarePdfDaInput.py", line 36, in <module>
-    os.rename(directory + fileAttuale + tipoFile, directory + valori_new[indice_new] + tipoFile)
-FileNotFoundError: [WinError 2] Impossibile trovare il file specificato: 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/nuovo2.pdf' -> 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/RinominaPdf/nuovo2222.pdf'
