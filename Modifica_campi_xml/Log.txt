@@ -1,0 +1,359 @@
+Scorrere in basso per avere i log piu' recenti.
+I Log vengono registrati ogni volta che viene lanciato il programma.
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 13.15.55
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: Boh
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nascita/{http://servizi.lavoro.gov.it/unisomm}comune' con il testo 'Boh'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: Indefinito
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}sesso' con il testo 'Indefinito'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_A.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_B.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: Boh
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nascita/{http://servizi.lavoro.gov.it/unisomm}comune' con il testo 'Boh'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: Indefinito
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}sesso' con il testo 'Indefinito'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_B.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: Boh
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nascita/{http://servizi.lavoro.gov.it/unisomm}comune' con il testo 'Boh'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: Indefinito
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}sesso' con il testo 'Indefinito'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_C.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 13.43.55
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ORCO
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'ORCO'
+		Modifica avvenuta!
+	ERRORE CICLO PER MODIFICARE I CAMPI: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(root.find(coordinata).get())
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(root.find(coordinata).get())
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 65, in <module>
+    logExcel2.append(root.find(coordinata).text())
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 13.45.38
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: zio
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'zio'
+		Modifica avvenuta!
+	ERRORE CICLO PER MODIFICARE I CAMPI: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(root.find(coordinata).text)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(root.find(coordinata).text)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 65, in <module>
+    logExcel2.append(root.find(coordinata).text())
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 13.46.43
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: zio
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'zio'
+		Modifica avvenuta!
+	ERRORE CICLO PER MODIFICARE I CAMPI: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(root.find(coordinata).text)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(root.find(coordinata).text)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 65, in <module>
+    logExcel2.append(str(root.find(coordinata).text()))
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 13.47.29
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cAMNE
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'cAMNE'
+		Modifica avvenuta!
+	ERRORE CICLO PER MODIFICARE I CAMPI: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(str(root.find(coordinata).text))
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 59, in <module>
+    logExcel2.append(str(root.find(coordinata).text))
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 65, in <module>
+    logExcel2.append(str(root.find(coordinata).text()))
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 389, in find
+    return next(iterfind(elem, path, namespaces), None)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\xml\etree\ElementPath.py", line 346, in iterfind
+    if path[-1:] == "/":
+TypeError: 'int' object is not subscriptable
+
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 14.31.31
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: giampiero
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}codice-fiscale' con il testo 'giampiero'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_A.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_B.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: giampiero
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}codice-fiscale' con il testo 'giampiero'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_B.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: giampiero
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}codice-fiscale' con il testo 'giampiero'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_C.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 14.35.55
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: testaggio
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}PubblicaAmministrazione' con il testo 'testaggio'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_A.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_B.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: testaggio
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}PubblicaAmministrazione' con il testo 'testaggio'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_B.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: testaggio
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}PubblicaAmministrazione' con il testo 'testaggio'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_C.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 14.36.54
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: oki
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}PubblicaAmministrazione' con il testo 'oki'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_A.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_B.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: oki
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}PubblicaAmministrazione' con il testo 'oki'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_B.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: oki
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}PubblicaAmministrazione' con il testo 'oki'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_C.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 14.38.18
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: abc
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione' con il testo 'abc'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_A.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_B.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: abc
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione' con il testo 'abc'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_B.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: abc
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione' con il testo 'abc'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_C.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 14.49.26
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/compressa.zip, trovando i seguenti file: ['UNISOM_07102020_958250_544088_A.xml', 'UNISOM_07102020_958250_544088_B.xml', 'UNISOM_07102020_958250_544088_C.xml']
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_A.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: iuyt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'iuyt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_A.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_B.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: iuyt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'iuyt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_B.xml conclusa.
+
+	Inizio a modificare il file UNISOM_07102020_958250_544088_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: iuyt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'iuyt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_07102020_958250_544088_C.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 93, in <module>
+    doc = etree.parse(StringIO(xml_to_check))
+NameError: name 'etree' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 101, in <module>
+    except etree.XMLSyntaxError as err:
+NameError: name 'etree' is not defined
+
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 14.50.36
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 32, in <module>
+    with ZipFile(nome_zip, 'r') as zipObj:
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+
+
+I seguenti Log fanno riferimento al giorno 26-10-2020 alle ore 14.51.22
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 32, in <module>
+    with ZipFile(nome_zip, 'r') as zipObj:
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file

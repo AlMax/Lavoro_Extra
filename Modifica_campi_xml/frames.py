@@ -222,7 +222,7 @@ def RichiediFile(nome_programma):
     
         #aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field)
         root.mainloop()
-        print(nome_file[0], len(campi_extra1), valori_lettura, progressBar)
+        #print(nome_file[0], len(campi_extra1), valori_lettura, progressBar)
         return nome_file[0], len(campi_extra1), valori_lettura, progressBar
     except Exception as erroreFrame:
         #print(str(erroreFrame))

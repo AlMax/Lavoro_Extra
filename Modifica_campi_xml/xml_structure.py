@@ -1,12 +1,20 @@
 import traceback
+import funzioni as functions
 
-def modificaCampo(root, namespace, coordinate, nuovo_testo):
-    coordinata = ""
-    for tag in coordinate:
-        if not tag == "":
-            coordinata += namespace + tag + "/"
-    coordinata = coordinata[:-1]
-    root.find(coordinata).text = nuovo_testo
+def modificaCampo(root, namespace, coordinate, nuovo_testo, old):
+    try: 
+        coordinata = ""
+        for tag in coordinate:
+            if not tag == "":
+                coordinata += namespace + tag + "/"
+        coordinata = coordinata[:-1]
+        functions.logOperazioni("\n\t\tTento di modificare il campo '" + coordinata + "' con il testo '" + nuovo_testo + "'")
+        old.append(root.find(coordinata).text)
+        root.find(coordinata).text = nuovo_testo
+        functions.logOperazioni("\n\t\tModifica avvenuta!")
+        return coordinata
+    except:
+        functions.logOperazioni("\nERRORE modificaCampo: " + traceback.format_exc())
                 
     
 def estraiStrutturaTag(root, namespace, field):
@@ -37,14 +45,14 @@ def estraiStrutturaTag(root, namespace, field):
                                         field[1][indice_nipoti][indice_pro_nipoti].append(pro_nipoti[k].tag.replace(namespace, ""))
                                 indice_pro_nipoti += 1
                             except:
-                                print(traceback.format_exc())
+                                functions.logOperazioni("\nERRORE xml_structure: " + traceback.format_exc())
                     
                     indice_nipoti += 1
                 except:
-                    print(traceback.format_exc())
+                    functions.logOperazioni("\nERRORE xml_structure: " + traceback.format_exc())
             
     except:
-        print(traceback.format_exc())
+        functions.logOperazioni("\nERRORE xml_structure: " + traceback.format_exc())
 
     return field
 
