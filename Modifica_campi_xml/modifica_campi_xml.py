@@ -56,7 +56,8 @@ try:
 
                     functions.logOperazioni("\n\tFaccio partire il metodo per trovare il campo selezionato e modificarne il testo con: " + str(tutte_coordinate[i]))
                     coordinataXML = xmlManipulation.modificaCampo(root, namespace, coordinate, tutte_coordinate[i], logExcel2)
-
+                    if coordinataXML == "CampoVuoto":
+                        break
                     logExcel0.append(str(file))
                     logExcel1.append(str(coordinataXML))
                     logExcel3.append(str(tutte_coordinate[i]))
@@ -79,7 +80,7 @@ try:
     for file in listOfiles:
         functions.logOperazioni("\n\tRiscrittura del file: " + file)
         tree.write(str(file))
-        controllo_xsd = functions.verifica_XML_XSD(file, "ipotesi.xsd")
+        controllo_xsd = functions.verifica_XML_XSD(file, "verifica.xsd")
         
         for righe_excel in range(int(len(logExcel0)/len(listOfiles))):
             logExcel5.append(controllo_xsd)

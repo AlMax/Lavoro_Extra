@@ -74,7 +74,7 @@ def RichiediFile(nome_programma):
             padre = TipoComunicazione.copy()
 
         strutturaXML.estraiStrutturaTag(rootXML, namespace, padre)
-        print(padre)
+        #print(padre)
 
         try:
             if isinstance(padre[1], list):
@@ -105,7 +105,7 @@ def RichiediFile(nome_programma):
         except:
             field_txt['state'] = "enabled"
             btn_aggiungi['state'] = "enabled"
-            print("Non ha altro")
+            #print("Non ha altro")
 
         if campo2:
             campo2.configure(values = valori2)

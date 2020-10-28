@@ -2,86 +2,218 @@ Scorrere in basso per avere i log piu' recenti.
 I Log vengono registrati ogni volta che viene lanciato il programma.
 
 
-I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 16.38.53
+I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 18.58.56
 
-Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
 
 	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2313
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2313'
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: abcde
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'abcde'
 		Modifica avvenuta!
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: vregre4
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'vregre4'
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ferw
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'ferw'
 		Modifica avvenuta!
 	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
 
 	Inizio a modificare il file structure_example - Copia (2).xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2313
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2313'
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: abcde
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'abcde'
 		Modifica avvenuta!
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: vregre4
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'vregre4'
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ferw
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'ferw'
 		Modifica avvenuta!
 	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
 
 	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2313
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2313'
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: abcde
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'abcde'
 		Modifica avvenuta!
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: vregre4
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'vregre4'
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ferw
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'ferw'
 		Modifica avvenuta!
 	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
 
 Tento di rimuovere il vecchio zip e ricreare il nuovo.
 
 	Riscrittura del file: structure_example - Copia (2) - Copia.xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '2313' is not a valid value of the atomic type 'xs:byte'.
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'ferw' is not a valid value of the atomic type 'xs:byte'.
 		L'XML rispetta la struttura definita nell' XSD? False
 	Riscirttura conclusa
 
 	Riscrittura del file: structure_example - Copia (2).xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '2313' is not a valid value of the atomic type 'xs:byte'.
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'ferw' is not a valid value of the atomic type 'xs:byte'.
 		L'XML rispetta la struttura definita nell' XSD? False
 	Riscirttura conclusa
 
 	Riscrittura del file: structure_example - Copia (3) - Copia.xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '2313' is not a valid value of the atomic type 'xs:byte'.
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'ferw' is not a valid value of the atomic type 'xs:byte'.
 		L'XML rispetta la struttura definita nell' XSD? False
 	Riscirttura conclusa
 
 Operazioni concluse con successo!
 
 
-I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 16.39.50
+I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 19.00.41
 
-Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
+
+	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '' con il testo ''
+ERRORE modificaCampo: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\xml_structure.py", line 12, in modificaCampo
+    old.append(root.find(coordinata).text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
+
+	Inizio a modificare il file structure_example - Copia (2).xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '' con il testo ''
+ERRORE modificaCampo: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\xml_structure.py", line 12, in modificaCampo
+    old.append(root.find(coordinata).text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
+
+	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '' con il testo ''
+ERRORE modificaCampo: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\xml_structure.py", line 12, in modificaCampo
+    old.append(root.find(coordinata).text)
+AttributeError: 'NoneType' object has no attribute 'text'
+
+	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+
+	Riscrittura del file: structure_example - Copia (2) - Copia.xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'ferw' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+	Riscrittura del file: structure_example - Copia (2).xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'ferw' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+	Riscrittura del file: structure_example - Copia (3) - Copia.xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'ferw' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 19.05.54
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
+
+	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo ''
+		Modifica avvenuta!
+	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
+
+	Inizio a modificare il file structure_example - Copia (2).xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo ''
+		Modifica avvenuta!
+	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
+
+	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo ''
+		Modifica avvenuta!
+	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+
+	Riscrittura del file: structure_example - Copia (2) - Copia.xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+	Riscrittura del file: structure_example - Copia (2).xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+	Riscrittura del file: structure_example - Copia (3) - Copia.xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 19.06.37
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
+
+	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo è stato lasciato vuoto.
+	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
+
+	Inizio a modificare il file structure_example - Copia (2).xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo è stato lasciato vuoto.
+	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
+
+	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo è stato lasciato vuoto.
+	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
+
+Tento di rimuovere il vecchio zip e ricreare il nuovo.
+
+	Riscrittura del file: structure_example - Copia (2) - Copia.xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+	Riscrittura del file: structure_example - Copia (2).xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+	Riscrittura del file: structure_example - Copia (3) - Copia.xml
+		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': '' is not a valid value of the atomic type 'xs:byte'.
+		L'XML rispetta la struttura definita nell' XSD? False
+	Riscirttura conclusa
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 19.07.24
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
 
 	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
 	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 12
 		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '12'
 		Modifica avvenuta!
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: f3fgq3r
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'f3fgq3r'
-		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
 	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
 
 	Inizio a modificare il file structure_example - Copia (2).xml
 	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 12
 		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '12'
 		Modifica avvenuta!
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: f3fgq3r
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'f3fgq3r'
-		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
 	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
 
 	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
 	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 12
 		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '12'
 		Modifica avvenuta!
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: f3fgq3r
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'f3fgq3r'
-		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
 	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
 
 Tento di rimuovere il vecchio zip e ricreare il nuovo.
@@ -98,113 +230,39 @@ Tento di rimuovere il vecchio zip e ricreare il nuovo.
 		L'XML rispetta la struttura definita nell' XSD? True
 	Riscirttura conclusa
 
-Operazioni concluse con successo![1m
-
-
-I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 16.42.32
-[0m
-Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
-
-	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: fasd
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'fasd'
-		Modifica avvenuta!
-	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
-
-	Inizio a modificare il file structure_example - Copia (2).xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: fasd
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'fasd'
-		Modifica avvenuta!
-	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
-
-	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: fasd
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo 'fasd'
-		Modifica avvenuta!
-	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
-
-Tento di rimuovere il vecchio zip e ricreare il nuovo.
-
-	Riscrittura del file: structure_example - Copia (2) - Copia.xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'fasd' is not a valid value of the atomic type 'xs:byte'.
-		L'XML rispetta la struttura definita nell' XSD? False
-	Riscirttura conclusa
-
-	Riscrittura del file: structure_example - Copia (2).xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'fasd' is not a valid value of the atomic type 'xs:byte'.
-		L'XML rispetta la struttura definita nell' XSD? False
-	Riscirttura conclusa
-
-	Riscrittura del file: structure_example - Copia (3) - Copia.xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'fasd' is not a valid value of the atomic type 'xs:byte'.
-		L'XML rispetta la struttura definita nell' XSD? False
-	Riscirttura conclusa
-
 Operazioni concluse con successo!
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 16, in <module>
+    returnFrame = frame.RichiediFile(nomeProgramma)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 224, in RichiediFile
+    root.mainloop()
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1420, in mainloop
+    self.tk.mainloop(n)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1883, in __call__
+    return self.func(*args)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 210, in <lambda>
+    btn_exit = Button(root, text ='ESCI', command = lambda:sys.exit(0))
+SystemExit: 0
 
 
-I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 17.22.15
 
-Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
+I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 19.13.33
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
 
 	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: fefesw
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}codice-fiscale' con il testo 'fefesw'
-		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
 	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
 
 	Inizio a modificare il file structure_example - Copia (2).xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: fefesw
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}codice-fiscale' con il testo 'fefesw'
-		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
 	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
 
 	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: fefesw
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}codice-fiscale' con il testo 'fefesw'
-		Modifica avvenuta!
-	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
-
-Tento di rimuovere il vecchio zip e ricreare il nuovo.
-
-	Riscrittura del file: structure_example - Copia (2) - Copia.xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'fasd' is not a valid value of the atomic type 'xs:byte'.
-		L'XML rispetta la struttura definita nell' XSD? False
-	Riscirttura conclusa
-
-	Riscrittura del file: structure_example - Copia (2).xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'fasd' is not a valid value of the atomic type 'xs:byte'.
-		L'XML rispetta la struttura definita nell' XSD? False
-	Riscirttura conclusa
-
-	Riscrittura del file: structure_example - Copia (3) - Copia.xml
-		ERRORE schema XML non valido: <string>:76:0:ERROR:SCHEMASV:SCHEMAV_CVC_DATATYPE_VALID_1_2_1: Element '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione': 'fasd' is not a valid value of the atomic type 'xs:byte'.
-		L'XML rispetta la struttura definita nell' XSD? False
-	Riscirttura conclusa
-
-Operazioni concluse con successo!
-
-
-I seguenti Log fanno riferimento al giorno 28-10-2020 alle ore 17.23.29
-
-Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/structure_example - Copia (3) - Copia.zip, trovando i seguenti file: ['structure_example - Copia (2) - Copia.xml', 'structure_example - Copia (2).xml', 'structure_example - Copia (3) - Copia.xml']
-
-	Inizio a modificare il file structure_example - Copia (2) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 12
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '12'
-		Modifica avvenuta!
-	Modifica dei campi per il file structure_example - Copia (2) - Copia.xml conclusa.
-
-	Inizio a modificare il file structure_example - Copia (2).xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 12
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '12'
-		Modifica avvenuta!
-	Modifica dei campi per il file structure_example - Copia (2).xml conclusa.
-
-	Inizio a modificare il file structure_example - Copia (3) - Copia.xml
-	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 12
-		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '12'
-		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
 	Modifica dei campi per il file structure_example - Copia (3) - Copia.xml conclusa.
 
 Tento di rimuovere il vecchio zip e ricreare il nuovo.

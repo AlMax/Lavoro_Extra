@@ -1,0 +1,180 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://servizi.lavoro.gov.it/unisomm" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="UniSomm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="AgenziaSomministrazione">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DatoreAnagraficaCompleta">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="cognome"/>
+                    <xs:element type="xs:string" name="nome"/>
+                    <xs:element type="xs:byte" name="cittadinanza"/>
+                    <xs:element type="xs:string" name="sesso"/>
+                    <xs:element name="nascita">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="comune"/>
+                          <xs:element type="xs:date" name="data"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SedeLavoro">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Comune"/>
+                    <xs:element type="xs:short" name="cap"/>
+                    <xs:element type="xs:string" name="Indirizzo"/>
+                    <xs:element type="xs:string" name="e-mail"/>
+                    <xs:element type="xs:int" name="telefono"/>
+                    <xs:element type="xs:int" name="fax"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SedeLegale">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Comune"/>
+                    <xs:element type="xs:short" name="cap"/>
+                    <xs:element type="xs:string" name="Indirizzo"/>
+                    <xs:element type="xs:int" name="telefono"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="RapportoAgenziaSomm">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:date" name="dataInizioSomm"/>
+                      <xs:attribute type="xs:date" name="dataFineSomm"/>
+                      <xs:attribute type="xs:byte" name="entePrevidenziale"/>
+                      <xs:attribute type="xs:string" name="TipologiaContrattuale"/>
+                      <xs:attribute type="xs:string" name="lavInMobilita"/>
+                      <xs:attribute type="xs:byte" name="numeroAgenziaSomm"/>
+                      <xs:attribute type="xs:int" name="numeroMatricola"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:long" name="codiceFiscale"/>
+            <xs:attribute type="xs:string" name="denominazione"/>
+            <xs:attribute type="xs:string" name="agenziaestera"/>
+            <xs:attribute type="xs:string" name="numeroIscrizioneAlbo"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Lavoratore">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AnagraficaCompleta">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="cognome"/>
+                    <xs:element type="xs:string" name="nome"/>
+                    <xs:element type="xs:string" name="codice-fiscale"/>
+                    <xs:element type="xs:byte" name="cittadinanza"/>
+                    <xs:element type="xs:string" name="sesso"/>
+                    <xs:element name="nascita">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="comune"/>
+                          <xs:element type="xs:date" name="data"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="IndirizzoLavoratore">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Comune"/>
+                    <xs:element type="xs:short" name="cap"/>
+                    <xs:element type="xs:string" name="Indirizzo"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:byte" name="LivelloIstruzione"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DittaUtilizzatrice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SedeLavoro">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Comune"/>
+                    <xs:element type="xs:short" name="cap"/>
+                    <xs:element type="xs:string" name="Indirizzo"/>
+                    <xs:element type="xs:int" name="telefono"/>
+                    <xs:element type="xs:int" name="fax"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SedeLegale">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Comune"/>
+                    <xs:element type="xs:short" name="cap"/>
+                    <xs:element type="xs:string" name="Indirizzo"/>
+                    <xs:element type="xs:int" name="telefono"/>
+                    <xs:element type="xs:int" name="fax"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Settore"/>
+              <xs:element type="xs:string" name="PubblicaAmministrazione"/>
+              <xs:element name="InizioContratto">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Inizio">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:int" name="PatINAIL"/>
+                          <xs:element name="tipoOrario">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="codice"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="qualificaProfessionale"/>
+                          <xs:element type="xs:short" name="ccnl"/>
+                          <xs:element type="xs:byte" name="livelloInquadramento"/>
+                          <xs:element type="xs:short" name="RetribuzioneCompenso"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:date" name="dataInizioMissione"/>
+                        <xs:attribute type="xs:date" name="dataFineMissione"/>
+                        <xs:attribute type="xs:string" name="descrizioneAttivita"/>
+                        <xs:attribute type="xs:string" name="rischioAsbestosiSilicosi"/>
+                        <xs:attribute type="xs:short" name="voceTariffa_1"/>
+                        <xs:attribute type="xs:string" name="lavoroInAgricoltura"/>
+                        <xs:attribute type="xs:string" name="assunzioneObbligatoria"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:long" name="codiceFiscale"/>
+            <xs:attribute type="xs:string" name="denominazione"/>
+            <xs:attribute type="xs:int" name="numeroContrattoSomm"/>
+            <xs:attribute type="xs:date" name="dataInizioContrattoSomm"/>
+            <xs:attribute type="xs:date" name="dataFineContrattoSomm"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:byte" name="TipoComunicazione"/>
+      </xs:sequence>
+      <xs:attribute type="xs:int" name="codiceComunicazione"/>
+      <xs:attribute type="xs:dateTime" name="dataInvio"/>
+      <xs:attribute type="xs:string" name="versione"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

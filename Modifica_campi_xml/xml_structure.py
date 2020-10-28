@@ -8,6 +8,9 @@ def modificaCampo(root, namespace, coordinate, nuovo_testo, old):
             if not tag == "":
                 coordinata += namespace + tag + "/"
         coordinata = coordinata[:-1]
+        if coordinata == nuovo_testo and coordinata == "":
+            functions.logOperazioni("\n\t\tERRORE! Evidentemente il campo e' stato lasciato vuoto.")
+            return "CampoVuoto"
         functions.logOperazioni("\n\t\tTento di modificare il campo '" + coordinata + "' con il testo '" + nuovo_testo + "'")
         old.append(root.find(coordinata).text)
         root.find(coordinata).text = nuovo_testo
