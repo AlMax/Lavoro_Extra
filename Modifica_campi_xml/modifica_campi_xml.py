@@ -93,7 +93,7 @@ try:
 
         zipNuovo.write(file)
         os.remove(file)
-        functions.logOperazioni("\n\tRiscirttura conclusa\n")
+        functions.logOperazioni("\n\tRiscrittura conclusa\n")
 
         indice_prorgress += 1
         progress["value"] = indice_prorgress
