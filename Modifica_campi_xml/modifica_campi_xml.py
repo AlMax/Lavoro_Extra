@@ -26,6 +26,7 @@ try:
     logExcel2 = ["VALORE DA MODIFICARE"]
     logExcel3 = ["VALORE MODIFICATO"]
     logExcel4 = ["ESITO"]
+    logExcel5 = ["COMPARAZIONE XSD"]
 
     with ZipFile(nome_zip, 'r') as zipObj:
         listOfiles = zipObj.namelist()
@@ -70,25 +71,37 @@ try:
             indice_prorgress += 1
             progress["value"] = indice_prorgress
             progress.update()
-            time.sleep(1)
+            time.sleep(0.1)
             functions.logOperazioni("\n\tModifica dei campi per il file " + str(file) + " conclusa.\n")
 
-    functions.logOperazioni("\nTento di rimuovere il vecchio zip e ricreare il nuovo.")
-    os.remove(nome_zip)
-    zipNuovo = ZipFile(nome_zip, 'w')
+    functions.logOperazioni("\nTento di rimuovere il vecchio zip e ricreare il nuovo.\n")
+
     for file in listOfiles:
-        tree.write(str(file),encoding="utf-8", xml_declaration=True)
+        functions.logOperazioni("\n\tRiscrittura del file: " + file)
+        tree.write(str(file))
+        controllo_xsd = functions.verifica_XML_XSD(file, "ipotesi.xsd")
+        
+        for righe_excel in range(int(len(logExcel0)/len(listOfiles))):
+            logExcel5.append(controllo_xsd)
+
+        tree.write(str(file), encoding="utf-8", xml_declaration=True)
+
+        if file == listOfiles[0]:
+            os.remove(nome_zip)
+            zipNuovo = ZipFile(nome_zip, 'w')
+
         zipNuovo.write(file)
         os.remove(file)
+        functions.logOperazioni("\n\tRiscirttura conclusa\n")
 
         indice_prorgress += 1
         progress["value"] = indice_prorgress
         progress.update()
-        time.sleep(1)
-    functions.logExcel(logExcel0, logExcel1, logExcel2, logExcel3, logExcel4)
+        time.sleep(0.1)
+    functions.logExcel(logExcel0, logExcel1, logExcel2, logExcel3, logExcel4, logExcel5)
     functions.logOperazioni("\nOperazioni concluse con successo!")
 except:
     functions.logOperazioni("\nERRORE GENERALE: " + traceback.format_exc())
 
-functions.Mbox(nomeProgramma, "Operazioni concluse, consultare il file Log.txt per i dettagli.")
+functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare OBBLIGATORIAMENTE il file Log.xlsx\ned il file Log.txt per i dettagli.")
 

@@ -3,6 +3,10 @@ import os
 import time
 import datetime
 import xlsxwriter
+from lxml import etree
+from io import StringIO
+import traceback
+import funzioni as functions
 
 today = datetime.date.today().strftime("%d-%m-%Y")
 now = datetime.datetime.now().strftime("%H.%M.%S")
@@ -34,7 +38,7 @@ def logOperazioni(log):
     fileLog.write(log)
     fileLog.close()
 
-def logExcel(colonna1, colonna2, colonna3, colonna4, colonna5):
+def logExcel(colonna1, colonna2, colonna3, colonna4, colonna5, colonna6):
     workbook = xlsxwriter.Workbook('Log.xlsx')
     worksheet = workbook.add_worksheet()
 
@@ -68,7 +72,70 @@ def logExcel(colonna1, colonna2, colonna3, colonna4, colonna5):
         worksheet.write(row, 4, cella5)
         row += 1
 
+    row = 0
+    
+    for cella6 in colonna6:
+        worksheet.write(row, 5, cella6)
+        row += 1
+
     workbook.close()
+
+def verifica_XML_XSD(filename_xml, filename_xsd):
+    txt_conclusivo = ""
+
+    # open and read schema file
+    with open(filename_xsd, 'r') as schema_file:
+        schema_to_check = schema_file.read()
+
+    # open and read xml file
+    with open(filename_xml, 'r') as xml_file:
+        xml_to_check = xml_file.read()
+
+    xmlschema_doc = etree.parse(StringIO(schema_to_check))
+    xmlschema = etree.XMLSchema(xmlschema_doc)
+
+    try:
+        doc = etree.parse(StringIO(xml_to_check))
+        txt_conclusivo += "Sintassi XML OK; \n"
+
+    # check for file IO error
+    except IOError as ioError:
+        txt_conclusivo += "ERRORE File non valido: " + str(ioError) + "; \n"
+
+    # check for XML syntax errors
+    except etree.XMLSyntaxError as err:
+        txt_conclusivo += "ERRORE Sinstassi XML: " + str(err) +"; \n"
+        functions.logOperazioni("\n\t\tERRORE Sinstassi XML: " + str(err.error_log))
+
+    except Exception as errore:
+        txt_conclusivo += "ERRORE Eccezione Sintassi XML: " + str(errore) + "; \n"
+        functions.logOperazioni("\n\t\tERRORE Eccezione Sintassi XML: " + str(errore))
+
+
+    # validate against schema
+    try:
+        xmlschema.assertValid(doc)
+        txt_conclusivo += "Schema XML Valido; \n"
+
+    except etree.DocumentInvalid as err:
+        txt_conclusivo += "ERRORE schema XML non valido: " + str(err) + "; \n"
+        functions.logOperazioni("\n\t\tERRORE schema XML non valido: " + str(err.error_log))
+
+    except:
+        txt_conclusivo += "ERRORE sconosciuto con lo schema: " + str(traceback.format_exc()) + "; \n"
+        functions.logOperazioni("\n\t\tERRORE sconosciuto con lo schema: " + str(traceback.format_exc()))
+
+    xml_file = etree.parse(filename_xml)
+    xml_validator = etree.XMLSchema(file=filename_xsd)
+
+    is_valid = xml_validator.validate(xml_file)
+
+    txt_conclusivo += "L'XML rispetta la struttura definita nell' XSD? " + str(is_valid)
+    functions.logOperazioni("\n\t\tL'XML rispetta la struttura definita nell' XSD? " + str(is_valid))
+
+    if txt_conclusivo == "Sintassi XML OK; \nSchema XML Valido; \nL'XML rispetta la struttura definita nell' XSD? True":
+        return "Convalidazione Corretta"
+    return txt_conclusivo
 
 def Mbox(title, text):
     """Messaggi Pop-up"""

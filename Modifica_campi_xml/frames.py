@@ -55,7 +55,7 @@ def RichiediFile(nome_programma):
         nipote_precedente = ""
         
         ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
-        tree = ET.parse("uni.xml")
+        tree = ET.parse("structure_example.xml")
         rootXML = tree.getroot()
         namespace = "{http://servizi.lavoro.gov.it/unisomm}"
 
