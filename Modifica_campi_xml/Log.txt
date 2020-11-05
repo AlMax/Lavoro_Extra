@@ -2756,3 +2756,39 @@ ERRORE GENERALE: Traceback (most recent call last):
   File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\site-packages\openpyxl\descriptors\base.py", line 42, in __set__
     raise TypeError('expected ' + str(self.expected_type))
 TypeError: expected <class 'str'>
+
+
+
+I seguenti Log fanno riferimento al giorno 05-11-2020 alle ore 21.49.28
+
+
+
+I seguenti Log fanno riferimento al giorno 05-11-2020 alle ore 22.38.52
+
+
+
+I seguenti Log fanno riferimento al giorno 05-11-2020 alle ore 22.40.58
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/Modifica_campi_xml/modifica_campi_xml.py", line 34, in <module>
+    print(logExcel[0])
+TypeError: 'function' object is not subscriptable
+
+
+
+I seguenti Log fanno riferimento al giorno 05-11-2020 alle ore 22.44.23
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "/Users/almax/Desktop/Varie/GitHub/MAW/Modifica_campi_xml/modifica_campi_xml.py", line 35, in <module>
+    print(logExcel[0])
+TypeError: 'function' object is not subscriptable
+
+
+
+I seguenti Log fanno riferimento al giorno 05-11-2020 alle ore 23.06.06
+
+
+
+I seguenti Log fanno riferimento al giorno 05-11-2020 alle ore 23.10.40

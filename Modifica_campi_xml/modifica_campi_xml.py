@@ -24,12 +24,16 @@ try:
     nome_zip = returnFrame[0]
     coordinate = []
     
-    logExcel0 = ["FILE"]
-    logExcel1 = ["CAMPO DA MODIFICARE"]
-    logExcel2 = ["VALORE DA MODIFICARE"]
-    logExcel3 = ["VALORE MODIFICATO"]
-    logExcel4 = ["ESITO"]
-    logExcel5 = ["COMPARAZIONE XSD"]
+    logExcel = []
+    logExcel = functions.creaArrayConArray(logExcel, 
+    ["FILE", 
+    "CAMPO DA MODIFICARE", 
+    "VALORE DA MODIFICARE", 
+    "VALORE MODIFICATO", 
+    "ESITO", 
+    "COMPARAZIONE XSD"])
+    #print(logExcel[0])
+
 
     zipObj = ZipFile(nome_zip, 'r')
     listOfiles = zipObj.namelist()

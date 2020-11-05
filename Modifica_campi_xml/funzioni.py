@@ -8,15 +8,7 @@ from io import StringIO
 import traceback
 import openpyxl
 from string import ascii_uppercase
-import win32com.client as win32
-
-currentDirectory = os.getcwd()
-excel = win32.gencache.EnsureDispatch('Excel.Application')
-wb = excel.Workbooks.Open(currentDirectory + "\Log.xlsx")
-ws = wb.Worksheets("Sheet1")
-ws.Columns.AutoFit()
-wb.Save()
-excel.Application.Quit()
+#import win32com.client as win32
 
 today = datetime.date.today().strftime("%d-%m-%Y")
 now = datetime.datetime.now().strftime("%H.%M.%S")
@@ -49,8 +41,11 @@ def logOperazioni(log):
     fileLog.close()
 
 def logExcel(colonna1, colonna2, colonna3, colonna4, colonna5, colonna6):
-    workbook = xlsxwriter.Workbook('Log.xlsx')
+    nomeExcel = "Log.xlsx"
+    workbook = xlsxwriter.Workbook(nomeExcel)
     worksheet = workbook.add_worksheet()
+
+    compilaColonnaExcel(nomeExcel, workbook, colonna)
 
     row = 0
 
@@ -88,26 +83,30 @@ def logExcel(colonna1, colonna2, colonna3, colonna4, colonna5, colonna6):
         worksheet.write(row, 5, cella6)
         row += 1
 
-    sistemaColonneExcel('Log.xlsx')
+    riadattaColonneExcel(nomeExcel)
+    logOperazioni("\n" + nomeExcel + " creato con successo!")
     workbook.close()
 
-def sistemaColonneExcel(excelName):
-    wb = openpyxl.load_workbook(filename = excelName)        
-    worksheet = wb.active
+def riadattaColonneExcel(nomeExcel):
+    currentDirectory = os.getcwd()
+    excel = win32.gencache.EnsureDispatch('Excel.Application')
+    wb = excel.Workbooks.Open(currentDirectory + '\\' + nomeExcel)
+    ws = wb.Worksheets("Sheet1")
+    ws.Columns.AutoFit()
+    wb.Save()
+    excel.Application.Quit()
 
-    for col in worksheet.columns:
-        max_length = 0
-        column = col[0].column_letter # Get the column name
-        # Since Openpyxl 2.6, the column name is  ".column_letter" as .column became the column number (1-based) 
-        for cell in col:
-            try: # Necessary to avoid error on empty cells
-                if len(str(cell.value)) > max_length:
-                    max_length = len(str(cell.value))
-            except:
-                pass
-        adjusted_width = str((max_length + 2) * 20)
-        worksheet.column_dimensions[column].width = adjusted_width
-        print("ok")
+def compilaColonnaExcel(worksheet, colonna):
+    row = 0
+    for cella in colonna:
+        worksheet.write(row, 0, cella)
+        row += 1
+
+def creaArrayConArray(array, contenutoArrayInterni):
+    for contenuto in contenutoArrayInterni:
+        array.append([])
+        array[-1].append(contenuto)
+    return array
 
 def verifica_XML_XSD(filename_xml, filename_xsd):
     txt_conclusivo = ""
@@ -169,4 +168,3 @@ def verifica_XML_XSD(filename_xml, filename_xsd):
 def Mbox(title, text):
     """Messaggi Pop-up"""
     return ctypes.windll.user32.MessageBoxW(0, text, title, 1)
-
