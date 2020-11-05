@@ -13,6 +13,7 @@ from xmldiff import formatting
 import re
 
 try:
+    functions.logOperazioni("")
     nomeProgramma = "Modificatore XML By ALMAX (GitHub)"
     ET.register_namespace("", "http://servizi.lavoro.gov.it/unisomm")
     namespace = "{http://servizi.lavoro.gov.it/unisomm}"
@@ -22,8 +23,7 @@ try:
     progress = returnFrame[3]
     nome_zip = returnFrame[0]
     coordinate = []
-
-    functions.logOperazioni("")
+    
     logExcel0 = ["FILE"]
     logExcel1 = ["CAMPO DA MODIFICARE"]
     logExcel2 = ["VALORE DA MODIFICARE"]
@@ -33,7 +33,7 @@ try:
 
     zipObj = ZipFile(nome_zip, 'r')
     listOfiles = zipObj.namelist()
-    functions.logOperazioni("\nHo letto lo zip " + str(nome_zip) + ", trovando i seguenti file: " + str(listOfiles) + "\n")
+    functions.logOperazioni("\nHo letto lo zip " + str(nome_zip) + ";\nho trovando i seguenti file: " + str(listOfiles) + "\n")
 
     progress['maximum'] = len(listOfiles)*2
     indice_prorgress = 0
@@ -63,13 +63,13 @@ try:
                 if coordinataXML == "CampoVuoto":
                     break
                 logExcel0.append(str(file))
-                logExcel1.append(str(coordinataXML))
+                logExcel1.append(str(coordinataXML[38:]))
                 logExcel3.append(str(tutte_coordinate[i]))
                 logExcel4.append("Positivo")
             except:
                 functions.logOperazioni("\n\tERRORE CICLO PER MODIFICARE I CAMPI: " + traceback.format_exc())
                 logExcel0.append(str(file))
-                logExcel1.append(str(coordinataXML))
+                logExcel1.append(str(coordinataXML[38:]))
                 logExcel3.append(str(tutte_coordinate[i]))
                 logExcel4.append("Negativo")
 
@@ -108,21 +108,18 @@ try:
 
     zipNuovo.close()
 
-    zip1 = ZipFile("Cessazione.zip", 'r')
-    #fixBadZipfile("test.zip")
-    zip2 = ZipFile("test.zip", 'r')
+    zipOld = ZipFile("Cessazione.zip", 'r')
+    zipNew = ZipFile("test.zip", 'r')
 
-    for file in zip1.namelist():
-        out = main.diff_files(zip1.open(file), zip2.open(file))
-        print(out)
-        for i in out[0].splitlines():
-            if re.search(r'\bdiff:+', i):
-                print(i)
+    for file in zipOld.namelist():
+        differenze = main.diff_files(zipOld.open(file), zipNew.open(file))
+        functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:\n\t" + str(differenze))
+        logExcel5.append(str(differenze[1]))
 
     functions.logExcel(logExcel0, logExcel1, logExcel2, logExcel3, logExcel4, logExcel5)
-    functions.logOperazioni("\nOperazioni concluse con successo!")
+    functions.logOperazioni("\n\nOperazioni concluse con successo!")
 except:
-    functions.logOperazioni("\nERRORE GENERALE: " + traceback.format_exc())
+    functions.logOperazioni("\n\nERRORE GENERALE: " + traceback.format_exc())
 
 functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare OBBLIGATORIAMENTE il file Log.xlsx\ned il file Log.txt per i dettagli.")
 

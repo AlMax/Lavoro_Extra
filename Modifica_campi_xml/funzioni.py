@@ -6,7 +6,17 @@ import xlsxwriter
 from lxml import etree
 from io import StringIO
 import traceback
-import funzioni as functions
+import openpyxl
+from string import ascii_uppercase
+import win32com.client as win32
+
+currentDirectory = os.getcwd()
+excel = win32.gencache.EnsureDispatch('Excel.Application')
+wb = excel.Workbooks.Open(currentDirectory + "\Log.xlsx")
+ws = wb.Worksheets("Sheet1")
+ws.Columns.AutoFit()
+wb.Save()
+excel.Application.Quit()
 
 today = datetime.date.today().strftime("%d-%m-%Y")
 now = datetime.datetime.now().strftime("%H.%M.%S")
@@ -78,7 +88,26 @@ def logExcel(colonna1, colonna2, colonna3, colonna4, colonna5, colonna6):
         worksheet.write(row, 5, cella6)
         row += 1
 
+    sistemaColonneExcel('Log.xlsx')
     workbook.close()
+
+def sistemaColonneExcel(excelName):
+    wb = openpyxl.load_workbook(filename = excelName)        
+    worksheet = wb.active
+
+    for col in worksheet.columns:
+        max_length = 0
+        column = col[0].column_letter # Get the column name
+        # Since Openpyxl 2.6, the column name is  ".column_letter" as .column became the column number (1-based) 
+        for cell in col:
+            try: # Necessary to avoid error on empty cells
+                if len(str(cell.value)) > max_length:
+                    max_length = len(str(cell.value))
+            except:
+                pass
+        adjusted_width = str((max_length + 2) * 20)
+        worksheet.column_dimensions[column].width = adjusted_width
+        print("ok")
 
 def verifica_XML_XSD(filename_xml, filename_xsd):
     txt_conclusivo = ""
@@ -105,11 +134,11 @@ def verifica_XML_XSD(filename_xml, filename_xsd):
     # check for XML syntax errors
     except etree.XMLSyntaxError as err:
         txt_conclusivo += "ERRORE Sinstassi XML: " + str(err) +"; \n"
-        functions.logOperazioni("\n\t\tERRORE Sinstassi XML: " + str(err.error_log))
+        logOperazioni("\n\t\tERRORE Sinstassi XML: " + str(err.error_log))
 
     except Exception as errore:
         txt_conclusivo += "ERRORE Eccezione Sintassi XML: " + str(errore) + "; \n"
-        functions.logOperazioni("\n\t\tERRORE Eccezione Sintassi XML: " + str(errore))
+        logOperazioni("\n\t\tERRORE Eccezione Sintassi XML: " + str(errore))
 
 
     # validate against schema
@@ -119,11 +148,11 @@ def verifica_XML_XSD(filename_xml, filename_xsd):
 
     except etree.DocumentInvalid as err:
         txt_conclusivo += "ERRORE schema XML non valido: " + str(err) + "; \n"
-        functions.logOperazioni("\n\t\tERRORE schema XML non valido: " + str(err.error_log))
+        logOperazioni("\n\t\tERRORE schema XML non valido: " + str(err.error_log))
 
     except:
         txt_conclusivo += "ERRORE sconosciuto con lo schema: " + str(traceback.format_exc()) + "; \n"
-        functions.logOperazioni("\n\t\tERRORE sconosciuto con lo schema: " + str(traceback.format_exc()))
+        logOperazioni("\n\t\tERRORE sconosciuto con lo schema: " + str(traceback.format_exc()))
 
     xml_file = etree.parse(filename_xml)
     xml_validator = etree.XMLSchema(file=filename_xsd)
@@ -131,7 +160,7 @@ def verifica_XML_XSD(filename_xml, filename_xsd):
     is_valid = xml_validator.validate(xml_file)
 
     txt_conclusivo += "L'XML rispetta la struttura definita nell' XSD? " + str(is_valid)
-    functions.logOperazioni("\n\t\tL'XML rispetta la struttura definita nell' XSD? " + str(is_valid))
+    logOperazioni("\n\t\tL'XML rispetta la struttura definita nell' XSD? " + str(is_valid))
 
     if txt_conclusivo == "Sintassi XML OK; \nSchema XML Valido; \nL'XML rispetta la struttura definita nell' XSD? True":
         return "Convalidazione Corretta"
@@ -140,3 +169,4 @@ def verifica_XML_XSD(filename_xml, filename_xsd):
 def Mbox(title, text):
     """Messaggi Pop-up"""
     return ctypes.windll.user32.MessageBoxW(0, text, title, 1)
+
