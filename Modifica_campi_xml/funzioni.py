@@ -8,7 +8,7 @@ from io import StringIO
 import traceback
 import openpyxl
 from string import ascii_uppercase
-import win32com.client as win32
+#import win32com.client as win32
 
 today = datetime.date.today().strftime("%d-%m-%Y")
 now = datetime.datetime.now().strftime("%H.%M.%S")
@@ -49,7 +49,7 @@ def logExcel(colonne):
         compilaColonnaExcel(worksheet, colonna, int(colonne.index(colonna)))
 
     workbook.close()
-    riadattaColonneExcel(nomeExcel)
+    #riadattaColonneExcel(nomeExcel)
     logOperazioni("\n\n" + nomeExcel + " creato con successo!")
 
 def riadattaColonneExcel(nomeExcel):

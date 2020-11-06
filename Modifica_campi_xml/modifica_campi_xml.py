@@ -84,7 +84,7 @@ try:
         if file == listOfiles[0]:
             #os.remove(nome_zip)
             #functions.logOperazioni("\nTento di modificare lo Zip.\n")
-            zipNuovo = ZipFile("test.zip", 'w')
+            zipNuovo = ZipFile("copia.zip", 'w')
 
 
         functions.logOperazioni("\tRiscrittura del file: " + file)
@@ -107,18 +107,20 @@ try:
 
     zipNuovo.close()
 
-    zipOld = ZipFile("Cessazione.zip", 'r')
-    zipNew = ZipFile("test.zip", 'r')
+    zipOld = ZipFile(nome_zip, 'r')
+    zipNew = ZipFile("copia.zip", 'r')
 
     for file in zipOld.namelist():
         differenze = main.diff_files(zipOld.open(file), zipNew.open(file))
         functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:\n\t" + str(differenze))
         logExcel[5].append(str(differenze[1]))
 
+    os.remove(nome_zip)
+    os.rename("copia.zip", nome_zip)
+
     functions.logExcel(logExcel)
     functions.logOperazioni("\n\nOperazioni concluse con successo!")
 except:
     functions.logOperazioni("\n\nERRORE GENERALE: " + traceback.format_exc())
 
-functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare OBBLIGATORIAMENTE il file Log.xlsx\ned il file Log.txt per i dettagli.")
-
+#functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare OBBLIGATORIAMENTE il file Log.xlsx\ned il file Log.txt per i dettagli.")
