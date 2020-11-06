@@ -31,9 +31,7 @@ try:
     "VALORE DA MODIFICARE", 
     "VALORE MODIFICATO", 
     "ESITO", 
-    "COMPARAZIONE XSD"])
-    #print(logExcel[0])
-
+    "DIFFERENZE"])
 
     zipObj = ZipFile(nome_zip, 'r')
     listOfiles = zipObj.namelist()
@@ -58,24 +56,24 @@ try:
 
             try:
                 for coordinata in range(int(len(tutte_coordinate)/campi)-1):
-
                     coordinate.append(tutte_coordinate[i])
                     i += campi
 
                 functions.logOperazioni("\n\tFaccio partire il metodo per trovare il campo selezionato e modificarne il testo con: " + str(tutte_coordinate[i]))
-                coordinataXML = xmlManipulation.modificaCampo(root, namespace, coordinate, tutte_coordinate[i], logExcel2)
+                coordinataXML = xmlManipulation.modificaCampo(root, namespace, coordinate, tutte_coordinate[i], logExcel[2])
                 if coordinataXML == "CampoVuoto":
                     break
-                logExcel0.append(str(file))
-                logExcel1.append(str(coordinataXML[38:]))
-                logExcel3.append(str(tutte_coordinate[i]))
-                logExcel4.append("Positivo")
+
+                logExcel[0].append(str(file))
+                logExcel[1].append(str(coordinataXML[38:]))
+                logExcel[3].append(str(tutte_coordinate[i]))
+                logExcel[4].append("Positivo")
             except:
                 functions.logOperazioni("\n\tERRORE CICLO PER MODIFICARE I CAMPI: " + traceback.format_exc())
-                logExcel0.append(str(file))
-                logExcel1.append(str(coordinataXML[38:]))
-                logExcel3.append(str(tutte_coordinate[i]))
-                logExcel4.append("Negativo")
+                logExcel[0].append(str(file))
+                logExcel[1].append(str(coordinataXML[38:]))
+                logExcel[3].append(str(tutte_coordinate[i]))
+                logExcel[4].append("Negativo")
 
         indice_prorgress += 1
         progress["value"] = indice_prorgress
@@ -96,14 +94,11 @@ try:
         #    logExcel5.append(controllo_xsd)
         #tree = ET.parse(zipObj.open(file))
         tree.write(str(file), encoding="utf-8", xml_declaration=True)
-
         
         indice_compare += 1
         zipNuovo.write(file)
         os.remove(file)
-        functions.logOperazioni("\n\tRiscrittura conclusa.\n")
-
-        
+        functions.logOperazioni("\n\tRiscrittura conclusa.\n")     
 
         indice_prorgress += 1
         progress["value"] = indice_prorgress
@@ -118,9 +113,9 @@ try:
     for file in zipOld.namelist():
         differenze = main.diff_files(zipOld.open(file), zipNew.open(file))
         functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:\n\t" + str(differenze))
-        logExcel5.append(str(differenze[1]))
+        logExcel[5].append(str(differenze[1]))
 
-    functions.logExcel(logExcel0, logExcel1, logExcel2, logExcel3, logExcel4, logExcel5)
+    functions.logExcel(logExcel)
     functions.logOperazioni("\n\nOperazioni concluse con successo!")
 except:
     functions.logOperazioni("\n\nERRORE GENERALE: " + traceback.format_exc())

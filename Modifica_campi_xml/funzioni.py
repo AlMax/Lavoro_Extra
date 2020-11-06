@@ -8,7 +8,7 @@ from io import StringIO
 import traceback
 import openpyxl
 from string import ascii_uppercase
-#import win32com.client as win32
+import win32com.client as win32
 
 today = datetime.date.today().strftime("%d-%m-%Y")
 now = datetime.datetime.now().strftime("%H.%M.%S")
@@ -40,52 +40,17 @@ def logOperazioni(log):
     fileLog.write(log)
     fileLog.close()
 
-def logExcel(colonna1, colonna2, colonna3, colonna4, colonna5, colonna6):
+def logExcel(colonne):
     nomeExcel = "Log.xlsx"
     workbook = xlsxwriter.Workbook(nomeExcel)
     worksheet = workbook.add_worksheet()
 
-    compilaColonnaExcel(nomeExcel, workbook, colonna)
+    for colonna in colonne:
+        compilaColonnaExcel(worksheet, colonna, int(colonne.index(colonna)))
 
-    row = 0
-
-    for cella1 in colonna1:
-        worksheet.write(row, 0, cella1)
-        row += 1
-
-    row = 0
-
-    for cella2 in colonna2:
-        worksheet.write(row, 1, cella2)
-        row += 1
-
-    row = 0
-
-    for cella3 in colonna3:
-        worksheet.write(row, 2, cella3)
-        row += 1
-
-    row = 0
-
-    for cella4 in colonna4:
-        worksheet.write(row, 3, cella4)
-        row += 1
-
-    row = 0
-    
-    for cella5 in colonna5:
-        worksheet.write(row, 4, cella5)
-        row += 1
-
-    row = 0
-    
-    for cella6 in colonna6:
-        worksheet.write(row, 5, cella6)
-        row += 1
-
-    riadattaColonneExcel(nomeExcel)
-    logOperazioni("\n" + nomeExcel + " creato con successo!")
     workbook.close()
+    riadattaColonneExcel(nomeExcel)
+    logOperazioni("\n\n" + nomeExcel + " creato con successo!")
 
 def riadattaColonneExcel(nomeExcel):
     currentDirectory = os.getcwd()
@@ -96,10 +61,10 @@ def riadattaColonneExcel(nomeExcel):
     wb.Save()
     excel.Application.Quit()
 
-def compilaColonnaExcel(worksheet, colonna):
+def compilaColonnaExcel(worksheet, colonna, nColonna):
     row = 0
     for cella in colonna:
-        worksheet.write(row, 0, cella)
+        worksheet.write(row, nColonna, cella)
         row += 1
 
 def creaArrayConArray(array, contenutoArrayInterni):
