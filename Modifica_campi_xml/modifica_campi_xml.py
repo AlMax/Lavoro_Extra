@@ -65,7 +65,7 @@ try:
                     break
 
                 logExcel[0].append(str(file))
-                logExcel[1].append(str(coordinataXML[38:]))
+                logExcel[1].append(str(coordinataXML[(coordinataXML.rfind("}"))+1:]))
                 logExcel[3].append(str(tutte_coordinate[i]))
                 logExcel[4].append("Positivo")
             except:
@@ -105,6 +105,7 @@ try:
         progress.update()
         time.sleep(0.1)
 
+    zipObj.close()
     zipNuovo.close()
 
     zipOld = ZipFile(nome_zip, 'r')
@@ -112,8 +113,14 @@ try:
 
     for file in zipOld.namelist():
         differenze = main.diff_files(zipOld.open(file), zipNew.open(file))
-        functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:\n\t" + str(differenze))
-        logExcel[5].append(str(differenze[1]))
+        functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:")
+        functions.logOperazioni("\n\t" + str(differenze))
+        
+        for righe_excel in range(int(len(logExcel[0])/len(listOfiles))):
+            logExcel[5].append(str(differenze))
+
+    zipOld.close()
+    zipNew.close()
 
     os.remove(nome_zip)
     os.rename("copia.zip", nome_zip)
@@ -123,4 +130,4 @@ try:
 except:
     functions.logOperazioni("\n\nERRORE GENERALE: " + traceback.format_exc())
 
-#functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare OBBLIGATORIAMENTE il file Log.xlsx\ned il file Log.txt per i dettagli.")
+functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare OBBLIGATORIAMENTE il file Log.xlsx\ned il file Log.txt per i dettagli.")

@@ -51,3 +51,2020 @@ Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
 Log.xlsx creato con successo!
 
 Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.19.09
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 222222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '222222'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 222222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '222222'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 222222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '222222'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 222222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '222222'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='222222'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='222222'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='222222'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='222222'), DeleteNode(node='/*/*[6]')]
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 118, in <module>
+    os.remove(nome_zip)
+PermissionError: [WinError 32] Impossibile accedere al file. Il file è utilizzato da un altro processo: 'C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip'
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.24.20
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 1111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '1111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 1111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '1111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 1111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '1111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 1111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '1111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='1111111'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='1111111'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='1111111'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='1111111'), DeleteNode(node='/*/*[6]')]
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.26.08
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2323
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2323'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: prova
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'prova'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2323
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2323'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: prova
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'prova'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2323
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2323'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: prova
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'prova'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2323
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2323'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: prova
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'prova'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='2323'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='prova'), MoveNode(node='/*/*[2]/*[1]/*[2]', target='/*/*[2]/*[3]', position=2), RenameNode(node='/*/*[2]/*[3]/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}Indirizzo'), UpdateTextIn(node='/*/*[2]/*[3]/*[3]', text='VIA ARCADE, 12'), MoveNode(node='/*/*[2]/*[3]/*[4]', target='/*/*[3]/*[1]', position=2), UpdateTextIn(node='/*/*[3]/*[1]/*[3]', text='VIA P.NENNI 18'), MoveNode(node='/*/*[3]/*[1]/*[4]', target='/*/*[3]/*[2]', position=2), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[3]/*[2]/*[4]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='2323'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='prova'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='2323'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='prova'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='2323'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='prova'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[2]')]
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.36.46
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2322222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2322222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tedeeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tedeeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'ooooo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2322222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2322222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tedeeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tedeeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'ooooo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2322222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2322222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tedeeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tedeeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'ooooo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 2322222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '2322222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tedeeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tedeeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'ooooo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='2322222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tedeeeeest'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[2]/*[1]/*[3]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='2322222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tedeeeeest'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[2]/*[1]/*[3]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='2322222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tedeeeeest'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[2]/*[1]/*[3]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='2322222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tedeeeeest'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[2]/*[1]/*[3]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.39.50
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 545454
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '545454'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 545454
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '545454'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 545454
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '545454'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 545454
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '545454'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 116, in <module>
+    functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:\n\t" + str(differenze["UpdateTextIn"]))
+TypeError: list indices must be integers or slices, not str
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.40.32
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 4444555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '4444555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 4444555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '4444555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 4444555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '4444555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 4444555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '4444555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	DeleteNode(node='/*/*[6]')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	DeleteNode(node='/*/*[6]')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	DeleteNode(node='/*/*[6]')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	DeleteNode(node='/*/*[6]')
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.41.39
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: \\111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '\\111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: \\111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '\\111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: \\111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '\\111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: \\111111
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '\\111111'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.42.04
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: reeeeee
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'reeeeee'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: reeeeee
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'reeeeee'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: reeeeee
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'reeeeee'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: reeeeee
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'reeeeee'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4)
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.43.05
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'sssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'sssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'sssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'sssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666')
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.48.39
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rrrrrrr
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'rrrrrrr'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000007'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rrrrrrr
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'rrrrrrr'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000007'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rrrrrrr
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'rrrrrrr'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000007'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rrrrrrr
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'rrrrrrr'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000007'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.49.44
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.49.49
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: aaaaaa
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'aaaaaa'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 900099
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '900099'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: aaaaaa
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'aaaaaa'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 900099
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '900099'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: aaaaaa
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'aaaaaa'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 900099
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '900099'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: aaaaaa
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'aaaaaa'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 900099
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '900099'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:	InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0)	DeleteNode(node='/*/*[1]/*[1]/*[2]')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:	InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0)	DeleteNode(node='/*/*[1]/*[1]/*[2]')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:	InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0)	DeleteNode(node='/*/*[1]/*[1]/*[2]')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:	InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0)	DeleteNode(node='/*/*[1]/*[1]/*[2]')
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.50.37
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 67777
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '67777'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 67777
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '67777'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 67777
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '67777'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 67777
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '67777'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='67777')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='67777')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='67777')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='67777')
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.51.28
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'sssssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9900009
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9900009'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: yyyyyy
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'yyyyyy'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'sssssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9900009
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9900009'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: yyyyyy
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'yyyyyy'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'sssssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9900009
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9900009'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: yyyyyy
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'yyyyyy'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: sssssssss
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'sssssssss'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9900009
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9900009'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: yyyyyy
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'yyyyyy'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9900009')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='sssssssss')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='yyyyyy')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9900009')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='sssssssss')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='yyyyyy')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9900009')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='sssssssss')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='yyyyyy')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9900009')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='sssssssss')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='yyyyyy')
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.56.33
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: teeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'teeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666544
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666544'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: teeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'teeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666544
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666544'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: teeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'teeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666544
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666544'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: teeeeest
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'teeeeest'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666666544
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666666544'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666544')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='teeeeest')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666544')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='teeeeest')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666544')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='teeeeest')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666666544')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='teeeeest')
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 19.57.33
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7777776
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '7777776'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomelav
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomelav'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ditta
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'ditta'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7777776
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '7777776'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomelav
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomelav'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ditta
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'ditta'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7777776
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '7777776'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomelav
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomelav'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ditta
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'ditta'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7777776
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '7777776'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomelav
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomelav'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: ditta
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'ditta'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='7777776')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='cognomelav')
+	UpdateTextIn(node='/*/*[3]/*[1]/*[1]', text='ditta')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='7777776')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='cognomelav')
+	UpdateTextIn(node='/*/*[3]/*[1]/*[1]', text='ditta')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='7777776')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='cognomelav')
+	UpdateTextIn(node='/*/*[3]/*[1]/*[1]', text='ditta')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='7777776')
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='cognomelav')
+	UpdateTextIn(node='/*/*[3]/*[1]/*[1]', text='ditta')
+
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.00.25
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeagenzia
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeagenzia'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeagenzia
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeagenzia'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeagenzia
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeagenzia'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeagenzia
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeagenzia'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeagenzia')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeagenzia')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeagenzia')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeagenzia')
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 89, in _GetGoodDispatch
+    IDispatch = pythoncom.connect(IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 131, in <module>
+    functions.logExcel(logExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 52, in logExcel
+    riadattaColonneExcel(nomeExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 57, in riadattaColonneExcel
+    excel = win32.gencache.EnsureDispatch('Excel.Application')
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\gencache.py", line 527, in EnsureDispatch
+    disp = win32com.client.Dispatch(prog_id)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\__init__.py", line 95, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch,userName,clsctx)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 114, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 91, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(IDispatch, None, clsctx, pythoncom.IID_IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.09.30
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cooooo'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000000000008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000000000008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cooooo'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000000000008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000000000008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cooooo'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000000000008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000000000008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cooooo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cooooo'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000000000008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000000000008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='000000000008')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cooooo')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='000000000008')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cooooo')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='000000000008')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cooooo')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='000000000008')
+	UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cooooo')
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 89, in _GetGoodDispatch
+    IDispatch = pythoncom.connect(IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 131, in <module>
+    functions.logExcel(logExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 52, in logExcel
+    riadattaColonneExcel(nomeExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 57, in riadattaColonneExcel
+    excel = win32.gencache.EnsureDispatch('Excel.Application')
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\gencache.py", line 527, in EnsureDispatch
+    disp = win32com.client.Dispatch(prog_id)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\__init__.py", line 95, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch,userName,clsctx)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 114, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 91, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(IDispatch, None, clsctx, pythoncom.IID_IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.13.39
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666665
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666665'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666665
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666665'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666665
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666665'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 666665
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '666665'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666665')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666665')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666665')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='666665')
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 89, in _GetGoodDispatch
+    IDispatch = pythoncom.connect(IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 59, in riadattaColonneExcel
+    excel = win32.Dispatch('Excel.Application')
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\__init__.py", line 95, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch,userName,clsctx)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 114, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 91, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(IDispatch, None, clsctx, pythoncom.IID_IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 89, in _GetGoodDispatch
+    IDispatch = pythoncom.connect(IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 131, in <module>
+    functions.logExcel(logExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 52, in logExcel
+    riadattaColonneExcel(nomeExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 61, in riadattaColonneExcel
+    excel = win32.gencache.EnsureDispatch('Excel.Application')
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\gencache.py", line 527, in EnsureDispatch
+    disp = win32com.client.Dispatch(prog_id)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\__init__.py", line 95, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch,userName,clsctx)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 114, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 91, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(IDispatch, None, clsctx, pythoncom.IID_IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.19.44
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttttttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttttttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttttttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttttttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttttttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttttttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttttttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttttttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt')
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 89, in _GetGoodDispatch
+    IDispatch = pythoncom.connect(IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 131, in <module>
+    functions.logExcel(logExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 52, in logExcel
+    riadattaColonneExcel(nomeExcel)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\funzioni.py", line 57, in riadattaColonneExcel
+    excel = win32.gencache.EnsureDispatch("C:\Program Files\LibreOffice\program\scalc.exe")
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\gencache.py", line 527, in EnsureDispatch
+    disp = win32com.client.Dispatch(prog_id)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\__init__.py", line 95, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch,userName,clsctx)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 114, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\win32com\client\dynamic.py", line 91, in _GetGoodDispatch
+    IDispatch = pythoncom.CoCreateInstance(IDispatch, None, clsctx, pythoncom.IID_IDispatch)
+pywintypes.com_error: (-2147221005, "Stringa dell'interfaccia non valida.", None, None)
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.22.42
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9999999990
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9999999990'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9999999990
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9999999990'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9999999990
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9999999990'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 9999999990
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '9999999990'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9999999990')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9999999990')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9999999990')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='9999999990')
+
+L'Excel ha le colonne ridattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.23.44
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 66666666666678
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '66666666666678'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 66666666666678
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '66666666666678'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 66666666666678
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '66666666666678'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 66666666666678
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '66666666666678'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='66666666666678')
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='66666666666678')
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='66666666666678')
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	UpdateTextIn(node='/*/*[5]', text='66666666666678')
+
+Log.xlsx ha le colonne ridattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.29.44
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 55555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '55555'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 55555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '55555'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 55555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '55555'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 55555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '55555'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: tttttt
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'tttttt'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='55555'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='tttttt'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=1), RenameNode(node='/*/*[2]/*[1]/*[2]', tag='{http://servizi.lavoro.gov.it/unisomm}nome'), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='ooooo'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.32.03
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: c
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'c'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 0
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '0'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: c
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'c'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 0
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '0'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: c
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'c'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 0
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '0'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: c
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'c'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 0
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '0'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='0'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='c'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='0'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='c'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='0'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='c'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='0'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='c'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[2]/*[1]', position=0), UpdateTextIn(node='/*/*[2]/*[1]/*[1]', text='tttttttttttt'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[2]/*[1]/*[2]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.37.37
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeA
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeA'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeA
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeA'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeA
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeA'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 22222
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '22222'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: cognomeA
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'cognomeA'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='22222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeA'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='22222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeA'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='22222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeA'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='22222'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='cognomeA'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[1]/*[2]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.40.55
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 36, in <module>
+    zipObj = ZipFile(nome_zip, 'r')
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'l'
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.41.18
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 555555555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '555555555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 555555555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '555555555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 555555555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '555555555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 555555555
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '555555555'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='555555555'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='555555555'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='555555555'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='555555555'), DeleteNode(node='/*/*[6]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.41.43
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: agenziaC
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'agenziaC'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: agenziaC
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'agenziaC'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: agenziaC
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'agenziaC'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: agenziaC
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}DatoreAnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}cognome' con il testo 'agenziaC'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}SedeLavoro/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='agenziaC'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[1]/*[2]', position=0), RenameNode(node='/*/*[1]/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}Comune'), UpdateTextIn(node='/*/*[1]/*[2]/*[1]', text='comune'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[2]/*[2]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='agenziaC'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[1]/*[2]', position=0), RenameNode(node='/*/*[1]/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}Comune'), UpdateTextIn(node='/*/*[1]/*[2]/*[1]', text='comune'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[2]/*[2]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='agenziaC'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[1]/*[2]', position=0), RenameNode(node='/*/*[1]/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}Comune'), UpdateTextIn(node='/*/*[1]/*[2]/*[1]', text='comune'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[2]/*[2]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[1]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}cognome', position=0), UpdateTextIn(node='/*/*[1]/*[1]/*[1]', text='agenziaC'), MoveNode(node='/*/*[1]/*[1]/*[2]', target='/*/*[1]/*[2]', position=0), RenameNode(node='/*/*[1]/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}Comune'), UpdateTextIn(node='/*/*[1]/*[2]/*[1]', text='comune'), DeleteNode(node='/*/*[6]'), DeleteNode(node='/*/*[1]/*[2]/*[2]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.45.55
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rapporto
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}RapportoAgenziaSomm' con il testo 'rapporto'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00007'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}IndirizzoLavoratore/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rapporto
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}RapportoAgenziaSomm' con il testo 'rapporto'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00007'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}IndirizzoLavoratore/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rapporto
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}RapportoAgenziaSomm' con il testo 'rapporto'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00007'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}IndirizzoLavoratore/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: rapporto
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}AgenziaSomministrazione/{http://servizi.lavoro.gov.it/unisomm}RapportoAgenziaSomm' con il testo 'rapporto'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00007
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00007'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: comune
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}IndirizzoLavoratore/{http://servizi.lavoro.gov.it/unisomm}Comune' con il testo 'comune'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='00007'), UpdateTextIn(node='/*/*[1]/*[4]', text='rapporto'), InsertNode(target='/*/*[2]/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}Comune', position=0), UpdateTextIn(node='/*/*[2]/*[3]/*[1]', text='comune'), DeleteNode(node='/*/*[2]/*[3]/*[2]')]
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 120, in <module>
+    logExcel[5].append(str(differenze[indiceUpdate]))
+NameError: name 'indiceUpdate' is not defined
+
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.47.12
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00001
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00001'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000002
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000002'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00001
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00001'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000002
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000002'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00001
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00001'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000002
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000002'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00001
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00001'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000002
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '000002'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='000002')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='000002')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='000002')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='000002')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.48.16
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: metallurgica
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}Settore' con il testo 'metallurgica'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: pippo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'pippo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: metallurgica
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}Settore' con il testo 'metallurgica'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: pippo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'pippo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: metallurgica
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}Settore' con il testo 'metallurgica'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: pippo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'pippo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: metallurgica
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}Settore' con il testo 'metallurgica'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 00008
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '00008'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: pippo
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}Lavoratore/{http://servizi.lavoro.gov.it/unisomm}AnagraficaCompleta/{http://servizi.lavoro.gov.it/unisomm}nome' con il testo 'pippo'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}Settore', position=2), UpdateTextIn(node='/*/*[3]/*[3]', text='metallurgica'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='pippo'), MoveNode(node='/*/*[3]/*[4]', target='/*/*[3]/*[6]/*[1]', position=2), RenameNode(node='/*/*[3]/*[5]/*/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}qualificaProfessionale'), UpdateTextIn(node='/*/*[3]/*[5]/*/*[3]', text='7.4.2.1.0.0'), DeleteNode(node='/*/*[3]/*[5]/*/*[4]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}Settore', position=2), UpdateTextIn(node='/*/*[3]/*[3]', text='metallurgica'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='pippo'), DeleteNode(node='/*/*[3]/*[4]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}Settore', position=2), UpdateTextIn(node='/*/*[3]/*[3]', text='metallurgica'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='pippo'), MoveNode(node='/*/*[3]/*[4]', target='/*/*[3]/*[6]/*[1]', position=2), RenameNode(node='/*/*[3]/*[5]/*/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}qualificaProfessionale'), UpdateTextIn(node='/*/*[3]/*[5]/*/*[3]', text='6.2.1.4.0.9'), DeleteNode(node='/*/*[3]/*[5]/*/*[4]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[UpdateTextIn(node='/*/*[5]', text='00008'), InsertNode(target='/*/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}Settore', position=2), UpdateTextIn(node='/*/*[3]/*[3]', text='metallurgica'), InsertNode(target='/*/*[2]/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}nome', position=1), UpdateTextIn(node='/*/*[2]/*[1]/*[2]', text='pippo'), MoveNode(node='/*/*[3]/*[4]', target='/*/*[3]/*[6]/*[1]', position=2), RenameNode(node='/*/*[3]/*[5]/*/*[3]', tag='{http://servizi.lavoro.gov.it/unisomm}qualificaProfessionale'), UpdateTextIn(node='/*/*[3]/*[5]/*/*[3]', text='8.1.4.3.0.0'), DeleteNode(node='/*/*[3]/*[5]/*/*[4]'), DeleteNode(node='/*/*[2]/*[1]/*[3]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.51.59
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo ''
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo ''
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo ''
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo ''
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), DeleteNode(node='/*/*[6]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.53.24
+
+Ho letto lo zip C:/Users/aliha/OneDrive/Documents/GitHub/MAW/Modifica_campi_xml/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 99999
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '99999'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 99999
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '99999'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 99999
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '99999'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 99999
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione' con il testo '99999'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='99999'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='99999'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='99999'), DeleteNode(node='/*/*[6]')]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[InsertNode(target='/*[1]', tag='{http://servizi.lavoro.gov.it/unisomm}TipoComunicazione', position=4), UpdateTextIn(node='/*/*[5]', text='99999'), DeleteNode(node='/*/*[6]')]
+
+Log.xlsx ha le colonne riadattate malissimo.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 09-11-2020 alle ore 20.53.55
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 20, in <module>
+    returnFrame = frame.RichiediFile(nomeProgramma)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 224, in RichiediFile
+    root.mainloop()
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1420, in mainloop
+    self.tk.mainloop(n)
+  File "C:\Users\aliha\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1883, in __call__
+    return self.func(*args)
+  File "c:\Users\aliha\OneDrive\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 210, in <lambda>
+    btn_exit = Button(root, text ='ESCI', command = lambda:sys.exit(0))
+SystemExit: 0

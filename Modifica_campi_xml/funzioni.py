@@ -8,7 +8,7 @@ from io import StringIO
 import traceback
 import openpyxl
 from string import ascii_uppercase
-#import win32com.client as win32
+import win32com.client as win32
 
 today = datetime.date.today().strftime("%d-%m-%Y")
 now = datetime.datetime.now().strftime("%H.%M.%S")
@@ -49,17 +49,21 @@ def logExcel(colonne):
         compilaColonnaExcel(worksheet, colonna, int(colonne.index(colonna)))
 
     workbook.close()
-    #riadattaColonneExcel(nomeExcel)
-    logOperazioni("\n\n" + nomeExcel + " creato con successo!")
+    riadattaColonneExcel(nomeExcel)
+    logOperazioni("\n" + nomeExcel + " creato con successo!")
 
 def riadattaColonneExcel(nomeExcel):
-    currentDirectory = os.getcwd()
-    excel = win32.gencache.EnsureDispatch('Excel.Application')
-    wb = excel.Workbooks.Open(currentDirectory + '\\' + nomeExcel)
-    ws = wb.Worksheets("Sheet1")
-    ws.Columns.AutoFit()
-    wb.Save()
-    excel.Application.Quit()
+    try:
+        currentDirectory = os.getcwd()
+        excel = win32.gencache.EnsureDispatch('Excel.Application')
+        wb = excel.Workbooks.Open(currentDirectory + '\\' + nomeExcel)
+        ws = wb.Worksheets("Sheet1")
+        ws.Columns.AutoFit()
+        wb.Save()
+        excel.Application.Quit()
+        logOperazioni("\n\n" + nomeExcel + " ha le colonne riadattate correttamente.")
+    except:
+        logOperazioni("\n\n" + nomeExcel + " ha le colonne riadattate malissimo.")
 
 def compilaColonnaExcel(worksheet, colonna, nColonna):
     row = 0
