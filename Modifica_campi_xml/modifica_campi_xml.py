@@ -8,7 +8,7 @@ import frames as frame
 import os
 import funzioni as functions
 import traceback
-from xmldiff import main
+import difflib
 from xmldiff import formatting
 import re
 
@@ -23,6 +23,7 @@ try:
     progress = returnFrame[3]
     nome_zip = returnFrame[0]
     coordinate = []
+    listaDifferenze = []
     
     logExcel = []
     logExcel = functions.creaArrayConArray(logExcel, 
@@ -37,7 +38,7 @@ try:
     listOfiles = zipObj.namelist()
     functions.logOperazioni("\nHo letto lo zip " + str(nome_zip) + ";\nho trovando i seguenti file: " + str(listOfiles) + "\n")
 
-    progress['maximum'] = len(listOfiles)*2
+    progress['maximum'] = (len(listOfiles)*3) + 2
     indice_prorgress = 0
     indice_compare = 0
 
@@ -82,17 +83,10 @@ try:
         functions.logOperazioni("\n\tModifica dei campi per il file " + str(file) + " conclusa.\n")
 
         if file == listOfiles[0]:
-            #os.remove(nome_zip)
-            #functions.logOperazioni("\nTento di modificare lo Zip.\n")
             zipNuovo = ZipFile("copia.zip", 'w')
 
 
         functions.logOperazioni("\tRiscrittura del file: " + file)
-    
-        #controllo_xsd = functions.verifica_XML_XSD(file, "verifica.xsd")
-        #for righe_excel in range(int(len(logExcel0)/len(listOfiles))):
-        #    logExcel5.append(controllo_xsd)
-        #tree = ET.parse(zipObj.open(file))
         tree.write(str(file), encoding="utf-8", xml_declaration=True)
         
         indice_compare += 1
@@ -112,12 +106,28 @@ try:
     zipNew = ZipFile("copia.zip", 'r')
 
     for file in zipOld.namelist():
-        differenze = main.diff_files(zipOld.open(file), zipNew.open(file))
+        treeOld = ET.parse(zipOld.open(file)).getroot()
+        treeNew = ET.parse(zipNew.open(file)).getroot()
+        oldS = ET.tostring(treeOld, encoding='utf8', method='xml')
+        newS = ET.tostring(treeNew, encoding='utf8', method='xml')
+        splitOld = oldS.decode().split("\n")
+        splitNew = newS.decode().split("\n")
+        differenze = difflib.ndiff(splitOld, splitNew)
         functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:")
-        functions.logOperazioni("\n\t" + str(differenze))
+
+        listaDifferenze.clear()
+        for riga in differenze:
+            if riga.startswith("- ") or riga.startswith("+ "):
+                listaDifferenze.append(riga)
+        functions.logOperazioni("\n\t" + str(list(listaDifferenze)))
         
         for righe_excel in range(int(len(logExcel[0])/len(listOfiles))):
-            logExcel[5].append(str(differenze))
+            logExcel[5].append(str(list(listaDifferenze)))
+
+        indice_prorgress += 1
+        progress["value"] = indice_prorgress
+        progress.update()
+        time.sleep(0.1)
 
     zipOld.close()
     zipNew.close()
@@ -125,7 +135,16 @@ try:
     os.remove(nome_zip)
     os.rename("copia.zip", nome_zip)
 
+    indice_prorgress += 1
+    progress["value"] = indice_prorgress
+    progress.update()
+    time.sleep(0.1)
+
     functions.logExcel(logExcel)
+    indice_prorgress += 1
+    progress["value"] = indice_prorgress
+    progress.update()
+    time.sleep(0.1)
     functions.logOperazioni("\n\nOperazioni concluse con successo!")
 except:
     functions.logOperazioni("\n\nERRORE GENERALE: " + traceback.format_exc())
