@@ -3591,3 +3591,700 @@ Log.xlsx ha le colonne riadattate correttamente.
 Log.xlsx creato con successo!
 
 Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 11.21.55
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 12.54.09
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 20, in <module>
+    returnFrame = frame.RichiediFile(nomeProgramma)
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 249, in RichiediFile
+    root.mainloop()
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1420, in mainloop
+    self.tk.mainloop(n)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1883, in __call__
+    return self.func(*args)
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 233, in <lambda>
+    btn_exit = Button(root, text ='ESCI', command = lambda:sys.exit(0))
+SystemExit: 0
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 12.54.55
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 37, in <module>
+    elencoZip = [x for x in nome_directory.namelist() if x.endswith('.zip')]
+AttributeError: 'str' object has no attribute 'namelist'
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 12.58.06
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 41, in <module>
+    nome_zip = NULL
+NameError: name 'NULL' is not defined
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 12.59.57
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 21, in <module>
+    returnFrame = frame.RichiediFile(nomeProgramma)
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 249, in RichiediFile
+    root.mainloop()
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1420, in mainloop
+    self.tk.mainloop(n)
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\tkinter\__init__.py", line 1883, in __call__
+    return self.func(*args)
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\frames.py", line 233, in <lambda>
+    btn_exit = Button(root, text ='ESCI', command = lambda:sys.exit(0))
+SystemExit: 0
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.00.28
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 47, in <module>
+    nome_zip = NULL
+NameError: name 'NULL' is not defined
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.03.38
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 51, in <module>
+    zipObj = ZipFile(nome_zip, 'r')
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'Cessazione.zip'
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.04.50
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 51, in <module>
+    zipObj = ZipFile(nome_zip, 'r')
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'Cessazione.zip'
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.05.55
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 51, in <module>
+    zipObj = ZipFile(nome_directory + nome_zip, 'r')
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755Cessazione.zip'
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.06.41
+
+Ho letto lo zip Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 
+		ERRORE! Evidentemente il campo e' stato lasciato vuoto.
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 118, in <module>
+    zipOld = ZipFile(nome_zip, 'r')
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'Cessazione.zip'
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.08.17
+
+Ho letto lo zip Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+
+ERRORE GENERALE: Traceback (most recent call last):
+  File "c:\Users\Ali Haider Maqsood\Documents\GitHub\MAW\Modifica_campi_xml\modifica_campi_xml.py", line 118, in <module>
+    zipOld = ZipFile(nome_zip, 'r')
+  File "C:\Users\Ali Haider Maqsood\AppData\Local\Programs\Python\Python38-32\lib\zipfile.py", line 1251, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'Cessazione.zip'
+
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.10.29
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	['-         <ccnl>9880</ccnl>', '+         <ccnl>7370</ccnl>', '-         <livelloInquadramento>000001</livelloInquadramento>', '+         <livelloInquadramento>000013</livelloInquadramento>']
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	['-         <ccnl>9880</ccnl>', '+         <ccnl>7370</ccnl>', '-         <livelloInquadramento>000001</livelloInquadramento>', '+         <livelloInquadramento>000013</livelloInquadramento>']
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	['-         <ccnl>9880</ccnl>', '+         <ccnl>7370</ccnl>', '-         <livelloInquadramento>000001</livelloInquadramento>', '+         <livelloInquadramento>000013</livelloInquadramento>']
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	['-         <ccnl>9880</ccnl>', '+         <ccnl>7370</ccnl>', '-         <livelloInquadramento>000001</livelloInquadramento>', '+         <livelloInquadramento>000013</livelloInquadramento>']
+
+Log.xlsx ha le colonne riadattate correttamente.
+Log.xlsx creato con successo!
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Proroga.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_963127_514883_P.xml']
+
+	Inizio a modificare il file UNISOM_29102020_963127_514883_P.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_963127_514883_P.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_963127_514883_P.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_963127_514883_P.xml rispetto l'originale:
+	['-         <ccnl>9880</ccnl>', '+         <ccnl>7370</ccnl>', '-         <livelloInquadramento>000001</livelloInquadramento>', '+         <livelloInquadramento>000013</livelloInquadramento>']
+
+Log.xlsx ha le colonne riadattate correttamente.
+Log.xlsx creato con successo!
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.23.29
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[]
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Proroga.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_963127_514883_P.xml']
+
+	Inizio a modificare il file UNISOM_29102020_963127_514883_P.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_963127_514883_P.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_963127_514883_P.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_963127_514883_P.xml rispetto l'originale:
+	[]
+
+Log.xlsx ha le colonne riadattate correttamente.
+Log.xlsx creato con successo!
+
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.27.21
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[]
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Proroga.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_963127_514883_P.xml']
+
+	Inizio a modificare il file UNISOM_29102020_963127_514883_P.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_963127_514883_P.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_963127_514883_P.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_963127_514883_P.xml rispetto l'originale:
+	[]
+
+Log.xlsx ha le colonne riadattate correttamente.
+Log.xlsx creato con successo!
+
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.34.15
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[]
+
+Log.xlsx ha le colonne riadattate correttamente.
+Log.xlsx creato con successo!
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Proroga.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_963127_514883_P.xml']
+
+	Inizio a modificare il file UNISOM_29102020_963127_514883_P.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_963127_514883_P.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_963127_514883_P.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_963127_514883_P.xml rispetto l'originale:
+	[]
+
+Log.xlsx ha le colonne riadattate correttamente.
+Log.xlsx creato con successo!
+
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.45.01
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[]
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[]
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Proroga.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_963127_514883_P.xml']
+
+	Inizio a modificare il file UNISOM_29102020_963127_514883_P.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_963127_514883_P.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_963127_514883_P.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_963127_514883_P.xml rispetto l'originale:
+	[]
+
+Operazioni concluse con successo!
+
+
+I seguenti Log fanno riferimento al giorno 01-12-2020 alle ore 13.46.14
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Cessazione.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_959586_537974_C.xml', 'UNISOM_29102020_959845_516017_C.xml', 'UNISOM_29102020_960139_509969_C.xml', 'UNISOM_29102020_960638_490550_C.xml']
+
+	Inizio a modificare il file UNISOM_29102020_959586_537974_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959586_537974_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959586_537974_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_959845_516017_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_959845_516017_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_959845_516017_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960139_509969_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960139_509969_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960139_509969_C.xml
+	Riscrittura conclusa.
+
+	Inizio a modificare il file UNISOM_29102020_960638_490550_C.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_960638_490550_C.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_960638_490550_C.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_959586_537974_C.xml rispetto l'originale:
+	[]
+
+Differenze nel file UNISOM_29102020_959845_516017_C.xml rispetto l'originale:
+	[]
+
+Differenze nel file UNISOM_29102020_960139_509969_C.xml rispetto l'originale:
+	[]
+
+Differenze nel file UNISOM_29102020_960638_490550_C.xml rispetto l'originale:
+	[]
+
+Ho letto lo zip C:/Users/Ali Haider Maqsood/Documents/GitHub/MAW/Modifica_campi_xml/UNISOMM_20201029_165755/Proroga.zip;
+ho trovando i seguenti file: ['UNISOM_29102020_963127_514883_P.xml']
+
+	Inizio a modificare il file UNISOM_29102020_963127_514883_P.xml
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 7370
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}ccnl' con il testo '7370'
+		Modifica avvenuta!
+	Faccio partire il metodo per trovare il campo selezionato e modificarne il testo con: 000013
+		Tento di modificare il campo '{http://servizi.lavoro.gov.it/unisomm}DittaUtilizzatrice/{http://servizi.lavoro.gov.it/unisomm}InizioContratto/{http://servizi.lavoro.gov.it/unisomm}Inizio/{http://servizi.lavoro.gov.it/unisomm}livelloInquadramento' con il testo '000013'
+		Modifica avvenuta!
+	Modifica dei campi per il file UNISOM_29102020_963127_514883_P.xml conclusa.
+	Riscrittura del file: UNISOM_29102020_963127_514883_P.xml
+	Riscrittura conclusa.
+
+Differenze nel file UNISOM_29102020_963127_514883_P.xml rispetto l'originale:
+	[]
+
+
+Operazioni concluse con successo!

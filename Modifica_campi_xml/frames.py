@@ -3,14 +3,14 @@ from tkinter.ttk import *
 from tkinter import ttk
 import sys
 import os
-from tkinter.filedialog import askopenfilename
+from tkinter import filedialog
 import xml_structure as strutturaXML
 import xml.etree.ElementTree as ET
 
 def RichiediFile(nome_programma):
 
     def caricaFile(button, fileType):
-        file = askopenfilename(filetypes = fileType)
+        file = filedialog.askdirectory()
         if file != "":
             nome_file.append(file)
             button['text'] = os.path.basename(file)
@@ -45,6 +45,29 @@ def RichiediFile(nome_programma):
             button['state'] = "disabled"
 
         root.quit()
+
+    def gotaway(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura, campi_extra1, campi_extra2, campi_extra3, testo_field):
+
+        aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field)
+        campi_extra1[-1].set('DittaUtilizzatrice')
+        campi_extra1[-1]['state'] = 'disabled'
+        campi_extra2[-1].set('InizioContratto')
+        campi_extra3[-1].set('Inizio')
+        campi_extra4[-1].set('ccnl')
+        testo_field[-1].set('7370')
+
+        aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field)
+        campi_extra1[-1].set('DittaUtilizzatrice')
+        campi_extra1[-1]['state'] = 'disabled'
+        campi_extra2[-1].set('InizioContratto')
+        campi_extra3[-1].set('Inizio')
+        campi_extra4[-1].set('livelloInquadramento')
+        testo_field[-1].set('000013')
+
+        btn_aggiungi['state'] = 'enabled'
+
+        #conferma(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura, campi_extra1, campi_extra2, campi_extra3, testo_field)
+
 
     def campo_valorizzato(campo1, campo2, campo3, campo4, field_txt):
         valori2 = []
@@ -209,6 +232,7 @@ def RichiediFile(nome_programma):
         
         btn_exit = Button(root, text ='ESCI', command = lambda:sys.exit(0))
         btn_conferma = Button(root, text ='CONFERMA', command = lambda:conferma([btn_exit, btn_conferma, btn_aggiungi], buttons, texts, valori_lettura, campi_extra1, campi_extra2, campi_extra3, testo_field))
+        btn_gotaway = Button(root, text ='Esegui per GOTAWAY', command = lambda:gotaway([btn_exit, btn_gotaway, btn_aggiungi], buttons, texts, valori_lettura, campi_extra1, campi_extra2, campi_extra3, testo_field))
         btn_aggiungi = Button(root, text ='AGGIUNGI SELEZIONE TAG', command = lambda:aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field))
 
         label.pack(side= LEFT,anchor = NW, pady = 12, padx = 15)
@@ -218,6 +242,7 @@ def RichiediFile(nome_programma):
 
         btn_exit.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
         btn_conferma.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
+        btn_gotaway.pack(anchor = NW, pady = 10, padx = 10, in_=bot, side = LEFT)
         btn_aggiungi.pack(anchor = NW, pady = 10, padx = 10)
     
         #aggiungiCampo(root, campi_extra1, campi_extra2, campi_extra3, campi_extra4, label, frame, testo_field)

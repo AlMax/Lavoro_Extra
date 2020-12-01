@@ -50,7 +50,7 @@ def logExcel(colonne):
 
     workbook.close()
     riadattaColonneExcel(nomeExcel)
-    logOperazioni("\n" + nomeExcel + " creato con successo!")
+    logOperazioni("\n" + nomeExcel + " creato con successo!\n")
 
 def riadattaColonneExcel(nomeExcel):
     try:
