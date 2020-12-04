@@ -65,6 +65,7 @@ def RichiediFile(nome_programma):
         testo_field[-1].set('000013')
 
         btn_aggiungi['state'] = 'enabled'
+        bottoni_da_disabilitare[1]['state'] = 'disabled'
 
         #conferma(bottoni_da_disabilitare, all_buttons, all_texts, valori_lettura, campi_extra1, campi_extra2, campi_extra3, testo_field)
 
@@ -209,10 +210,11 @@ def RichiediFile(nome_programma):
         campi_extra4 = []
         frame = []
         testo_field = []
+        usato = FALSE
         
         
-        txt_zip = "Seleziona il file ZIP"
-        txt_label = "Selezionare lo ZIP\n\n\nBarra del Progresso\n\n\nCrea un nuovo campo"
+        txt_zip = "Seleziona la cartella"
+        txt_label = "Selezionare la cartella con i file Zip\n\n\nBarra del Progresso\n\n\nCrea un nuovo campo"
         texts.extend([txt_zip, txt_label])
 
         root = Tk()

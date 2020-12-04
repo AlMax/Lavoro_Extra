@@ -1,7 +1,7 @@
 import traceback
 import funzioni as functions
 
-def modificaCampo(root, namespace, coordinate, nuovo_testo, old):
+def modificaCampo(root, namespace, coordinate, nuovo_testo):
     try: 
         coordinata = ""
         for tag in coordinate:
@@ -12,7 +12,7 @@ def modificaCampo(root, namespace, coordinate, nuovo_testo, old):
             functions.logOperazioni("\n\t\tERRORE! Evidentemente il campo e' stato lasciato vuoto.")
             return "CampoVuoto"
         functions.logOperazioni("\n\t\tTento di modificare il campo '" + coordinata + "' con il testo '" + nuovo_testo + "'")
-        old.append(root.find(coordinata).text)
+        #old.append(root.find(coordinata).text)
         root.find(coordinata).text = nuovo_testo
         functions.logOperazioni("\n\t\tModifica avvenuta!")
         return coordinata

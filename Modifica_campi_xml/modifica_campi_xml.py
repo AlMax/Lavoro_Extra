@@ -12,6 +12,7 @@ import difflib
 from xmldiff import formatting
 import re
 from os import walk
+import shutil
 
 try:
     functions.logOperazioni("")
@@ -28,17 +29,17 @@ try:
     coordinate = []
     listaDifferenze = []
     
-    logExcel = []
-    logExcel = functions.creaArrayConArray(logExcel, 
-    ["FILE", 
-    "CAMPO DA MODIFICARE", 
-    "VALORE DA MODIFICARE", 
-    "VALORE MODIFICATO", 
-    "ESITO", 
-    "DIFFERENZE"])
+    #logExcel = []
+    #logExcel = functions.creaArrayConArray(logExcel, 
+    #["FILE", 
+    #"CAMPO DA MODIFICARE", 
+    #"VALORE DA MODIFICARE", 
+    #"VALORE MODIFICATO", 
+    #"ESITO", 
+    #"DIFFERENZE"])
 
     for (dirpath, dirnames, filenames) in walk(nome_directory):
-        print(filenames)
+        functions.logOperazioni("\nHo identificato i seguenti file nella directory: " + str(filenames) + ", selezionero' solo gli Zip.\n")
     
     for singoloFile in filenames:
         if(singoloFile.endswith('.zip')):
@@ -47,11 +48,11 @@ try:
 
     indice_prorgress = 0
     for nome_file_zip in elencoZip:
-        logExcel[0].clear()
-        logExcel[1].clear()
-        logExcel[3].clear()
-        logExcel[4].clear()
-        logExcel[5].clear()
+        #logExcel[0].clear()
+        #logExcel[1].clear()
+        #logExcel[3].clear()
+        #logExcel[4].clear()
+        #logExcel[5].clear()
 
         nome_zip = nome_directory + "/" + nome_file_zip
         zipObj = ZipFile(nome_zip, 'r')
@@ -80,20 +81,20 @@ try:
                         i += campi
 
                     functions.logOperazioni("\n\tFaccio partire il metodo per trovare il campo selezionato e modificarne il testo con: " + str(tutte_coordinate[i]))
-                    coordinataXML = xmlManipulation.modificaCampo(root, namespace, coordinate, tutte_coordinate[i], logExcel[2])
+                    coordinataXML = xmlManipulation.modificaCampo(root, namespace, coordinate, tutte_coordinate[i])
                     if coordinataXML == "CampoVuoto":
                         break
 
-                    logExcel[0].append(str(file))
-                    logExcel[1].append(str(coordinataXML[(coordinataXML.rfind("}"))+1:]))
-                    logExcel[3].append(str(tutte_coordinate[i]))
-                    logExcel[4].append("Positivo")
+                    #logExcel[0].append(str(file))
+                    #logExcel[1].append(str(coordinataXML[(coordinataXML.rfind("}"))+1:]))
+                    #logExcel[3].append(str(tutte_coordinate[i]))
+                    #logExcel[4].append("Positivo")
                 except:
                     functions.logOperazioni("\n\tERRORE CICLO PER MODIFICARE I CAMPI: " + traceback.format_exc())
-                    logExcel[0].append(str(file))
-                    logExcel[1].append(str(coordinataXML[38:]))
-                    logExcel[3].append(str(tutte_coordinate[i]))
-                    logExcel[4].append("Negativo")
+                    #logExcel[0].append(str(file))
+                    #logExcel[1].append(str(coordinataXML[38:]))
+                    #logExcel[3].append(str(tutte_coordinate[i]))
+                    #logExcel[4].append("Negativo")
 
             indice_prorgress += 1
             progress["value"] = indice_prorgress
@@ -132,7 +133,7 @@ try:
             splitOld = oldS.decode().split("\n")
             splitNew = newS.decode().split("\n")
             differenze = difflib.ndiff(splitOld, splitNew)
-            functions.logOperazioni("\nDifferenze nel file " + str(file) + " rispetto l'originale:")
+            functions.logOperazioni("\n\tDifferenze nel file " + str(file) + " rispetto l'originale:")
 
             listaDifferenze.clear()
             for riga in differenze:
@@ -140,8 +141,8 @@ try:
                     listaDifferenze.append(riga)
             functions.logOperazioni("\n\t" + str(list(listaDifferenze)) + "\n")
             
-            for righe_excel in range(int(len(logExcel[0])/len(listOfiles))):
-                logExcel[5].append(str(list(listaDifferenze)))
+            #for righe_excel in range(int(len(logExcel[0])/len(listOfiles))):
+                #logExcel[5].append(str(list(listaDifferenze)))
 
             indice_prorgress += 1
             progress["value"] = indice_prorgress
@@ -164,8 +165,9 @@ try:
         progress["value"] = indice_prorgress
         progress.update()
         time.sleep(0.1)
-    functions.logOperazioni("\n\nOperazioni concluse con successo!")
+    shutil.make_archive(nome_directory, 'zip', nome_directory) 
+    functions.logOperazioni("\nCartella Compressa!\n\nOperazioni concluse con successo!")
 except:
     functions.logOperazioni("\n\nERRORE GENERALE: " + traceback.format_exc())
 
-functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare OBBLIGATORIAMENTE il file Log.xlsx\ned il file Log.txt per i dettagli.")
+functions.Mbox(nomeProgramma, "Operazioni concluse,\nconsultare il file Log.txt per i dettagli.")
