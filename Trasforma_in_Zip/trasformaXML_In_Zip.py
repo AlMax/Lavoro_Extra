@@ -21,10 +21,18 @@ try:
     print("Ho trovato i seguenti XML: ")
     with ZipFile('Zippamento(' + today + '_' + now +').zip', 'w') as zipObj:
         for nome in filenames:
+
             if(nome.endswith('.xml')):
                 print(nome)
-                zipObj.write(nome)
+                nomeZip = nome[:-4]+'.zip'
+                zipObj2 = ZipFile(nomeZip, 'w')
+                zipObj2.write(nome)
+                zipObj2.close()
 
+                zipObj.write(nomeZip)
+                os.remove(nomeZip)
+
+    zipObj.close()
     esito = "Operazioni concluse con successo!"
 except:
     esito = str(traceback.format_exc())
